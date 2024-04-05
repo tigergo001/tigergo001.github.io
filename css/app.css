@@ -72,7 +72,6 @@
   --text-color: var(--grey-7);
   --header-text-color: var(--grey-0);
   --primary-color: var(--color-red);
-  --nav-bg: linear-gradient(-225deg, var(--color-cyan-light) 0, var(--color-pink-light) 100%);
 }
 .primary {
   --note-border: #cda0c7;
@@ -211,12 +210,6 @@
 }
 .grey {
   color: var(--color-grey);
-}
-.i-cloud:before {
-  content: "\e659";
-}
-.i-bilibili:before {
-  content: "\e652";
 }
 .i-volume-off:before,
 .player-info .volume.off::before {
@@ -2233,12 +2226,6 @@ main >.inner {
 .social .item.github i {
   color: #191717;
 }
-.social .item.twitter::before {
-  background-color: #00aff0;
-}
-.social .item.twitter i {
-  color: #00aff0;
-}
 .social .item.zhihu::before {
   background-color: #1e88e5;
 }
@@ -2262,6 +2249,12 @@ main >.inner {
 }
 .social .item.about i {
   color: #3b5998;
+}
+.social .item.email::before {
+  background-color: #55acd5;
+}
+.social .item.email i {
+  color: #55acd5;
 }
 .social .item:focus i,
 .social .item:hover i {
