@@ -139,10 +139,10 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="http://xiaodoudou.ink/archive/">
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/如何使用国际化-i18n/">
   <title>
     
-      Archives - 男人至死是少年  | yong man
+      如何使用国际化(i18n) - 男人至死是少年  | yong man
     
   </title>
 <meta name="generator" content="Hexo 5.4.2"></head>
@@ -300,25 +300,7 @@
           <!-- LangSelect -->
           
           
-          <!-- LangSelect start -->
-          <!-- LangSelect -->
-<li>
-  <a id="lang-select-label"><i class="fa fa-globe"></i>
-    <span>
-      简体中文
-    </span>
-    <select id="lang-select" data-canonical="archive/index.html">
-      
-      
-      <option value="cn"  selected >
-        简体中文
-      </option>
-      
-    </select>
-  </a>
-</li>
-
-          <!-- LangSelect end -->
+          
           
           
         </ul>
@@ -370,19 +352,19 @@
     .body--light {
       /* intro-header */
       --intro-header-background-image-url-home: url('/img/header_img/lml_bg.jpg');
-      --intro-header-background-image-url-post: url('img/header_img/archive_bg.jpg');
-      --intro-header-background-image-url-page: url('/img/header_img/archive_bg.jpg');
+      --intro-header-background-image-url-post: url('/img/header_img/bg_xiaoxin.png');
+      --intro-header-background-image-url-page: url('//img/header_img/bg_xiaoxin.png');
     }
     .body--dark {
       --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/lml_bg.jpg');
-      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('img/header_img/archive_bg.jpg');
-      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/archive_bg.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/bg_xiaoxin.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('//img/header_img/bg_xiaoxin.png');
     }
 
     header.intro-header {
-       /*page*/
-        background-image: var(--intro-header-background-image-url-page);
-        /* background-image: url('/img/header_img/archive_bg.jpg'); */
+       /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('/img/header_img/bg_xiaoxin.png'); */
       
     }
 
@@ -404,10 +386,42 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           
-          <div class="site-heading">
-            <h1>Archives</h1>
-            <!--<hr class="small">-->
-            <span class="subheading">Don&#39;t rush and never settle...... If it&#39;s meant to be, it will be......</span>
+          <div class="post-heading">
+            <div class="tags">
+              
+              <a class="tag" href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife">Hexo-Theme-LiveMyLife</a>
+              
+            </div>
+            <h1>如何使用国际化(i18n)</h1>
+            <h2 class="subheading">Hexo-Theme-LiveMyLife supports multiple languages</h2>
+            <span class="meta">
+              Posted by Ryan on
+              2025-04-16
+            </span>
+
+
+            
+            <!-- WordCount start -->
+            <div class="blank_box"></div>
+            <span class="meta">
+              Estimated Reading Time <span class="post-count">5</span> Minutes
+            </span>
+            <div class="blank_box"></div>
+            <span class="meta">
+              Words <span class="post-count">1.4k</span> In Total
+            </span>
+            <div class="blank_box"></div>
+            <!-- WordCount end -->
+            
+            
+            <!-- 不蒜子统计 start -->
+            <span class="meta" id="busuanzi_container_page_pv">
+              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Times
+            </span>
+            <!-- 不蒜子统计 end -->
+            
+
+
           </div>
           
         </div>
@@ -448,285 +462,286 @@
 	Friends Blog、
 	anchorjs、
 	) -->
-		<!-- Main Content -->
-<div class="container">
-  <div class="row">
+		<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <blockquote>
+<p><a target="_blank" rel="noopener" href="https://hexo.io/docs/internationalization.html#">Hexo</a>: You can use internationalization to present your site in different languages. The default language is set by modifying the language setting in _config.yml. You can also set multiple languages and modify the order of default languages.</p>
+<p>文章引至 Vincent 的博客 </p>
+</blockquote>
+<p>这是 Hexo 官网对语言国际化（Internationalization（i18n）），最开始的描述。虽说 Hexo 提供了此功能，但是该功能只是简单的帮我们转换网址一些公共部分的内容，以不同的语言来呈现。这样说可能不是很好理解，那博主在这里简单的举个例子。<br><code>hexo-theme-livemylife</code> 主题（博主自己写的主题），有小伙伴曾问我，想让主题的菜单显示为中文。当时该主题尚还没能完善此功能，而 Hexo 的语言国际化就能帮我们实现该功能。但是它仅仅只能做到这点，把博客一些公共的部分生成为中文。</p>
+<p>但是如果我又想把我写的文章同时生成多个版本的语言，并且能够通过一个按钮，实现多语言之间的跳转，那应该怎么办呢。</p>
+<p>这个功能 Hexo 是不支持的，所以博主对 <code>hexo-theme-livemylife</code> 主题进行了升级，在最新的版本中，已支持该功能。那我先来简单的说下我实现该功能的原理。其实就是通过 Hexo 插件 <code>hexo-generator-index-i18n</code> 帮我们去生成不同语言的 <code>:lang/index.html</code> 首页。例如我现在想要一个中英文的首页。那么通过这个插件，它会帮我们生成 <code>cn/index.html</code> 和 <code>en/index.html</code> 两个首页。</p>
+<p>但是 <code>source/_post</code> 目录下的文章就做不到生成两个版本的语言了。那如果我想要文章也可以多语言，那怎么办？<code>hexo-theme-livemylife</code> 主题通过在 <code>source/_post</code> 目录下，新建两个文件夹 <code>cn</code>（中文）和 <code>en</code>（英文）来存放不同语言的文章。那么也就是说，如果我想要一篇文章是中英文的，那么我就得事先各写一篇中文版的和一篇英文版的文章，并存放在相对应的文件夹下。</p>
+<p>那么 <code>hexo-theme-livemylife</code> 主题多语言的功能具体怎么实现，让我们接着往下看。</p>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Hexo 搭建的网站默认只有一种语言，若想要网站支持多种语言，通过切换语言标签查看不同语言网站。本文以中英文为例进行说明。用到的插件 <code>hexo-generator-index-i18n</code>，官方文档地址：<a target="_blank" rel="noopener" href="https://github.com/xcatliu/hexo-generator-index-i18n">https://github.com/xcatliu/hexo-generator-index-i18n</a></p>
+<h2 id="多语言设置（-config-yml）"><a href="#多语言设置（-config-yml）" class="headerlink" title="多语言设置（_config.yml）"></a>多语言设置（_config.yml）</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Internationalization (i18n) Setting</span></span><br><span class="line"><span class="attr">language:</span> <span class="comment"># At present, only en、cn and tw are supported. You can customize the language，refer to `languages/en.yml`.</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">en</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">cn</span></span><br><span class="line"></span><br><span class="line"><span class="attr">i18n_dir:</span> <span class="string">:lang</span>  </span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:lang/:title/</span> </span><br><span class="line"><span class="attr">new_post_name:</span> <span class="string">:lang/:title.md</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># hexo-generator-i18n config</span></span><br><span class="line"><span class="comment">## Docs: https://github.com/xcatliu/hexo-generator-index-i18n</span></span><br><span class="line"><span class="attr">index_generator:</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">pagination_dir:</span> <span class="string">page</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br><span class="line"></span><br><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">yearly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">monthly:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">daily:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br></pre></td></tr></table></figure>
+<p><strong>注意：</strong> <code>hexo-generator-i18n</code> 插件根据 <code>language</code> 配置来生成不同的语言首页，同时也会生成相应的分页。<code>hexo-theme-livemylife</code> 主题之前的版本生成分页使用的是 <code>hexo-generator-archive</code> 插件，也就是 <code>archive_generator</code> 这个配置。所以如果想要使用多语言功能，切勿忘记配置 <code>index_generator</code> 并关闭 <code>archive_generator</code> 配置。当然 <code>hexo-theme-livemylife</code> 主题，已经将这些配置都配置好了，所以只要保持默认即可。</p>
+<h2 id="语言切换开关（-config-yml）"><a href="#语言切换开关（-config-yml）" class="headerlink" title="语言切换开关（_config.yml）"></a>语言切换开关（_config.yml）</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">langselect:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># If open, it will automatically generation lang-select button.This button can jump in articles in different languages, but the articles must have the same name.</span></span><br><span class="line">  <span class="attr">options:</span> <span class="comment"># langselect button display options</span></span><br><span class="line">    <span class="attr">en:</span> <span class="string">English</span></span><br><span class="line">    <span class="attr">cn:</span> <span class="string">简体中文</span></span><br><span class="line">    <span class="comment"># tw: 正體中文</span></span><br></pre></td></tr></table></figure>
+<p><code>options</code>：语言切换开关按钮选择框展示。</p>
+<h2 id="在-source-post-目录下创建对应语言目录"><a href="#在-source-post-目录下创建对应语言目录" class="headerlink" title="在 source/_post 目录下创建对应语言目录"></a>在 <code>source/_post</code> 目录下创建对应语言目录</h2><p>目录结构如下：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">source/</span></span><br><span class="line">  <span class="string">_posts/</span></span><br><span class="line">    <span class="string">en/</span></span><br><span class="line">      <span class="string">hello.md</span></span><br><span class="line">    <span class="string">cn/</span></span><br><span class="line">      <span class="string">hello.md</span></span><br></pre></td></tr></table></figure>
+<p><strong>注意：</strong> 在 <code>hexo-theme-livemylife</code> 主题中，创建的文章名必须一样，因为 <code>langselect: true</code> 配置会根据文章名来，生成语言跳转按钮。也就是说英文版的 <code>hello.md</code> 页面会生成一个跳转按钮，中文版的 <code>hello.md</code> 页面也会生成一个跳转按钮，通过这个按钮可以进行中英文版 <code>hello.md</code> 之间的切换，而这个按钮的跳转路径就是根据相同的文章名来实践的。如果你的文章 <code>other.md</code> 只有一个语言版本的话，那么 <code>other.md</code> 文章生成后的页面中，是不会有语言跳转按钮的。具体案例可以查看 <a target="_blank" rel="noopener" href="https://v-vincen.github.io/en/Hexo-Theme-LiveMyLife/">Hexo-Theme-LiveMyLife</a>，语言切换按钮在页面最右上角。如下图：</p>
+<p><em>Preview: en</em><br><img src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/en/How-to-Use-Internationalization%EF%BC%88i18n%EF%BC%89/langen.png" alt="en"></p>
+<p><em>Preview: cn</em><br><img src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/en/How-to-Use-Internationalization%EF%BC%88i18n%EF%BC%89/langcn.png" alt="cn"></p>
+<h2 id="自定义语言"><a href="#自定义语言" class="headerlink" title="自定义语言"></a>自定义语言</h2><p>在 <code>hexo-theme-livemylife</code> 主题中，暂时只支持 <code>en</code>、<code>cn</code>、<code>tw</code> 这三种语言。有伙伴可能会问如果我想使用别的语言怎么办。那也没问题，<code>hexo-theme-livemylife</code> 主题支持自定义语言。不过你需要自定义 <code>languages</code> 目录下的 <code>.yml</code> 文件。例如，我现在想要添加额外语言为 <code>tw</code>，如下图：</p>
+<p><em>Preview: tw</em><br><img src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/en/How-to-Use-Internationalization%EF%BC%88i18n%EF%BC%89/tw.png" alt="tw"></p>
+<p>同时修改配置文件</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Internationalization (i18n) Setting</span></span><br><span class="line"><span class="attr">language:</span> <span class="comment"># At present, only en、cn and tw are supported. You can customize the language，refer to `languages/en.yml`.</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">en</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">tw</span></span><br><span class="line"></span><br><span class="line"><span class="attr">langselect:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># If open, it will automatically generation lang-select button.This button can jump in articles in different languages, but the articles must have the same name.</span></span><br><span class="line">  <span class="attr">options:</span> <span class="comment"># langselect button display options</span></span><br><span class="line">    <span class="attr">en:</span> <span class="string">English</span></span><br><span class="line">    <span class="attr">tw:</span> <span class="string">正體中文</span></span><br></pre></td></tr></table></figure>
+<p>这样就完成了语言自定义。</p>
+<h2 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h2><p>如果你开启了多语言功能，那么创建文章的命令有所改动：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">hexo</span> <span class="string">n</span> <span class="string">--lang</span> <span class="string">en</span> <span class="string">&#x27;Vincent is so handsome&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>命令执行后的目录结构：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">source/</span></span><br><span class="line">  <span class="string">_posts/</span></span><br><span class="line">    <span class="string">en/</span></span><br><span class="line">      <span class="string">hello.md</span></span><br><span class="line">      <span class="string">Vincent-is-so-handsome.md</span></span><br><span class="line">    <span class="string">cn/</span></span><br><span class="line">      <span class="string">hello.md</span></span><br></pre></td></tr></table></figure>
+<p>多语言功能的效果你可以查看，博主最近更新的 <a target="_blank" rel="noopener" href="https://v-vincen.github.io/en/Hexo-Theme-LiveMyLife/">Hexo-Theme-LiveMyLife</a> 博文。</p>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          
+          <li class="next">
+            <a href="/cn/JAVA1.8版本及后续新版本特性/" data-toggle="tooltip" data-placement="top" title="JAVA 1.8版本及后续新版本特性">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=如何使用国际化(i18n)&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/如何使用国际化-i18n/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <!-- <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.js"></script> -->
+    <script src="/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '',
+      clientSecret: '',
+      repo: '',
+      owner: '',
+      admin: '',
+      id: 'Wed Apr 16 2025 16:13:21 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%A6%82%E8%BF%B0"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">概述</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%A4%9A%E8%AF%AD%E8%A8%80%E8%AE%BE%E7%BD%AE%EF%BC%88-config-yml%EF%BC%89"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">多语言设置（_config.yml）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%AF%AD%E8%A8%80%E5%88%87%E6%8D%A2%E5%BC%80%E5%85%B3%EF%BC%88-config-yml%EF%BC%89"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">语言切换开关（_config.yml）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%9C%A8-source-post-%E7%9B%AE%E5%BD%95%E4%B8%8B%E5%88%9B%E5%BB%BA%E5%AF%B9%E5%BA%94%E8%AF%AD%E8%A8%80%E7%9B%AE%E5%BD%95"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">在 source&#x2F;_post 目录下创建对应语言目录</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%AD%E8%A8%80"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">自定义语言</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">创建文章</span></a></li></ol>
+        
+        </div>
+      </aside>
     
 
-    <!-- USE SIDEBAR -->
-    <!-- Post Container -->
-    <div class="
+
+
+      <!-- Sidebar Container -->
+      <div class="
                 col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
+                col-md-10 col-md-offset-1
+                sidebar-container">
 
-      <!-- Main Content -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-1">
-      <!-- 归档列表 -->
-
-      
-
-      <!-- 归档列表 -->
-      
-      <div class="one-tag-list">
-        <span class="fa fa-calendar-times-o listing-seperator" id="2025">
-          <span class="tag-text">2025</span>
-        </span>
-        <ul>
-          
-          <li>
-            04-16
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/如何使用国际化-i18n/" style="color: #0085a1">
-              <span>
-                如何使用国际化(i18n)
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-16
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/JAVA1.8版本及后续新版本特性/" style="color: #0085a1">
-              <span>
-                JAVA 1.8版本及后续新版本特性
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-calendar-times-o listing-seperator" id="2020">
-          <span class="tag-text">2020</span>
-        </span>
-        <ul>
-          
-          <li>
-            04-17
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/en/Hexo-Theme-LiveMyLife/" style="color: #0085a1">
-              <span>
-                Hexo-Theme-LiveMyLife
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-17
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/Hexo-Theme-LiveMyLife/" style="color: #0085a1">
-              <span>
-                Hexo-Theme-LiveMyLife
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-
-      <!-- 如果开启评论功能 -->
-      
-      <hr>
-
-      
-
-      
-      
-    </div>
-
-    <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-        <!-- Visitors -->
-<h5><a href="/">来访者</a></h5>
-
-<div class="widget">
-  <span>
-    Viewed <b><i><span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Times
-  </span>
-  <br />
-  <span>
-    <b><i><span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Visitors In Total
-  </span>
-</div>
-
-
-        <hr>
-    
         <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife">Hexo-Theme-LiveMyLife</a>
+            
+          </div>
+        </section>
+        
 
-<section>
-  <h5><a href="/tags/">特色标签</a></h5>
-  <div class="tags">
-    
-    
-    <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="3">Hexo-Theme-LiveMyLife</a>
-    
-    
-    
-    <a href="/tags/#JAVA" title="JAVA" rel="1">JAVA</a>
-    
-    
-  </div>
-</section>
-
-
-        <hr>
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-  <h5><a href="/about/">关于自己</a></h5>
-  <div class="short-about">
-
-    
-    <img id="avatar_pic" src="/img/avatar/avatar.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
-    -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);" />
-    
-
-    
-    <p>Fat people have no future, either thin or die...</p>
-    
-
-    <!-- SNS Link -->
-    <ul class="list-inline">
-      
-
-      
-      <li>
-        <a target="_blank" href="https://github.com/tigergo001">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-    </ul>
-  </div>
-</section>
-
-        <hr>
-    
-        <!-- RECENT POSTS -->
-
-<h5><a href="/">最近博文</a></h5>
-<div class="widget">
-  <ul>
-    
-    <a href="../cn/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E5%9B%BD%E9%99%85%E5%8C%96-i18n/">
-      <li>如何使用国际化(i18n)</li>
-    </a>
-    
-    <a href="../cn/JAVA1.8%E7%89%88%E6%9C%AC%E5%8F%8A%E5%90%8E%E7%BB%AD%E6%96%B0%E7%89%88%E6%9C%AC%E7%89%B9%E6%80%A7/">
-      <li>JAVA 1.8版本及后续新版本特性</li>
-    </a>
-    
-    <a href="../cn/Hexo-Theme-LiveMyLife/">
-      <li>Hexo-Theme-LiveMyLife</li>
-    </a>
-    
-    <a href="../en/Hexo-Theme-LiveMyLife/">
-      <li>Hexo-Theme-LiveMyLife</li>
-    </a>
-    
-  </ul>
-</div>
-
-
-        <hr>
-    
         <!-- Friends Blog -->
-
-<h5><a href="/">链友</a></h5>
-<ul class="list-inline">
-  
-  <li><a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a></li>
-  
-  <li><a href="https://hexo.io/" target="_blank">Hexo</a></li>
-  
-</ul>
-
-
+        
         <hr>
-    
-        <!-- Archives -->
+        <h5>链友</h5>
+        <ul class="list-inline">
 
-<h5><a href="/archives/">archives</a></h5>
-<div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../archives/2025/04/">April 2025</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../archives/2020/04/">April 2020</a><span class="archive-list-count">2</span></li></ul>
-</div>
-
-
-        <hr>
-    
-        <!-- Categories -->
-
-<h5><a href="/categories/">categories</a></h5>
-<div class="widget">
-  <ul>
-    
-    <a href="/categories/#Hexo-Theme-LiveMyLife">
-      <li>Hexo-Theme-LiveMyLife</li>
-    </a>
-    
-    <a href="/categories/#技术|后端技术|JAVA">
-      <li>技术|后端技术|JAVA</li>
-    </a>
-    
-  </ul>
-</div>
-
-
-        <hr>
-    
-</div>
-
-
-    
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
   </div>
-</div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
 
 
 		<!-- Footer (contains ThemeColor、viewer) -->
