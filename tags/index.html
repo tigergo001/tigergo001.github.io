@@ -247,28 +247,6 @@
           
           
           <li>
-            <a href="/archive/">
-              
-              ARCHIVES
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/about/">
-              
-              ABOUT
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/tags/">
               
               TAGS
@@ -283,6 +261,28 @@
             <a href="/categories/">
               
               CATEGORIES
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              ARCHIVES
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              ABOUT
               
               
             </a>
@@ -461,38 +461,35 @@
       <!-- 标签云 -->
       <div id='tag_cloud' class="tags">
         
-        <a href="#JAVA" title="JAVA" rel="1">JAVA</a>
-        
         <a href="#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="2">Hexo-Theme-LiveMyLife</a>
+        
+        <a href="#JAVA" title="JAVA" rel="1">JAVA</a>
         
       </div>
 
       <!-- 标签列表 -->
       
       <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="JAVA">
-          <span class="tag-text">JAVA</span>
+        <span class="fa fa-tag listing-seperator" id="Hexo-Theme-LiveMyLife">
+          <span class="tag-text">Hexo-Theme-LiveMyLife</span>
         </span>
         
         <div class="post-preview">
-          <a href="/undefined/JAVA-1-8版本及以后新版本的新特性/">
+          <a href="/undefined/en-Hexo-Theme-LiveMyLife/">
             <h2 class="post-title">
-              JAVA 1.8版本及以后新版本的新特性
+              Hexo-Theme-LiveMyLife
               
-              -- undefined
+              -- 
               
             </h2>
+            
+            <h3 class="post-subtitle">
+              A succinct hexo theme...
+            </h3>
             
           </a>
         </div>
         <hr>
-        
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="Hexo-Theme-LiveMyLife">
-          <span class="tag-text">Hexo-Theme-LiveMyLife</span>
-        </span>
         
         <div class="post-preview">
           <a href="/cn/cn-Hexo-Theme-LiveMyLife/">
@@ -511,18 +508,21 @@
         </div>
         <hr>
         
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="JAVA">
+          <span class="tag-text">JAVA</span>
+        </span>
+        
         <div class="post-preview">
-          <a href="/undefined/en-Hexo-Theme-LiveMyLife/">
+          <a href="/undefined/JAVA-1-8版本及以后新版本的新特性/">
             <h2 class="post-title">
-              Hexo-Theme-LiveMyLife
+              JAVA 1.8版本及以后新版本的新特性
               
-              -- 
+              -- undefined
               
             </h2>
-            
-            <h3 class="post-subtitle">
-              A succinct hexo theme...
-            </h3>
             
           </a>
         </div>
@@ -1015,5 +1015,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
