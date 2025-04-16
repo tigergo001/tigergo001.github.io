@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xiaodoudou.ink/undefined/JAVA-1-8%E7%89%88%E6%9C%AC%E5%8F%8A%E4%BB%A5%E5%90%8E%E6%96%B0%E7%89%88%E6%9C%AC%E7%9A%84%E6%96%B0%E7%89%B9%E6%80%A7/</loc>
+    
+    <lastmod>2025-04-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xiaodoudou.ink/tags/index.html</loc>
     
-    <lastmod>2025-03-27</lastmod>
+    <lastmod>2025-04-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +22,7 @@
   <url>
     <loc>http://xiaodoudou.ink/categories/index.html</loc>
     
-    <lastmod>2025-03-27</lastmod>
+    <lastmod>2025-04-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://xiaodoudou.ink/undefined/en-Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://xiaodoudou.ink/cn/cn-Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-04-16</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://xiaodoudou.ink/cn/cn-Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://xiaodoudou.ink/undefined/en-Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-04-16</lastmod>
     
@@ -74,6 +83,13 @@
 
   
   <url>
+    <loc>http://xiaodoudou.ink/tags/JAVA/</loc>
+    <lastmod>2025-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://xiaodoudou.ink/tags/Hexo-Theme-LiveMyLife/</loc>
     <lastmod>2025-04-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -81,6 +97,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>http://xiaodoudou.ink/categories/%E6%8A%80%E6%9C%AF-%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF-JAVA/</loc>
+    <lastmod>2025-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://xiaodoudou.ink/categories/Hexo-Theme-LiveMyLife/</loc>
