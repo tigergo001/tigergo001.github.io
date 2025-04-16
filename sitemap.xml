@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://xiaodoudou.ink/cn/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://xiaodoudou.ink/undefined/en-Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-04-16</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://xiaodoudou.ink/en/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://xiaodoudou.ink/cn/cn-Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-04-16</lastmod>
     
@@ -67,7 +67,7 @@
 
   <url>
     <loc>http://xiaodoudou.ink/</loc>
-    <lastmod>2025-03-31</lastmod>
+    <lastmod>2025-04-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,7 +75,7 @@
   
   <url>
     <loc>http://xiaodoudou.ink/tags/Hexo-Theme-LiveMyLife/</loc>
-    <lastmod>2025-03-31</lastmod>
+    <lastmod>2025-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -84,7 +84,7 @@
   
   <url>
     <loc>http://xiaodoudou.ink/categories/Hexo-Theme-LiveMyLife/</loc>
-    <lastmod>2025-03-31</lastmod>
+    <lastmod>2025-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

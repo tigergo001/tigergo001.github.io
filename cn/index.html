@@ -59,7 +59,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="description" content="It&#39;s an IT blog..."/>
   <meta name="keyword" content="v-ryan,v-blog,IT  blog,Blog"/>
-  <link rel="shortcut icon" href="/img/avatar/roguerabbit.jpg"/>
+  <link rel="shortcut icon" href="/img/avatar/avatar.jpg"/>
 
   <!-- Place this tag in your head or just before your close body tag. -->
   <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
@@ -142,7 +142,7 @@
   <link rel="canonical" href="http://xiaodoudou.ink/cn/">
   <title>
     
-      either thin | or die
+      男人至死是少年  | yong man
     
   </title>
 <meta name="generator" content="Hexo 5.4.2"></head>
@@ -150,7 +150,7 @@
 
 <!-- hack iOS CSS :active style -->
 
-	<body ontouchstart="" class="body--light body--dark">
+	<body ontouchstart="" class="body--light body--light">
 
 
 		<!-- ThemeColor -->
@@ -184,7 +184,7 @@
       ? b.pop()
       : '';
   }
-  let themeMode = 'dark';
+  let themeMode = 'light';
   if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
     let dbody = document.body.classList;
     themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
@@ -247,9 +247,20 @@
           
           
           <li>
-            <a href="/about/">
+            <a href="/categories/">
               
-              关于
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
               
               
             </a>
@@ -269,20 +280,9 @@
           
           
           <li>
-            <a href="/categories/">
+            <a href="/about/">
               
-              分类
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/tags/">
-              
-              标签
+              关于
               
               
             </a>
@@ -310,12 +310,12 @@
     <select id="lang-select" data-canonical="cn/index.html">
       
       
-      <option value="cn"  selected >
-        简体中文
-      </option>
-      
       <option value="en" >
         English
+      </option>
+      
+      <option value="cn"  selected >
+        简体中文
       </option>
       
     </select>
@@ -373,12 +373,12 @@
   <style type="text/css">
     .body--light {
       /* intro-header */
-      --intro-header-background-image-url-home: url('/img/header_img/newhome_bg.jpg');
+      --intro-header-background-image-url-home: url('/img/header_img/lml_bg.jpg');
       --intro-header-background-image-url-post: url('');
       --intro-header-background-image-url-page: url('/img/header_img/archive_bg2.jpg');
     }
     .body--dark {
-      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/newhome_bg.jpg');
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/lml_bg.jpg');
       --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('');
       --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/archive_bg2.jpg');
     }
@@ -386,10 +386,14 @@
     header.intro-header {
        /*config*/
         background-image: var(--intro-header-background-image-url-home);
-        /* background-image: url('/img/header_img/newhome_bg.jpg'); */
+        /* background-image: url('/img/header_img/lml_bg.jpg'); */
       
     }
 
+    
+      #signature {/*signature*/
+        background-image: url('/img/signature/ryan-sign.png');
+      }
     
   </style>
 
@@ -474,7 +478,7 @@
   <!-- top end -->
   
 
-  <a href="/cn/Hexo-Theme-LiveMyLife/">
+  <a href="/cn/cn-Hexo-Theme-LiveMyLife/">
     <h2 class="post-title">
       Hexo-Theme-LiveMyLife
     </h2>
@@ -486,9 +490,7 @@
 移植 Hux Blog 的主题，感谢 Huxpro 设计了如此完美的主题。
 由 Vincent 创建的 LiveMyLife 的主题修改来源 YenYuHsuan，参考主题 dusign、Utone，感谢 dusign、Utone。
 
-仓库
-Github 仓库地址：https://github.com/V-Vincen/hexo-theme-livemylife
-Gitee 仓库地址：ht......
+仓库Github 仓库地址：https://github.com/V-Vincen/hexo-theme-livemylifeGitee 仓库地址：http......
     </div>
   </a>
   
@@ -565,7 +567,7 @@ Gitee 仓库地址：ht......
   <div class="short-about">
 
     
-    <img id="avatar_pic" src="/img/avatar/fatpeople.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
+    <img id="avatar_pic" src="/img/avatar/avatar.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
     -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
     -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);" />
     
@@ -613,11 +615,11 @@ Gitee 仓库地址：ht......
 <div class="widget">
   <ul>
     
-    <a href="Hexo-Theme-LiveMyLife/">
+    <a href="../undefined/en-Hexo-Theme-LiveMyLife/">
       <li>Hexo-Theme-LiveMyLife</li>
     </a>
     
-    <a href="../en/Hexo-Theme-LiveMyLife/">
+    <a href="cn-Hexo-Theme-LiveMyLife/">
       <li>Hexo-Theme-LiveMyLife</li>
     </a>
     
@@ -769,6 +771,10 @@ Gitee 仓库地址：ht......
     <script type="text/javascript" src="/js/ribbonDynamic.js"></script>
   
 
+  
+    <!-- Line start -->
+    <script async="text/javascript" src="/js/line.js"></script>
+    <!-- Line end -->
   
 
 
