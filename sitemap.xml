@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://xiaodoudou.ink/en/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://xiaodoudou.ink/cn/Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-04-16</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://xiaodoudou.ink/cn/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://xiaodoudou.ink/en/Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-04-16</lastmod>
     
@@ -92,14 +92,14 @@
 
   
   <url>
-    <loc>http://xiaodoudou.ink/tags/JAVA/</loc>
+    <loc>http://xiaodoudou.ink/tags/Hexo-Theme-LiveMyLife/</loc>
     <lastmod>2025-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://xiaodoudou.ink/tags/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://xiaodoudou.ink/tags/JAVA/</loc>
     <lastmod>2025-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -108,14 +108,14 @@
 
   
   <url>
-    <loc>http://xiaodoudou.ink/categories/%E6%8A%80%E6%9C%AF-%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF-JAVA/</loc>
+    <loc>http://xiaodoudou.ink/categories/Hexo-Theme-LiveMyLife/</loc>
     <lastmod>2025-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://xiaodoudou.ink/categories/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://xiaodoudou.ink/categories/%E6%8A%80%E6%9C%AF-%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF-JAVA/</loc>
     <lastmod>2025-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
