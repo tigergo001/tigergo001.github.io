@@ -139,10 +139,10 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="http://xiaodoudou.ink/undefined/JAVA-1-8版本及以后新版本的新特性/">
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/JAVA1.8版本及后续新版本特性/">
   <title>
     
-      JAVA 1.8版本及以后新版本的新特性 - 男人至死是少年  | yong man
+      JAVA 1.8版本及后续新版本特性 - 男人至死是少年  | yong man
     
   </title>
 <meta name="generator" content="Hexo 5.4.2"></head>
@@ -239,17 +239,15 @@
       <div class="navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="/">HOME</a>
+            <a href="/">首页</a>
           </li>
 
           
           
-          
-          
           <li>
-            <a href="/tags/">
+            <a href="/about/">
               
-              TAGS
+              关于
               
               
             </a>
@@ -260,7 +258,18 @@
           <li>
             <a href="/categories/">
               
-              CATEGORIES
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
               
               
             </a>
@@ -271,29 +280,20 @@
           <li>
             <a href="/archive/">
               
-              ARCHIVES
+              归档
               
               
             </a>
           </li>
           
           
-          
-          <li>
-            <a href="/about/">
-              
-              ABOUT
-              
-              
-            </a>
-          </li>
           
           
 
           
           <li>
             <a class="popup-trigger">
-              <span class="search-icon"></span>SEARCH</a>
+              <span class="search-icon"></span>搜索</a>
           </li>
           
 
@@ -352,19 +352,19 @@
     .body--light {
       /* intro-header */
       --intro-header-background-image-url-home: url('/img/header_img/lml_bg.jpg');
-      --intro-header-background-image-url-post: url('/img/header_img/lml_bg.jpg');
-      --intro-header-background-image-url-page: url('//img/header_img/lml_bg.jpg');
+      --intro-header-background-image-url-post: url('/img/header_img/bg_moto.jpeg');
+      --intro-header-background-image-url-page: url('//img/header_img/bg_moto.jpeg');
     }
     .body--dark {
       --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/lml_bg.jpg');
-      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/lml_bg.jpg');
-      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('//img/header_img/lml_bg.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/bg_moto.jpeg');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('//img/header_img/bg_moto.jpeg');
     }
 
     header.intro-header {
        /*post*/
         background-image: var(--intro-header-background-image-url-post);
-        /* background-image: url('/img/header_img/lml_bg.jpg'); */
+        /* background-image: url('/img/header_img/bg_moto.jpeg'); */
       
     }
 
@@ -392,7 +392,7 @@
               <a class="tag" href="/tags/#JAVA" title="JAVA">JAVA</a>
               
             </div>
-            <h1>JAVA 1.8版本及以后新版本的新特性</h1>
+            <h1>JAVA 1.8版本及后续新版本特性</h1>
             <h2 class="subheading"></h2>
             <span class="meta">
               Posted by Ryan on
@@ -481,7 +481,7 @@
 </li>
 <li>
 <p>用例：集合遍历、排序、事件处理等。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">*  <span class="comment">// 遍历集合</span></span><br><span class="line">  List&lt;String&gt; list = Arrays.asList(<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>);</span><br><span class="line">  list.forEach(s -&gt; System.out.println(s));</span><br><span class="line"></span><br><span class="line"><span class="comment">// 排序</span></span><br><span class="line">list.sort((s1, s2) -&gt; s1.compareTo(s2));</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 遍历集合</span></span><br><span class="line">List&lt;String&gt; list = Arrays.asList(<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>);</span><br><span class="line">list.forEach(s -&gt; System.out.println(s));</span><br><span class="line"></span><br><span class="line"><span class="comment">// 排序</span></span><br><span class="line">list.sort((s1, s2) -&gt; s1.compareTo(s2));</span><br></pre></td></tr></table></figure>
 </li>
 <li>
 <p>解析：</p>
@@ -521,7 +521,28 @@
 </li>
 <li>
 <p>用例：简化对已有方法的调用。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">  Function&lt;Integer, String&gt; stringConverter = Integer::toString;</span><br><span class="line">  <span class="comment">// 引用对象方法</span></span><br><span class="line">  <span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> <span class="string">&quot;hello&quot;</span>;</span><br><span class="line">  Supplier&lt;Integer&gt; lengthSupplier = str::length;</span><br><span class="line"></span><br><span class="line">* 解析：</span><br><span class="line"></span><br><span class="line">  * 四种类型：静态方法引用（Class::method）、实例方法引用（obj::method）、对象方法引用（Class::instanceMethod）、构造器引用（Class::<span class="keyword">new</span>）。</span><br><span class="line"></span><br><span class="line">  * 进一步简化Lambda表达式，提高代码可读性。</span><br><span class="line"></span><br><span class="line">## <span class="number">4.</span>接口默认方法（Default Methods）</span><br><span class="line"></span><br><span class="line">* 特性说明：接口中可定义带有实现的默认方法，解决接口演进时的兼容性问题。</span><br><span class="line"></span><br><span class="line">* 用例：为现有接口新增方法（如 Collection 接口的 stream() 方法）。</span><br><span class="line"></span><br><span class="line">```<span class="keyword">interface</span> <span class="title class_">MyInterface</span> &#123;</span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">method</span><span class="params">()</span>;</span><br><span class="line">    <span class="keyword">default</span> <span class="keyword">void</span> <span class="title function_">defaultMethod</span><span class="params">()</span> &#123; <span class="comment">// 默认方法</span></span><br><span class="line">        System.out.println(<span class="string">&quot;Default implementation&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Function&lt;Integer, String&gt; stringConverter = Integer::toString;</span><br><span class="line"><span class="comment">// 引用对象方法</span></span><br><span class="line"><span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> <span class="string">&quot;hello&quot;</span>;</span><br><span class="line">Supplier&lt;Integer&gt; lengthSupplier = str::length;</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>解析：</p>
+<ul>
+<li>
+<p>四种类型：静态方法引用（Class::method）、实例方法引用（obj::method）、对象方法引用（Class::instanceMethod）、构造器引用（Class::new）。</p>
+</li>
+<li>
+<p>进一步简化Lambda表达式，提高代码可读性。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-接口默认方法（Default-Methods）">4.接口默认方法（Default Methods）</h2>
+<ul>
+<li>
+<p>特性说明：接口中可定义带有实现的默认方法，解决接口演进时的兼容性问题。</p>
+</li>
+<li>
+<p>用例：为现有接口新增方法（如 Collection 接口的 stream() 方法）。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">interface</span> <span class="title class_">MyInterface</span> &#123;</span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">method</span><span class="params">()</span>;</span><br><span class="line">    <span class="keyword">default</span> <span class="keyword">void</span> <span class="title function_">defaultMethod</span><span class="params">()</span> &#123; <span class="comment">// 默认方法</span></span><br><span class="line">        System.out.println(<span class="string">&quot;Default implementation&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li>
 <p>解析：</p>
@@ -543,7 +564,7 @@
 </li>
 <li>
 <p>用例：大型项目依赖管理，减少类路径污染。</p>
-<figure class="highlight plaintext"><figcaption><span>module-info.java</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">module mymodule &#123;</span><br><span class="line">    requires java.se; // 声明依赖</span><br><span class="line">    exports com.example.api; // 导出包</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> mymodule &#123;</span><br><span class="line">    <span class="keyword">requires</span> java.se; <span class="comment">// 声明依赖</span></span><br><span class="line">    <span class="keyword">exports</span> com.example.api; <span class="comment">// 导出包</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </li>
 <li>
 <p>解析：</p>
@@ -564,7 +585,7 @@
 </li>
 <li>
 <p>用例：避免空指针异常，强制显式处理缺失值。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">result</span> <span class="operator">=</span> optional.orElseThrow(() -&gt; <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;Value is null&quot;</span>));</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Optional&lt;String&gt; optional = Optional.ofNullable(value);</span><br><span class="line"><span class="type">String</span> <span class="variable">result</span> <span class="operator">=</span> optional.orElseThrow(() -&gt; <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;Value is null&quot;</span>));</span><br></pre></td></tr></table></figure>
 </li>
 <li>
 <p>解析：</p>
@@ -586,7 +607,7 @@
 </li>
 <li>
 <p>用例：简化集合初始化等场景的代码。</p>
-<figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">var</span> <span class="built_in">list</span> = <span class="literal">new</span> ArrayList&lt;<span class="built_in">String</span>&gt;(); <span class="comment">// 推断为 ArrayList&lt;String&gt;</span></span><br><span class="line"><span class="built_in">var</span> <span class="built_in">map</span> = <span class="literal">new</span> HashMap&lt;<span class="built_in">Integer</span>, <span class="built_in">String</span>&gt;();</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">var</span> <span class="variable">list</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;String&gt;(); <span class="comment">// 推断为 ArrayList&lt;String&gt;</span></span><br><span class="line"><span class="type">var</span> <span class="variable">map</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;Integer, String&gt;();</span><br></pre></td></tr></table></figure>
 </li>
 <li>
 <p>解析：</p>
@@ -649,7 +670,7 @@
 </li>
 <li>
 <p>用例：替代繁琐的POJO类。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">* <span class="keyword">record</span> <span class="title class_">Person</span><span class="params">(String name, <span class="type">int</span> age)</span> &#123;&#125; <span class="comment">// 自动生成所有基础方法</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用</span></span><br><span class="line"><span class="type">Person</span> <span class="variable">p</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Person</span>(<span class="string">&quot;Alice&quot;</span>, <span class="number">30</span>);</span><br><span class="line">System.out.println(p.name()); <span class="comment">// 获取字段</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">record</span> <span class="title class_">Person</span><span class="params">(String name, <span class="type">int</span> age)</span> &#123;&#125; <span class="comment">// 自动生成所有基础方法</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用</span></span><br><span class="line"><span class="type">Person</span> <span class="variable">p</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Person</span>(<span class="string">&quot;Alice&quot;</span>, <span class="number">30</span>);</span><br><span class="line">System.out.println(p.name()); <span class="comment">// 获取字段</span></span><br></pre></td></tr></table></figure>
 </li>
 <li>
 <p>解析：</p>
@@ -738,7 +759,7 @@
           
           
           <li class="next">
-            <a href="/undefined/en-Hexo-Theme-LiveMyLife/" data-toggle="tooltip" data-placement="top" title="Hexo-Theme-LiveMyLife">Next Post &rarr;</a>
+            <a href="/cn/Hexo-Theme-LiveMyLife/" data-toggle="tooltip" data-placement="top" title="Hexo-Theme-LiveMyLife">Next Post &rarr;</a>
           </li>
           
         </ul>
@@ -750,7 +771,7 @@
 <div class="tip">
   <p>
     
-      If you like this blog or find it useful for you, you are welcome to comment on it. You are also welcome to share this blog, so that more people can participate in it. If the images used in the blog infringe your copyright, please contact the author to delete them. Thank you !
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
     
   </p>
 </div>
@@ -787,7 +808,7 @@
       </a>
     </li>
     <li class="social-share-li">
-      <a target="_blank" class="social-share-icon" href="mailto:?subject=JAVA 1.8版本及以后新版本的新特性&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/undefined/JAVA-1-8版本及以后新版本的新特性/">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=JAVA 1.8版本及后续新版本特性&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/JAVA1.8版本及后续新版本特性/">
         <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
       </a>
     </li>
@@ -873,9 +894,9 @@
     
       <aside id="sidebar">
         <div id="toc" class="toc-article">
-        <strong class="toc-title">Contents</strong>
+        <strong class="toc-title">目录</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">一、JDK 8（2014年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-Lambda-%E8%A1%A8%E8%BE%BE%E5%BC%8F%EF%BC%88%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3%EF%BC%89"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">1. Lambda 表达式（函数式接口）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-Stream-API"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">2. Stream API</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-%E6%96%B9%E6%B3%95%E5%BC%95%E7%94%A8%EF%BC%88Method-References%EF%BC%89"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">3.方法引用（Method References）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">二、JDK 9（2017年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E6%A8%A1%E5%9D%97%E5%8C%96%E7%B3%BB%E7%BB%9F%EF%BC%88Jigsaw%EF%BC%8Cmodule%EF%BC%89"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">1.模块化系统（Jigsaw，module）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-Optional-%E5%A2%9E%E5%BC%BA"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">2.Optional 增强</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">三、JDK 10（2018年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B%E6%8E%A8%E6%96%AD%EF%BC%88var%EF%BC%89"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">1.局部变量类型推断（var）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">四、JDK 12（2019年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-Switch-%E8%A1%A8%E8%BE%BE%E5%BC%8F%EF%BC%88%E5%A2%9E%E5%BC%BA%EF%BC%89"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">1.Switch 表达式（增强）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">五、JDK 14（2020年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-Text-Blocks%EF%BC%88%E6%96%87%E6%9C%AC%E5%9D%97%EF%BC%89"><span class="toc-nav-number">5.1.</span> <span class="toc-nav-text">1.Text Blocks（文本块）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-Records%EF%BC%88%E8%AE%B0%E5%BD%95%E7%B1%BB%EF%BC%89"><span class="toc-nav-number">5.2.</span> <span class="toc-nav-text">2.Records（记录类）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">六、JDK 16（2021年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-Pattern-Matching-for-instanceof%EF%BC%88%E7%B1%BB%E5%9E%8B%E5%8C%B9%E9%85%8D%EF%BC%89"><span class="toc-nav-number">6.1.</span> <span class="toc-nav-text">1. Pattern Matching for instanceof（类型匹配）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">七、JDK 17（2021年，LTS版本）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E5%AF%86%E5%B0%81%E7%B1%BB%EF%BC%88Sealed-Classes%EF%BC%89"><span class="toc-nav-number">7.1.</span> <span class="toc-nav-text">1.密封类（Sealed Classes）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B%EF%BC%88Virtual-Threads%EF%BC%8CJDK-19%E5%BC%95%E5%85%A5%EF%BC%8CJDK-21%E6%A0%87%E5%87%86%E5%8C%96%EF%BC%89"><span class="toc-nav-number">7.2.</span> <span class="toc-nav-text">2.虚拟线程（Virtual Threads，JDK 19引入，JDK 21标准化）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">8.</span> <span class="toc-nav-text">总结与最佳实践</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">一、JDK 8（2014年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-Lambda-%E8%A1%A8%E8%BE%BE%E5%BC%8F%EF%BC%88%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3%EF%BC%89"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">1. Lambda 表达式（函数式接口）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-Stream-API"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">2. Stream API</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-%E6%96%B9%E6%B3%95%E5%BC%95%E7%94%A8%EF%BC%88Method-References%EF%BC%89"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">3.方法引用（Method References）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#4-%E6%8E%A5%E5%8F%A3%E9%BB%98%E8%AE%A4%E6%96%B9%E6%B3%95%EF%BC%88Default-Methods%EF%BC%89"><span class="toc-nav-number">1.4.</span> <span class="toc-nav-text">4.接口默认方法（Default Methods）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">二、JDK 9（2017年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E6%A8%A1%E5%9D%97%E5%8C%96%E7%B3%BB%E7%BB%9F%EF%BC%88Jigsaw%EF%BC%8Cmodule%EF%BC%89"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">1.模块化系统（Jigsaw，module）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-Optional-%E5%A2%9E%E5%BC%BA"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">2.Optional 增强</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">三、JDK 10（2018年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B%E6%8E%A8%E6%96%AD%EF%BC%88var%EF%BC%89"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">1.局部变量类型推断（var）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">四、JDK 12（2019年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-Switch-%E8%A1%A8%E8%BE%BE%E5%BC%8F%EF%BC%88%E5%A2%9E%E5%BC%BA%EF%BC%89"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">1.Switch 表达式（增强）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">五、JDK 14（2020年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-Text-Blocks%EF%BC%88%E6%96%87%E6%9C%AC%E5%9D%97%EF%BC%89"><span class="toc-nav-number">5.1.</span> <span class="toc-nav-text">1.Text Blocks（文本块）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-Records%EF%BC%88%E8%AE%B0%E5%BD%95%E7%B1%BB%EF%BC%89"><span class="toc-nav-number">5.2.</span> <span class="toc-nav-text">2.Records（记录类）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">六、JDK 16（2021年）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-Pattern-Matching-for-instanceof%EF%BC%88%E7%B1%BB%E5%9E%8B%E5%8C%B9%E9%85%8D%EF%BC%89"><span class="toc-nav-number">6.1.</span> <span class="toc-nav-text">1. Pattern Matching for instanceof（类型匹配）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">七、JDK 17（2021年，LTS版本）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E5%AF%86%E5%B0%81%E7%B1%BB%EF%BC%88Sealed-Classes%EF%BC%89"><span class="toc-nav-number">7.1.</span> <span class="toc-nav-text">1.密封类（Sealed Classes）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B%EF%BC%88Virtual-Threads%EF%BC%8CJDK-19%E5%BC%95%E5%85%A5%EF%BC%8CJDK-21%E6%A0%87%E5%87%86%E5%8C%96%EF%BC%89"><span class="toc-nav-number">7.2.</span> <span class="toc-nav-text">2.虚拟线程（Virtual Threads，JDK 19引入，JDK 21标准化）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">8.</span> <span class="toc-nav-text">总结与最佳实践</span></a></li></ol>
         
         </div>
       </aside>
@@ -894,7 +915,7 @@
         <section>
           <!-- no hr -->
           <h5>
-            <a href="/tags/">FEATURED TAGS</a>
+            <a href="/tags/">特色标签</a>
           </h5>
           <div class="tags">
             
@@ -907,7 +928,7 @@
         <!-- Friends Blog -->
         
         <hr>
-        <h5>FRIENDS</h5>
+        <h5>链友</h5>
         <ul class="list-inline">
 
           
@@ -1070,10 +1091,6 @@
   
 
   
-    <!-- Line start -->
-    <script async="text/javascript" src="/js/line.js"></script>
-    <!-- Line end -->
-  
 
 
 
@@ -1141,7 +1158,7 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
             <span class="search-icon">
               <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
             </span>
-            <input autocomplete="off" placeholder="SEARCH..." type="text" id="local-search-input">
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
           </div>
         </div>
         <div id="local-search-result"></div>
