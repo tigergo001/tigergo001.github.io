@@ -1,0 +1,45 @@
+/* 全局背景轮播容器 */
+body {
+  /* 隐藏默认背景，避免冲突 */
+  background: none;
+  min-height: 100vh; /* 确保背景覆盖全屏 */
+}
+
+/* 轮播背景层（绝对定位覆盖全屏） */
+body::before {
+  content: "";
+  position: fixed; /* 固定背景，不随滚动移动 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* 置于内容下方 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* 动画：15秒切换3张图（每张图显示5秒） */
+  animation: bgSlide 15s infinite;
+}
+
+/* 定义轮播动画关键帧 */
+@keyframes bgSlide {
+  0% {
+    background-image: url(/images/slider2.png); /* 第1张图（0-5秒） */
+  }
+  33.33% {
+    background-image: url(/images/slider3.png); /* 第2张图（5-10秒） */
+  }
+  66.66% {
+    background-image: url(/images/slider4.png); /* 第3张图（10-15秒） */
+  }
+  100% {
+    background-image: url(/images/slider9.jpg); /* 回到第1张图，循环 */
+  }
+}
+
+/* 优化内容区可读性（可选） */
+.main-inner, .header, .footer {
+  background-color: rgba(255, 255, 255, 0.85); /* 半透明背景 */
+  border-radius: 8px;
+  padding: 20px;
+}
