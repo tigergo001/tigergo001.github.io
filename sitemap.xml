@@ -2,18 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xiaodoudou.ink/tags/index.html</loc>
+    <loc>http://xiaodoudou.ink/cn/%E4%BB%8E%E4%BC%9A%E8%81%8A%E5%A4%A9%E5%88%B0%E4%BC%9A%E5%81%9A%E4%BA%8B-%E8%AF%BB%E6%87%82AI-Agent-MCP-Harness-Skill/</loc>
     
-    <lastmod>2026-06-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://xiaodoudou.ink/categories/index.html</loc>
-    
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +13,25 @@
   <url>
     <loc>http://xiaodoudou.ink/404.html</loc>
     
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiaodoudou.ink/categories/index.html</loc>
+    
+    <lastmod>2026-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiaodoudou.ink/tags/index.html</loc>
+    
+    <lastmod>2026-06-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,12 +103,47 @@
 
   <url>
     <loc>http://xiaodoudou.ink/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>http://xiaodoudou.ink/tags/AI/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiaodoudou.ink/tags/Agent/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiaodoudou.ink/tags/MCP/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiaodoudou.ink/tags/LLM/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://xiaodoudou.ink/categories/AI/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
