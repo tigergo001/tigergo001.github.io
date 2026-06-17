@@ -141,10 +141,10 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="http://xiaodoudou.ink/en/tags/">
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/open-agent-platform源码解读/">
   <title>
     
-      Tags - 男人至死是少年  | yong man
+      open-agent-platform源码解读 - 男人至死是少年  | yong man
     
   </title>
 <meta name="generator" content="Hexo 5.4.2"></head>
@@ -242,7 +242,7 @@
       <div class="navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="/">HOME</a>
+            <a href="/">首页</a>
           </li>
 
           
@@ -252,7 +252,7 @@
           <li>
             <a href="/about/">
               
-              ABOUT
+              关于
               
               
             </a>
@@ -263,7 +263,7 @@
           <li>
             <a href="/categories/">
               
-              CATEGORIES
+              分类
               
               
             </a>
@@ -274,7 +274,7 @@
           <li>
             <a href="/tags/">
               
-              TAGS
+              标签
               
               
             </a>
@@ -285,7 +285,7 @@
           <li>
             <a href="/archive/">
               
-              ARCHIVES
+              归档
               
               
             </a>
@@ -296,32 +296,14 @@
           
           <li>
             <a class="popup-trigger">
-              <span class="search-icon"></span>SEARCH</a>
+              <span class="search-icon"></span>搜索</a>
           </li>
           
 
           <!-- LangSelect -->
           
           
-          <!-- LangSelect start -->
-          <!-- LangSelect -->
-<li>
-  <a id="lang-select-label"><i class="fa fa-globe"></i>
-    <span>
-      English
-    </span>
-    <select id="lang-select" data-canonical="en/tags/index.html">
-      
-      
-      <option value="cn" >
-        简体中文
-      </option>
-      
-    </select>
-  </a>
-</li>
-
-          <!-- LangSelect end -->
+          
           
           
         </ul>
@@ -374,21 +356,21 @@
     .body--light {
       /* intro-header */
       --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
-      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/tag_bg.png');
-      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/tag_bg.png');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
     }
 
     .body--dark {
       --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
-      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/tag_bg.png');
-      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/tag_bg.png');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
     }
 
     header.intro-header {
       
-        /*page*/
-        background-image: var(--intro-header-background-image-url-page);
-        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/tag_bg.png'); */
+        /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png'); */
         
     }
 
@@ -412,16 +394,55 @@
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   
-                      <div class="site-heading">
-                        <h1>
-                          Tags
-                        </h1>
-                        <!--<hr class="small">-->
-                        <span class="subheading">
-                          I don’t know where I am going, but I am on my way......
-                        </span>
+                    <div class="post-heading">
+                      <div class="tags">
+                        
+                          <a class="tag" href="/tags/#AI" title="AI">
+                            AI
+                          </a>
+                          
                       </div>
+                      <h1>
+                        open-agent-platform源码解读
+                      </h1>
+                      <h2 class="subheading">
+                        Ai框架学习
+                      </h2>
+                      <span class="meta">
+                        Posted by Ryan on
+                          2025-12-03
+                      </span>
+
+
                       
+                        <!-- WordCount start -->
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Estimated Reading Time <span class="post-count">
+                            5
+                          </span> Minutes
+                        </span>
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Words <span class="post-count">
+                            1.5k
+                          </span> In Total
+                        </span>
+                        <div class="blank_box"></div>
+                        <!-- WordCount end -->
+                        
+                          
+                            <!-- 不蒜子统计 start -->
+                            <span class="meta" id="busuanzi_container_page_pv">
+                              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+                              Times
+                            </span>
+                            <!-- 不蒜子统计 end -->
+                            
+
+
+                    </div>
+                    
                 </div>
               </div>
             </div>
@@ -461,273 +482,427 @@
 	Friends Blog、
 	anchorjs、
 	) -->
-														<!-- Main Content -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <!-- 标签列表 -->
+														<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-      <!-- 标签云 -->
-      <div id='tag_cloud' class="tags">
+        <p>langchain-ai/open-agent-platform (OAP) 是 LangChain 官方为了展示 <strong>LangGraph</strong> 的强大能力而推出的<strong>参考实现 (Reference Implementation)</strong>。它不仅仅是一个 Demo，更是一个接近生产级的、支持 No-Code/Low-Code 配置的 Agent 平台。</p>
+<p><strong>核心定位</strong>：它的前身可以看作是 OpenGPTs 的升级版，但架构上更现代化，引入了 <strong>MCP (Model Context Protocol)</strong>、<strong>Supervisor (多智能体协作)</strong> 和 <strong>RAG (LangConnect)</strong> 等最新概念。</p>
+<h3 id="1-整体架构概览-Architecture">1. 整体架构概览 (Architecture)</h3>
+<p>OAP 采用了典型的 <strong>前后端分离</strong> 架构，核心逻辑完全依赖于 <strong>LangGraph</strong> 的图编排能力。</p>
+<p>`<pre class="mermaid">graph TD<br>
+subgraph Frontend_Nextjs<br>
+UI[Web UI - React/Tailwind]<br>
+Config[Agent Configuration UI]<br>
+Chat[Chat Interface]<br>
+end</p>
+<pre><code>subgraph Backend_FastAPI_LangGraph
+    API[FastAPI Router]
+    Runtime[LangGraph Runtime]
+    Dispatcher[Agent Dispatcher]
+    
+    subgraph Graph_Logic
+        Supervisor[Supervisor Node]
+        Worker[Worker Agent]
+        Tools[ToolNode - MCP Client]
+    end
+end
+
+subgraph Infrastructure
+    DB[(Postgres / Supabase)]
+    MCP[External MCP Servers]
+end
+
+UI --&gt;|REST/SSE| API
+API --&gt;|Invoke/Stream| Runtime
+Runtime --&gt;|Load/Save State| DB
+Tools --&gt;|Connect| MCP
+</code></pre>
+<p>`</pre></p>
+<h3 id="2-核心源码模块分析-1">2. 核心源码模块分析[<a target="_blank" rel="noopener" href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEjJ_mNLyDN8uM_VjKhLq6JVCLV4MxhQgy-Z8GkYDY3RWucFeN2dJ8MwuSWMjBX8MC72EdECUfTjF-TSz_AV3M3HlqRji6w4Z2-dZXYANPXzzrou6P-nLR9uTb8USXywklZw4b89m1NzGjVF15h5e0Zq_LsWjNP6D-txaby0pGZdxjhfXc8HfJAUDocX4Z0MQvVBds%3D">1</a>]</h3>
+<p>通常 OAP 的代码库结构如下（基于 LangChain 官方的最佳实践推断）：</p>
+<h4 id="2-1-后端-Backend-backend">2.1 后端 (Backend) - backend/</h4>
+<p>这是二次开发的核心战场。</p>
+<ul>
+<li>
+<p><strong>app/server.py (入口)</strong>:</p>
+<ul>
+<li>通常使用 FastAPI 或 LangServe 启动服务。</li>
+<li>负责挂载 API 路由，处理 CORS，以及初始化数据库连接池。</li>
+</ul>
+</li>
+<li>
+<p><strong>app/agent.py 或 app/graphs/ (核心大脑)</strong>:<strong>关键点</strong>:</p>
+<ul>
+<li>
+<p>这里定义了 StateGraph。[<a target="_blank" rel="noopener" href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHcZr-tjii2Y63BTUpaAUCmd-PjPHUwz4RSBiy0DAKtaZvR8bLkkQzZ7vq6idYDUTsFiTVNihvjRB1lj7skUEoODLH2ORFeiB55Ibs-Nlg8NYvk6K9uKgthYgGkPWnaFjvcuc-xDxkusvt8s_CpvjROqT4tTTpkHQ%3D%3D">2</a>]</p>
+</li>
+<li>
+<p><strong>Supervisor 模式</strong>: OAP 默认支持多智能体。你会看到一个 supervisor 节点，它使用 LLM 来决定下一个由哪个 worker 节点（如 ResearchAgent, CoderAgent）执行。</p>
+</li>
+<li>
+<p><strong>代码特征</strong>:</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 典型的 Supervisor 路由逻辑</span></span><br><span class="line">workflow.add_conditional_edges(</span><br><span class="line">    <span class="string">&quot;supervisor&quot;</span>,</span><br><span class="line">    lambda x: x[<span class="string">&quot;next&quot;</span>],</span><br><span class="line">    &#123;<span class="string">&quot;Researcher&quot;</span>: <span class="string">&quot;research_node&quot;</span>, <span class="string">&quot;Coder&quot;</span>: <span class="string">&quot;coder_node&quot;</span>, <span class="string">&quot;FINISH&quot;</span>: <span class="keyword">END</span>&#125;</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>app/tools/ (工具层 - 重点关注 MCP)</strong>:</p>
+<ul>
+<li>OAP 的一大亮点是支持 <strong>MCP</strong>。它不再只是简单的 Python 函数工具，而是作为一个 <strong>MCP Client</strong> 去连接外部的 MCP Server。</li>
+<li><strong>二次开发点</strong>: 如果你想接入公司内部的 API，标准做法是写一个简单的 MCP Server，然后在 OAP 的配置界面填入该 Server 的 URL，而不是去改后端的 Python 代码。</li>
+</ul>
+</li>
+<li>
+<p><strong>app/storage.py (持久化)</strong>:</p>
+<ul>
+<li>使用 AsyncPostgresSaver。</li>
+<li><strong>Checkpointer</strong>: 负责保存每一步的 state。如果你要换 MySQL，就是改这里（参考之前的设计文档）。</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-2-前端-Frontend-frontend">2.2 前端 (Frontend) - frontend/</h4>
+<p>基于 Next.js 构建。</p>
+<ul>
+<li><strong>components/AgentConfig.tsx (动态表单)</strong>:
+<ul>
+<li><strong>亮点</strong>: OAP 的 UI 是<strong>配置驱动</strong>的。后端通过 Pydantic 模型定义了 Agent 的配置项（例如 system_prompt, model_name），前端会根据 Schema 自动生成表单。</li>
+<li><strong>x_oap_ui_config</strong>: 在后端的 Schema 中，你会发现字段上有这个 metadata，它告诉前端如何渲染该字段（例如是下拉框还是文本域）。</li>
+</ul>
+</li>
+<li><strong>hooks/useChatStream.ts</strong>:
+<ul>
+<li>处理 SSE (Server-Sent Events)。它负责解析 LangGraph 传回来的 on_tool_start, on_chat_model_stream 等事件，并渲染成打字机效果。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="3-关键机制解析-Deep-Dive">3. 关键机制解析 (Deep Dive)</h3>
+<h4 id="3-1-动态配置-Configuration-Schema">3.1 动态配置 (Configuration Schema)</h4>
+<p>OAP 不只是运行写死的 Agent，它允许用户在 UI 上创建 Agent。</p>
+<ul>
+<li>
+<p><strong>原理</strong>: 后端定义了一个 “Configurable Runnable”。</p>
+</li>
+<li>
+<p><strong>代码逻辑</strong>: 在 graph.compile() 时，并没有把 prompt 写死，而是通过 configurable 参数传入。</p>
+<figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">def agent_node(<span class="keyword">state</span>, config):</span><br><span class="line">    system_msg = config[<span class="string">&quot;configurable&quot;</span>].get(<span class="string">&quot;system_prompt&quot;</span>)</span><br><span class="line">    <span class="comment"># ... 使用 system_msg 调用 LLM</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p><strong>二次开发</strong>: 如果你想给 Agent 增加一个 “风格(Style)” 选项（如：幽默/严谨），你需要在后端的 Config Schema 中添加字段，前端 UI 会自动渲染出这个输入框。</p>
+</li>
+</ul>
+<h4 id="3-2-工具集成-The-MCP-Layer">3.2 工具集成 (The MCP Layer)</h4>
+<p>这是 OAP 最先进的地方。它解耦了 “Agent 平台” 和 “工具集”。</p>
+<ul>
+<li><strong>传统方式</strong>: 在 backend 代码里写 def search_tool(): …。</li>
+<li><strong>OAP 方式</strong>:
+<ul>
+<li>Agent 启动时，读取配置中的 MCP Server 地址列表。</li>
+<li>通过 mcp-python-sdk 动态获取工具列表。</li>
+<li>将这些工具 bind_tools 到 LLM 上。</li>
+</ul>
+</li>
+<li><strong>优势</strong>: 你可以在不重启 OAP 服务的情况下，通过部署新的 MCP Server 来扩展能力。</li>
+</ul>
+<h4 id="3-3-持久化与记忆-Persistence">3.3 持久化与记忆 (Persistence)</h4>
+<p>OAP 使用 thread_id 来隔离会话。</p>
+<ul>
+<li><strong>Checkpointing</strong>: 每次 LLM 输出或工具调用后，状态都会写入 Postgres。</li>
+<li><strong>Time Travel</strong>: 虽然 UI 上可能简化了，但底层支持 get_state(thread_id)。如果你想做“撤回消息”或“修改分支”，后端能力是现成的。</li>
+</ul>
+<hr>
+<h3 id="4-二次开发指南-How-to-Customize">4. 二次开发指南 (How to Customize)</h3>
+<p>如果你想基于 OAP 打造自己的企业级 Agent 平台，建议按以下步骤进行：</p>
+<h4 id="第一阶段：数据与鉴权改造">第一阶段：数据与鉴权改造</h4>
+<ol>
+<li><strong>替换鉴权</strong>: OAP 默认可能集成了 Supabase Auth 或简单的 Mock Auth。你需要修改 backend/app/auth.py (或类似文件) 接入你们公司的 OAuth / LDAP。</li>
+<li><strong>替换数据库</strong>: 默认是 Postgres。如果你必须用 MySQL，请按照我之前提供的 AsyncMySQLSaver 代码替换掉 AsyncPostgresSaver。</li>
+</ol>
+<h4 id="第二阶段：自定义-Agent-模板">第二阶段：自定义 Agent 模板</h4>
+<p>OAP 允许你定义不同的 “Agent Type”（模板）。</p>
+<ol>
+<li>在 backend/app/graphs/ 下新建一个 code_review_graph.py。</li>
+<li>定义专门用于代码审计的 StateGraph（包含 Git Loader 节点、SonarQube 分析节点等）。</li>
+<li>在入口文件注册这个新的 Graph ID。</li>
+<li><strong>效果</strong>: 用户点击 “New Agent” 时，可以选择 “Code Reviewer” 模板。</li>
+</ol>
+<h4 id="第三阶段：接入业务工具-MCP">第三阶段：接入业务工具 (MCP)</h4>
+<p>不要直接在 OAP 后端写业务逻辑代码。</p>
+<ol>
+<li><strong>开发 MCP Server</strong>: 使用 mcp-python-sdk 创建一个独立的小服务，暴露你们公司的内部 API（如：查询订单、重启服务器）。</li>
+<li><strong>配置连接</strong>: 在 OAP 界面上，添加这个 MCP Server 的 URL。</li>
+<li><strong>效果</strong>: 你的 Agent 瞬间拥有了操作公司内部系统的能力，且做到了安全隔离。</li>
+</ol>
+<h4 id="第四阶段：UI-品牌化">第四阶段：UI 品牌化</h4>
+<ol>
+<li>修改 frontend/tailwind.config.js 换成你们公司的品牌色。</li>
+<li>修改 frontend/app/layout.tsx 替换 Logo 和标题。</li>
+</ol>
+<h3 id="总结">总结</h3>
+<p>open-agent-platform 是一个极佳的起点。它最大的价值在于：</p>
+<ol>
+<li><strong>Schema-Driven UI</strong>: 解决了“后端改配置，前端跑断腿”的问题。</li>
+<li><strong>MCP Native</strong>: 顺应了未来 AI 工具调用的标准协议。</li>
+<li><strong>LangGraph Core</strong>: 保证了底层编排能力的上限极高。</li>
+</ol>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/cn/对LangFlow源码进行二次开发/" data-toggle="tooltip" data-placement="top" title="对LangFlow源码进行二次开发">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/LangGrap学习笔记（一）/" data-toggle="tooltip" data-placement="top" title="LangGrap学习笔记（一）">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
         
-        <a href="#AI" title="AI" rel="4">AI</a>
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
         
-        <a href="#LangFlow" title="LangFlow" rel="2">LangFlow</a>
+
         
-        <a href="#LangChain" title="LangChain" rel="1">LangChain</a>
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=open-agent-platform源码解读&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/open-agent-platform源码解读/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
         
-        <a href="#LangGraph" title="LangGraph" rel="1">LangGraph</a>
-        
-        <a href="#Agent" title="Agent" rel="1">Agent</a>
-        
-        <a href="#MCP" title="MCP" rel="1">MCP</a>
-        
-        <a href="#LLM" title="LLM" rel="1">LLM</a>
-        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'a37850f88f2a4d827300',
+      clientSecret: '7a50383ec7757c78714f95d455cc52b4211e8cf2',
+      repo: 'tigergo001.github.io',
+      owner: 'tigergo001',
+      admin: 'tigergo001',
+      id: 'Wed Dec 03 2025 10:24:01 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
       </div>
 
-      <!-- 标签列表 -->
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="AI">
-          <span class="tag-text">AI</span>
-        </span>
-        
-        <div class="post-preview">
-          <a href="/cn/open-agent-platform源码解读/">
-            <h2 class="post-title">
-              open-agent-platform源码解读
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              Ai框架学习
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-        <div class="post-preview">
-          <a href="/cn/LangFlow框架原码分析/">
-            <h2 class="post-title">
-              LangFlow框架原码分析
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              框架原码分析及二次开发的一些想法
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-        <div class="post-preview">
-          <a href="/cn/对LangFlow源码进行二次开发/">
-            <h2 class="post-title">
-              对LangFlow源码进行二次开发
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              对LangFlow源码进行二次开发AgentServer
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-        <div class="post-preview">
-          <a href="/cn/从会聊天到会做事-读懂AI-Agent-MCP-Harness-Skill/">
-            <h2 class="post-title">
-              从「会聊天」到「会做事」：一文读懂 AI Agent、MCP、Harness、Skill 等核心技术
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              从大模型到智能体，一条主线讲透 Agent 技术栈
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="LangFlow">
-          <span class="tag-text">LangFlow</span>
-        </span>
-        
-        <div class="post-preview">
-          <a href="/cn/LangFlow框架原码分析/">
-            <h2 class="post-title">
-              LangFlow框架原码分析
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              框架原码分析及二次开发的一些想法
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-        <div class="post-preview">
-          <a href="/cn/对LangFlow源码进行二次开发/">
-            <h2 class="post-title">
-              对LangFlow源码进行二次开发
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              对LangFlow源码进行二次开发AgentServer
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="LangChain">
-          <span class="tag-text">LangChain</span>
-        </span>
-        
-        <div class="post-preview">
-          <a href="/cn/LangFlow框架原码分析/">
-            <h2 class="post-title">
-              LangFlow框架原码分析
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              框架原码分析及二次开发的一些想法
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="LangGraph">
-          <span class="tag-text">LangGraph</span>
-        </span>
-        
-        <div class="post-preview">
-          <a href="/cn/LangFlow框架原码分析/">
-            <h2 class="post-title">
-              LangFlow框架原码分析
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              框架原码分析及二次开发的一些想法
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="Agent">
-          <span class="tag-text">Agent</span>
-        </span>
-        
-        <div class="post-preview">
-          <a href="/cn/从会聊天到会做事-读懂AI-Agent-MCP-Harness-Skill/">
-            <h2 class="post-title">
-              从「会聊天」到「会做事」：一文读懂 AI Agent、MCP、Harness、Skill 等核心技术
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              从大模型到智能体，一条主线讲透 Agent 技术栈
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="MCP">
-          <span class="tag-text">MCP</span>
-        </span>
-        
-        <div class="post-preview">
-          <a href="/cn/从会聊天到会做事-读懂AI-Agent-MCP-Harness-Skill/">
-            <h2 class="post-title">
-              从「会聊天」到「会做事」：一文读懂 AI Agent、MCP、Harness、Skill 等核心技术
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              从大模型到智能体，一条主线讲透 Agent 技术栈
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="LLM">
-          <span class="tag-text">LLM</span>
-        </span>
-        
-        <div class="post-preview">
-          <a href="/cn/从会聊天到会做事-读懂AI-Agent-MCP-Harness-Skill/">
-            <h2 class="post-title">
-              从「会聊天」到「会做事」：一文读懂 AI Agent、MCP、Harness、Skill 等核心技术
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              从大模型到智能体，一条主线讲透 Agent 技术栈
-            </h3>
-            
-          </a>
-        </div>
-        <hr>
-        
-      </div>
-      
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
 
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84%E6%A6%82%E8%A7%88-Architecture"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">1. 整体架构概览 (Architecture)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-%E6%A0%B8%E5%BF%83%E6%BA%90%E7%A0%81%E6%A8%A1%E5%9D%97%E5%88%86%E6%9E%90-1"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">2. 核心源码模块分析[1]</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#2-1-%E5%90%8E%E7%AB%AF-Backend-backend"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">2.1 后端 (Backend) - backend&#x2F;</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#2-2-%E5%89%8D%E7%AB%AF-Frontend-frontend"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">2.2 前端 (Frontend) - frontend&#x2F;</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-%E5%85%B3%E9%94%AE%E6%9C%BA%E5%88%B6%E8%A7%A3%E6%9E%90-Deep-Dive"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">3. 关键机制解析 (Deep Dive)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#3-1-%E5%8A%A8%E6%80%81%E9%85%8D%E7%BD%AE-Configuration-Schema"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">3.1 动态配置 (Configuration Schema)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#3-2-%E5%B7%A5%E5%85%B7%E9%9B%86%E6%88%90-The-MCP-Layer"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">3.2 工具集成 (The MCP Layer)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#3-3-%E6%8C%81%E4%B9%85%E5%8C%96%E4%B8%8E%E8%AE%B0%E5%BF%86-Persistence"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">3.3 持久化与记忆 (Persistence)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-How-to-Customize"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">4. 二次开发指南 (How to Customize)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E6%95%B0%E6%8D%AE%E4%B8%8E%E9%89%B4%E6%9D%83%E6%94%B9%E9%80%A0"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">第一阶段：数据与鉴权改造</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5%EF%BC%9A%E8%87%AA%E5%AE%9A%E4%B9%89-Agent-%E6%A8%A1%E6%9D%BF"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">第二阶段：自定义 Agent 模板</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%EF%BC%9A%E6%8E%A5%E5%85%A5%E4%B8%9A%E5%8A%A1%E5%B7%A5%E5%85%B7-MCP"><span class="toc-nav-number">4.3.</span> <span class="toc-nav-text">第三阶段：接入业务工具 (MCP)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%AC%AC%E5%9B%9B%E9%98%B6%E6%AE%B5%EF%BC%9AUI-%E5%93%81%E7%89%8C%E5%8C%96"><span class="toc-nav-number">4.4.</span> <span class="toc-nav-text">第四阶段：UI 品牌化</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">总结</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#AI" title="AI">AI</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
     </div>
   </div>
-</div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+<!-- mermaid start -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'base' });
+</script>
+<!-- mermaid end -->
 
 
 															<!-- Footer (contains ThemeColor、viewer) -->
@@ -842,7 +1017,7 @@
     let jsdelivr = "https://cdn.jsdelivr.net/gh/";
     let gh = "tigergo001";
     let ghPages = gh + ".github.io";
-    let pagePath = "en/tags/index.html";
+    let pagePath = "cn/open-agent-platform源码解读/";
     let jsdelivrurl;
     if (pagePath.indexOf("index.html") != -1) {
       jsdelivrurl = jsdelivr + gh + "/" + ghPages;
@@ -920,7 +1095,7 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
             <span class="search-icon">
               <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
             </span>
-            <input autocomplete="off" placeholder="SEARCH..." type="text" id="local-search-input">
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
           </div>
         </div>
         <div id="local-search-result"></div>

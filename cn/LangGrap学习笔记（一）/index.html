@@ -261,17 +261,6 @@
           
           
           <li>
-            <a href="/archive/">
-              
-              归档
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/categories/">
               
               分类
@@ -286,6 +275,17 @@
             <a href="/tags/">
               
               标签
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
               
               
             </a>
@@ -490,20 +490,25 @@
 <p>随着 AI 大模型发展，尤其生成式 AI 大模型的发展，其在应用领域也得以了广泛的应用，如在信贷领域，人们把大模型应用到信贷的各个环节，如催收，通过 Agent 与 AI 大模型结合，让 AI 来理解和分析用户的还款意图，将给出合理的话术，最后通过生成的 AI 语音与用户进行语音沟通，极大的减少了人工催收的成本。又如在营销领域，开发者们将，营销中的各个环节封装成 Agent，通过 WorkFlow 将 Agent 整合起来，每个 Agent 与大模型进行交互，并通过调用工具完成该 Agent 的任务，最后将所有的工作内容做为整体进行输出制定完整的营销计划，同时对营销的结果通过数据分析的 Agent 进行数据回归分析，给营销人员提供相关的数据分析和营销策略的支撑。</p>
 </blockquote>
 <p>在了解 LangGraph 是，我们先要了解一下在 AI 领域中的一些基本概念，如 Agent、大语言模型、MCP、工具、Function Call 等</p>
-<h2 id="一、什么是大语言模型-LLM"><a href="#一、什么是大语言模型-LLM" class="headerlink" title="一、什么是大语言模型(LLM)"></a>一、什么是大语言模型(LLM)</h2><p>大型语言模型（LLM）是强大的 AI 工具，能够像人类一样解释和生成文本。它们功能多样，可以撰写内容、翻译语言、总结和回答问题，而无需针对每个任务进行专门训练。</p>
+<h2 id="一、什么是大语言模型-LLM">一、什么是大语言模型(LLM)</h2>
+<p>大型语言模型（LLM）是强大的 AI 工具，能够像人类一样解释和生成文本。它们功能多样，可以撰写内容、翻译语言、总结和回答问题，而无需针对每个任务进行专门训练。</p>
 <p>除了文本生成，许多模型还支持：</p>
 <ul>
-<li><strong>工具调用 </strong> - 调用外部工具（如数据库查询或 API 调用）并在其响应中使用结果。</li>
-<li><strong>结构化输出 </strong>- 模型响应被限制为遵循定义的格式。</li>
-<li><strong>多模态 </strong>- 处理和返回除文本之外的数据，例如图像、音频和视频。</li>
+<li>**工具调用 ** - 调用外部工具（如数据库查询或 API 调用）并在其响应中使用结果。</li>
+<li>**结构化输出 **- 模型响应被限制为遵循定义的格式。</li>
+<li>**多模态 **- 处理和返回除文本之外的数据，例如图像、音频和视频。</li>
 <li><strong>推理</strong> - 模型执行多步推理以得出结论。</li>
 </ul>
 <p>模型是 Agent 的推理引擎，它们驱动 Agent 的决策过程，确定调用哪些工具、如何解释结果以及何时提供最终答案 。</p>
-<h2 id="二、什么是-Agent"><a href="#二、什么是-Agent" class="headerlink" title="二、什么是 Agent"></a>二、什么是 Agent</h2><p>Agent 即智能体，Agent 将语言模型与工具结合，创建能够对任务进行推理、决定使用哪些工具并迭代地解决问题的系统。<strong>一个 LLM 智能体在循环中运行工具以实现目标</strong>。智能体一直在运行直到满足停止条件 ——— 即模型发出最终输出或达到迭代限制。</p>
-<h2 id="三、什么工具"><a href="#三、什么工具" class="headerlink" title="三、什么工具"></a>三、什么工具</h2><p>许多 AI 应用程序通过自然语言与用户交互。然而，某些用例要求模型使用结构化输入直接与外部系统（如 API、数据库或文件系统）进行接口交互。</p>
+<h2 id="二、什么是-Agent">二、什么是 Agent</h2>
+<p>Agent 即智能体，Agent 将语言模型与工具结合，创建能够对任务进行推理、决定使用哪些工具并迭代地解决问题的系统。<strong>一个 LLM 智能体在循环中运行工具以实现目标</strong>。智能体一直在运行直到满足停止条件 ------ 即模型发出最终输出或达到迭代限制。</p>
+<h2 id="三、什么工具">三、什么工具</h2>
+<p>许多 AI 应用程序通过自然语言与用户交互。然而，某些用例要求模型使用结构化输入直接与外部系统（如 API、数据库或文件系统）进行接口交互。</p>
 <p>工具是智能体调用以执行操作的组件。它们通过让模型通过定义明确的输入和输出与世界交互来扩展模型功能。工具封装了一个可以调用函数及其输入模式。这些可以可以传递给兼容的<strong>聊生模型</strong>，允许模型决定是否调用工具以及使用中哪些参数。在这些场景中，工具调用使得模型能够生成符合指定输入模式的请求。</p>
-<h2 id="四、什么是-MCP"><a href="#四、什么是-MCP" class="headerlink" title="四、什么是 MCP"></a>四、什么是 MCP</h2><p>MCP（Model Context Protocol，模型上下文协议）是大型语言模型（LLM）与外部工具、数据源进行交互的通用标准协议，由 Anthropic 公司在 2024 年 11 月推出 ‌2。它类似于 AI 领域的“USB-C 接口”，为模型与外部资源（如数据库、本地文件等）提供标准化连接方式，实现双向通信 ‌。</p>
-<h2 id="五、什么是-Function-Call"><a href="#五、什么是-Function-Call" class="headerlink" title="五、什么是 Function Call"></a>五、什么是 Function Call</h2><p>Function Calling（函数调用）是大型语言模型（LLM）的一项关键技术能力，它使模型能够识别何时需要调用外部函数，并生成符合函数要求的参数，从而与外部工具、API 和服务进行交互 ‌。这项技术让 AI 模型从“只会说话”变为“能够行动”，通过调用外部函数实现数据查询、计算、控制外部系统等无法通过纯语言生成完成的任务 ‌。</p>
+<h2 id="四、什么是-MCP">四、什么是 MCP</h2>
+<p>MCP（Model Context Protocol，模型上下文协议）是大型语言模型（LLM）与外部工具、数据源进行交互的通用标准协议，由 Anthropic 公司在 2024 年 11 月推出 ‌2。它类似于 AI 领域的“USB-C 接口”，为模型与外部资源（如数据库、本地文件等）提供标准化连接方式，实现双向通信 ‌。</p>
+<h2 id="五、什么是-Function-Call">五、什么是 Function Call</h2>
+<p>Function Calling（函数调用）是大型语言模型（LLM）的一项关键技术能力，它使模型能够识别何时需要调用外部函数，并生成符合函数要求的参数，从而与外部工具、API 和服务进行交互 ‌。这项技术让 AI 模型从“只会说话”变为“能够行动”，通过调用外部函数实现数据查询、计算、控制外部系统等无法通过纯语言生成完成的任务 ‌。</p>
 <p><strong>核心原理</strong></p>
 <p>Function Calling 的核心原理基于以下关键机制 ‌：</p>
 <ul>
@@ -513,7 +518,8 @@
 </ul>
 <p><strong>主要用途</strong></p>
 <p>Function Calling 的主要用途是让大语言模型通过自然语言生成 API 调用参数，间接访问外部系统的数据，比如天气、股票、数据库等 ‌3。它解决了大模型知识无法实时更新的问题 ‌</p>
-<h2 id="六、MCP-与-Function-Calling-的区别"><a href="#六、MCP-与-Function-Calling-的区别" class="headerlink" title="六、MCP 与 Function Calling 的区别"></a>六、MCP 与 Function Calling 的区别</h2><p>MCP 协议（Model Context Protocol）与 Function Calling 是大模型与外部工具交互的两种不同机制，它们在定位、架构和应用场景上存在显著差异。以下是具体对比：</p>
+<h2 id="六、MCP-与-Function-Calling-的区别">六、MCP 与 Function Calling 的区别</h2>
+<p>MCP 协议（Model Context Protocol）与 Function Calling 是大模型与外部工具交互的两种不同机制，它们在定位、架构和应用场景上存在显著差异。以下是具体对比：</p>
 <p><strong>定位与目标</strong>‌</p>
 <ul>
 <li>‌<strong>MCP 协议</strong>‌：由 Anthropic 提出的 ‌<strong>开放标准协议</strong>‌，旨在统一不同大模型与外部工具/数据源的交互方式，类似“AI 界的 USB-C 接口”‌。其目标是解决系统集成标准化和上下文传输优化问题，构建 AI 应用的“通用高速公路”‌。</li>
@@ -525,7 +531,6 @@
 <li>‌<strong>Function Calling</strong>‌：基于 ‌<strong>请求-响应模式</strong>‌，模型触发单次函数调用后直接返回结果，无持续交互能力 ‌。</li>
 </ul>
 <p><strong>核心区别</strong>‌</p>
-<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -557,12 +562,12 @@
 </tr>
 </tbody>
 </table>
-</div>
 <p>‌<strong>互补关系</strong>‌</p>
 <p>两者并非替代关系，而是互补：</p>
 <ul>
 <li>‌<strong>MCP</strong>‌ 解决底层协议标准化问题，提升工具调用的灵活性和复用性 ‌。</li>
-<li>‌<strong>Function Calling</strong>‌ 作为高层功能，为特定模型提供即插即用的能力 ‌。<br>未来两者将长期共存，MCP 侧重生态建设，Function Calling 侧重功能扩展 ‌</li>
+<li>‌<strong>Function Calling</strong>‌ 作为高层功能，为特定模型提供即插即用的能力 ‌。<br>
+未来两者将长期共存，MCP 侧重生态建设，Function Calling 侧重功能扩展 ‌</li>
 </ul>
 
 
@@ -571,12 +576,12 @@
         <ul class="pager">
           
           <li class="previous">
-            <a href="/cn/从会聊天到会做事-读懂AI-Agent-MCP-Harness-Skill/" data-toggle="tooltip" data-placement="top" title="从「会聊天」到「会做事」：一文读懂 AI Agent、MCP、Harness、Skill 等核心技术">&larr; Previous Post</a>
+            <a href="/cn/open-agent-platform源码解读/" data-toggle="tooltip" data-placement="top" title="open-agent-platform源码解读">&larr; Previous Post</a>
           </li>
           
           
           <li class="next">
-            <a href="/cn/评论系统设置/" data-toggle="tooltip" data-placement="top" title="“评论系统设置”">Next Post &rarr;</a>
+            <a href="/cn/LangFlow框架原码分析/" data-toggle="tooltip" data-placement="top" title="LangFlow框架原码分析">Next Post &rarr;</a>
           </li>
           
         </ul>
@@ -1322,6 +1327,21 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 																		
-				</body>
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 
 </html>

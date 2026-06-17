@@ -261,17 +261,6 @@
           
           
           <li>
-            <a href="/archive/">
-              
-              ARCHIVES
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/categories/">
               
               CATEGORIES
@@ -286,6 +275,17 @@
             <a href="/tags/">
               
               TAGS
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              ARCHIVES
               
               
             </a>
@@ -472,16 +472,100 @@
       <!-- 标签云 -->
       <div id='tag_cloud' class="tags">
         
-        <a href="#AI" title="AI" rel="1">AI</a>
+        <a href="#LangGraph" title="LangGraph" rel="1">LangGraph</a>
+        
+        <a href="#LangFlow" title="LangFlow" rel="1">LangFlow</a>
+        
+        <a href="#AI" title="AI" rel="2">AI</a>
         
       </div>
 
       <!-- 标签列表 -->
       
       <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="LangGraph">
+          <span class="tag-text">LangGraph</span>
+        </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/cn/open-agent-platform源码解读/">
+            <h2 class="post-title">
+              open-agent-platform源码解读
+              
+              -- cn
+              
+            </h2>
+            
+            <h3 class="post-subtitle">
+              Ai框架学习
+            </h3>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="LangFlow">
+          <span class="tag-text">LangFlow</span>
+        </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/cn/LangFlow框架原码分析/">
+            <h2 class="post-title">
+              LangFlow框架原码分析
+              
+              -- cn
+              
+            </h2>
+            
+            <h3 class="post-subtitle">
+              框架原码分析及二次开发的一些想法
+            </h3>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
         <span class="fa fa-tag listing-seperator" id="AI">
           <span class="tag-text">AI</span>
         </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/cn/对LangFlow源码进行二次开发/">
+            <h2 class="post-title">
+              对LangFlow源码进行二次开发
+              
+              -- cn
+              
+            </h2>
+            
+            <h3 class="post-subtitle">
+              对LangFlow源码进行二次开发AgentServer
+            </h3>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
         
         <!-- <li class="listing-item">
                   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -1018,6 +1102,21 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 																		
-				</body>
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 
 </html>

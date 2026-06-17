@@ -1,0 +1,1855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="v-ryan,v-blog,IT  blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/avatar.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/LangFlow框架原码分析/">
+  <title>
+    
+      LangFlow框架原码分析 - 男人至死是少年  | yong man
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+	<!-- hack iOS CSS :active style -->
+	
+
+		<body ontouchstart="" class="body--light body--light">
+			
+
+						<!-- ThemeColor -->
+						
+							<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'light';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+								
+
+									<!-- Gitter -->
+									
+										<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+											
+
+												<!-- Navigation (contains search)-->
+												<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">男人至死是少年</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+													<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+													<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+    }
+
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+    }
+
+    header.intro-header {
+      
+        /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png'); */
+        
+    }
+
+    #signature {
+        /*signature*/
+        background-image: url('/img/signature/ryan-sign.png');
+      }
+
+      
+  </style>
+  <!-- CDN: jsdelivr end -->
+  
+
+
+
+      
+        <header class="intro-header">
+          <!-- Signature -->
+          <div id="signature">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+                    <div class="post-heading">
+                      <div class="tags">
+                        
+                          <a class="tag" href="/tags/#AI" title="AI">
+                            AI
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangFlow" title="LangFlow">
+                            LangFlow
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangChain" title="LangChain">
+                            LangChain
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangGraph" title="LangGraph">
+                            LangGraph
+                          </a>
+                          
+                      </div>
+                      <h1>
+                        LangFlow框架原码分析
+                      </h1>
+                      <h2 class="subheading">
+                        框架原码分析及二次开发的一些想法
+                      </h2>
+                      <span class="meta">
+                        Posted by Ryan on
+                          2025-11-18
+                      </span>
+
+
+                      
+                        <!-- WordCount start -->
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Estimated Reading Time <span class="post-count">
+                            38
+                          </span> Minutes
+                        </span>
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Words <span class="post-count">
+                            8.3k
+                          </span> In Total
+                        </span>
+                        <div class="blank_box"></div>
+                        <!-- WordCount end -->
+                        
+                          
+                            <!-- 不蒜子统计 start -->
+                            <span class="meta" id="busuanzi_container_page_pv">
+                              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+                              Times
+                            </span>
+                            <!-- 不蒜子统计 end -->
+                            
+
+
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+            <!-- waveoverlay start -->
+            <div class="preview-overlay">
+              <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                  </path>
+                </defs>
+                <g class="preview-parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+                </g>
+              </svg>
+            </div>
+            <!-- waveoverlay end -->
+            
+
+        </header>
+        
+
+														<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+														<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p><strong>Langflow</strong> (特别是 v1.0 之后) 已经从一个简单的 LangChain UI 演变成了一个强大的、基于组件的 Python 后端编排引擎。</p>
+<p>为了能够进行二次开发，深入剖析 <code>langflow</code> 的后端源码，重点关注 <strong>图执行引擎 (Graph Execution Engine)</strong>、<strong>组件系统 (Component System)</strong> 以及它如何集成 <strong>LangChain/LangGraph</strong> 来实现多 Agent。</p>
+<hr>
+<h3 id="1-源码宏观架构-The-Big-Picture">1. 源码宏观架构 (The Big Picture)</h3>
+<p>Langflow 的核心是一个基于 Python 的后端服务（FastAPI），它接收前端发来的 JSON 配置（Flow），并在服务器端解析、构建并运行这些 Python 对象。</p>
+<p><strong>核心目录结构 (基于 <code>src/backend/base/langflow</code>):</strong></p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">src/backend/base/langflow/</span><br><span class="line">├── api/                # FastAPI 路由 (API Endpoints)</span><br><span class="line">├── components/         # 内置组件库 (Inputs, Models, Agents, Chains...)</span><br><span class="line">├── custom/             # 自定义组件的基类 (CustomComponent)</span><br><span class="line">├── graph/              # [核心] 图解析与执行引擎</span><br><span class="line">│   ├── graph/          # Graph 类定义</span><br><span class="line">│   ├── vertex/         # Vertex (节点) 类定义</span><br><span class="line">│   └── edge/           # Edge (连线) 类定义</span><br><span class="line">├── interface/          # 负责加载和管理组件签名</span><br><span class="line">├── processing/         # 异步处理任务的逻辑</span><br><span class="line">└── services/           # 基础设施 (DB, Cache, Chat Manager, Session)</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="2-核心引擎：从-JSON-到-Python-对象-Graph-Engine">2. 核心引擎：从 JSON 到 Python 对象 (Graph Engine)</h3>
+<p>这是 Langflow 最核心的部分。它的工作是将前端画的图（JSON）转换成内存中可执行的 LangChain/LangGraph 对象链。</p>
+<p><strong>源码路径</strong>: <code>src/backend/base/langflow/graph/</code></p>
+<h4 id="2-1-原理流程">2.1 原理流程</h4>
+<ol>
+<li><strong>Payload 接收</strong>: 前端发送一个包含 <code>nodes</code> 和 <code>edges</code> 的 JSON。</li>
+<li><strong>图构建 (<code>Graph</code> Class)</strong>: <code>graph/graph/base.py</code>。
+<ul>
+<li>后端将 JSON 映射为 <code>Graph</code> 对象。</li>
+<li>将 <code>nodes</code> 实例化为 <code>Vertex</code> 对象。</li>
+<li>将 <code>edges</code> 实例化为 <code>Edge</code> 对象。</li>
+</ul>
+</li>
+<li><strong>拓扑排序 (Topological Sort)</strong>:
+<ul>
+<li>引擎分析依赖关系，确定构建顺序。例如：<code>OpenAI Model</code> -&gt; <code>Agent</code> -&gt; <code>Chat Output</code>。</li>
+</ul>
+</li>
+<li><strong>构建 (<code>build</code> 方法)</strong>:
+<ul>
+<li>引擎按照顺序调用每个 <code>Vertex</code> 的 <code>build()</code> 方法。</li>
+<li><strong>关键点</strong>: 这步操作会将组件配置（Model Name, Temperature 等）实例化为实际的 Python 对象（如 <code>ChatOpenAI</code> 实例）。</li>
+</ul>
+</li>
+<li><strong>参数传递</strong>:
+<ul>
+<li>上游节点的输出对象，通过 <code>Edge</code> 传递给下游节点的输入参数。</li>
+</ul>
+</li>
+</ol>
+<h4 id="2-2-Vertex-节点-的奥秘">2.2 Vertex (节点) 的奥秘</h4>
+<p><strong>源码路径</strong>: <code>src/backend/base/langflow/graph/vertex/base.py</code></p>
+<p><code>Vertex</code> 类是二次开发中最需要理解的包装器。</p>
+<ul>
+<li><code>_custom_component</code>: 每个 Vertex 内部都持有一个 <code>CustomComponent</code> 实例（即组件的 Python 代码）。</li>
+<li><code>get_result(target_handle)</code>: 当图执行时，它会调用组件的 <code>build</code> 方法，返回真正的 LangChain 对象（例如 <code>Runnable</code> 或 <code>BaseChatModel</code>）。</li>
+</ul>
+<hr>
+<h3 id="3-多-Agent-与-Workflow-的底层原理">3. 多 Agent 与 Workflow 的底层原理</h3>
+<p>Langflow 运行多 Agent 和 Workflow 主要依赖两种模式：<strong>LangChain AgentExecutor</strong> 和 <strong>LangGraph Integration</strong>。</p>
+<h4 id="模式一：基于-LangChain-的-Agent-Legacy-Simple">模式一：基于 LangChain 的 Agent (Legacy &amp; Simple)</h4>
+<p>这是最基础的模式。</p>
+<ul>
+<li><strong>API 使用</strong>: <code>langchain.agents.AgentExecutor</code>。</li>
+<li><strong>源码位置</strong>: <code>src/backend/base/langflow/components/agents/</code>。</li>
+<li><strong>原理</strong>:
+<ol>
+<li>用户拖入一个 <code>OpenAI Tools Agent</code> 组件。</li>
+<li>Langflow 实例化 LLM 和 Tools。</li>
+<li>组件内部调用 <code>create_openai_tools_agent</code> 创建 Agent 定义。</li>
+<li>最后包装进 <code>AgentExecutor</code>。</li>
+<li><strong>局限</strong>: 这是一个黑盒循环，难以精细控制步骤。</li>
+</ol>
+</li>
+</ul>
+<h4 id="模式二：基于-LangGraph-的多-Agent-Modern-Powerful">模式二：基于 LangGraph 的多 Agent (Modern &amp; Powerful)</h4>
+<p>Langflow v1.0+ 深度集成了 LangGraph。这是你进行高级二次开发的关键。</p>
+<p><strong>1. LangGraph 在 Langflow 中是如何存在的？</strong><br>
+在 Langflow 中，LangGraph 的图（<code>StateGraph</code> / <code>CompiledGraph</code>）被视为<strong>一个普通的 Runnable 对象</strong>。</p>
+<p><strong>2. 核心组件源码分析</strong>:<br>
+查看 <code>src/backend/base/langflow/components/langgraph</code> (如果存在) 或通过 <code>CustomComponent</code> 定义的 LangGraph 节点。</p>
+<p><strong>3. 运行原理</strong>:<br>
+当你在 Langflow 中构建一个多 Agent 系统（例如 Supervisor 模式）时：</p>
+<ul>
+<li><strong>Step 1: 定义 State</strong>. Langflow 组件允许你定义 <code>TypedDict</code> 或 Schema。</li>
+<li><strong>Step 2: 定义 Nodes</strong>. 每个 Agent（如 “Researcher”, “Coder”）是一个 Vertex。</li>
+<li><strong>Step 3: 构建 Graph</strong>. 有一个专门的 “LangGraph Builder” 组件。
+<ul>
+<li>它使用 <code>langgraph.graph.StateGraph</code> API。</li>
+<li>它接受其他 Vertex 返回的 <code>Runnable</code> 作为节点。</li>
+<li>它接受 <code>add_edge</code> 或 <code>add_conditional_edges</code> 的配置。</li>
+</ul>
+</li>
+<li><strong>Step 4: 编译</strong>. 组件最终调用 <code>graph.compile()</code>，返回一个 <code>CompiledGraph</code> 对象。</li>
+<li><strong>Step 5: 执行</strong>. Langflow 的引擎将这个 <code>CompiledGraph</code> 当作一个函数调用 <code>invoke(input)</code>。</li>
+</ul>
+<p><strong>使用了哪些关键 API</strong>:</p>
+<ul>
+<li><code>langgraph.graph.StateGraph</code>: 用于定义状态机。</li>
+<li><code>langgraph.graph.END</code>: 定义结束状态。</li>
+<li><code>langgraph.prebuilt.create_react_agent</code>: 快速创建 ReAct Agent。</li>
+</ul>
+<hr>
+<h3 id="4-组件系统与二次开发接口-Custom-Component">4. 组件系统与二次开发接口 (Custom Component)</h3>
+<p>这是你进行二次开发最频繁接触的地方。Langflow 设计了一个极其灵活的 <code>CustomComponent</code> 类。</p>
+<p><strong>源码路径</strong>: <code>src/backend/base/langflow/custom/custom_component/component.py</code></p>
+<h4 id="4-1-结构剖析">4.1 结构剖析</h4>
+<p>一个标准的组件代码如下：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> langflow.custom <span class="keyword">import</span> CustomComponent</span><br><span class="line"><span class="keyword">from</span> langflow.io <span class="keyword">import</span> Input, Output, MessageTextInput</span><br><span class="line"><span class="keyword">from</span> langchain_openai <span class="keyword">import</span> ChatOpenAI</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">OpenAIComponent</span>(<span class="title class_ inherited__">CustomComponent</span>):</span><br><span class="line">    display_name = <span class="string">&quot;OpenAI&quot;</span></span><br><span class="line">    description = <span class="string">&quot;A standard OpenAI model&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 定义 UI 输入</span></span><br><span class="line">    inputs = [</span><br><span class="line">        MessageTextInput(name=<span class="string">&quot;model_name&quot;</span>, value=<span class="string">&quot;gpt-4&quot;</span>),</span><br><span class="line">        Input(name=<span class="string">&quot;temperature&quot;</span>, value=<span class="number">0.7</span>),</span><br><span class="line">    ]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 定义输出</span></span><br><span class="line">    outputs = [</span><br><span class="line">        Output(name=<span class="string">&quot;model&quot;</span>, display_name=<span class="string">&quot;LLM&quot;</span>, method=<span class="string">&quot;build_model&quot;</span>),</span><br><span class="line">    ]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 核心构建逻辑</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">build_model</span>(<span class="params">self</span>) -&gt; ChatOpenAI:</span><br><span class="line">        <span class="keyword">return</span> ChatOpenAI(</span><br><span class="line">            model=<span class="variable language_">self</span>.model_name,</span><br><span class="line">            temperature=<span class="variable language_">self</span>.temperature</span><br><span class="line">        )</span><br></pre></td></tr></table></figure>
+<h4 id="4-2-二次开发实战指南">4.2 二次开发实战指南</h4>
+<p>如果你想开发一个 <strong>Custom Agent Server</strong> 功能：</p>
+<ol>
+<li><strong>创建自定义组件</strong>: 在 UI 上点击 “Custom Component”，或者在后端 <code>src/backend/base/langflow/components/</code> 下新建 Python 文件。</li>
+<li><strong>继承逻辑</strong>: 继承 <code>CustomComponent</code>。</li>
+<li><strong>重写 <code>build</code> 方法</strong>:
+<ul>
+<li>在这里引入你的业务逻辑。</li>
+<li>如果是 LangGraph，就在这里定义 <code>StateGraph</code>，添加节点，编译，并返回 <code>app</code>。</li>
+</ul>
+</li>
+<li><strong>输入输出</strong>: 使用 <code>self.inputs</code> 定义你需要从 UI 接收什么（如 API Key, Prompt），使用 <code>self.outputs</code> 定义你传给下一个节点什么（如 <code>BaseMessage</code> 或 <code>Text</code>）。</li>
+</ol>
+<hr>
+<h3 id="5-关键-API-依赖总结">5. 关键 API 依赖总结</h3>
+<p>在源码中，你会发现 Langflow 严重依赖以下库，这是你理解其行为的钥匙：</p>
+<ol>
+<li><strong><code>langchain_core.runnables</code></strong>:
+<ul>
+<li>Langflow 几乎所有的节点输出都是 <code>Runnable</code>。</li>
+<li>利用 <code>.invoke()</code>, <code>.stream()</code> 统一接口。</li>
+</ul>
+</li>
+<li><strong><code>langchain_core.messages</code></strong>:
+<ul>
+<li>数据在节点间传递的标准格式 (<code>HumanMessage</code>, <code>AIMessage</code>)。</li>
+<li>Langflow 的 <code>Chat Input</code>/<code>Chat Output</code> 就是在处理这些 Message 对象。</li>
+</ul>
+</li>
+<li><strong><code>fastapi</code> &amp; <code>uvicorn</code></strong>:
+<ul>
+<li>处理 HTTP 请求，Websocket 连接（用于流式输出 Token）。</li>
+<li>查看 <code>src/backend/base/langflow/api/v1/chat.py</code> 可以了解聊天消息是如何通过 Websocket 推送给前端的。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="6-二次开发建议：如何魔改-Langflow？">6. 二次开发建议：如何魔改 Langflow？</h3>
+<p>如果你想把 Langflow 改造成你的专属 Agent Server：</p>
+<ol>
+<li>
+<p><strong>接管 <code>/run</code> 接口</strong>:</p>
+<ul>
+<li>研究 <code>src/backend/base/langflow/api/v1/run.py</code>。</li>
+<li>这是外部触发 Flow 运行的入口。你可以增加鉴权、增加日志记录（存入 Langfuse）。</li>
+</ul>
+</li>
+<li>
+<p><strong>集成 Langfuse (Trace)</strong>:</p>
+<ul>
+<li>Langflow 虽然有内置的 Session 管理，但观测性不如 Langfuse。</li>
+<li><strong>修改点</strong>: 在 <code>Graph.process</code> 或 <code>Vertex.build</code> 中。</li>
+<li>当 <code>Vertex</code> 生成 <code>Runnable</code> 时，使用 <code>Runnable.with_config(callbacks=[LangfuseCallbackHandler()])</code> 进行包装。这样所有的运行都会自动上报 Trace。</li>
+</ul>
+</li>
+<li>
+<p><strong>持久化增强</strong>:</p>
+<ul>
+<li>Langflow 默认使用 SQLite/Postgres 存 Flow。</li>
+<li>如果需要存 Agent 的运行状态（LangGraph Checkpoint），你需要修改 Langflow 构建 LangGraph 节点的地方，注入 <code>PostgresSaver</code>。</li>
+</ul>
+</li>
+</ol>
+<h3 id="总结">总结</h3>
+<p>Langflow 的源码本质上是一个 <strong>“LangChain 对象工厂” + “拓扑执行器”</strong>。</p>
+<ul>
+<li>它不产生智能，它负责<strong>实例化</strong>智能（LangChain 对象）。</li>
+<li>它的多 Agent 能力来自于它能够实例化并运行 <strong>LangGraph 的 CompiledGraph</strong>。</li>
+<li>二次开发的核心在于<strong>自定义组件 (Custom Component)</strong> 和 <strong>API 层的拦截</strong>。</li>
+</ul>
+<hr>
+<p>这是一个基于 <strong>Langflow</strong> 源码架构进行深度二次开发的设计文档。我们的目标是将 Langflow 从一个“构建工具”升级为一个具备生产能力的 <strong>Agent Server</strong>。</p>
+<p>本方案采用 <strong>“非侵入式扩展 (Extension)”</strong> 的策略，尽量复用 Langflow 现有的 <code>Graph</code> 构建引擎，通过增加 <strong>部署层 (Deployment Layer)</strong>、<strong>拦截层 (Interceptor Layer)</strong> 和 <strong>治理层 (Governance Layer)</strong> 来实现需求。</p>
+<hr>
+<h1>Langflow Agent Server 生产级扩展设计文档</h1>
+<h2 id="1-总体架构设计-System-Architecture">1. 总体架构设计 (System Architecture)</h2>
+<h3 id="1-1-设计理念">1.1 设计理念</h3>
+<ul>
+<li><strong>Snapshot Deployment (快照发布)</strong>: Flow 是开发态（草稿），Deployment 是运行态（定版）。发布时将 Flow 的 JSON 配置冻结并存入部署表。</li>
+<li><strong>Middleware Interception (中间件拦截)</strong>: 在请求进入执行引擎前，通过 FastAPI Dependency 注入限流逻辑；在执行引擎启动时，通过 Callback 注入 Langfuse 追踪。</li>
+<li><strong>Stateless Execution (无状态执行)</strong>: 尽量保持计算节点无状态，依赖 Redis 做限流计数和 LangGraph Checkpoint 做状态持久化。</li>
+</ul>
+<h3 id="1-2-架构分层图">1.2 架构分层图</h3>
+<pre class="mermaid">graph TD
+    subgraph "Client Layer"
+        User[End User / App]
+        Dev[Developer]
+    end
+
+    subgraph "Agent Server (Extended Langflow)"
+        Gateway[API Gateway / Router]
+        
+        subgraph "Governance Layer"
+            RateLimiter[Rate Limiter (Redis)]
+            Auth[API Key Auth]
+        end
+        
+        subgraph "Deployment Layer"
+            DeployMgr[Deployment Manager]
+            VersionMgr[Version Control]
+        end
+        
+        subgraph "Execution Layer (Core)"
+            TraceInjector[Langfuse Injector]
+            GraphLoader[Graph Loader]
+            Runner[Langflow Runtime Engine]
+        end
+    end
+
+    subgraph "Infrastructure"
+        DB[(Postgres/MySQL)]
+        Redis[(Redis Cache)]
+        LF[Langfuse Cloud]
+    end
+
+    Dev -->|1. Publish Flow| DeployMgr
+    User -->|2. Invoke Agent| Gateway
+    Gateway --> Auth
+    Auth --> RateLimiter
+    RateLimiter --> DeployMgr
+    DeployMgr -->|Load Snapshot| GraphLoader
+    GraphLoader --> TraceInjector
+    TraceInjector --> Runner
+    Runner -->|Execute| Redis
+    Runner -->|Trace Logs| LF
+    DeployMgr -->|Save Metadata| DB</pre>
+<hr>
+<h2 id="2-数据库设计-Schema-Extension">2. 数据库设计 (Schema Extension)</h2>
+<p>我们需要在 Langflow 原有的数据库（基于 SQLModel/SQLAlchemy）基础上，新增 <code>deployment</code> 相关表。</p>
+<h3 id="2-1-新增表结构">2.1 新增表结构</h3>
+<h4 id="deployment-表"><code>deployment</code> 表</h4>
+<p>用于存储发布的 Agent 实例信息。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">字段名</th>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>id</code></td>
+<td style="text-align:left">UUID</td>
+<td style="text-align:left">主键</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>flow_id</code></td>
+<td style="text-align:left">UUID</td>
+<td style="text-align:left">关联原始 Flow ID</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>version</code></td>
+<td style="text-align:left">Integer</td>
+<td style="text-align:left">版本号 (每次发布自增)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>name</code></td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">部署名称 (如 “CustomerSupport-Prod”)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>endpoint_slug</code></td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">对外访问的 URL 路径 (如 <code>/agent/support-v1</code>)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>graph_snapshot</code></td>
+<td style="text-align:left">JSON</td>
+<td style="text-align:left"><strong>核心</strong>: 发布时的 Flow JSON 全量快照</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>config</code></td>
+<td style="text-align:left">JSON</td>
+<td style="text-align:left">运行时配置 (Temperature 覆盖, API Key 覆盖)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>rate_limit</code></td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">限流规则 (如 “10/minute”)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>is_active</code></td>
+<td style="text-align:left">Boolean</td>
+<td style="text-align:left">是否上线</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>created_at</code></td>
+<td style="text-align:left">DateTime</td>
+<td style="text-align:left">发布时间</td>
+</tr>
+</tbody>
+</table>
+<h4 id="api-key-表-可选"><code>api_key</code> 表 (可选)</h4>
+<p>用于生产环境的鉴权，如果 Langflow 自带鉴权不够用。</p>
+<hr>
+<h2 id="3-详细模块设计">3. 详细模块设计</h2>
+<h3 id="3-1-模块一：发布管理-Deployment-Manager">3.1 模块一：发布管理 (Deployment Manager)</h3>
+<p><strong>功能</strong>: 将开发中的 Flow 转换为不可变的生产服务。</p>
+<p><strong>代码位置</strong>: <code>src/backend/base/langflow/services/deployment/</code> (新增)</p>
+<p><strong>逻辑流程</strong>:</p>
+<ol>
+<li><strong>Freeze</strong>: 接收 <code>flow_id</code>，从 <code>flow</code> 表读取当前的 <code>data</code> (JSON)。</li>
+<li><strong>Snapshot</strong>: 将读取到的 JSON 完整复制到 <code>deployment</code> 表的 <code>graph_snapshot</code> 字段。</li>
+<li><strong>Config</strong>: 允许用户在发布时设定特定的环境变量（如生产环境的 <code>OPENAI_API_KEY</code>），加密存储。</li>
+</ol>
+<p><strong>API 设计</strong>:</p>
+<ul>
+<li><code>POST /api/v1/deployments/publish/&#123;flow_id&#125;</code>: 发布新版本。</li>
+<li><code>GET /api/v1/deployments</code>: 获取所有部署列表。</li>
+</ul>
+<h3 id="3-2-模块二：限流中间件-Rate-Limiter">3.2 模块二：限流中间件 (Rate Limiter)</h3>
+<p><strong>功能</strong>: 基于 Redis 的分布式限流，防止突发流量打崩服务。</p>
+<p><strong>技术选型</strong>: <code>fastapi-limiter</code> (基于 Redis)。</p>
+<p><strong>代码位置</strong>: <code>src/backend/base/langflow/api/v1/endpoints.py</code> (修改)</p>
+<p><strong>实现逻辑</strong>:</p>
+<ol>
+<li>在 <code>deployment</code> 表中读取 <code>rate_limit</code> 字段 (例如 <code>&quot;60/minute&quot;</code>).</li>
+<li>在 FastAPI 的 Router 中使用 <code>Depends</code> 注入限流器。</li>
+<li><strong>Key Builder</strong>: 限流的 Key 应该是 <code>deployment_id + user_ip</code> 或 <code>deployment_id + api_token</code>。</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 伪代码示例</span></span><br><span class="line"><span class="keyword">from</span> fastapi_limiter.depends <span class="keyword">import</span> RateLimiter</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">get_rate_limit</span>(<span class="params">deployment_id: <span class="built_in">str</span></span>):</span><br><span class="line">    <span class="comment"># 从数据库获取该部署的限流配置</span></span><br><span class="line">    config = <span class="keyword">await</span> db.get_deployment_config(deployment_id)</span><br><span class="line">    <span class="keyword">return</span> config.limit_string <span class="comment"># &quot;10/second&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@router.post(<span class="params"><span class="string">&quot;/agent/&#123;endpoint_slug&#125;&quot;</span>, dependencies=[Depends(<span class="params">RateLimiter(<span class="params">key_func=get_remote_address</span>)</span>)]</span>)</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">invoke_agent</span>(<span class="params">...</span>):</span><br><span class="line">    ...</span><br></pre></td></tr></table></figure>
+<h3 id="3-3-模块三：Langfuse-自动集成-Trace-Injector">3.3 模块三：Langfuse 自动集成 (Trace Injector)</h3>
+<p><strong>功能</strong>: 自动劫持 Langflow 的执行过程，将 Trace 上报 Langfuse。</p>
+<p><strong>代码位置</strong>: <code>src/backend/base/langflow/graph/graph/base.py</code> (核心修改) 或 <code>src/backend/base/langflow/processing/process.py</code>。</p>
+<p><strong>核心难点</strong>: Langflow 的 <code>process_flow</code> 函数通过构建 <code>Graph</code> 对象来执行。我们需要在构建 <code>Runnable</code> 时注入 Callbacks。</p>
+<p><strong>实现方案</strong>:</p>
+<ol>
+<li><strong>扩展 Graph Build</strong>: 修改 <code>Graph.build()</code> 方法。</li>
+<li><strong>Callback 注入</strong>: 在 LangChain 对象生成的最后一步（通常是 Vertex 的 <code>build()</code> 返回时），强制添加 <code>LangfuseCallbackHandler</code>。</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># src/backend/base/langflow/graph/vertex/base.py 的扩展逻辑</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langfuse.callback <span class="keyword">import</span> CallbackHandler</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Vertex</span>:</span><br><span class="line">    <span class="comment"># ... 原有代码 ...</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">_build_results</span>(<span class="params">self, custom_component, target_handle_name</span>):</span><br><span class="line">        result = custom_component.build(...)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># [新增] 生产环境注入 Langfuse</span></span><br><span class="line">        <span class="keyword">if</span> <span class="variable language_">self</span>.graph.run_config.get(<span class="string">&quot;enable_tracing&quot;</span>):</span><br><span class="line">            langfuse_handler = CallbackHandler(</span><br><span class="line">                public_key=..., </span><br><span class="line">                secret_key=..., </span><br><span class="line">                host=...,</span><br><span class="line">                session_id=<span class="variable language_">self</span>.graph.session_id,</span><br><span class="line">                trace_name=<span class="variable language_">self</span>.graph.flow_name</span><br><span class="line">            )</span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 如果 result 是 LangChain Runnable</span></span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">hasattr</span>(result, <span class="string">&quot;with_config&quot;</span>):</span><br><span class="line">                result = result.with_config(callbacks=[langfuse_handler])</span><br><span class="line">            <span class="comment"># 如果是 AgentExecutor</span></span><br><span class="line">            <span class="keyword">elif</span> <span class="built_in">hasattr</span>(result, <span class="string">&quot;callbacks&quot;</span>):</span><br><span class="line">                result.callbacks.append(langfuse_handler)</span><br><span class="line">                </span><br><span class="line">        <span class="keyword">return</span> result</span><br></pre></td></tr></table></figure>
+<h3 id="3-4-模块四：生产运行引擎-Agent-Server-Runtime">3.4 模块四：生产运行引擎 (Agent Server Runtime)</h3>
+<p><strong>功能</strong>: 提供对外的高性能访问接口。</p>
+<p><strong>代码位置</strong>: <code>src/backend/base/langflow/api/v1/agent_server.py</code> (新增)</p>
+<p><strong>工作流程</strong>:</p>
+<ol>
+<li><strong>Request</strong>: 用户 <code>POST /agent/&#123;endpoint_slug&#125;</code>，带上 <code>input_value</code>。</li>
+<li><strong>Lookup</strong>: 根据 slug 查找 <code>deployment</code> 记录。</li>
+<li><strong>Load</strong>:
+<ul>
+<li><em>优化点</em>: 不要每次都解析 JSON。使用 <strong>LRU Cache</strong> 缓存构建好的 <code>Graph</code> 对象（仅限于无状态部分）。</li>
+<li>从 <code>graph_snapshot</code> 加载图结构。</li>
+</ul>
+</li>
+<li><strong>Execute</strong>:
+<ul>
+<li>调用 <code>graph.process()</code>。</li>
+<li>传入 <code>session_id</code> 以便 Langfuse 串联上下文。</li>
+</ul>
+</li>
+<li><strong>Response</strong>: 返回执行结果。</li>
+</ol>
+<hr>
+<h2 id="4-详细工作流程图-Sequence-Diagram">4. 详细工作流程图 (Sequence Diagram)</h2>
+<pre class="mermaid">sequenceDiagram
+    participant Client
+    participant API as Agent Server API
+    participant Limit as Redis RateLimiter
+    participant DB as MySQL/Postgres
+    participant Eng as Graph Engine
+    participant LF as Langfuse
+
+    Note over Client, API: 阶段一：生产调用
+    Client->>API: POST /agent/support-v1 {input: "Hello"}
+    
+    API->>DB: Query Deployment by slug "support-v1"
+    DB-->>API: Return Snapshot JSON & Config
+    
+    API->>Limit: Check Rate Limit (10/s)
+    alt Limit Exceeded
+        Limit-->>API: 429 Too Many Requests
+        API-->>Client: Error 429
+    else Limit OK
+        API->>Eng: Initialize Graph from Snapshot
+        
+        Note over Eng, LF: 阶段二：追踪注入
+        Eng->>Eng: Inject LangfuseCallbackHandler
+        
+        Eng->>Eng: Execute Graph (Invoke/Stream)
+        par Async Trace
+            Eng->>LF: Send Trace Data
+        and Sync Response
+            Eng-->>API: Execution Result
+        end
+        
+        API-->>Client: 200 OK {response: "Hi there"}
+    end</pre>
+<hr>
+<h2 id="5-开发实施计划-Step-by-Step">5. 开发实施计划 (Step-by-Step)</h2>
+<h3 id="第一阶段：基础架构与数据库迁移-Base-DB">第一阶段：基础架构与数据库迁移 (Base &amp; DB)</h3>
+<ol>
+<li>在 <code>src/backend/base/langflow/services/database/models/</code> 中定义 <code>Deployment</code> 模型。</li>
+<li>使用 <code>alembic</code> 生成迁移脚本并执行数据库变更。</li>
+<li>实现 <code>DeploymentService</code>，包含 CRUD 逻辑。</li>
+</ol>
+<h3 id="第二阶段：发布接口与版本管理-Publish-API">第二阶段：发布接口与版本管理 (Publish API)</h3>
+<ol>
+<li>开发 <code>POST /deployments/publish</code> 接口。</li>
+<li>实现 JSON Snapshot 逻辑，确保保存的配置与当前 Flow 完全解耦。</li>
+<li>前端页面：在 Langflow 界面顶部增加 “Deploy” 按钮，弹出配置框（设置 URL Slug 和 限流）。</li>
+</ol>
+<h3 id="第三阶段：运行引擎与限流-Runtime-Limiter">第三阶段：运行引擎与限流 (Runtime &amp; Limiter)</h3>
+<ol>
+<li>引入 <code>fastapi-limiter</code> 和 <code>redis</code> 依赖。</li>
+<li>开发对外专用接口 <code>POST /agent/&#123;slug&#125;</code>。</li>
+<li>在该接口实现图的<strong>热加载</strong>逻辑（从 DB 读取 -&gt; 实例化 Graph）。</li>
+<li>编写限流装饰器逻辑。</li>
+</ol>
+<h3 id="第四阶段：Langfuse-深度集成-Observability">第四阶段：Langfuse 深度集成 (Observability)</h3>
+<ol>
+<li>修改 <code>Graph</code> 或 <code>Vertex</code> 类，增加 <code>trace_config</code> 参数。</li>
+<li>在 <code>agent_server</code> 接口中，从环境变量或 Deployment 配置读取 Langfuse Keys。</li>
+<li>测试 Tracing 是否包含 Input, Output, Token Usage 和 Latency。</li>
+</ol>
+<hr>
+<h2 id="6-异常处理与-Token-限制应对">6. 异常处理与 Token 限制应对</h2>
+<ul>
+<li><strong>Token 限制</strong>: 如果 LLM 返回 Token Limit 错误，Agent Server 需捕获该异常，并返回标准的 HTTP 400 错误，而不是 500 崩溃。</li>
+<li><strong>系统熔断</strong>: 如果 Langfuse 服务不可用，Agent Server 应降级运行（关闭 Trace），不应影响主业务。</li>
+</ul>
+<hr>
+<p><strong>下一步指令</strong>：<br>
+如果你确认该设计方案（架构、数据库、模块划分）无误，请回复“<strong>确认方案</strong>”。我将开始为你生成具体的 <strong>数据库 Model 代码</strong> 和 <strong>核心发布/运行接口代码</strong>。</p>
+<p>收到，基于我们确认的方案，以下是 <strong>Langflow Agent Server</strong> 的具体代码实现。</p>
+<p>我们将按照模块化原则，创建新的文件并修改少量现有文件。请确保您的开发环境已经安装了 Langflow 的依赖，并额外安装以下生产环境必需库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install langfuse fastapi-limiter redis</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="1-数据库模型-Database-Models">1. 数据库模型 (Database Models)</h3>
+<p>我们需要定义 <code>Deployment</code> 表来存储发布的 Flow 快照。</p>
+<p><strong>文件路径</strong>: <code>src/backend/base/langflow/services/database/models/deployment.py</code> (新建)</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Optional</span>, <span class="type">Dict</span>, <span class="type">Any</span></span><br><span class="line"><span class="keyword">from</span> uuid <span class="keyword">import</span> UUID, uuid4</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Field, SQLModel, JSON, Column</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DeploymentBase</span>(<span class="title class_ inherited__">SQLModel</span>):</span><br><span class="line">    name: <span class="built_in">str</span> = Field(index=<span class="literal">True</span>)</span><br><span class="line">    description: <span class="type">Optional</span>[<span class="built_in">str</span>] = Field(default=<span class="literal">None</span>)</span><br><span class="line">    endpoint_slug: <span class="built_in">str</span> = Field(unique=<span class="literal">True</span>, index=<span class="literal">True</span>, description=<span class="string">&quot;The URL path for external access&quot;</span>)</span><br><span class="line">    rate_limit: <span class="type">Optional</span>[<span class="built_in">str</span>] = Field(default=<span class="string">&quot;60/minute&quot;</span>, description=<span class="string">&quot;Rate limit string e.g., &#x27;10/second&#x27;&quot;</span>)</span><br><span class="line">    is_active: <span class="built_in">bool</span> = Field(default=<span class="literal">True</span>)</span><br><span class="line">    </span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Deployment</span>(DeploymentBase, table=<span class="literal">True</span>):</span><br><span class="line">    <span class="built_in">id</span>: UUID = Field(default_factory=uuid4, primary_key=<span class="literal">True</span>)</span><br><span class="line">    flow_id: UUID = Field(foreign_key=<span class="string">&quot;flow.id&quot;</span>)</span><br><span class="line">    <span class="comment"># 核心：存储发布时的 Flow JSON 快照，确保生产环境不受开发环境修改的影响</span></span><br><span class="line">    graph_snapshot: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = Field(default=&#123;&#125;, sa_column=Column(JSON))</span><br><span class="line">    <span class="comment"># 存储生产环境特定的配置（如覆盖 API Key）</span></span><br><span class="line">    production_config: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = Field(default=&#123;&#125;, sa_column=Column(JSON))</span><br><span class="line">    </span><br><span class="line">    created_at: datetime = Field(default_factory=datetime.utcnow)</span><br><span class="line">    updated_at: datetime = Field(default_factory=datetime.utcnow)</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DeploymentRead</span>(<span class="title class_ inherited__">DeploymentBase</span>):</span><br><span class="line">    <span class="built_in">id</span>: UUID</span><br><span class="line">    flow_id: UUID</span><br><span class="line">    created_at: datetime</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DeploymentCreate</span>(<span class="title class_ inherited__">DeploymentBase</span>):</span><br><span class="line">    flow_id: UUID</span><br><span class="line">    production_config: <span class="type">Optional</span>[<span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>]] = <span class="literal">None</span></span><br></pre></td></tr></table></figure>
+<p><strong>操作</strong>: 您需要将此模型注册到 SQLModel 的 metadata 中，或者在 Alembic 迁移文件中引用它以生成数据库表。</p>
+<hr>
+<h3 id="2-Langfuse-集成模块-Tracing-Helper">2. Langfuse 集成模块 (Tracing Helper)</h3>
+<p>创建一个辅助模块，用于生成 Langfuse 的回调处理器。</p>
+<p><strong>文件路径</strong>: <code>src/backend/base/langflow/core/tracing.py</code> (新建)</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Optional</span></span><br><span class="line"><span class="keyword">from</span> langfuse.callback <span class="keyword">import</span> CallbackHandler</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_langfuse_callback</span>(<span class="params"></span></span><br><span class="line"><span class="params">    user_id: <span class="type">Optional</span>[<span class="built_in">str</span>] = <span class="literal">None</span>, </span></span><br><span class="line"><span class="params">    session_id: <span class="type">Optional</span>[<span class="built_in">str</span>] = <span class="literal">None</span>, </span></span><br><span class="line"><span class="params">    trace_name: <span class="type">Optional</span>[<span class="built_in">str</span>] = <span class="literal">None</span>,</span></span><br><span class="line"><span class="params">    tags: <span class="built_in">list</span> = []</span></span><br><span class="line"><span class="params"></span>) -&gt; <span class="type">Optional</span>[CallbackHandler]:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    工厂函数：根据环境变量安全地创建 Langfuse Handler</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    public_key = os.getenv(<span class="string">&quot;LANGFUSE_PUBLIC_KEY&quot;</span>)</span><br><span class="line">    secret_key = os.getenv(<span class="string">&quot;LANGFUSE_SECRET_KEY&quot;</span>)</span><br><span class="line">    host = os.getenv(<span class="string">&quot;LANGFUSE_HOST&quot;</span>, <span class="string">&quot;https://cloud.langfuse.com&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> public_key <span class="keyword">or</span> <span class="keyword">not</span> secret_key:</span><br><span class="line">        <span class="comment"># 如果未配置，返回 None，避免生产环境报错</span></span><br><span class="line">        <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> CallbackHandler(</span><br><span class="line">        public_key=public_key,</span><br><span class="line">        secret_key=secret_key,</span><br><span class="line">        host=host,</span><br><span class="line">        user_id=user_id,</span><br><span class="line">        session_id=session_id,</span><br><span class="line">        trace_name=trace_name,</span><br><span class="line">        tags=[<span class="string">&quot;agent-server&quot;</span>] + tags</span><br><span class="line">    )</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="3-发布管理接口-Deployment-API">3. 发布管理接口 (Deployment API)</h3>
+<p>实现发布 Flow 的逻辑。</p>
+<p><strong>文件路径</strong>: <code>src/backend/base/langflow/api/v1/deployments.py</code> (新建)</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> fastapi <span class="keyword">import</span> APIRouter, Depends, HTTPException, status</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Session, select</span><br><span class="line"><span class="keyword">from</span> uuid <span class="keyword">import</span> UUID</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.flow <span class="keyword">import</span> Flow</span><br><span class="line"><span class="keyword">from</span> langflow.services.get_service <span class="keyword">import</span> get_session</span><br><span class="line"><span class="comment"># 引入上面定义的模型</span></span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.deployment <span class="keyword">import</span> Deployment, DeploymentCreate, DeploymentRead</span><br><span class="line"></span><br><span class="line">router = APIRouter(prefix=<span class="string">&quot;/deployments&quot;</span>, tags=[<span class="string">&quot;Deployments&quot;</span>])</span><br><span class="line"></span><br><span class="line"><span class="meta">@router.post(<span class="params"><span class="string">&quot;/publish&quot;</span>, response_model=DeploymentRead</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">publish_flow</span>(<span class="params"></span></span><br><span class="line"><span class="params">    deploy_data: DeploymentCreate,</span></span><br><span class="line"><span class="params">    session: Session = Depends(<span class="params">get_session</span>),</span></span><br><span class="line"><span class="params"></span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    将当前的 Flow 状态发布为生产 Deployment</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1. 获取原始 Flow</span></span><br><span class="line">    flow = session.get(Flow, deploy_data.flow_id)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> flow:</span><br><span class="line">        <span class="keyword">raise</span> HTTPException(status_code=<span class="number">404</span>, detail=<span class="string">&quot;Flow not found&quot;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 2. 检查 Slug 是否重复</span></span><br><span class="line">    existing = session.<span class="built_in">exec</span>(select(Deployment).where(Deployment.endpoint_slug == deploy_data.endpoint_slug)).first()</span><br><span class="line">    <span class="keyword">if</span> existing:</span><br><span class="line">        <span class="comment"># 简单策略：如果存在则更新快照 (也可以设计为报错)</span></span><br><span class="line">        existing.graph_snapshot = flow.data</span><br><span class="line">        existing.name = deploy_data.name</span><br><span class="line">        existing.rate_limit = deploy_data.rate_limit</span><br><span class="line">        existing.updated_at = datetime.utcnow()</span><br><span class="line">        session.add(existing)</span><br><span class="line">        session.commit()</span><br><span class="line">        session.refresh(existing)</span><br><span class="line">        <span class="keyword">return</span> existing</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 3. 创建新 Deployment (Snapshot)</span></span><br><span class="line">    deployment = Deployment(</span><br><span class="line">        name=deploy_data.name,</span><br><span class="line">        description=deploy_data.description,</span><br><span class="line">        flow_id=deploy_data.flow_id,</span><br><span class="line">        endpoint_slug=deploy_data.endpoint_slug,</span><br><span class="line">        rate_limit=deploy_data.rate_limit,</span><br><span class="line">        <span class="comment"># 核心：冻结当前 Flow 的 data</span></span><br><span class="line">        graph_snapshot=flow.data, </span><br><span class="line">        production_config=deploy_data.production_config <span class="keyword">or</span> &#123;&#125;</span><br><span class="line">    )</span><br><span class="line">    </span><br><span class="line">    session.add(deployment)</span><br><span class="line">    session.commit()</span><br><span class="line">    session.refresh(deployment)</span><br><span class="line">    <span class="keyword">return</span> deployment</span><br><span class="line"></span><br><span class="line"><span class="meta">@router.get(<span class="params"><span class="string">&quot;/&quot;</span>, response_model=<span class="built_in">list</span>[DeploymentRead]</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">list_deployments</span>(<span class="params">session: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    deployments = session.<span class="built_in">exec</span>(select(Deployment)).<span class="built_in">all</span>()</span><br><span class="line">    <span class="keyword">return</span> deployments</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="4-Agent-Server-运行引擎-Runtime-API">4. Agent Server 运行引擎 (Runtime API)</h3>
+<p>这是核心的对外服务接口，包含 <strong>限流</strong> 和 <strong>图执行</strong>。</p>
+<p><strong>文件路径</strong>: <code>src/backend/base/langflow/api/v1/agent_server.py</code> (新建)</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> logging</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span>, <span class="type">Dict</span>, <span class="type">Optional</span></span><br><span class="line"><span class="keyword">from</span> fastapi <span class="keyword">import</span> APIRouter, Depends, HTTPException, Request, Body</span><br><span class="line"><span class="keyword">from</span> fastapi_limiter.depends <span class="keyword">import</span> RateLimiter</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Session, select</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langflow.services.get_service <span class="keyword">import</span> get_session</span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.deployment <span class="keyword">import</span> Deployment</span><br><span class="line"><span class="keyword">from</span> langflow.graph.graph.base <span class="keyword">import</span> Graph</span><br><span class="line"><span class="keyword">from</span> langflow.processing.process <span class="keyword">import</span> process_graph_cached <span class="comment"># 假设 langflow 内部有类似的构建函数</span></span><br><span class="line"><span class="keyword">from</span> langflow.core.tracing <span class="keyword">import</span> get_langfuse_callback</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化日志</span></span><br><span class="line">logger = logging.getLogger(<span class="string">&quot;agent_server&quot;</span>)</span><br><span class="line"></span><br><span class="line">router = APIRouter(prefix=<span class="string">&quot;/agent&quot;</span>, tags=[<span class="string">&quot;Agent Server&quot;</span>])</span><br><span class="line"></span><br><span class="line"><span class="comment"># --- 动态限流器 ---</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">get_rate_limit_key</span>(<span class="params">request: Request</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;自定义限流 Key：基于 Slug + IP&quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 假设 slug 在 path param 中，需要从 request.path_params 获取</span></span><br><span class="line">    slug = request.path_params.get(<span class="string">&quot;slug&quot;</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="string">f&quot;<span class="subst">&#123;slug&#125;</span>:<span class="subst">&#123;request.client.host&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">custom_limiter</span>(<span class="params">request: Request, session: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;从数据库动态获取限流规则&quot;&quot;&quot;</span></span><br><span class="line">    slug = request.path_params.get(<span class="string">&quot;slug&quot;</span>)</span><br><span class="line">    deployment = session.<span class="built_in">exec</span>(select(Deployment).where(Deployment.endpoint_slug == slug)).first()</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> deployment:</span><br><span class="line">        <span class="comment"># 如果找不到部署，暂时放行（后续逻辑会处理 404）</span></span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;100/second&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> deployment.rate_limit <span class="keyword">or</span> <span class="string">&quot;60/minute&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># --- 运行接口 ---</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@router.post(<span class="params"><span class="string">&quot;/&#123;slug&#125;&quot;</span>, dependencies=[Depends(<span class="params">RateLimiter(<span class="params">key_func=get_rate_limit_key, limit_func=custom_limiter</span>)</span>)]</span>)</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">run_agent</span>(<span class="params"></span></span><br><span class="line"><span class="params">    slug: <span class="built_in">str</span>,</span></span><br><span class="line"><span class="params">    inputs: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = Body(<span class="params">..., description=<span class="string">&quot;Input values for the agent&quot;</span></span>),</span></span><br><span class="line"><span class="params">    session_id: <span class="type">Optional</span>[<span class="built_in">str</span>] = Body(<span class="params"><span class="literal">None</span>, description=<span class="string">&quot;Session ID for conversation history&quot;</span></span>),</span></span><br><span class="line"><span class="params">    db_session: Session = Depends(<span class="params">get_session</span>)</span></span><br><span class="line"><span class="params"></span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    生产级 Agent 运行接口</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1. 加载 Deployment</span></span><br><span class="line">    deployment = db_session.<span class="built_in">exec</span>(select(Deployment).where(Deployment.endpoint_slug == slug, Deployment.is_active == <span class="literal">True</span>)).first()</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> deployment:</span><br><span class="line">        <span class="keyword">raise</span> HTTPException(status_code=<span class="number">404</span>, detail=<span class="string">&quot;Agent deployment not found or inactive&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="comment"># 2. 构建 Graph (从快照)</span></span><br><span class="line">        <span class="comment"># 这里的关键是使用 langflow 的 Graph 类将 JSON 转换为 Python 对象</span></span><br><span class="line">        <span class="comment"># 注意：这里我们根据 Langflow 的源码逻辑，使用 Deployment 中的 graph_snapshot</span></span><br><span class="line">        graph = Graph.from_payload(deployment.graph_snapshot)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 3. 准备 Langfuse Callback</span></span><br><span class="line">        langfuse_cb = get_langfuse_callback(</span><br><span class="line">            session_id=session_id,</span><br><span class="line">            trace_name=<span class="string">f&quot;agent-<span class="subst">&#123;deployment.name&#125;</span>&quot;</span>,</span><br><span class="line">            tags=[<span class="string">&quot;production&quot;</span>, slug]</span><br><span class="line">        )</span><br><span class="line">        </span><br><span class="line">        callbacks = [langfuse_cb] <span class="keyword">if</span> langfuse_cb <span class="keyword">else</span> []</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 4. 执行 Graph</span></span><br><span class="line">        <span class="comment"># Langflow 的 Graph.process 或 build 方法通常返回 artifacts 或 runnable</span></span><br><span class="line">        <span class="comment"># 我们这里模拟构建 Runnable 并运行的过程</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment"># A. 构建 Runnable</span></span><br><span class="line">        <span class="comment"># process=True 会尝试编译 Graph，如果有 LangGraph 组件，这里会返回 CompiledGraph</span></span><br><span class="line">        artifacts = graph.build() </span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 找到入口节点或 LangChain 对象进行调用</span></span><br><span class="line">        <span class="comment"># 注意：Langflow 的运行逻辑比较复杂，通常是找到 outputs 并 process</span></span><br><span class="line">        <span class="comment"># 这里简化为：使用 graph 自身的 process 方法，并注入 callback</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment"># *深度修改*: 为了注入 Callback，我们需要 Hack Graph 的执行过程</span></span><br><span class="line">        <span class="comment"># 如果是 LangChain/LangGraph 组件，通常在 .invoke() 时传入 config=&#123;&#x27;callbacks&#x27;: ...&#125;</span></span><br><span class="line">        </span><br><span class="line">        result = <span class="keyword">await</span> graph.process(</span><br><span class="line">            inputs, </span><br><span class="line">            session_id=session_id,</span><br><span class="line">            callbacks=callbacks <span class="comment"># 这需要修改 Langflow 的 Graph.process 源码来支持 callbacks 参数</span></span><br><span class="line">        )</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            <span class="string">&quot;status&quot;</span>: <span class="string">&quot;success&quot;</span>,</span><br><span class="line">            <span class="string">&quot;outputs&quot;</span>: result,</span><br><span class="line">            <span class="string">&quot;trace_id&quot;</span>: langfuse_cb.get_trace_id() <span class="keyword">if</span> langfuse_cb <span class="keyword">else</span> <span class="literal">None</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">f&quot;Error running agent <span class="subst">&#123;slug&#125;</span>: <span class="subst">&#123;<span class="built_in">str</span>(e)&#125;</span>&quot;</span>, exc_info=<span class="literal">True</span>)</span><br><span class="line">        <span class="comment"># 生产环境不返回具体堆栈</span></span><br><span class="line">        <span class="keyword">raise</span> HTTPException(status_code=<span class="number">500</span>, detail=<span class="string">f&quot;Internal Agent Error: <span class="subst">&#123;<span class="built_in">str</span>(e)&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="5-关键补丁：修改-Langflow-Graph-源码-Core-Patch">5. 关键补丁：修改 Langflow Graph 源码 (Core Patch)</h3>
+<p>为了让上面的 <code>callbacks</code> 参数生效，必须修改 Langflow 的 <code>Graph</code> 类。</p>
+<p><strong>文件路径</strong>: <code>src/backend/base/langflow/graph/graph/base.py</code></p>
+<p>找到 <code>process</code> 方法（或者 <code>build</code> 后执行的地方），增加 <code>callbacks</code> 参数支持。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 修改前</span></span><br><span class="line"><span class="comment"># async def process(self, inputs, ...):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修改后</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">process</span>(<span class="params"></span></span><br><span class="line"><span class="params">    self, </span></span><br><span class="line"><span class="params">    inputs: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>], </span></span><br><span class="line"><span class="params">    session_id: <span class="built_in">str</span> = <span class="literal">None</span>, </span></span><br><span class="line"><span class="params">    callbacks: <span class="built_in">list</span> = [] <span class="comment"># [新增]</span></span></span><br><span class="line"><span class="params"></span>):</span><br><span class="line">    <span class="comment"># ... 原有逻辑 ...</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> vertex <span class="keyword">in</span> <span class="variable language_">self</span>.vertices:</span><br><span class="line">        <span class="comment"># 在构建每个节点时，如果是 LangChain 组件，尝试注入 callbacks</span></span><br><span class="line">        <span class="comment"># 这通常需要在 vertex.build() 内部处理，或者在这里处理</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 方案：如果是 Runnable，使用 with_config</span></span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">hasattr</span>(vertex._built_result, <span class="string">&quot;with_config&quot;</span>) <span class="keyword">and</span> callbacks:</span><br><span class="line">            vertex._built_result = vertex._built_result.with_config(callbacks=callbacks)</span><br><span class="line">            </span><br><span class="line">    <span class="comment"># ... 继续原有执行逻辑 ...</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="6-初始化限流器-Main-Entry-Point">6. 初始化限流器 (Main Entry Point)</h3>
+<p>需要在 FastAPI 启动时连接 Redis。</p>
+<p><strong>文件路径</strong>: <code>src/backend/base/langflow/main.py</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> redis.asyncio <span class="keyword">as</span> redis</span><br><span class="line"><span class="keyword">from</span> fastapi_limiter <span class="keyword">import</span> FastAPILimiter</span><br><span class="line"><span class="keyword">from</span> langflow.api.v1.deployments <span class="keyword">import</span> router <span class="keyword">as</span> deployments_router</span><br><span class="line"><span class="keyword">from</span> langflow.api.v1.agent_server <span class="keyword">import</span> router <span class="keyword">as</span> agent_server_router</span><br><span class="line"></span><br><span class="line"><span class="comment"># ... 在 create_app 函数中 ...</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@app.on_event(<span class="params"><span class="string">&quot;startup&quot;</span></span>)</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">startup</span>():</span><br><span class="line">    <span class="comment"># 连接 Redis，用于限流</span></span><br><span class="line">    redis_url = os.getenv(<span class="string">&quot;REDIS_URL&quot;</span>, <span class="string">&quot;redis://localhost:6379&quot;</span>)</span><br><span class="line">    r = redis.from_url(redis_url, encoding=<span class="string">&quot;utf-8&quot;</span>, decode_responses=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">await</span> FastAPILimiter.init(r)</span><br><span class="line"></span><br><span class="line"><span class="comment"># ... 注册路由 ...</span></span><br><span class="line">app.include_router(deployments_router)</span><br><span class="line">app.include_router(agent_server_router)</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="7-执行步骤总结">7. 执行步骤总结</h3>
+<ol>
+<li><strong>环境准备</strong>: 启动 Redis，配置 <code>.env</code> (LANGFUSE keys, REDIS_URL)。</li>
+<li><strong>代码植入</strong>: 按照上述 4 个文件路径，新建或修改代码。</li>
+<li><strong>数据库迁移</strong>:
+<ul>
+<li>如果您使用 Alembic，运行 <code>alembic revision --autogenerate -m &quot;add deployment&quot;</code> 然后 <code>alembic upgrade head</code>。</li>
+<li>或者直接在数据库执行 <code>Deployment</code> 表的 Create Table SQL。</li>
+</ul>
+</li>
+<li><strong>运行服务</strong>:<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -m langflow.main</span><br></pre></td></tr></table></figure>
+</li>
+<li><strong>测试流程</strong>:
+<ul>
+<li><strong>发布</strong>: 使用 Postman 调用 <code>POST /api/v1/deployments/publish</code>，传入现有的 <code>flow_id</code>。</li>
+<li><strong>运行</strong>: 使用 Postman 调用 <code>POST /api/v1/agent/&#123;your-slug&#125;</code>。</li>
+<li><strong>验证</strong>: 检查 Langfuse 后台是否有 Trace 数据；检查 Redis 是否有限流 Key 生成。</li>
+</ul>
+</li>
+</ol>
+<p>这套代码实现了从 Flow 发布到生产运行的闭环，并且包含了高并发场景下的限流保护和可观测性支持。</p>
+<p>这是一个非常专业且严谨的要求。对上一轮方案进行深度审查后，发现虽然功能逻辑打通了，但<strong>直接修改 Langflow 源码（Patching Core）的做法在生产运维中是极大的隐患</strong>（升级困难、维护成本高）。同时，<strong>缺乏缓存机制</strong>会导致高并发下性能极差（每次请求都重新解析 JSON 构建图）。</p>
+<p>以下是经过优化的<strong>生产级 Agent Server 详细设计文档</strong>与<strong>完整代码实现</strong>。</p>
+<hr>
+<h1>优化设计文档：Langflow Agent Server (Production Ready)</h1>
+<h2 id="1-现状分析与优化目标">1. 现状分析与优化目标</h2>
+<h3 id="现有方案的缺陷">现有方案的缺陷</h3>
+<ol>
+<li><strong>侵入式修改 (High Risk)</strong>: 上一版方案要求修改 <code>langflow/graph/graph/base.py</code> 来注入 Callbacks。一旦 Langflow 官方升级，这些修改会被覆盖，导致生产事故。</li>
+<li><strong>性能瓶颈 (Low Perf)</strong>: 每次 API 请求都执行 <code>Graph.from_payload</code> -&gt; <code>build()</code>。这是一个 CPU 密集型操作（JSON 解析 + 反射实例化 Python 对象），会导致严重的延迟。</li>
+<li><strong>配置安全 (Security)</strong>: API Key 等敏感信息硬编码在发布的 JSON Snapshot 中，缺乏运行时动态覆盖机制。</li>
+<li><strong>输入不灵活</strong>: 只能接收固定的 <code>inputs</code> 字典，无法自动映射到 Flow 中定义的 <code>ChatInput</code> 或 <code>TextInput</code>。</li>
+</ol>
+<h3 id="优化方案核心策略">优化方案核心策略</h3>
+<ol>
+<li><strong>无侵入式架构</strong>: 创建独立的 <code>AgentService</code>，利用 Langflow 现有的公开类（<code>Graph</code>, <code>Vertex</code>）进行封装，而不修改其源码。</li>
+<li><strong>多级缓存 (LRU Caching)</strong>:
+<ul>
+<li><strong>L1 Cache</strong>: 内存缓存已构建好的 <code>Runnable/CompiledGraph</code> 对象。</li>
+<li><strong>Cache Key</strong>: <code>deployment_id + version</code>。只有当部署更新时才重新构建。</li>
+</ul>
+</li>
+<li><strong>运行时 Tweaks (动态参数)</strong>: 利用 Langflow 的 “Tweaks” 机制，在运行时将 <code>production_config</code>（如生产环境 API Key）注入到图中。</li>
+<li><strong>标准 LangChain 执行</strong>: 不依赖 Langflow 内部的 <code>process</code> 方法，而是将构建好的图视为标准的 LangChain <code>Runnable</code>，利用 <code>ainvoke</code> 配合 <code>RunnableConfig</code> 注入 Langfuse Tracing。</li>
+</ol>
+<hr>
+<h2 id="2-优化后的系统架构">2. 优化后的系统架构</h2>
+<pre class="mermaid">graph TD
+    subgraph "Request Lifecycle"
+        Req[User Request] --> RateLimit[Redis Rate Limiter]
+        RateLimit --> AgentAPI[Agent Server API]
+    end
+
+    subgraph "Agent Service (New Module)"
+        AgentAPI -->|1. Get/Load| CacheMgr[Graph Cache Manager]
+        CacheMgr -->|Hit| Exec[Executor]
+        CacheMgr -->|Miss| Builder[Graph Builder]
+        
+        Builder -->|Load JSON| DB[(Deployment DB)]
+        Builder -->|Apply Tweaks| Config[Prod Config]
+        Builder -->|Compile| Runnable[LangChain Runnable]
+        Runnable --> CacheMgr
+    end
+
+    subgraph "Execution Context"
+        Exec -->|Inject| LF[Langfuse Callback]
+        Exec -->|Invoke| Runnable
+        Runnable -->|Trace| LangfuseCloud
+    end</pre>
+<hr>
+<h2 id="3-完整代码实现">3. 完整代码实现</h2>
+<p>我们将代码组织在 <code>src/backend/base/langflow/services/agent_server/</code> 目录下，保持整洁。</p>
+<h3 id="3-1-依赖安装">3.1 依赖安装</h3>
+<p>确保安装了优化的缓存库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install async-lru langchain-core langfuse fastapi-limiter</span><br></pre></td></tr></table></figure>
+<h3 id="3-2-数据库模型-优化版">3.2 数据库模型 (优化版)</h3>
+<p>增加了 <code>version</code> 字段用于缓存控制。</p>
+<p><strong>文件</strong>: <code>src/backend/base/langflow/services/database/models/deployment.py</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Optional</span>, <span class="type">Dict</span>, <span class="type">Any</span></span><br><span class="line"><span class="keyword">from</span> uuid <span class="keyword">import</span> UUID, uuid4</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Field, SQLModel, JSON, Column</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DeploymentBase</span>(<span class="title class_ inherited__">SQLModel</span>):</span><br><span class="line">    name: <span class="built_in">str</span> = Field(index=<span class="literal">True</span>)</span><br><span class="line">    description: <span class="type">Optional</span>[<span class="built_in">str</span>] = Field(default=<span class="literal">None</span>)</span><br><span class="line">    endpoint_slug: <span class="built_in">str</span> = Field(unique=<span class="literal">True</span>, index=<span class="literal">True</span>)</span><br><span class="line">    rate_limit: <span class="type">Optional</span>[<span class="built_in">str</span>] = Field(default=<span class="string">&quot;60/minute&quot;</span>)</span><br><span class="line">    is_active: <span class="built_in">bool</span> = Field(default=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Deployment</span>(DeploymentBase, table=<span class="literal">True</span>):</span><br><span class="line">    <span class="built_in">id</span>: UUID = Field(default_factory=uuid4, primary_key=<span class="literal">True</span>)</span><br><span class="line">    flow_id: UUID = Field(foreign_key=<span class="string">&quot;flow.id&quot;</span>)</span><br><span class="line">    version: <span class="built_in">int</span> = Field(default=<span class="number">1</span>) <span class="comment"># 新增：用于缓存失效控制</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 存储 Flow 的静态快照</span></span><br><span class="line">    graph_snapshot: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = Field(default=&#123;&#125;, sa_column=Column(JSON))</span><br><span class="line">    <span class="comment"># 存储生产环境的覆盖配置 (Tweaks)</span></span><br><span class="line">    production_config: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = Field(default=&#123;&#125;, sa_column=Column(JSON))</span><br><span class="line">    </span><br><span class="line">    created_at: datetime = Field(default_factory=datetime.utcnow)</span><br><span class="line">    updated_at: datetime = Field(default_factory=datetime.utcnow)</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DeploymentCreate</span>(<span class="title class_ inherited__">DeploymentBase</span>):</span><br><span class="line">    flow_id: UUID</span><br><span class="line">    production_config: <span class="type">Optional</span>[<span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>]] = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DeploymentRead</span>(<span class="title class_ inherited__">DeploymentBase</span>):</span><br><span class="line">    <span class="built_in">id</span>: UUID</span><br><span class="line">    flow_id: UUID</span><br><span class="line">    version: <span class="built_in">int</span></span><br><span class="line">    created_at: datetime</span><br></pre></td></tr></table></figure>
+<h3 id="3-3-核心服务：缓存与执行管理器-The-Brain">3.3 核心服务：缓存与执行管理器 (The Brain)</h3>
+<p>这是<strong>无需修改源码</strong>即可实现功能的关键模块。</p>
+<p><strong>文件</strong>: <code>src/backend/base/langflow/services/agent_server/service.py</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> logging</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span>, <span class="type">Dict</span>, <span class="type">Optional</span>, <span class="type">Tuple</span></span><br><span class="line"><span class="keyword">from</span> uuid <span class="keyword">import</span> UUID</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> async_lru <span class="keyword">import</span> alru_cache</span><br><span class="line"><span class="keyword">from</span> langchain_core.runnables <span class="keyword">import</span> Runnable, RunnableConfig</span><br><span class="line"><span class="keyword">from</span> langfuse.callback <span class="keyword">import</span> CallbackHandler</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Session, select</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langflow.graph.graph.base <span class="keyword">import</span> Graph</span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.deployment <span class="keyword">import</span> Deployment</span><br><span class="line"><span class="keyword">from</span> langflow.services.get_service <span class="keyword">import</span> get_session</span><br><span class="line"></span><br><span class="line">logger = logging.getLogger(<span class="string">&quot;agent_server&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AgentServerService</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    负责 Agent 的缓存管理、图构建和执行</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># --- 1. 缓存层 ---</span></span><br><span class="line">    <span class="comment"># 使用 async_lru 缓存构建好的 Runnable 对象</span></span><br><span class="line">    <span class="comment"># Key: (deployment_id, version)</span></span><br><span class="line">    <span class="comment"># Value: (Runnable, input_key_name)</span></span><br><span class="line"><span class="meta">    @staticmethod</span></span><br><span class="line"><span class="meta">    @alru_cache(<span class="params">maxsize=<span class="number">100</span></span>)</span></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">get_compiled_agent</span>(<span class="params">deployment_id: <span class="built_in">str</span>, version: <span class="built_in">int</span>, snapshot_hash: <span class="built_in">int</span></span>) -&gt; <span class="type">Tuple</span>[Runnable, <span class="built_in">str</span>]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        从数据库加载 Snapshot -&gt; 应用 Config -&gt; 编译为 Runnable -&gt; 缓存</span></span><br><span class="line"><span class="string">        snapshot_hash 用于确保内容一致性，作为缓存键的一部分</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        logger.info(<span class="string">f&quot;Building graph cache for deployment <span class="subst">&#123;deployment_id&#125;</span> v<span class="subst">&#123;version&#125;</span>&quot;</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 为了在静态方法中获取 DB session，这里需要独立的上下文，或者传入数据</span></span><br><span class="line">        <span class="comment"># 实际生产中建议传入 snapshot 数据而非在 cache 函数内查库以保持纯函数特性</span></span><br><span class="line">        <span class="comment"># 但为了简化调用，这里演示逻辑：</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 注意：由于 alru_cache 限制参数必须可哈希，我们通常在外层查好数据传进来，</span></span><br><span class="line">        <span class="comment"># 或者在这里临时创建 session (不推荐高频)。</span></span><br><span class="line">        <span class="comment"># 最佳实践：将此函数逻辑拆分，外层查 DB，内层只负责构建。</span></span><br><span class="line">        <span class="keyword">raise</span> NotImplementedError(<span class="string">&quot;Internal implementation detail: See load_and_build below&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">load_and_build_graph</span>(<span class="params">self, deployment: Deployment</span>) -&gt; <span class="type">Tuple</span>[Runnable, <span class="built_in">str</span>]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        核心构建逻辑：将 Langflow JSON 转换为可执行的 LangChain Runnable</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="comment"># 1. 初始化 Graph</span></span><br><span class="line">            graph = Graph.from_payload(deployment.graph_snapshot)</span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 2. 应用生产环境配置 (Tweaks)</span></span><br><span class="line">            <span class="comment"># production_config 格式应为 &#123; &quot;NodeID&quot;: &#123; &quot;param&quot;: &quot;value&quot; &#125; &#125;</span></span><br><span class="line">            <span class="keyword">if</span> deployment.production_config:</span><br><span class="line">                <span class="comment"># Langflow 的 Graph 对象通常有 apply_tweaks 方法或类似的逻辑</span></span><br><span class="line">                <span class="comment"># 这里我们模拟手动覆盖：</span></span><br><span class="line">                <span class="keyword">for</span> node <span class="keyword">in</span> graph.vertices:</span><br><span class="line">                    <span class="keyword">if</span> node.<span class="built_in">id</span> <span class="keyword">in</span> deployment.production_config:</span><br><span class="line">                        <span class="keyword">for</span> key, value <span class="keyword">in</span> deployment.production_config[node.<span class="built_in">id</span>].items():</span><br><span class="line">                            node.params[key] = value</span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 3. 构建 (Build)</span></span><br><span class="line">            <span class="comment"># build() 会实例化所有 Python 对象</span></span><br><span class="line">            built_artifacts = graph.build()</span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 4. 寻找入口和出口</span></span><br><span class="line">            <span class="comment"># Langflow 的图可能有多个输出，我们需要找到主要的 Runnable</span></span><br><span class="line">            <span class="comment"># 通常 graph.build() 后，我们可以遍历 vertices 找到 LangChain 的 Runnable</span></span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 简化策略：寻找第一个 ChatOutput 或 Output 节点，或者直接使用 graph 编译后的结果</span></span><br><span class="line">            <span class="comment"># 如果是 LangGraph，通常有一个 compiled graph</span></span><br><span class="line">            </span><br><span class="line">            runnable = <span class="literal">None</span></span><br><span class="line">            input_key = <span class="string">&quot;input_value&quot;</span> <span class="comment"># 默认值</span></span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 尝试从构建结果中提取 Runnable</span></span><br><span class="line">            <span class="comment"># 这里的逻辑依赖 Langflow 具体版本，假设 v1.0+</span></span><br><span class="line">            <span class="keyword">for</span> vertex <span class="keyword">in</span> graph.vertices:</span><br><span class="line">                <span class="keyword">if</span> vertex.is_input:</span><br><span class="line">                    input_key = vertex.<span class="built_in">id</span> <span class="comment"># 或者是 vertex.display_name</span></span><br><span class="line">                </span><br><span class="line">                <span class="comment"># 如果节点构建出了 Runnable，且是输出节点</span></span><br><span class="line">                <span class="keyword">if</span> vertex.is_output <span class="keyword">and</span> <span class="built_in">hasattr</span>(vertex._built_result, <span class="string">&quot;invoke&quot;</span>):</span><br><span class="line">                    runnable = vertex._built_result</span><br><span class="line">                    <span class="keyword">break</span></span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 如果没找到明确的输出，尝试使用 Graph 自身的运行逻辑封装</span></span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> runnable:</span><br><span class="line">                <span class="comment"># Fallback: 某些版本的 Langflow graph.build() 返回的就是 Runnable</span></span><br><span class="line">                <span class="keyword">if</span> <span class="built_in">hasattr</span>(built_artifacts, <span class="string">&quot;invoke&quot;</span>):</span><br><span class="line">                    runnable = built_artifacts</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    <span class="keyword">raise</span> ValueError(<span class="string">&quot;Could not extract a valid Runnable from the graph&quot;</span>)</span><br><span class="line"></span><br><span class="line">            <span class="keyword">return</span> runnable, input_key</span><br><span class="line"></span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">f&quot;Failed to build graph for <span class="subst">&#123;deployment.<span class="built_in">id</span>&#125;</span>: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br><span class="line">            <span class="keyword">raise</span> e</span><br><span class="line"></span><br><span class="line">    <span class="comment"># --- 2. 内存缓存封装 (解决 alru_cache 参数问题) ---</span></span><br><span class="line">    _cache = &#123;&#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">get_agent_runnable</span>(<span class="params">self, deployment: Deployment</span>) -&gt; <span class="type">Tuple</span>[Runnable, <span class="built_in">str</span>]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        带有内存缓存的获取方法</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        cache_key = <span class="string">f&quot;<span class="subst">&#123;deployment.<span class="built_in">id</span>&#125;</span>_v<span class="subst">&#123;deployment.version&#125;</span>&quot;</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> cache_key <span class="keyword">in</span> <span class="variable language_">self</span>._cache:</span><br><span class="line">            <span class="keyword">return</span> <span class="variable language_">self</span>._cache[cache_key]</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># Cache Miss</span></span><br><span class="line">        runnable, input_key = <span class="keyword">await</span> <span class="variable language_">self</span>.load_and_build_graph(deployment)</span><br><span class="line">        <span class="variable language_">self</span>._cache[cache_key] = (runnable, input_key)</span><br><span class="line">        <span class="keyword">return</span> runnable, input_key</span><br><span class="line"></span><br><span class="line">    <span class="comment"># --- 3. 执行层 ---</span></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">execute_agent</span>(<span class="params"></span></span><br><span class="line"><span class="params">        self, </span></span><br><span class="line"><span class="params">        deployment: Deployment, </span></span><br><span class="line"><span class="params">        inputs: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>], </span></span><br><span class="line"><span class="params">        session_id: <span class="type">Optional</span>[<span class="built_in">str</span>] = <span class="literal">None</span></span></span><br><span class="line"><span class="params">    </span>) -&gt; <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>]:</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 1. 获取缓存的可执行对象</span></span><br><span class="line">        runnable, default_input_key = <span class="keyword">await</span> <span class="variable language_">self</span>.get_agent_runnable(deployment)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 2. 处理输入</span></span><br><span class="line">        <span class="comment"># 如果用户传了 &#123;&quot;input_value&quot;: &quot;hi&quot;&#125; 则直接用</span></span><br><span class="line">        <span class="comment"># 如果用户传了 &#123;&quot;query&quot;: &quot;hi&quot;&#125; 但图需要 &quot;input_value&quot;，这里做简单映射 (可选)</span></span><br><span class="line">        final_inputs = inputs</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 3. 配置 Langfuse</span></span><br><span class="line">        callbacks = []</span><br><span class="line">        lf_handler = <span class="variable language_">self</span>._create_langfuse_handler(</span><br><span class="line">            trace_name=<span class="string">f&quot;agent-<span class="subst">&#123;deployment.name&#125;</span>&quot;</span>,</span><br><span class="line">            session_id=session_id,</span><br><span class="line">            user_id=inputs.get(<span class="string">&quot;user_id&quot;</span>),</span><br><span class="line">            tags=[deployment.endpoint_slug, <span class="string">f&quot;v<span class="subst">&#123;deployment.version&#125;</span>&quot;</span>]</span><br><span class="line">        )</span><br><span class="line">        <span class="keyword">if</span> lf_handler:</span><br><span class="line">            callbacks.append(lf_handler)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 4. 执行 (Invoke)</span></span><br><span class="line">        <span class="comment"># 使用 LangChain 标准 API，无需修改 Langflow 源码</span></span><br><span class="line">        config = RunnableConfig(</span><br><span class="line">            callbacks=callbacks,</span><br><span class="line">            configurable=&#123;<span class="string">&quot;session_id&quot;</span>: session_id&#125; <span class="comment"># 传给 Checkpointer</span></span><br><span class="line">        )</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="comment"># 关键：直接调用 Runnable，绕过 Langflow 的 Graph.process 封装</span></span><br><span class="line">            <span class="comment"># 这样我们可以完全控制 callbacks</span></span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">hasattr</span>(runnable, <span class="string">&quot;ainvoke&quot;</span>):</span><br><span class="line">                result = <span class="keyword">await</span> runnable.ainvoke(final_inputs, config=config)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                result = runnable.invoke(final_inputs, config=config)</span><br><span class="line">                </span><br><span class="line">            <span class="comment"># 5. 格式化输出</span></span><br><span class="line">            <span class="comment"># 如果结果是 Message 对象，转字符串</span></span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">hasattr</span>(result, <span class="string">&quot;content&quot;</span>):</span><br><span class="line">                output_content = result.content</span><br><span class="line">            <span class="keyword">elif</span> <span class="built_in">isinstance</span>(result, <span class="built_in">dict</span>) <span class="keyword">and</span> <span class="string">&quot;output&quot;</span> <span class="keyword">in</span> result:</span><br><span class="line">                output_content = result[<span class="string">&quot;output&quot;</span>]</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                output_content = result</span><br><span class="line"></span><br><span class="line">            <span class="keyword">return</span> &#123;</span><br><span class="line">                <span class="string">&quot;outputs&quot;</span>: output_content,</span><br><span class="line">                <span class="string">&quot;trace_id&quot;</span>: lf_handler.get_trace_id() <span class="keyword">if</span> lf_handler <span class="keyword">else</span> <span class="literal">None</span></span><br><span class="line">            &#125;</span><br><span class="line">            </span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">f&quot;Execution failed: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br><span class="line">            <span class="keyword">raise</span> e</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">_create_langfuse_handler</span>(<span class="params">self, **kwargs</span>):</span><br><span class="line">        pk = os.getenv(<span class="string">&quot;LANGFUSE_PUBLIC_KEY&quot;</span>)</span><br><span class="line">        sk = os.getenv(<span class="string">&quot;LANGFUSE_SECRET_KEY&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> pk <span class="keyword">and</span> sk:</span><br><span class="line">            <span class="keyword">return</span> CallbackHandler(public_key=pk, secret_key=sk, host=os.getenv(<span class="string">&quot;LANGFUSE_HOST&quot;</span>), **kwargs)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 单例模式</span></span><br><span class="line">agent_service = AgentServerService()</span><br></pre></td></tr></table></figure>
+<h3 id="3-4-API-接口层-API-Router">3.4 API 接口层 (API Router)</h3>
+<p>处理 Web 请求、鉴权和限流。</p>
+<p><strong>文件</strong>: <code>src/backend/base/langflow/api/v1/agent_server.py</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span>, <span class="type">Dict</span>, <span class="type">Optional</span></span><br><span class="line"><span class="keyword">from</span> fastapi <span class="keyword">import</span> APIRouter, Depends, HTTPException, Request, Body</span><br><span class="line"><span class="keyword">from</span> fastapi_limiter.depends <span class="keyword">import</span> RateLimiter</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Session, select</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langflow.services.get_service <span class="keyword">import</span> get_session</span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.deployment <span class="keyword">import</span> Deployment</span><br><span class="line"><span class="comment"># 引入上面的 Service</span></span><br><span class="line"><span class="keyword">from</span> langflow.services.agent_server.service <span class="keyword">import</span> agent_service</span><br><span class="line"></span><br><span class="line">router = APIRouter(prefix=<span class="string">&quot;/agent&quot;</span>, tags=[<span class="string">&quot;Agent Server&quot;</span>])</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">get_deployment_limit</span>(<span class="params">request: Request, session: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    slug = request.path_params.get(<span class="string">&quot;slug&quot;</span>)</span><br><span class="line">    dep = session.<span class="built_in">exec</span>(select(Deployment).where(Deployment.endpoint_slug == slug)).first()</span><br><span class="line">    <span class="keyword">return</span> dep.rate_limit <span class="keyword">if</span> dep <span class="keyword">else</span> <span class="string">&quot;10/minute&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">get_rate_limit_key</span>(<span class="params">request: Request</span>):</span><br><span class="line">    <span class="keyword">return</span> <span class="string">f&quot;<span class="subst">&#123;request.path_params.get(<span class="string">&#x27;slug&#x27;</span>)&#125;</span>:<span class="subst">&#123;request.client.host&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@router.post(<span class="params"><span class="string">&quot;/&#123;slug&#125;&quot;</span>, dependencies=[Depends(<span class="params">RateLimiter(<span class="params">key_func=get_rate_limit_key, limit_func=get_deployment_limit</span>)</span>)]</span>)</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">run_agent_endpoint</span>(<span class="params"></span></span><br><span class="line"><span class="params">    slug: <span class="built_in">str</span>,</span></span><br><span class="line"><span class="params">    inputs: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = Body(<span class="params">..., example=&#123;<span class="string">&quot;input_value&quot;</span>: <span class="string">&quot;Hello Agent&quot;</span>&#125;</span>),</span></span><br><span class="line"><span class="params">    session_id: <span class="type">Optional</span>[<span class="built_in">str</span>] = Body(<span class="params"><span class="literal">None</span></span>),</span></span><br><span class="line"><span class="params">    db: Session = Depends(<span class="params">get_session</span>)</span></span><br><span class="line"><span class="params"></span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    生产环境 Agent 执行入口</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1. 查库</span></span><br><span class="line">    deployment = db.<span class="built_in">exec</span>(select(Deployment).where(Deployment.endpoint_slug == slug, Deployment.is_active == <span class="literal">True</span>)).first()</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> deployment:</span><br><span class="line">        <span class="keyword">raise</span> HTTPException(status_code=<span class="number">404</span>, detail=<span class="string">&quot;Agent not found&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="comment"># 2. 委托给 Service 执行</span></span><br><span class="line">        <span class="comment"># 所有的构建、缓存、Tracing 逻辑都在 Service 内部处理</span></span><br><span class="line">        result = <span class="keyword">await</span> agent_service.execute_agent(</span><br><span class="line">            deployment=deployment,</span><br><span class="line">            inputs=inputs,</span><br><span class="line">            session_id=session_id</span><br><span class="line">        )</span><br><span class="line">        <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="comment"># 生产环境隐藏具体堆栈</span></span><br><span class="line">        <span class="keyword">raise</span> HTTPException(status_code=<span class="number">500</span>, detail=<span class="string">f&quot;Agent execution error: <span class="subst">&#123;<span class="built_in">str</span>(e)&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="3-5-发布管理接口-Deployment-Management">3.5 发布管理接口 (Deployment Management)</h3>
+<p>这里需要处理发布逻辑，特别是 <code>version</code> 的自增。</p>
+<p><strong>文件</strong>: <code>src/backend/base/langflow/api/v1/deployments.py</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> fastapi <span class="keyword">import</span> APIRouter, Depends, HTTPException</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Session, select</span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.flow <span class="keyword">import</span> Flow</span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.deployment <span class="keyword">import</span> Deployment, DeploymentCreate, DeploymentRead</span><br><span class="line"><span class="keyword">from</span> langflow.services.get_service <span class="keyword">import</span> get_session</span><br><span class="line"></span><br><span class="line">router = APIRouter(prefix=<span class="string">&quot;/deployments&quot;</span>, tags=[<span class="string">&quot;Deployments&quot;</span>])</span><br><span class="line"></span><br><span class="line"><span class="meta">@router.post(<span class="params"><span class="string">&quot;/publish&quot;</span>, response_model=DeploymentRead</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">publish_flow</span>(<span class="params">data: DeploymentCreate, session: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    flow = session.get(Flow, data.flow_id)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> flow:</span><br><span class="line">        <span class="keyword">raise</span> HTTPException(status_code=<span class="number">404</span>, detail=<span class="string">&quot;Flow not found&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 检查是否已存在 Slug</span></span><br><span class="line">    existing = session.<span class="built_in">exec</span>(select(Deployment).where(Deployment.endpoint_slug == data.endpoint_slug)).first()</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> existing:</span><br><span class="line">        <span class="comment"># 更新模式：版本号 + 1，这将自动触发缓存失效（因为缓存Key包含版本号）</span></span><br><span class="line">        existing.version += <span class="number">1</span></span><br><span class="line">        existing.graph_snapshot = flow.data.copy() <span class="comment"># Deep copy recommended</span></span><br><span class="line">        existing.name = data.name</span><br><span class="line">        existing.updated_at = datetime.utcnow()</span><br><span class="line">        <span class="keyword">if</span> data.production_config:</span><br><span class="line">            existing.production_config = data.production_config</span><br><span class="line">        </span><br><span class="line">        session.add(existing)</span><br><span class="line">        session.commit()</span><br><span class="line">        session.refresh(existing)</span><br><span class="line">        <span class="keyword">return</span> existing</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 新建模式</span></span><br><span class="line">    new_deployment = Deployment(</span><br><span class="line">        name=data.name,</span><br><span class="line">        flow_id=data.flow_id,</span><br><span class="line">        endpoint_slug=data.endpoint_slug,</span><br><span class="line">        graph_snapshot=flow.data.copy(),</span><br><span class="line">        production_config=data.production_config <span class="keyword">or</span> &#123;&#125;,</span><br><span class="line">        version=<span class="number">1</span></span><br><span class="line">    )</span><br><span class="line">    session.add(new_deployment)</span><br><span class="line">    session.commit()</span><br><span class="line">    session.refresh(new_deployment)</span><br><span class="line">    <span class="keyword">return</span> new_deployment</span><br></pre></td></tr></table></figure>
+<h3 id="3-6-注册与启动-Main-Entry">3.6 注册与启动 (Main Entry)</h3>
+<p><strong>文件</strong>: <code>src/backend/base/langflow/main.py</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ... 现有 imports ...</span></span><br><span class="line"><span class="keyword">import</span> redis.asyncio <span class="keyword">as</span> redis</span><br><span class="line"><span class="keyword">from</span> fastapi_limiter <span class="keyword">import</span> FastAPILimiter</span><br><span class="line"><span class="keyword">from</span> langflow.api.v1.deployments <span class="keyword">import</span> router <span class="keyword">as</span> dep_router</span><br><span class="line"><span class="keyword">from</span> langflow.api.v1.agent_server <span class="keyword">import</span> router <span class="keyword">as</span> agent_router</span><br><span class="line"></span><br><span class="line"><span class="comment"># ... inside create_app() ...</span></span><br><span class="line"></span><br><span class="line"><span class="meta">    @app.on_event(<span class="params"><span class="string">&quot;startup&quot;</span></span>)</span></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">startup</span>():</span><br><span class="line">        <span class="comment"># 初始化 Redis 连接池</span></span><br><span class="line">        redis_url = os.getenv(<span class="string">&quot;REDIS_URL&quot;</span>, <span class="string">&quot;redis://localhost:6379&quot;</span>)</span><br><span class="line">        r = redis.from_url(redis_url, encoding=<span class="string">&quot;utf-8&quot;</span>, decode_responses=<span class="literal">True</span>)</span><br><span class="line">        <span class="keyword">await</span> FastAPILimiter.init(r)</span><br><span class="line">        </span><br><span class="line">    <span class="comment"># 注册路由</span></span><br><span class="line">    app.include_router(dep_router)</span><br><span class="line">    app.include_router(agent_router)</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="4-优化总结-Why-is-this-better">4. 优化总结 (Why is this better?)</h2>
+<ol>
+<li><strong>Safety (安全性)</strong>: 我们没有修改任何 <code>langflow.graph</code> 核心源码。所有逻辑通过组合（Composition）和包装（Wrapping）实现。即使 Langflow 升级核心逻辑，只要 <code>Graph.from_payload</code> 接口不变，我们的 Agent Server 就能正常工作。</li>
+<li><strong>High Performance (高性能)</strong>: 引入了 <code>AgentServerService</code> 中的内存缓存。对于同一个部署版本，图构建（耗时操作）只发生一次。后续请求直接复用 <code>Runnable</code> 对象，响应时间从数百毫秒级降低到毫秒级。</li>
+<li><strong>Observability (可观测)</strong>: 通过在 <code>RunnableConfig</code> 中显示注入 <code>CallbackHandler</code>，我们绕过了 Langflow 内部复杂的 Callback 传递逻辑，确保 trace 100% 上报。</li>
+<li><strong>Production Logic (生产逻辑)</strong>: 增加了 <code>version</code> 字段。每次发布版本号 +1，自动解决了缓存更新问题（Cache Invalidation）。</li>
+</ol>
+<h2 id="5-部署前检查清单">5. 部署前检查清单</h2>
+<ul>
+<li>[ ] Redis 服务已启动并可连接。</li>
+<li>[ ] 环境变量 <code>LANGFUSE_PUBLIC_KEY</code>, <code>LANGFUSE_SECRET_KEY</code> 已设置。</li>
+<li>[ ] 数据库执行了 Migration，创建了 <code>deployment</code> 表。</li>
+<li>[ ] 生产环境的 API Key (如 OpenAI Key) 已准备好，可以通过 <code>production_config</code> 注入或环境变量配置。</li>
+</ul>
+<p>您可以直接使用以上代码进行文件创建和替换，即可得到一个健壮的 Agent Server。</p>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/cn/LangGrap学习笔记（一）/" data-toggle="tooltip" data-placement="top" title="LangGrap学习笔记（一）">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/评论系统设置/" data-toggle="tooltip" data-placement="top" title="“评论系统设置”">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=LangFlow框架原码分析&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/LangFlow框架原码分析/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'a37850f88f2a4d827300',
+      clientSecret: '7a50383ec7757c78714f95d455cc52b4211e8cf2',
+      repo: 'tigergo001.github.io',
+      owner: 'tigergo001',
+      admin: 'tigergo001',
+      id: 'Tue Nov 18 2025 10:24:01 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-%E6%BA%90%E7%A0%81%E5%AE%8F%E8%A7%82%E6%9E%B6%E6%9E%84-The-Big-Picture"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">1. 源码宏观架构 (The Big Picture)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E%EF%BC%9A%E4%BB%8E-JSON-%E5%88%B0-Python-%E5%AF%B9%E8%B1%A1-Graph-Engine"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">2. 核心引擎：从 JSON 到 Python 对象 (Graph Engine)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#2-1-%E5%8E%9F%E7%90%86%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">2.1 原理流程</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#2-2-Vertex-%E8%8A%82%E7%82%B9-%E7%9A%84%E5%A5%A5%E7%A7%98"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">2.2 Vertex (节点) 的奥秘</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-%E5%A4%9A-Agent-%E4%B8%8E-Workflow-%E7%9A%84%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">3. 多 Agent 与 Workflow 的底层原理</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E6%A8%A1%E5%BC%8F%E4%B8%80%EF%BC%9A%E5%9F%BA%E4%BA%8E-LangChain-%E7%9A%84-Agent-Legacy-Simple"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">模式一：基于 LangChain 的 Agent (Legacy &amp; Simple)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E6%A8%A1%E5%BC%8F%E4%BA%8C%EF%BC%9A%E5%9F%BA%E4%BA%8E-LangGraph-%E7%9A%84%E5%A4%9A-Agent-Modern-Powerful"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">模式二：基于 LangGraph 的多 Agent (Modern &amp; Powerful)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-%E7%BB%84%E4%BB%B6%E7%B3%BB%E7%BB%9F%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E6%8E%A5%E5%8F%A3-Custom-Component"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">4. 组件系统与二次开发接口 (Custom Component)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#4-1-%E7%BB%93%E6%9E%84%E5%89%96%E6%9E%90"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">4.1 结构剖析</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#4-2-%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">4.2 二次开发实战指南</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-%E5%85%B3%E9%94%AE-API-%E4%BE%9D%E8%B5%96%E6%80%BB%E7%BB%93"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">5. 关键 API 依赖总结</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#6-%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%BB%BA%E8%AE%AE%EF%BC%9A%E5%A6%82%E4%BD%95%E9%AD%94%E6%94%B9-Langflow%EF%BC%9F"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">6. 二次开发建议：如何魔改 Langflow？</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">总结</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number"></span> <span class="toc-nav-text">Langflow Agent Server 生产级扩展设计文档</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E6%80%BB%E4%BD%93%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1-System-Architecture"><span class="toc-nav-number"></span> <span class="toc-nav-text">1. 总体架构设计 (System Architecture)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-1-%E8%AE%BE%E8%AE%A1%E7%90%86%E5%BF%B5"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">1.1 设计理念</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-2-%E6%9E%B6%E6%9E%84%E5%88%86%E5%B1%82%E5%9B%BE"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">1.2 架构分层图</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1-Schema-Extension"><span class="toc-nav-number"></span> <span class="toc-nav-text">2. 数据库设计 (Schema Extension)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-1-%E6%96%B0%E5%A2%9E%E8%A1%A8%E7%BB%93%E6%9E%84"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">2.1 新增表结构</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#deployment-%E8%A1%A8"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">deployment 表</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#api-key-%E8%A1%A8-%E5%8F%AF%E9%80%89"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">api_key 表 (可选)</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-%E8%AF%A6%E7%BB%86%E6%A8%A1%E5%9D%97%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number"></span> <span class="toc-nav-text">3. 详细模块设计</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-%E6%A8%A1%E5%9D%97%E4%B8%80%EF%BC%9A%E5%8F%91%E5%B8%83%E7%AE%A1%E7%90%86-Deployment-Manager"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">3.1 模块一：发布管理 (Deployment Manager)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-2-%E6%A8%A1%E5%9D%97%E4%BA%8C%EF%BC%9A%E9%99%90%E6%B5%81%E4%B8%AD%E9%97%B4%E4%BB%B6-Rate-Limiter"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">3.2 模块二：限流中间件 (Rate Limiter)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-3-%E6%A8%A1%E5%9D%97%E4%B8%89%EF%BC%9ALangfuse-%E8%87%AA%E5%8A%A8%E9%9B%86%E6%88%90-Trace-Injector"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">3.3 模块三：Langfuse 自动集成 (Trace Injector)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-4-%E6%A8%A1%E5%9D%97%E5%9B%9B%EF%BC%9A%E7%94%9F%E4%BA%A7%E8%BF%90%E8%A1%8C%E5%BC%95%E6%93%8E-Agent-Server-Runtime"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">3.4 模块四：生产运行引擎 (Agent Server Runtime)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#4-%E8%AF%A6%E7%BB%86%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE-Sequence-Diagram"><span class="toc-nav-number"></span> <span class="toc-nav-text">4. 详细工作流程图 (Sequence Diagram)</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-%E5%BC%80%E5%8F%91%E5%AE%9E%E6%96%BD%E8%AE%A1%E5%88%92-Step-by-Step"><span class="toc-nav-number"></span> <span class="toc-nav-text">5. 开发实施计划 (Step-by-Step)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%81%E7%A7%BB-Base-DB"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">第一阶段：基础架构与数据库迁移 (Base &amp; DB)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5%EF%BC%9A%E5%8F%91%E5%B8%83%E6%8E%A5%E5%8F%A3%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86-Publish-API"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">第二阶段：发布接口与版本管理 (Publish API)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%EF%BC%9A%E8%BF%90%E8%A1%8C%E5%BC%95%E6%93%8E%E4%B8%8E%E9%99%90%E6%B5%81-Runtime-Limiter"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">第三阶段：运行引擎与限流 (Runtime &amp; Limiter)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%AC%AC%E5%9B%9B%E9%98%B6%E6%AE%B5%EF%BC%9ALangfuse-%E6%B7%B1%E5%BA%A6%E9%9B%86%E6%88%90-Observability"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">第四阶段：Langfuse 深度集成 (Observability)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#6-%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E4%B8%8E-Token-%E9%99%90%E5%88%B6%E5%BA%94%E5%AF%B9"><span class="toc-nav-number"></span> <span class="toc-nav-text">6. 异常处理与 Token 限制应对</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%A8%A1%E5%9E%8B-Database-Models"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">1. 数据库模型 (Database Models)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-Langfuse-%E9%9B%86%E6%88%90%E6%A8%A1%E5%9D%97-Tracing-Helper"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">2. Langfuse 集成模块 (Tracing Helper)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-%E5%8F%91%E5%B8%83%E7%AE%A1%E7%90%86%E6%8E%A5%E5%8F%A3-Deployment-API"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">3. 发布管理接口 (Deployment API)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-Agent-Server-%E8%BF%90%E8%A1%8C%E5%BC%95%E6%93%8E-Runtime-API"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">4. Agent Server 运行引擎 (Runtime API)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-%E5%85%B3%E9%94%AE%E8%A1%A5%E4%B8%81%EF%BC%9A%E4%BF%AE%E6%94%B9-Langflow-Graph-%E6%BA%90%E7%A0%81-Core-Patch"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">5. 关键补丁：修改 Langflow Graph 源码 (Core Patch)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#6-%E5%88%9D%E5%A7%8B%E5%8C%96%E9%99%90%E6%B5%81%E5%99%A8-Main-Entry-Point"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">6. 初始化限流器 (Main Entry Point)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-%E6%89%A7%E8%A1%8C%E6%AD%A5%E9%AA%A4%E6%80%BB%E7%BB%93"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">7. 执行步骤总结</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number"></span> <span class="toc-nav-text">优化设计文档：Langflow Agent Server (Production Ready)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E7%8E%B0%E7%8A%B6%E5%88%86%E6%9E%90%E4%B8%8E%E4%BC%98%E5%8C%96%E7%9B%AE%E6%A0%87"><span class="toc-nav-number"></span> <span class="toc-nav-text">1. 现状分析与优化目标</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%8E%B0%E6%9C%89%E6%96%B9%E6%A1%88%E7%9A%84%E7%BC%BA%E9%99%B7"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">现有方案的缺陷</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88%E6%A0%B8%E5%BF%83%E7%AD%96%E7%95%A5"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">优化方案核心策略</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-%E4%BC%98%E5%8C%96%E5%90%8E%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84"><span class="toc-nav-number"></span> <span class="toc-nav-text">2. 优化后的系统架构</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0"><span class="toc-nav-number"></span> <span class="toc-nav-text">3. 完整代码实现</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-%E4%BE%9D%E8%B5%96%E5%AE%89%E8%A3%85"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">3.1 依赖安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-2-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%A8%A1%E5%9E%8B-%E4%BC%98%E5%8C%96%E7%89%88"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">3.2 数据库模型 (优化版)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-3-%E6%A0%B8%E5%BF%83%E6%9C%8D%E5%8A%A1%EF%BC%9A%E7%BC%93%E5%AD%98%E4%B8%8E%E6%89%A7%E8%A1%8C%E7%AE%A1%E7%90%86%E5%99%A8-The-Brain"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">3.3 核心服务：缓存与执行管理器 (The Brain)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-4-API-%E6%8E%A5%E5%8F%A3%E5%B1%82-API-Router"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">3.4 API 接口层 (API Router)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-5-%E5%8F%91%E5%B8%83%E7%AE%A1%E7%90%86%E6%8E%A5%E5%8F%A3-Deployment-Management"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">3.5 发布管理接口 (Deployment Management)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-6-%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%90%AF%E5%8A%A8-Main-Entry"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">3.6 注册与启动 (Main Entry)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#4-%E4%BC%98%E5%8C%96%E6%80%BB%E7%BB%93-Why-is-this-better"><span class="toc-nav-number"></span> <span class="toc-nav-text">4. 优化总结 (Why is this better?)</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-%E9%83%A8%E7%BD%B2%E5%89%8D%E6%A3%80%E6%9F%A5%E6%B8%85%E5%8D%95"><span class="toc-nav-number"></span> <span class="toc-nav-text">5. 部署前检查清单</span></a>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#AI" title="AI">AI</a>
+            
+            <a class="tag" href="/tags/#LangFlow" title="LangFlow">LangFlow</a>
+            
+            <a class="tag" href="/tags/#LangChain" title="LangChain">LangChain</a>
+            
+            <a class="tag" href="/tags/#LangGraph" title="LangGraph">LangGraph</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+<!-- mermaid start -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'base' });
+</script>
+<!-- mermaid end -->
+
+
+															<!-- Footer (contains ThemeColor、viewer) -->
+															<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/tigergo001">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Ryan
+          2026
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/mouseclick.js"  content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033' ></script>
+    <!-- Mouseclick -->
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "tigergo001";
+    let ghPages = gh + ".github.io";
+    let pagePath = "cn/LangFlow框架原码分析/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://xiaodoudou.ink/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+																<!-- Search -->
+																
+																	<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+																		
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>

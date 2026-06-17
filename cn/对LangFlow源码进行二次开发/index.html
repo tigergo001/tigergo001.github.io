@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="v-ryan,v-blog,IT  blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/avatar.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/对LangFlow源码进行二次开发/">
+  <title>
+    
+      对LangFlow源码进行二次开发 - 男人至死是少年  | yong man
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+	<!-- hack iOS CSS :active style -->
+	
+
+		<body ontouchstart="" class="body--light body--light">
+			
+
+						<!-- ThemeColor -->
+						
+							<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'light';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+								
+
+									<!-- Gitter -->
+									
+										<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+											
+
+												<!-- Navigation (contains search)-->
+												<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">男人至死是少年</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+													<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+													<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+    }
+
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png');
+    }
+
+    header.intro-header {
+      
+        /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/article_bg.png'); */
+        
+    }
+
+    #signature {
+        /*signature*/
+        background-image: url('/img/signature/ryan-sign.png');
+      }
+
+      
+  </style>
+  <!-- CDN: jsdelivr end -->
+  
+
+
+
+      
+        <header class="intro-header">
+          <!-- Signature -->
+          <div id="signature">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+                    <div class="post-heading">
+                      <div class="tags">
+                        
+                          <a class="tag" href="/tags/#AI" title="AI">
+                            AI
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangFlow" title="LangFlow">
+                            LangFlow
+                          </a>
+                          
+                      </div>
+                      <h1>
+                        对LangFlow源码进行二次开发
+                      </h1>
+                      <h2 class="subheading">
+                        对LangFlow源码进行二次开发AgentServer
+                      </h2>
+                      <span class="meta">
+                        Posted by Ryan on
+                          2025-12-08
+                      </span>
+
+
+                      
+                        <!-- WordCount start -->
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Estimated Reading Time <span class="post-count">
+                            36
+                          </span> Minutes
+                        </span>
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Words <span class="post-count">
+                            7.4k
+                          </span> In Total
+                        </span>
+                        <div class="blank_box"></div>
+                        <!-- WordCount end -->
+                        
+                          
+                            <!-- 不蒜子统计 start -->
+                            <span class="meta" id="busuanzi_container_page_pv">
+                              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+                              Times
+                            </span>
+                            <!-- 不蒜子统计 end -->
+                            
+
+
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+            <!-- waveoverlay start -->
+            <div class="preview-overlay">
+              <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                  </path>
+                </defs>
+                <g class="preview-parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+                </g>
+              </svg>
+            </div>
+            <!-- waveoverlay end -->
+            
+
+        </header>
+        
+
+														<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+														<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>这是一份深度技术分析报告与系统设计文档。我们将首先深入剖析 Langflow 的底层源码机制，特别是其如何处理多 Agent 和 Workflow；随后，基于这些分析，为您设计一套生产级的 AgentServer 扩展方案。</p>
+<hr>
+<h1>第一部分：Langflow 源码深度解析</h1>
+<p>Langflow (v1.0+) 的本质是一个 <strong>可视化的 LangChain/LangGraph 编译器</strong>。它不直接运行图形，而是将图形（JSON Payload）转换为 Python 对象图（Dependency Graph），然后按拓扑顺序执行。</p>
+<h2 id="1-核心架构与工作流原理">1. 核心架构与工作流原理</h2>
+<h3 id="1-1-从-JSON-到-Python-对象-The-Graph-Engine">1.1 从 JSON 到 Python 对象 (The Graph Engine)</h3>
+<p>核心代码位于 <code>src/backend/base/langflow/graph/</code> 目录下。</p>
+<ol>
+<li><strong>Graph (图)</strong>: <code>graph/base.py</code> 中的 <code>Graph</code> 类是核心。它接收前端传来的 JSON (<code>data</code> 字段)，包含 <code>nodes</code> (节点) 和 <code>edges</code> (边)。</li>
+<li><strong>Vertex (顶点)</strong>: <code>vertex/base.py</code> 中的 <code>Vertex</code> 类代表一个节点。每个 Vertex 包装了一个 <code>CustomComponent</code> (自定义组件) 或基础 LangChain 组件。</li>
+<li><strong>构建过程 (Build Process)</strong>:
+<ul>
+<li><strong>拓扑排序</strong>: <code>Graph</code> 会根据 <code>edges</code> 计算执行顺序（Topological Sort）。</li>
+<li><strong>参数注入</strong>: 上游节点的输出（Output）会作为下游节点的输入（Input）。这是通过 <code>edge</code> 定义的 <code>source_handle</code> 和 <code>target_handle</code> 映射完成的。</li>
+<li><strong>实例化</strong>: 每个 Vertex 调用 <code>build()</code> 方法。
+<ul>
+<li>如果节点是 <code>CustomComponent</code>，它会执行用户定义的 <code>build</code> 方法（例如返回一个 <code>Chain</code> 或 <code>Agent</code>）。</li>
+<li>如果节点是基础组件，它会利用反射机制实例化 LangChain 类。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="1-2-多-Agent-与-Workflow-的底层实现">1.2 多 Agent 与 Workflow 的底层实现</h3>
+<p>Langflow 支持多 Agent 主要有两种模式，底层调用的 API 不同：</p>
+<h4 id="模式-A：基于-LangChain-的-AgentExecutor-传统模式">模式 A：基于 LangChain 的 AgentExecutor (传统模式)</h4>
+<ul>
+<li><strong>原理</strong>: 使用 <code>langchain.agents.AgentExecutor</code>。</li>
+<li><strong>流程</strong>: 画布上的 “Tools” 节点被实例化为 Tool 列表 -&gt; 注入到 “Agent” 节点 (如 OpenAI Tools Agent) -&gt; Agent 节点被注入到 “AgentExecutor” 节点。</li>
+<li><strong>运行</strong>: 这是一个黑盒循环（While Loop），由 LangChain 内部控制 ReAct 逻辑。</li>
+</ul>
+<h4 id="模式-B：基于-LangGraph-的多-Agent-现代模式">模式 B：基于 LangGraph 的多 Agent (现代模式)</h4>
+<p>这是 Langflow 近期更新的重点，也是实现复杂 Workflow 的关键。</p>
+<ul>
+<li><strong>API 使用</strong>: 核心依赖 <code>langgraph.graph.StateGraph</code> 和 <code>langgraph.prebuilt</code>.</li>
+<li><strong>源码痕迹</strong>: 在 <code>src/backend/base/langflow/components/</code> 下的某些高级组件中，或者用户自定义组件中。</li>
+<li><strong>运行原理</strong>:
+<ol>
+<li><strong>节点定义</strong>: 每个 Agent（如 “Researcher”, “Writer”）被构建为一个 <code>Runnable</code> (通常是 <code>ChatModel</code> 绑定了 <code>Tools</code>)。</li>
+<li><strong>State 定义</strong>: 组件内部定义 <code>TypedDict</code> 作为状态。</li>
+<li><strong>图构建</strong>: 使用 <code>StateGraph</code> 添加节点 (<code>add_node</code>) 和边 (<code>add_edge</code>, <code>add_conditional_edges</code>)。</li>
+<li><strong>编译</strong>: 调用 <code>graph.compile()</code> 生成 <code>CompiledGraph</code>。</li>
+<li><strong>Langflow 的处理</strong>: Langflow 的引擎将这个 <code>CompiledGraph</code> 视为一个普通的 <code>Runnable</code>。当执行到该节点时，调用其 <code>.invoke()</code> 或 <code>.stream()</code> 方法。</li>
+</ol>
+</li>
+</ul>
+<h3 id="1-3-关键-API-总结">1.3 关键 API 总结</h3>
+<ul>
+<li><strong>LangChain Core</strong>: <code>Runnable</code> (LCEL 协议), <code>BaseChatModel</code>, <code>Tool</code>.</li>
+<li><strong>LangGraph</strong>: <code>StateGraph</code>, <code>END</code>, <code>START</code>, <code>CompiledGraph</code>.</li>
+<li><strong>Langfuse</strong>: Langflow 内部通过 <code>langflow.services.monitor</code> 模块集成了 Langfuse，主要通过给 <code>Runnable</code> 注入 <code>callbacks=[LangfuseCallbackHandler()]</code> 来实现。</li>
+</ul>
+<hr>
+<h1>第二部分：AgentServer 扩展设计文档</h1>
+<p>基于上述分析，Langflow 原生是一个“构建与调试工具”，直接用于生产面临着<strong>性能（每次请求重新构建图）、版本管理缺失、限流缺失</strong>等问题。</p>
+<p>本设计旨在构建一个<strong>独立于 Langflow 原生运行逻辑，但依附于其项目结构</strong>的 <code>AgentServer</code> 模块。</p>
+<h2 id="1-总体架构设计">1. 总体架构设计</h2>
+<p>我们将采用 <strong>模块化单体 (Modular Monolith)</strong> 架构。AgentServer 作为 Langflow 后端的一个独立子模块（Python Package），共享 Langflow 的数据库连接和基础工具类，但拥有独立的 API 路由、缓存机制和执行逻辑。</p>
+<pre class="mermaid">graph TD
+    subgraph "Frontend <Langflow UI Extended>"
+        UI_Flow[Flow Editor] -->|Publish| API_Mgmt
+        UI_Mgmt[Agent Management Page] -->|Version/Rollback| API_Mgmt
+    end
+
+    subgraph "External Consumers"
+        Client[3rd Party App] -->|Invoke API| API_Public
+    end
+
+    subgraph "Agent Server (Backend Extension)"
+        API_Mgmt[Management API]
+        API_Public[Public Runtime API]
+        
+        Middleware[Rate Limiter <Redis>]
+        
+        subgraph "Core Logic"
+            DeployMgr[Deployment Manager]
+            CacheMgr[Graph Object Cache]
+            Runner[Execution Engine]
+        end
+        
+        Tracer[Langfuse Injector]
+    end
+
+    subgraph "Storage"
+        MySQL[(MySQL: Deployments & Versions)]
+        Redis[(Redis: Rate Limits & Cache)]
+    end
+
+    API_Public --> Middleware
+    Middleware --> Runner
+    Runner -->|Check Cache| CacheMgr
+    CacheMgr -->|Load Snapshot| MySQL
+    Runner -->|Trace| Tracer
+    DeployMgr -->|Save Snapshot| MySQL</pre>
+<h2 id="2-数据库设计-MySQL">2. 数据库设计 (MySQL)</h2>
+<p>我们需要使用 <code>SQLModel</code> (Langflow 的 ORM) 定义两张新表，用于版本控制。</p>
+<h3 id="2-1-deployment-表-部署主表">2.1 <code>deployment</code> 表 (部署主表)</h3>
+<p>记录对外发布的 Service 信息。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">字段名</th>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>id</code></td>
+<td style="text-align:left">UUID</td>
+<td style="text-align:left">主键</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>flow_id</code></td>
+<td style="text-align:left">UUID</td>
+<td style="text-align:left">关联原始 Flow ID</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>endpoint_slug</code></td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">对外访问的 URL 后缀 (唯一索引)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>name</code></td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">部署名称</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>active_version</code></td>
+<td style="text-align:left">Integer</td>
+<td style="text-align:left">当前激活的版本号</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>rate_limit</code></td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">限流规则 (如 “60/m”)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>api_key_enabled</code></td>
+<td style="text-align:left">Boolean</td>
+<td style="text-align:left">是否开启 API Key 验证</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>created_at</code></td>
+<td style="text-align:left">DateTime</td>
+<td style="text-align:left">创建时间</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-2-deployment-version-表-版本快照表">2.2 <code>deployment_version</code> 表 (版本快照表)</h3>
+<p>记录每次发布时的 Flow 静态快照（JSON）。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">字段名</th>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>id</code></td>
+<td style="text-align:left">UUID</td>
+<td style="text-align:left">主键</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>deployment_id</code></td>
+<td style="text-align:left">UUID</td>
+<td style="text-align:left">外键关联 deployment</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>version</code></td>
+<td style="text-align:left">Integer</td>
+<td style="text-align:left">版本号 (1, 2, 3…)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>graph_snapshot</code></td>
+<td style="text-align:left">JSON</td>
+<td style="text-align:left"><strong>核心</strong>：发布时的 Flow JSON 全量数据</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>config</code></td>
+<td style="text-align:left">JSON</td>
+<td style="text-align:left">生产环境覆盖配置 (Tweaks)</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>created_at</code></td>
+<td style="text-align:left">DateTime</td>
+<td style="text-align:left">发布时间</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-详细模块设计">3. 详细模块设计</h2>
+<h3 id="3-1-模块结构">3.1 模块结构</h3>
+<p>在 <code>src/backend/base/langflow/</code> 下新建 <code>agent_server</code> 目录：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">langflow/agent_server/</span><br><span class="line">├── __init__.py</span><br><span class="line">├── api/                  # API 路由</span><br><span class="line">│   ├── management.py     # 后管接口 (发布/版本)</span><br><span class="line">│   └── runtime.py        # 对外运行接口</span><br><span class="line">├── services/             # 业务逻辑</span><br><span class="line">│   ├── deployment.py     # 部署逻辑</span><br><span class="line">│   └── execution.py      # 核心执行引擎</span><br><span class="line">├── models/               # 数据库模型</span><br><span class="line">│   └── deployment.py</span><br><span class="line">└── utils/                # 限流与追踪工具</span><br><span class="line">    ├── rate_limiter.py</span><br><span class="line">    └── tracing.py</span><br></pre></td></tr></table></figure>
+<h3 id="3-2-核心流程逻辑">3.2 核心流程逻辑</h3>
+<h4 id="A-发布流程-Management-API">A. 发布流程 (Management API)</h4>
+<ol>
+<li>用户在前端点击 “Publish”。</li>
+<li>后端接收 <code>flow_id</code> 和配置。</li>
+<li>从 <code>flow</code> 表读取当前的 <code>data</code> (JSON)。</li>
+<li>在 <code>deployment</code> 表创建或更新记录。</li>
+<li>在 <code>deployment_version</code> 表插入一条新记录，<code>version</code> 自增，并将 <code>data</code> 存入 <code>graph_snapshot</code>。</li>
+<li><strong>关键点</strong>：Snapshot 机制保证了后续修改原 Flow 不会影响线上运行版本。</li>
+</ol>
+<h4 id="B-运行流程-Runtime-API-带缓存与限流">B. 运行流程 (Runtime API) - 带缓存与限流</h4>
+<ol>
+<li><strong>接收请求</strong>: <code>POST /agent-server/run/&#123;endpoint_slug&#125;</code>。</li>
+<li><strong>限流检查</strong>: 使用 <code>fastapi-limiter</code> + Redis，基于 IP 或 API Key 进行计数。</li>
+<li><strong>缓存查找</strong>:
+<ul>
+<li>检查内存中（LRU Cache）是否已有构建好的 <code>Runnable</code> 对象。</li>
+<li>Key 为 <code>deployment_id + version</code>。</li>
+</ul>
+</li>
+<li><strong>构建 (Cache Miss)</strong>:
+<ul>
+<li>如果缓存未命中，从 MySQL 读取 <code>graph_snapshot</code>。</li>
+<li>调用 <code>Graph.from_payload(snapshot)</code>。</li>
+<li>调用 <code>graph.build()</code> 实例化 Python 对象。</li>
+<li>存入缓存。</li>
+</ul>
+</li>
+<li><strong>Langfuse 注入</strong>:
+<ul>
+<li>创建 <code>CallbackHandler</code>。</li>
+<li>利用 <code>Runnable.with_config(callbacks=[handler])</code> 动态注入。</li>
+</ul>
+</li>
+<li><strong>执行</strong>:
+<ul>
+<li>支持 <code>stream=True</code> 参数。</li>
+<li>如果流式：使用 <code>astream_events</code> (v2 API) 捕获 Token 和 Tool 事件，封装为 SSE (Server-Sent Events) 返回。</li>
+<li>如果非流式：使用 <code>ainvoke</code> 等待结果返回 JSON。</li>
+</ul>
+</li>
+</ol>
+<h3 id="3-3-前端设计-Extension">3.3 前端设计 (Extension)</h3>
+<p>为了不干扰原项目，我们将新建组件文件夹，但需要在原项目的路由配置中注册。</p>
+<ul>
+<li><strong>技术栈</strong>: React + TailwindCSS (保持一致)。</li>
+<li><strong>入口</strong>: 在 Flow 列表页的每个卡片上增加 “Deployments” 按钮。</li>
+<li><strong>管理弹窗/页面</strong>:
+<ul>
+<li>展示历史版本列表 (Table)。</li>
+<li>操作列：回滚 (Rollback)、删除、查看配置。</li>
+<li>状态指示：当前激活版本高亮。</li>
+<li>限流配置输入框。</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-关键技术难点解决方案">4. 关键技术难点解决方案</h2>
+<h3 id="4-1-Token-限制与流式响应">4.1 Token 限制与流式响应</h3>
+<ul>
+<li><strong>问题</strong>: 大模型输出长文本容易超时。</li>
+<li><strong>解决</strong>: 强制要求 API 支持 SSE。AgentServer 将利用 LangChain 的 <code>astream_events</code> 接口，不仅流式传输文本，还将 “Tool Use” (工具调用) 状态流式传输给前端，实现类似 ChatGPT 的 “Thinking…” 效果。</li>
+</ul>
+<h3 id="4-2-生产环境稳定性">4.2 生产环境稳定性</h3>
+<ul>
+<li><strong>问题</strong>: 每次请求都解析 JSON 构建图非常消耗 CPU。</li>
+<li><strong>解决</strong>: 实现 <strong>Graph Object Cache</strong>。发布后的图是静态的，构建一次后应在内存中复用 <code>Runnable</code> 对象。只有当版本切换或服务重启时才重新构建。</li>
+</ul>
+<h3 id="4-3-数据库隔离">4.3 数据库隔离</h3>
+<ul>
+<li><strong>问题</strong>: 避免 AgentServer 的表与 Langflow 原生表冲突。</li>
+<li><strong>解决</strong>: 使用 Alembic 进行独立的 Migration 管理，或者在表名上增加前缀 <code>as_</code> (Agent Server)。</li>
+</ul>
+<hr>
+<p><strong>待确认事项：</strong><br>
+请确认以上 <strong>架构设计</strong> 和 <strong>数据库 Schema</strong> 是否符合您的预期？<br>
+如果确认，我将开始执行代码开发，首先输出数据库模型和核心服务代码。</p>
+<hr>
+<p>这是一个非常完善的迭代需求。在上一版架构的基础上，我们将重点增强<strong>前端交互体验</strong>、<strong>系统稳定性保障（测试）<strong>以及</strong>国际化支持</strong>。</p>
+<p>以下是针对 <code>AgentServer</code> v2.0 的详细设计文档，涵盖了前端、测试、限流管理和国际化方案。</p>
+<hr>
+<h1>AgentServer v2.0 详细设计文档</h1>
+<h2 id="1-前端页面交互与视觉设计-Frontend-Design">1. 前端页面交互与视觉设计 (Frontend Design)</h2>
+<p>为了保持与 Langflow 原生风格一致，我们将复用其基于 TailwindCSS 和 Shadcn UI (或类似 Radix primitives) 的组件库。</p>
+<h3 id="1-1-页面结构规划">1.1 页面结构规划</h3>
+<p>我们将不干扰原有的 Flow 编辑画布，而是扩展 <strong>“My Collection” (Flow 列表页)</strong> 和新增 <strong>“Deployment Center” (部署中心)</strong>。</p>
+<h4 id="A-Flow-列表页增强">A. Flow 列表页增强</h4>
+<ul>
+<li><strong>操作栏扩展</strong>: 在每个 Flow 卡片的下拉菜单中，除了原有的 “Edit”, “Delete” 外，增加 <strong>“🚀 Deployments” (部署管理)</strong> 按钮。</li>
+<li><strong>状态指示</strong>: 卡片上增加小圆点指示器。
+<ul>
+<li>🟢 <strong>Online</strong>: 有正在运行的部署版本。</li>
+<li>⚪ <strong>Offline</strong>: 未部署。</li>
+</ul>
+</li>
+</ul>
+<h4 id="B-部署管理弹窗-抽屉-Deployment-Drawer">B. 部署管理弹窗/抽屉 (Deployment Drawer)</h4>
+<p>点击 “Deployments” 后，从右侧滑出一个抽屉（Drawer），包含以下 Tab：</p>
+<ol>
+<li>
+<p><strong>Overview (概览)</strong>:</p>
+<ul>
+<li><strong>Endpoint Info</strong>: 显示对外调用的 URL (如 <code>https://api.domain.com/agent/run/my-flow-v1</code>).</li>
+<li><strong>CURL Example</strong>: 一键复制调用代码示例 (Python/JS/CURL)。</li>
+<li><strong>Status Toggle</strong>: 一个 Switch 开关，用于一键 停用/启用 该接口。</li>
+<li><strong>Rate Limit Config</strong>: 这里的限流管理由只读变为<strong>可编辑</strong>。
+<ul>
+<li>输入框: <code>Rate Limit</code> (例如: <code>60/m</code>, <code>10/s</code>).</li>
+<li>按钮: <code>Update Config</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Version History (版本历史)</strong>:</p>
+<ul>
+<li><strong>Timeline View</strong>: 垂直时间轴展示发布记录。</li>
+<li><strong>Item Content</strong>: 版本号 (v1, v2)、发布时间、备注信息。</li>
+<li><strong>Actions</strong>:
+<ul>
+<li><code>Rollback</code>: 回滚到此版本（将此版本的 snapshot 覆盖为当前 active）。</li>
+<li><code>View Config</code>: 查看当时的配置快照。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Playground (生产环境测试)</strong>:</p>
+<ul>
+<li>不同于编辑器的调试，这是直接调用 AgentServer 接口的对话框。</li>
+<li>用于验证限流、Trace 注入是否生效。</li>
+</ul>
+</li>
+</ol>
+<h3 id="1-2-国际化-i18n-交互设计">1.2 国际化 (i18n) 交互设计</h3>
+<ul>
+<li><strong>语言切换器</strong>: 在 Langflow 页面右上角（User Profile 旁）增加一个地球图标 🌐。</li>
+<li><strong>下拉菜单</strong>:
+<ul>
+<li>🇺🇸 English</li>
+<li>🇨🇳 简体中文</li>
+</ul>
+</li>
+<li><strong>持久化</strong>: 语言偏好保存到 LocalStorage，下次访问自动加载。</li>
+</ul>
+<hr>
+<h2 id="2-国际化-i18n-技术方案">2. 国际化 (i18n) 技术方案</h2>
+<p>Langflow 原生代码主要为英文且硬编码。为了实现汉化，我们需要引入 <code>i18next</code> 并在 React 组件中进行侵入式替换。</p>
+<h3 id="2-1-技术栈">2.1 技术栈</h3>
+<ul>
+<li><strong>核心库</strong>: <code>i18next</code>, <code>react-i18next</code></li>
+<li><strong>检测器</strong>: <code>i18next-browser-languagedetector</code></li>
+</ul>
+<h3 id="2-2-实现步骤">2.2 实现步骤</h3>
+<h4 id="Step-1-目录结构">Step 1: 目录结构</h4>
+<p>在前端 <code>src</code> 目录下新建 <code>locales</code>：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">src/locales/</span><br><span class="line">├── en/</span><br><span class="line">│   ├── common.json      # 通用词汇 (Save, Cancel, Delete)</span><br><span class="line">│   ├── flow.json        # Flow 相关</span><br><span class="line">│   └── agent_server.json # 新增模块的词汇</span><br><span class="line">└── zh/</span><br><span class="line">    ├── common.json</span><br><span class="line">    ├── flow.json</span><br><span class="line">    └── agent_server.json</span><br></pre></td></tr></table></figure>
+<p><strong>示例 <code>zh/agent_server.json</code></strong>:</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;deploy_btn&quot;</span><span class="punctuation">:</span> <span class="string">&quot;部署&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;rollback_success&quot;</span><span class="punctuation">:</span> <span class="string">&quot;版本回退成功&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;rate_limit_label&quot;</span><span class="punctuation">:</span> <span class="string">&quot;接口限流规则&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;rate_limit_placeholder&quot;</span><span class="punctuation">:</span> <span class="string">&quot;例如: 60/m (每分钟60次)&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status_active&quot;</span><span class="punctuation">:</span> <span class="string">&quot;运行中&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status_inactive&quot;</span><span class="punctuation">:</span> <span class="string">&quot;已停止&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<h4 id="Step-2-初始化配置-src-i18n-js">Step 2: 初始化配置 (<code>src/i18n.js</code>)</h4>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> i18n <span class="keyword">from</span> <span class="string">&#x27;i18next&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; initReactI18next &#125; <span class="keyword">from</span> <span class="string">&#x27;react-i18next&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">LanguageDetector</span> <span class="keyword">from</span> <span class="string">&#x27;i18next-browser-languagedetector&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> enCommon <span class="keyword">from</span> <span class="string">&#x27;./locales/en/common.json&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> zhCommon <span class="keyword">from</span> <span class="string">&#x27;./locales/zh/common.json&#x27;</span>;</span><br><span class="line"><span class="comment">// ... import others</span></span><br><span class="line"></span><br><span class="line">i18n</span><br><span class="line">  .<span class="title function_">use</span>(<span class="title class_">LanguageDetector</span>)</span><br><span class="line">  .<span class="title function_">use</span>(initReactI18next)</span><br><span class="line">  .<span class="title function_">init</span>(&#123;</span><br><span class="line">    <span class="attr">resources</span>: &#123;</span><br><span class="line">      <span class="attr">en</span>: &#123; <span class="attr">common</span>: enCommon, ... &#125;,</span><br><span class="line">      <span class="attr">zh</span>: &#123; <span class="attr">common</span>: zhCommon, ... &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">fallbackLng</span>: <span class="string">&#x27;en&#x27;</span>,</span><br><span class="line">    <span class="attr">interpolation</span>: &#123; <span class="attr">escapeValue</span>: <span class="literal">false</span> &#125;</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> i18n;</span><br></pre></td></tr></table></figure>
+<h4 id="Step-3-替换原有文本">Step 3: 替换原有文本</h4>
+<p>这是工作量最大的部分。需要遍历 Langflow 的 React 组件，将硬编码文本替换为 Hook 调用。</p>
+<p><strong>修改前</strong>:</p>
+<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;button&gt;<span class="title class_">Save</span> <span class="title class_">Flow</span>&lt;/button&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>修改后</strong>:</p>
+<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; useTranslation &#125; <span class="keyword">from</span> <span class="string">&#x27;react-i18next&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">const</span> <span class="title function_">FlowHeader</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; t &#125; = <span class="title function_">useTranslation</span>(<span class="string">&#x27;flow&#x27;</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="language-xml"><span class="tag">&lt;<span class="name">button</span>&gt;</span>&#123;t(&#x27;save_flow&#x27;)&#125;<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="3-接口限流管理设计">3. 接口限流管理设计</h2>
+<h3 id="3-1-后端逻辑完善">3.1 后端逻辑完善</h3>
+<p>在之前的设计中，限流主要在 API 层读取。现在我们需要增加<strong>动态更新限流规则</strong>的逻辑。</p>
+<ul>
+<li><strong>更新接口</strong>: <code>PATCH /api/v1/agent-server/deployments/&#123;id&#125;</code></li>
+<li><strong>Redis 同步</strong>: 更新数据库后，需要清除或更新 Redis 中旧的限流计数器（可选，或者等待其自动过期）。</li>
+</ul>
+<h3 id="3-2-策略调整">3.2 策略调整</h3>
+<p>使用 <code>fastapi-limiter</code> 时，由于规则是动态字符串（从 DB 读取），我们需要一个自定义的 <code>Callable</code> 作为 <code>limit_func</code>。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">get_dynamic_limit</span>(<span class="params">request: Request, db: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    deployment_id = request.path_params.get(<span class="string">&quot;id&quot;</span>)</span><br><span class="line">    <span class="comment"># 1. 优先查 Redis 缓存的配置 (减少 DB 压力)</span></span><br><span class="line">    <span class="comment"># 2. Redis 没有则查 DB</span></span><br><span class="line">    deployment = ... </span><br><span class="line">    <span class="keyword">return</span> deployment.rate_limit <span class="keyword">or</span> <span class="string">&quot;60/minute&quot;</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="4-测试系统设计与用例">4. 测试系统设计与用例</h2>
+<p>为了保证生产环境的稳定性，必须引入自动化测试。</p>
+<h3 id="4-1-测试架构">4.1 测试架构</h3>
+<ul>
+<li><strong>单元测试 (Unit Test)</strong>: 测试 <code>AgentService</code> 的图构建、缓存逻辑。</li>
+<li><strong>集成测试 (Integration Test)</strong>: 启动 Docker 环境，测试 API 的完整调用链路。</li>
+<li><strong>工具</strong>: <code>pytest</code>, <code>pytest-asyncio</code>, <code>httpx</code> (用于异步请求测试).</li>
+</ul>
+<h3 id="4-2-目录规划">4.2 目录规划</h3>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tests/agent_server/</span><br><span class="line">├── conftest.py          # Fixtures (Mock DB, Mock Redis)</span><br><span class="line">├── test_api.py          # API 接口测试</span><br><span class="line">├── test_execution.py    # 核心执行引擎测试</span><br><span class="line">└── test_rate_limit.py   # 限流专项测试</span><br></pre></td></tr></table></figure>
+<h3 id="4-3-核心测试用例开发-Code-Examples">4.3 核心测试用例开发 (Code Examples)</h3>
+<h4 id="用例-1-部署与版本控制-Test-Deployment-Versioning">用例 1: 部署与版本控制 (Test Deployment Versioning)</h4>
+<p><strong>目标</strong>: 验证每次发布，版本号是否自增，且 Snapshot 互不影响。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># tests/agent_server/test_deployment.py</span></span><br><span class="line"><span class="keyword">import</span> pytest</span><br><span class="line"><span class="keyword">from</span> httpx <span class="keyword">import</span> AsyncClient</span><br><span class="line"></span><br><span class="line"><span class="meta">@pytest.mark.asyncio</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">test_publish_flow_versioning</span>(<span class="params">client: AsyncClient, json_flow_data</span>):</span><br><span class="line">    <span class="comment"># 1. 第一次发布</span></span><br><span class="line">    resp1 = <span class="keyword">await</span> client.post(<span class="string">&quot;/api/v1/deployments/publish&quot;</span>, json=&#123;</span><br><span class="line">        <span class="string">&quot;flow_id&quot;</span>: <span class="string">&quot;flow-123&quot;</span>,</span><br><span class="line">        <span class="string">&quot;endpoint_slug&quot;</span>: <span class="string">&quot;test-agent&quot;</span>,</span><br><span class="line">        <span class="string">&quot;name&quot;</span>: <span class="string">&quot;Test Agent&quot;</span></span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">assert</span> resp1.status_code == <span class="number">200</span></span><br><span class="line">    <span class="keyword">assert</span> resp1.json()[<span class="string">&quot;version&quot;</span>] == <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2. 第二次发布</span></span><br><span class="line">    resp2 = <span class="keyword">await</span> client.post(<span class="string">&quot;/api/v1/deployments/publish&quot;</span>, json=&#123;</span><br><span class="line">        <span class="string">&quot;flow_id&quot;</span>: <span class="string">&quot;flow-123&quot;</span>,</span><br><span class="line">        <span class="string">&quot;endpoint_slug&quot;</span>: <span class="string">&quot;test-agent&quot;</span>,</span><br><span class="line">        <span class="string">&quot;name&quot;</span>: <span class="string">&quot;Test Agent Updated&quot;</span></span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">assert</span> resp2.status_code == <span class="number">200</span></span><br><span class="line">    <span class="keyword">assert</span> resp2.json()[<span class="string">&quot;version&quot;</span>] == <span class="number">2</span></span><br><span class="line">    <span class="keyword">assert</span> resp2.json()[<span class="string">&quot;id&quot;</span>] == resp1.json()[<span class="string">&quot;id&quot;</span>] <span class="comment"># ID 相同，版本不同</span></span><br></pre></td></tr></table></figure>
+<h4 id="用例-2-限流功能验证-Test-Rate-Limiting">用例 2: 限流功能验证 (Test Rate Limiting)</h4>
+<p><strong>目标</strong>: 验证设定 <code>2/second</code> 后，第 3 次请求是否返回 429。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># tests/agent_server/test_rate_limit.py</span></span><br><span class="line"><span class="keyword">import</span> pytest</span><br><span class="line"><span class="keyword">import</span> asyncio</span><br><span class="line"><span class="keyword">from</span> httpx <span class="keyword">import</span> AsyncClient</span><br><span class="line"></span><br><span class="line"><span class="meta">@pytest.mark.asyncio</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">test_rate_limiting_enforcement</span>(<span class="params">client: AsyncClient, active_deployment</span>):</span><br><span class="line">    <span class="comment"># 假设 active_deployment 限流设置为 &quot;2/second&quot;</span></span><br><span class="line">    slug = active_deployment.endpoint_slug</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 并发发送 3 个请求</span></span><br><span class="line">    tasks = [client.post(<span class="string">f&quot;/api/v1/agent/<span class="subst">&#123;slug&#125;</span>&quot;</span>, json=&#123;<span class="string">&quot;input&quot;</span>: <span class="string">&quot;hi&quot;</span>&#125;) <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>)]</span><br><span class="line">    responses = <span class="keyword">await</span> asyncio.gather(*tasks)</span><br><span class="line">    </span><br><span class="line">    status_codes = [r.status_code <span class="keyword">for</span> r <span class="keyword">in</span> responses]</span><br><span class="line">    <span class="comment"># 应该有两个 200，一个 429</span></span><br><span class="line">    <span class="keyword">assert</span> <span class="number">429</span> <span class="keyword">in</span> status_codes</span><br><span class="line">    <span class="keyword">assert</span> status_codes.count(<span class="number">200</span>) &lt;= <span class="number">2</span></span><br></pre></td></tr></table></figure>
+<h4 id="用例-3-缓存命中验证-Test-Cache-Hit">用例 3: 缓存命中验证 (Test Cache Hit)</h4>
+<p><strong>目标</strong>: 验证第二次调用是否跳过了 Graph Build 过程（可以通过 Mock Graph Build 方法来判断调用次数）。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># tests/agent_server/test_execution.py</span></span><br><span class="line"><span class="keyword">from</span> unittest.mock <span class="keyword">import</span> patch</span><br><span class="line"></span><br><span class="line"><span class="meta">@pytest.mark.asyncio</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">test_execution_cache</span>(<span class="params">agent_service, deployment_obj</span>):</span><br><span class="line">    <span class="comment"># Mock 加载构建过程</span></span><br><span class="line">    <span class="keyword">with</span> patch.<span class="built_in">object</span>(agent_service, <span class="string">&#x27;load_and_build_graph&#x27;</span>, wraps=agent_service.load_and_build_graph) <span class="keyword">as</span> mock_build:</span><br><span class="line">        <span class="comment"># 第一次执行</span></span><br><span class="line">        <span class="keyword">await</span> agent_service.execute_agent(deployment_obj, &#123;<span class="string">&quot;input&quot;</span>: <span class="string">&quot;1&quot;</span>&#125;)</span><br><span class="line">        <span class="comment"># 第二次执行</span></span><br><span class="line">        <span class="keyword">await</span> agent_service.execute_agent(deployment_obj, &#123;<span class="string">&quot;input&quot;</span>: <span class="string">&quot;2&quot;</span>&#125;)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 断言构建只发生了一次</span></span><br><span class="line">        <span class="keyword">assert</span> mock_build.call_count == <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="5-实施路线图-Implementation-Roadmap">5. 实施路线图 (Implementation Roadmap)</h2>
+<h3 id="Phase-1-国际化基础设施-1-2-天">Phase 1: 国际化基础设施 (1-2 天)</h3>
+<ol>
+<li>安装 i18n 依赖。</li>
+<li>创建中英文 JSON 语言包文件。</li>
+<li>开发 <code>LanguageSwitcher</code> 组件并嵌入顶部导航栏。</li>
+<li>先对<strong>侧边栏</strong>和<strong>现有 Flow 列表页</strong>进行汉化验证。</li>
+</ol>
+<h3 id="Phase-2-后端管理接口完善-2-3-天">Phase 2: 后端管理接口完善 (2-3 天)</h3>
+<ol>
+<li>修改 <code>Deployment</code> Model，确保 <code>rate_limit</code> 等字段可更新。</li>
+<li>完善 <code>PATCH /deployments/&#123;id&#125;</code> 接口。</li>
+<li>编写 <code>tests/agent_server</code> 下的单元测试，确保后端逻辑无误。</li>
+</ol>
+<h3 id="Phase-3-前端部署中心开发-3-4-天">Phase 3: 前端部署中心开发 (3-4 天)</h3>
+<ol>
+<li>在 Flow 卡片增加 “Deployments” 入口。</li>
+<li>开发右侧抽屉组件 (<code>DeploymentDrawer</code>)。</li>
+<li>集成 API：
+<ul>
+<li>读取历史版本。</li>
+<li>更新限流配置。</li>
+<li>版本回退操作。</li>
+</ul>
+</li>
+<li>对新增页面进行全量汉化。</li>
+</ol>
+<h3 id="Phase-4-集成测试与交付-1-2-天">Phase 4: 集成测试与交付 (1-2 天)</h3>
+<ol>
+<li>在本地 Docker 环境全链路跑通：配置 -&gt; 发布 -&gt; 汉化界面 -&gt; 外部调用 -&gt; 限流拦截 -&gt; 查看 Langfuse Trace。</li>
+<li>修复 UI 细节问题 (Loading 态, 错误提示)。</li>
+</ol>
+<hr>
+<p><strong>是否确认执行此 V2.0 详细设计？</strong><br>
+确认后，我将首先为您提供 <strong>i18n 的初始化代码</strong> 和 <strong>前端部署管理组件</strong> 的核心代码。</p>
+<p>这是一个非常庞大的工程，整合了后端架构、数据库设计、缓存机制、流式协议、前端组件化以及国际化。</p>
+<p>为了确保代码的可用性和结构清晰，我将按照<strong>模块化</strong>的方式提供代码。请严格按照文件路径在您的 Langflow 项目中创建或修改文件。</p>
+<hr>
+<h1>🛠️ 第一部分：后端开发 (Backend)</h1>
+<p>目录基础路径：<code>src/backend/base/langflow/</code></p>
+<h3 id="1-数据库模型定义">1. 数据库模型定义</h3>
+<p><strong>文件</strong>: <code>services/database/models/agent_server.py</code> (新建)</p>
+<p>这里采用了主从表设计，支持版本管理和回滚。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Optional</span>, <span class="type">Dict</span>, <span class="type">Any</span>, <span class="type">List</span></span><br><span class="line"><span class="keyword">from</span> uuid <span class="keyword">import</span> UUID, uuid4</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Field, SQLModel, JSON, Column, Relationship</span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署主表：控制对外接口、限流和当前激活版本</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Deployment</span>(SQLModel, table=<span class="literal">True</span>):</span><br><span class="line">    <span class="built_in">id</span>: UUID = Field(default_factory=uuid4, primary_key=<span class="literal">True</span>)</span><br><span class="line">    flow_id: UUID = Field(index=<span class="literal">True</span>)</span><br><span class="line">    name: <span class="built_in">str</span></span><br><span class="line">    endpoint_slug: <span class="built_in">str</span> = Field(unique=<span class="literal">True</span>, index=<span class="literal">True</span>)</span><br><span class="line">    description: <span class="type">Optional</span>[<span class="built_in">str</span>] = <span class="literal">None</span></span><br><span class="line">    rate_limit: <span class="built_in">str</span> = Field(default=<span class="string">&quot;60/minute&quot;</span>)</span><br><span class="line">    is_active: <span class="built_in">bool</span> = Field(default=<span class="literal">True</span>)</span><br><span class="line">    active_version: <span class="built_in">int</span> = Field(default=<span class="number">1</span>) <span class="comment"># 当前对外服务的版本号</span></span><br><span class="line">    </span><br><span class="line">    created_at: datetime = Field(default_factory=datetime.utcnow)</span><br><span class="line">    updated_at: datetime = Field(default_factory=datetime.utcnow)</span><br><span class="line">    </span><br><span class="line">    versions: <span class="type">List</span>[<span class="string">&quot;DeploymentVersion&quot;</span>] = Relationship(back_populates=<span class="string">&quot;deployment&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 版本快照表：存储每次发布的静态数据</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DeploymentVersion</span>(SQLModel, table=<span class="literal">True</span>):</span><br><span class="line">    <span class="built_in">id</span>: UUID = Field(default_factory=uuid4, primary_key=<span class="literal">True</span>)</span><br><span class="line">    deployment_id: UUID = Field(foreign_key=<span class="string">&quot;deployment.id&quot;</span>)</span><br><span class="line">    version: <span class="built_in">int</span></span><br><span class="line">    graph_snapshot: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = Field(default=&#123;&#125;, sa_column=Column(JSON)) <span class="comment"># 冻结的图数据</span></span><br><span class="line">    production_config: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = Field(default=&#123;&#125;, sa_column=Column(JSON)) <span class="comment"># 覆盖配置</span></span><br><span class="line">    created_at: datetime = Field(default_factory=datetime.utcnow)</span><br><span class="line">    </span><br><span class="line">    deployment: <span class="type">Optional</span>[Deployment] = Relationship(back_populates=<span class="string">&quot;versions&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Pydantic Models for API</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DeploymentCreate</span>(<span class="title class_ inherited__">SQLModel</span>):</span><br><span class="line">    flow_id: UUID</span><br><span class="line">    name: <span class="built_in">str</span></span><br><span class="line">    endpoint_slug: <span class="built_in">str</span></span><br><span class="line">    production_config: <span class="type">Optional</span>[<span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>]] = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DeploymentRead</span>(<span class="title class_ inherited__">SQLModel</span>):</span><br><span class="line">    <span class="built_in">id</span>: UUID</span><br><span class="line">    name: <span class="built_in">str</span></span><br><span class="line">    endpoint_slug: <span class="built_in">str</span></span><br><span class="line">    active_version: <span class="built_in">int</span></span><br><span class="line">    rate_limit: <span class="built_in">str</span></span><br><span class="line">    is_active: <span class="built_in">bool</span></span><br><span class="line">    updated_at: datetime</span><br></pre></td></tr></table></figure>
+<h3 id="2-核心服务逻辑-Service-Layer">2. 核心服务逻辑 (Service Layer)</h3>
+<p><strong>文件</strong>: <code>services/agent_server/service.py</code> (新建)</p>
+<p>包含多级缓存、LangGraph 流式适配、Langfuse 注入。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> logging</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"><span class="keyword">import</span> asyncio</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span>, <span class="type">Dict</span>, <span class="type">Optional</span>, <span class="type">Tuple</span>, AsyncGenerator</span><br><span class="line"><span class="keyword">from</span> uuid <span class="keyword">import</span> UUID</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> async_lru <span class="keyword">import</span> alru_cache</span><br><span class="line"><span class="keyword">from</span> langchain_core.runnables <span class="keyword">import</span> Runnable, RunnableConfig</span><br><span class="line"><span class="keyword">from</span> langfuse.callback <span class="keyword">import</span> CallbackHandler</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Session, select</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langflow.graph.graph.base <span class="keyword">import</span> Graph</span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.agent_server <span class="keyword">import</span> Deployment, DeploymentVersion</span><br><span class="line"><span class="keyword">from</span> langflow.services.get_service <span class="keyword">import</span> get_session</span><br><span class="line"></span><br><span class="line">logger = logging.getLogger(<span class="string">&quot;agent_server&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AgentServerService</span>:</span><br><span class="line">    _cache = &#123;&#125; <span class="comment"># 内存缓存 (DeploymentID_Version -&gt; Runnable)</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">get_runnable</span>(<span class="params">self, deployment: Deployment, db: Session</span>) -&gt; Runnable:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;获取可执行对象 (带缓存)&quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># 查找当前激活的版本快照</span></span><br><span class="line">        version_record = db.<span class="built_in">exec</span>(</span><br><span class="line">            select(DeploymentVersion)</span><br><span class="line">            .where(DeploymentVersion.deployment_id == deployment.<span class="built_in">id</span>, </span><br><span class="line">                   DeploymentVersion.version == deployment.active_version)</span><br><span class="line">        ).first()</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> version_record:</span><br><span class="line">            <span class="keyword">raise</span> ValueError(<span class="string">f&quot;Version <span class="subst">&#123;deployment.active_version&#125;</span> not found for deployment <span class="subst">&#123;deployment.name&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">        cache_key = <span class="string">f&quot;<span class="subst">&#123;deployment.<span class="built_in">id</span>&#125;</span>_v<span class="subst">&#123;version_record.version&#125;</span>&quot;</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> cache_key <span class="keyword">in</span> <span class="variable language_">self</span>._cache:</span><br><span class="line">            <span class="keyword">return</span> <span class="variable language_">self</span>._cache[cache_key]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Cache Miss: 构建图</span></span><br><span class="line">        logger.info(<span class="string">f&quot;Building graph for <span class="subst">&#123;cache_key&#125;</span>&quot;</span>)</span><br><span class="line">        graph_data = version_record.graph_snapshot</span><br><span class="line">        prod_config = version_record.production_config</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 1. 从 Snapshot 恢复 Graph</span></span><br><span class="line">        graph = Graph.from_payload(graph_data)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 2. 应用生产环境配置 (Tweaks)</span></span><br><span class="line">        <span class="keyword">if</span> prod_config:</span><br><span class="line">            <span class="keyword">for</span> node <span class="keyword">in</span> graph.vertices:</span><br><span class="line">                <span class="keyword">if</span> node.<span class="built_in">id</span> <span class="keyword">in</span> prod_config:</span><br><span class="line">                    <span class="keyword">for</span> key, val <span class="keyword">in</span> prod_config[node.<span class="built_in">id</span>].items():</span><br><span class="line">                        node.params[key] = val</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 3. 编译</span></span><br><span class="line">        <span class="comment"># 注意：这里适配 Langflow 的 build 逻辑</span></span><br><span class="line">        built_artifacts = <span class="keyword">await</span> graph.build() <span class="keyword">if</span> asyncio.iscoroutinefunction(graph.build) <span class="keyword">else</span> graph.build()</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 4. 提取 Runnable (兼容 LangChain Chain 和 LangGraph CompiledGraph)</span></span><br><span class="line">        runnable = built_artifacts</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">isinstance</span>(built_artifacts, <span class="built_in">list</span>):</span><br><span class="line">            <span class="comment"># 尝试寻找主要入口</span></span><br><span class="line">            runnable = built_artifacts[<span class="number">0</span>] </span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 写入缓存</span></span><br><span class="line">        <span class="variable language_">self</span>._cache[cache_key] = runnable</span><br><span class="line">        <span class="keyword">return</span> runnable</span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">execute_stream</span>(<span class="params"></span></span><br><span class="line"><span class="params">        self, </span></span><br><span class="line"><span class="params">        deployment: Deployment, </span></span><br><span class="line"><span class="params">        inputs: <span class="type">Dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>], </span></span><br><span class="line"><span class="params">        session_id: <span class="type">Optional</span>[<span class="built_in">str</span>],</span></span><br><span class="line"><span class="params">        db: Session</span></span><br><span class="line"><span class="params">    </span>) -&gt; AsyncGenerator[<span class="built_in">str</span>, <span class="literal">None</span>]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;流式执行 (SSE)&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            runnable = <span class="keyword">await</span> <span class="variable language_">self</span>.get_runnable(deployment, db)</span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 准备 Langfuse</span></span><br><span class="line">            callbacks = []</span><br><span class="line">            lf_handler = <span class="variable language_">self</span>._create_langfuse(</span><br><span class="line">                trace_name=<span class="string">f&quot;agent-<span class="subst">&#123;deployment.name&#125;</span>&quot;</span>,</span><br><span class="line">                session_id=session_id,</span><br><span class="line">                tags=[deployment.endpoint_slug, <span class="string">f&quot;v<span class="subst">&#123;deployment.active_version&#125;</span>&quot;</span>]</span><br><span class="line">            )</span><br><span class="line">            <span class="keyword">if</span> lf_handler:</span><br><span class="line">                callbacks.append(lf_handler)</span><br><span class="line"></span><br><span class="line">            config = RunnableConfig(</span><br><span class="line">                callbacks=callbacks,</span><br><span class="line">                configurable=&#123;<span class="string">&quot;session_id&quot;</span>: session_id&#125;</span><br><span class="line">            )</span><br><span class="line"></span><br><span class="line">            <span class="comment"># 判断是否支持 astream_events (LangGraph v0.1+)</span></span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">hasattr</span>(runnable, <span class="string">&quot;astream_events&quot;</span>):</span><br><span class="line">                <span class="keyword">async</span> <span class="keyword">for</span> event <span class="keyword">in</span> runnable.astream_events(inputs, config=config, version=<span class="string">&quot;v2&quot;</span>):</span><br><span class="line">                    event_type = event[<span class="string">&quot;event&quot;</span>]</span><br><span class="line">                    data = event[<span class="string">&quot;data&quot;</span>]</span><br><span class="line"></span><br><span class="line">                    <span class="keyword">if</span> event_type == <span class="string">&quot;on_chat_model_stream&quot;</span>:</span><br><span class="line">                        chunk = data.get(<span class="string">&quot;chunk&quot;</span>)</span><br><span class="line">                        <span class="keyword">if</span> chunk <span class="keyword">and</span> <span class="built_in">hasattr</span>(chunk, <span class="string">&quot;content&quot;</span>) <span class="keyword">and</span> chunk.content:</span><br><span class="line">                            <span class="keyword">yield</span> <span class="variable language_">self</span>._sse_pack(<span class="string">&quot;token&quot;</span>, &#123;<span class="string">&quot;content&quot;</span>: chunk.content&#125;)</span><br><span class="line">                    </span><br><span class="line">                    <span class="keyword">elif</span> event_type == <span class="string">&quot;on_tool_start&quot;</span>:</span><br><span class="line">                        <span class="keyword">yield</span> <span class="variable language_">self</span>._sse_pack(<span class="string">&quot;tool_start&quot;</span>, &#123;<span class="string">&quot;tool&quot;</span>: event[<span class="string">&quot;name&quot;</span>]&#125;)</span><br><span class="line">                    </span><br><span class="line">                    <span class="keyword">elif</span> event_type == <span class="string">&quot;on_tool_end&quot;</span>:</span><br><span class="line">                        <span class="keyword">yield</span> <span class="variable language_">self</span>._sse_pack(<span class="string">&quot;tool_end&quot;</span>, &#123;<span class="string">&quot;output&quot;</span>: <span class="built_in">str</span>(data.get(<span class="string">&quot;output&quot;</span>))&#125;)</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="comment"># 普通 Chain 的流式回退</span></span><br><span class="line">                <span class="keyword">async</span> <span class="keyword">for</span> chunk <span class="keyword">in</span> runnable.astream(inputs, config=config):</span><br><span class="line">                    content = chunk.content <span class="keyword">if</span> <span class="built_in">hasattr</span>(chunk, <span class="string">&quot;content&quot;</span>) <span class="keyword">else</span> <span class="built_in">str</span>(chunk)</span><br><span class="line">                    <span class="keyword">yield</span> <span class="variable language_">self</span>._sse_pack(<span class="string">&quot;token&quot;</span>, &#123;<span class="string">&quot;content&quot;</span>: content&#125;)</span><br><span class="line"></span><br><span class="line">            <span class="keyword">yield</span> <span class="variable language_">self</span>._sse_pack(<span class="string">&quot;end&quot;</span>, <span class="string">&quot;[DONE]&quot;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">f&quot;Execution error: <span class="subst">&#123;e&#125;</span>&quot;</span>, exc_info=<span class="literal">True</span>)</span><br><span class="line">            <span class="keyword">yield</span> <span class="variable language_">self</span>._sse_pack(<span class="string">&quot;error&quot;</span>, <span class="built_in">str</span>(e))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">_sse_pack</span>(<span class="params">self, event: <span class="built_in">str</span>, data: <span class="type">Any</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;event: <span class="subst">&#123;event&#125;</span>\ndata: <span class="subst">&#123;json.dumps(data, ensure_ascii=<span class="literal">False</span>)&#125;</span>\n\n&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">_create_langfuse</span>(<span class="params">self, **kwargs</span>):</span><br><span class="line">        pk = os.getenv(<span class="string">&quot;LANGFUSE_PUBLIC_KEY&quot;</span>)</span><br><span class="line">        sk = os.getenv(<span class="string">&quot;LANGFUSE_SECRET_KEY&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> pk <span class="keyword">and</span> sk:</span><br><span class="line">            <span class="keyword">return</span> CallbackHandler(public_key=pk, secret_key=sk, host=os.getenv(<span class="string">&quot;LANGFUSE_HOST&quot;</span>), **kwargs)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line">agent_service = AgentServerService()</span><br></pre></td></tr></table></figure>
+<h3 id="3-API-路由-API-Routers">3. API 路由 (API Routers)</h3>
+<h4 id="管理接口-Management">管理接口 (Management)</h4>
+<p><strong>文件</strong>: <code>api/v1/agent_mgmt.py</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">List</span></span><br><span class="line"><span class="keyword">from</span> fastapi <span class="keyword">import</span> APIRouter, Depends, HTTPException, Body</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Session, select</span><br><span class="line"><span class="keyword">from</span> langflow.services.get_service <span class="keyword">import</span> get_session</span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.flow <span class="keyword">import</span> Flow</span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.agent_server <span class="keyword">import</span> Deployment, DeploymentVersion, DeploymentCreate, DeploymentRead</span><br><span class="line"></span><br><span class="line">router = APIRouter(prefix=<span class="string">&quot;/deployments&quot;</span>, tags=[<span class="string">&quot;Agent Management&quot;</span>])</span><br><span class="line"></span><br><span class="line"><span class="meta">@router.post(<span class="params"><span class="string">&quot;/publish&quot;</span>, response_model=DeploymentRead</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">publish_flow</span>(<span class="params">data: DeploymentCreate, session: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;发布新版本&quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1. 获取 Flow 数据</span></span><br><span class="line">    flow = session.get(Flow, data.flow_id)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> flow:</span><br><span class="line">        <span class="keyword">raise</span> HTTPException(<span class="number">404</span>, <span class="string">&quot;Flow not found&quot;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 2. 检查或创建 Deployment</span></span><br><span class="line">    deployment = session.<span class="built_in">exec</span>(select(Deployment).where(Deployment.endpoint_slug == data.endpoint_slug)).first()</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> deployment:</span><br><span class="line">        deployment = Deployment(</span><br><span class="line">            flow_id=data.flow_id,</span><br><span class="line">            name=data.name,</span><br><span class="line">            endpoint_slug=data.endpoint_slug,</span><br><span class="line">            active_version=<span class="number">1</span></span><br><span class="line">        )</span><br><span class="line">        session.add(deployment)</span><br><span class="line">        session.commit()</span><br><span class="line">        session.refresh(deployment)</span><br><span class="line">        new_version_num = <span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="comment"># 版本自增</span></span><br><span class="line">        last_version = session.<span class="built_in">exec</span>(</span><br><span class="line">            select(DeploymentVersion)</span><br><span class="line">            .where(DeploymentVersion.deployment_id == deployment.<span class="built_in">id</span>)</span><br><span class="line">            .order_by(DeploymentVersion.version.desc())</span><br><span class="line">        ).first()</span><br><span class="line">        new_version_num = (last_version.version + <span class="number">1</span>) <span class="keyword">if</span> last_version <span class="keyword">else</span> <span class="number">1</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 更新 Deployment 信息</span></span><br><span class="line">        deployment.active_version = new_version_num</span><br><span class="line">        deployment.name = data.name</span><br><span class="line">        session.add(deployment)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 3. 创建版本快照</span></span><br><span class="line">    version = DeploymentVersion(</span><br><span class="line">        deployment_id=deployment.<span class="built_in">id</span>,</span><br><span class="line">        version=new_version_num,</span><br><span class="line">        graph_snapshot=flow.data.copy(), <span class="comment"># 深度复制</span></span><br><span class="line">        production_config=data.production_config <span class="keyword">or</span> &#123;&#125;</span><br><span class="line">    )</span><br><span class="line">    session.add(version)</span><br><span class="line">    session.commit()</span><br><span class="line">    <span class="keyword">return</span> deployment</span><br><span class="line"></span><br><span class="line"><span class="meta">@router.patch(<span class="params"><span class="string">&quot;/&#123;id&#125;/config&quot;</span></span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">update_config</span>(<span class="params"><span class="built_in">id</span>: <span class="built_in">str</span>, rate_limit: <span class="built_in">str</span> = Body(<span class="params">..., embed=<span class="literal">True</span></span>), is_active: <span class="built_in">bool</span> = Body(<span class="params">..., embed=<span class="literal">True</span></span>), session: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;更新限流配置或停用服务&quot;&quot;&quot;</span></span><br><span class="line">    dep = session.get(Deployment, <span class="built_in">id</span>)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> dep:</span><br><span class="line">        <span class="keyword">raise</span> HTTPException(<span class="number">404</span>)</span><br><span class="line">    dep.rate_limit = rate_limit</span><br><span class="line">    dep.is_active = is_active</span><br><span class="line">    session.add(dep)</span><br><span class="line">    session.commit()</span><br><span class="line">    <span class="keyword">return</span> &#123;<span class="string">&quot;status&quot;</span>: <span class="string">&quot;updated&quot;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@router.post(<span class="params"><span class="string">&quot;/&#123;id&#125;/rollback&quot;</span></span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">rollback_version</span>(<span class="params"><span class="built_in">id</span>: <span class="built_in">str</span>, version: <span class="built_in">int</span> = Body(<span class="params">..., embed=<span class="literal">True</span></span>), session: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;版本回退&quot;&quot;&quot;</span></span><br><span class="line">    dep = session.get(Deployment, <span class="built_in">id</span>)</span><br><span class="line">    ver = session.<span class="built_in">exec</span>(select(DeploymentVersion).where(DeploymentVersion.deployment_id == <span class="built_in">id</span>, DeploymentVersion.version == version)).first()</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> dep <span class="keyword">or</span> <span class="keyword">not</span> ver:</span><br><span class="line">        <span class="keyword">raise</span> HTTPException(<span class="number">404</span>, <span class="string">&quot;Deployment or Version not found&quot;</span>)</span><br><span class="line">    </span><br><span class="line">    dep.active_version = version</span><br><span class="line">    session.add(dep)</span><br><span class="line">    session.commit()</span><br><span class="line">    <span class="keyword">return</span> &#123;<span class="string">&quot;status&quot;</span>: <span class="string">&quot;rolled_back&quot;</span>, <span class="string">&quot;current_version&quot;</span>: version&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@router.get(<span class="params"><span class="string">&quot;/flow/&#123;flow_id&#125;&quot;</span>, response_model=<span class="type">List</span>[DeploymentRead]</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_deployments_by_flow</span>(<span class="params">flow_id: <span class="built_in">str</span>, session: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    <span class="keyword">return</span> session.<span class="built_in">exec</span>(select(Deployment).where(Deployment.flow_id == flow_id)).<span class="built_in">all</span>()</span><br></pre></td></tr></table></figure>
+<h4 id="运行时接口-Runtime">运行时接口 (Runtime)</h4>
+<p><strong>文件</strong>: <code>api/v1/agent_runtime.py</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> fastapi <span class="keyword">import</span> APIRouter, Depends, HTTPException, Request, Body</span><br><span class="line"><span class="keyword">from</span> fastapi.responses <span class="keyword">import</span> StreamingResponse</span><br><span class="line"><span class="keyword">from</span> fastapi_limiter.depends <span class="keyword">import</span> RateLimiter</span><br><span class="line"><span class="keyword">from</span> sqlmodel <span class="keyword">import</span> Session, select</span><br><span class="line"><span class="keyword">from</span> langflow.services.get_service <span class="keyword">import</span> get_session</span><br><span class="line"><span class="keyword">from</span> langflow.services.database.models.agent_server <span class="keyword">import</span> Deployment</span><br><span class="line"><span class="keyword">from</span> langflow.services.agent_server.service <span class="keyword">import</span> agent_service</span><br><span class="line"></span><br><span class="line">router = APIRouter(prefix=<span class="string">&quot;/agent&quot;</span>, tags=[<span class="string">&quot;Agent Runtime&quot;</span>])</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">get_dynamic_rate_limit</span>(<span class="params">request: Request, session: Session = Depends(<span class="params">get_session</span>)</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;从数据库动态获取限流规则&quot;&quot;&quot;</span></span><br><span class="line">    slug = request.path_params.get(<span class="string">&quot;slug&quot;</span>)</span><br><span class="line">    dep = session.<span class="built_in">exec</span>(select(Deployment).where(Deployment.endpoint_slug == slug)).first()</span><br><span class="line">    <span class="keyword">return</span> dep.rate_limit <span class="keyword">if</span> dep <span class="keyword">else</span> <span class="string">&quot;5/minute&quot;</span> <span class="comment"># 默认严格限流</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">rate_limit_key</span>(<span class="params">request: Request</span>):</span><br><span class="line">    <span class="keyword">return</span> <span class="string">f&quot;<span class="subst">&#123;request.path_params.get(<span class="string">&#x27;slug&#x27;</span>)&#125;</span>:<span class="subst">&#123;request.client.host&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@router.post(<span class="params"><span class="string">&quot;/&#123;slug&#125;/stream&quot;</span>, dependencies=[Depends(<span class="params">RateLimiter(<span class="params">key_func=rate_limit_key, limit_func=get_dynamic_rate_limit</span>)</span>)]</span>)</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">stream_agent</span>(<span class="params"></span></span><br><span class="line"><span class="params">    slug: <span class="built_in">str</span>,</span></span><br><span class="line"><span class="params">    inputs: <span class="built_in">dict</span> = Body(<span class="params">...</span>),</span></span><br><span class="line"><span class="params">    session_id: <span class="built_in">str</span> = Body(<span class="params"><span class="literal">None</span></span>),</span></span><br><span class="line"><span class="params">    db: Session = Depends(<span class="params">get_session</span>)</span></span><br><span class="line"><span class="params"></span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;对外流式接口&quot;&quot;&quot;</span></span><br><span class="line">    deployment = db.<span class="built_in">exec</span>(select(Deployment).where(Deployment.endpoint_slug == slug, Deployment.is_active == <span class="literal">True</span>)).first()</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> deployment:</span><br><span class="line">        <span class="keyword">raise</span> HTTPException(<span class="number">404</span>, <span class="string">&quot;Agent not found or inactive&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> StreamingResponse(</span><br><span class="line">        agent_service.execute_stream(deployment, inputs, session_id, db),</span><br><span class="line">        media_type=<span class="string">&quot;text/event-stream&quot;</span></span><br><span class="line">    )</span><br></pre></td></tr></table></figure>
+<h3 id="4-注册-Main-Entry">4. 注册 (Main Entry)</h3>
+<p>修改 <code>src/backend/base/langflow/main.py</code>：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ... existing imports</span></span><br><span class="line"><span class="keyword">import</span> redis.asyncio <span class="keyword">as</span> redis</span><br><span class="line"><span class="keyword">from</span> fastapi_limiter <span class="keyword">import</span> FastAPILimiter</span><br><span class="line"><span class="keyword">from</span> langflow.api.v1.agent_mgmt <span class="keyword">import</span> router <span class="keyword">as</span> mgmt_router</span><br><span class="line"><span class="keyword">from</span> langflow.api.v1.agent_runtime <span class="keyword">import</span> router <span class="keyword">as</span> runtime_router</span><br><span class="line"></span><br><span class="line"><span class="comment"># ... inside create_app</span></span><br><span class="line"><span class="meta">@app.on_event(<span class="params"><span class="string">&quot;startup&quot;</span></span>)</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">startup</span>():</span><br><span class="line">    <span class="comment"># Redis for Rate Limiting</span></span><br><span class="line">    redis_url = os.getenv(<span class="string">&quot;REDIS_URL&quot;</span>, <span class="string">&quot;redis://localhost:6379&quot;</span>)</span><br><span class="line">    r = redis.from_url(redis_url, encoding=<span class="string">&quot;utf-8&quot;</span>, decode_responses=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">await</span> FastAPILimiter.init(r)</span><br><span class="line"></span><br><span class="line">app.include_router(mgmt_router)</span><br><span class="line">app.include_router(runtime_router)</span><br></pre></td></tr></table></figure>
+<hr>
+<h1>🎨 第二部分：前端开发 (Frontend)</h1>
+<p>目录基础路径：<code>src/frontend/src/</code></p>
+<p><strong>注意</strong>：前端代码需要编译。你需要将这些文件放入源码并重新运行 <code>npm start</code>。</p>
+<h3 id="1-国际化配置-i18n">1. 国际化配置 (i18n)</h3>
+<p><strong>文件</strong>: <code>src/i18n.js</code> (新建)</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> i18n <span class="keyword">from</span> <span class="string">&#x27;i18next&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; initReactI18next &#125; <span class="keyword">from</span> <span class="string">&#x27;react-i18next&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">LanguageDetector</span> <span class="keyword">from</span> <span class="string">&#x27;i18next-browser-languagedetector&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> resources = &#123;</span><br><span class="line">  <span class="attr">en</span>: &#123;</span><br><span class="line">    <span class="attr">translation</span>: &#123;</span><br><span class="line">      <span class="string">&quot;deploy&quot;</span>: <span class="string">&quot;Deployments&quot;</span>,</span><br><span class="line">      <span class="string">&quot;publish&quot;</span>: <span class="string">&quot;Publish Version&quot;</span>,</span><br><span class="line">      <span class="string">&quot;rollback&quot;</span>: <span class="string">&quot;Rollback&quot;</span>,</span><br><span class="line">      <span class="string">&quot;rate_limit&quot;</span>: <span class="string">&quot;Rate Limit&quot;</span>,</span><br><span class="line">      <span class="string">&quot;status&quot;</span>: <span class="string">&quot;Status&quot;</span>,</span><br><span class="line">      <span class="string">&quot;active&quot;</span>: <span class="string">&quot;Active&quot;</span>,</span><br><span class="line">      <span class="string">&quot;inactive&quot;</span>: <span class="string">&quot;Inactive&quot;</span>,</span><br><span class="line">      <span class="string">&quot;endpoint_slug&quot;</span>: <span class="string">&quot;URL Slug&quot;</span>,</span><br><span class="line">      <span class="string">&quot;history&quot;</span>: <span class="string">&quot;Version History&quot;</span>,</span><br><span class="line">      <span class="string">&quot;update_success&quot;</span>: <span class="string">&quot;Configuration Updated&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">zh</span>: &#123;</span><br><span class="line">    <span class="attr">translation</span>: &#123;</span><br><span class="line">      <span class="string">&quot;deploy&quot;</span>: <span class="string">&quot;部署管理&quot;</span>,</span><br><span class="line">      <span class="string">&quot;publish&quot;</span>: <span class="string">&quot;发布新版本&quot;</span>,</span><br><span class="line">      <span class="string">&quot;rollback&quot;</span>: <span class="string">&quot;版本回退&quot;</span>,</span><br><span class="line">      <span class="string">&quot;rate_limit&quot;</span>: <span class="string">&quot;接口限流规则&quot;</span>,</span><br><span class="line">      <span class="string">&quot;status&quot;</span>: <span class="string">&quot;状态&quot;</span>,</span><br><span class="line">      <span class="string">&quot;active&quot;</span>: <span class="string">&quot;运行中&quot;</span>,</span><br><span class="line">      <span class="string">&quot;inactive&quot;</span>: <span class="string">&quot;已停用&quot;</span>,</span><br><span class="line">      <span class="string">&quot;endpoint_slug&quot;</span>: <span class="string">&quot;访问路径 (Slug)&quot;</span>,</span><br><span class="line">      <span class="string">&quot;history&quot;</span>: <span class="string">&quot;版本历史&quot;</span>,</span><br><span class="line">      <span class="string">&quot;update_success&quot;</span>: <span class="string">&quot;配置已更新&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">i18n</span><br><span class="line">  .<span class="title function_">use</span>(<span class="title class_">LanguageDetector</span>)</span><br><span class="line">  .<span class="title function_">use</span>(initReactI18next)</span><br><span class="line">  .<span class="title function_">init</span>(&#123;</span><br><span class="line">    resources,</span><br><span class="line">    <span class="attr">fallbackLng</span>: <span class="string">&#x27;en&#x27;</span>,</span><br><span class="line">    <span class="attr">interpolation</span>: &#123; <span class="attr">escapeValue</span>: <span class="literal">false</span> &#125;</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> i18n;</span><br></pre></td></tr></table></figure>
+<p>在 <code>src/index.tsx</code> 中引入：<code>import './i18n';</code></p>
+<h3 id="2-部署管理抽屉组件-Deployment-Drawer">2. 部署管理抽屉组件 (Deployment Drawer)</h3>
+<p>这是一个复杂的 React 组件，用于管理部署。</p>
+<p><strong>文件</strong>: <code>src/components/DeploymentDrawer/index.tsx</code> (新建)</p>
+<figure class="highlight tsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="title class_">React</span>, &#123; useState, useEffect &#125; <span class="keyword">from</span> <span class="string">&#x27;react&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; useTranslation &#125; <span class="keyword">from</span> <span class="string">&#x27;react-i18next&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; <span class="title class_">Sheet</span>, <span class="title class_">SheetContent</span>, <span class="title class_">SheetHeader</span>, <span class="title class_">SheetTitle</span>, <span class="title class_">Button</span>, <span class="title class_">Input</span>, <span class="title class_">Switch</span>, <span class="title class_">Table</span> &#125; <span class="keyword">from</span> <span class="string">&quot;@/components/ui&quot;</span>; <span class="comment">// 假设使用了 Shadcn UI</span></span><br><span class="line"><span class="keyword">import</span> &#123; toast &#125; <span class="keyword">from</span> <span class="string">&#x27;use-toast-hook&#x27;</span>; <span class="comment">// 假设</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// API调用封装 (简写)</span></span><br><span class="line"><span class="keyword">const</span> api = &#123;</span><br><span class="line">  <span class="attr">getDeployments</span>: <span class="function">(<span class="params">flowId</span>) =&gt;</span> <span class="title function_">fetch</span>(<span class="string">`/api/v1/deployments/flow/<span class="subst">$&#123;flowId&#125;</span>`</span>).<span class="title function_">then</span>(<span class="function"><span class="params">r</span> =&gt;</span> r.<span class="title function_">json</span>()),</span><br><span class="line">  <span class="attr">publish</span>: <span class="function">(<span class="params">data</span>) =&gt;</span> <span class="title function_">fetch</span>(<span class="string">&#x27;/api/v1/deployments/publish&#x27;</span>, &#123; <span class="attr">method</span>: <span class="string">&#x27;POST&#x27;</span>, <span class="attr">body</span>: <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(data), <span class="attr">headers</span>: &#123;<span class="string">&#x27;Content-Type&#x27;</span>: <span class="string">&#x27;application/json&#x27;</span>&#125; &#125;),</span><br><span class="line">  <span class="attr">updateConfig</span>: <span class="function">(<span class="params">id, data</span>) =&gt;</span> <span class="title function_">fetch</span>(<span class="string">`/api/v1/deployments/<span class="subst">$&#123;id&#125;</span>/config`</span>, &#123; <span class="attr">method</span>: <span class="string">&#x27;PATCH&#x27;</span>, <span class="attr">body</span>: <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(data), <span class="attr">headers</span>: &#123;<span class="string">&#x27;Content-Type&#x27;</span>: <span class="string">&#x27;application/json&#x27;</span>&#125; &#125;),</span><br><span class="line">  <span class="attr">rollback</span>: <span class="function">(<span class="params">id, version</span>) =&gt;</span> <span class="title function_">fetch</span>(<span class="string">`/api/v1/deployments/<span class="subst">$&#123;id&#125;</span>/rollback`</span>, &#123; <span class="attr">method</span>: <span class="string">&#x27;POST&#x27;</span>, <span class="attr">body</span>: <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(&#123;version&#125;), <span class="attr">headers</span>: &#123;<span class="string">&#x27;Content-Type&#x27;</span>: <span class="string">&#x27;application/json&#x27;</span>&#125; &#125;),</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">function</span> <span class="title function_">DeploymentDrawer</span>(<span class="params">&#123; flowId, open, onClose &#125;</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; t &#125; = <span class="title function_">useTranslation</span>();</span><br><span class="line">  <span class="keyword">const</span> [deployments, setDeployments] = <span class="title function_">useState</span>([]);</span><br><span class="line">  <span class="keyword">const</span> [loading, setLoading] = <span class="title function_">useState</span>(<span class="literal">false</span>);</span><br><span class="line">  </span><br><span class="line">  <span class="comment">// 表单状态</span></span><br><span class="line">  <span class="keyword">const</span> [slug, setSlug] = <span class="title function_">useState</span>(<span class="string">&quot;&quot;</span>);</span><br><span class="line">  <span class="keyword">const</span> [limit, setLimit] = <span class="title function_">useState</span>(<span class="string">&quot;60/minute&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="title function_">useEffect</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (open &amp;&amp; flowId) <span class="title function_">loadData</span>();</span><br><span class="line">  &#125;, [open, flowId]);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">loadData</span> = <span class="keyword">async</span> (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">    <span class="title function_">setLoading</span>(<span class="literal">true</span>);</span><br><span class="line">    <span class="keyword">const</span> data = <span class="keyword">await</span> api.<span class="title function_">getDeployments</span>(flowId);</span><br><span class="line">    <span class="title function_">setDeployments</span>(data);</span><br><span class="line">    <span class="keyword">if</span>(data.<span class="property">length</span> &gt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="title function_">setSlug</span>(data[<span class="number">0</span>].<span class="property">endpoint_slug</span>);</span><br><span class="line">        <span class="title function_">setLimit</span>(data[<span class="number">0</span>].<span class="property">rate_limit</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">setLoading</span>(<span class="literal">false</span>);</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">handlePublish</span> = <span class="keyword">async</span> (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">      <span class="keyword">await</span> api.<span class="title function_">publish</span>(&#123;</span><br><span class="line">        <span class="attr">flow_id</span>: flowId,</span><br><span class="line">        <span class="attr">name</span>: <span class="string">&quot;Production Agent&quot;</span>,</span><br><span class="line">        <span class="attr">endpoint_slug</span>: slug,</span><br><span class="line">        <span class="attr">production_config</span>: &#123;&#125; </span><br><span class="line">      &#125;);</span><br><span class="line">      <span class="title function_">toast</span>(&#123; <span class="attr">title</span>: <span class="title function_">t</span>(<span class="string">&#x27;publish_success&#x27;</span>) &#125;);</span><br><span class="line">      <span class="title function_">loadData</span>();</span><br><span class="line">    &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">      <span class="title function_">toast</span>(&#123; <span class="attr">title</span>: <span class="string">&quot;Error&quot;</span>, <span class="attr">variant</span>: <span class="string">&quot;destructive&quot;</span> &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">handleUpdateConfig</span> = <span class="keyword">async</span> (<span class="params">dep</span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">await</span> api.<span class="title function_">updateConfig</span>(dep.<span class="property">id</span>, &#123; <span class="attr">rate_limit</span>: limit, <span class="attr">is_active</span>: dep.<span class="property">is_active</span> &#125;);</span><br><span class="line">    <span class="title function_">toast</span>(&#123; <span class="attr">title</span>: <span class="title function_">t</span>(<span class="string">&#x27;update_success&#x27;</span>) &#125;);</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> (</span><br><span class="line">    <span class="language-xml"><span class="tag">&lt;<span class="name">Sheet</span> <span class="attr">open</span>=<span class="string">&#123;open&#125;</span> <span class="attr">onOpenChange</span>=<span class="string">&#123;onClose&#125;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">      <span class="tag">&lt;<span class="name">SheetContent</span> <span class="attr">className</span>=<span class="string">&quot;w-[500px]&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">        <span class="tag">&lt;<span class="name">SheetHeader</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">          <span class="tag">&lt;<span class="name">SheetTitle</span>&gt;</span>&#123;t(&#x27;deploy&#x27;)&#125;<span class="tag">&lt;/<span class="name">SheetTitle</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">        <span class="tag">&lt;/<span class="name">SheetHeader</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">        </span></span><br><span class="line"><span class="language-xml">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">className</span>=<span class="string">&quot;py-4 space-y-6&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">          &#123;/* 发布区域 */&#125;</span></span><br><span class="line"><span class="language-xml">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">className</span>=<span class="string">&quot;p-4 border rounded bg-gray-50&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">            <span class="tag">&lt;<span class="name">h3</span> <span class="attr">className</span>=<span class="string">&quot;font-bold mb-2&quot;</span>&gt;</span>&#123;t(&#x27;publish&#x27;)&#125;<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">            <span class="tag">&lt;<span class="name">Input</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">                <span class="attr">placeholder</span>=<span class="string">&#123;t(</span>&#x27;<span class="attr">endpoint_slug</span>&#x27;)&#125; </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">                <span class="attr">value</span>=<span class="string">&#123;slug&#125;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">                <span class="attr">onChange</span>=<span class="string">&#123;e</span> =&gt;</span> setSlug(e.target.value)&#125; </span></span><br><span class="line"><span class="language-xml">                className=&quot;mb-2&quot;</span></span><br><span class="line"><span class="language-xml">            /&gt;</span></span><br><span class="line"><span class="language-xml">            <span class="tag">&lt;<span class="name">Button</span> <span class="attr">onClick</span>=<span class="string">&#123;handlePublish&#125;</span> <span class="attr">disabled</span>=<span class="string">&#123;loading&#125;</span>&gt;</span>&#123;t(&#x27;publish&#x27;)&#125;<span class="tag">&lt;/<span class="name">Button</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"></span></span><br><span class="line"><span class="language-xml">          &#123;/* 列表与配置 */&#125;</span></span><br><span class="line"><span class="language-xml">          &#123;deployments.map(dep =&gt; (</span></span><br><span class="line"><span class="language-xml">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">key</span>=<span class="string">&#123;dep.id&#125;</span> <span class="attr">className</span>=<span class="string">&quot;space-y-4&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">               <span class="tag">&lt;<span class="name">div</span> <span class="attr">className</span>=<span class="string">&quot;flex items-center justify-between&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                 <span class="tag">&lt;<span class="name">span</span> <span class="attr">className</span>=<span class="string">&quot;font-mono text-sm bg-blue-100 p-1 rounded&quot;</span>&gt;</span>POST /agent/&#123;dep.endpoint_slug&#125;/stream<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                 <span class="tag">&lt;<span class="name">Switch</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">                    <span class="attr">checked</span>=<span class="string">&#123;dep.is_active&#125;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">                    <span class="attr">onCheckedChange</span>=<span class="string">&#123;checked</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-xml">                        dep.is_active = checked;</span></span><br><span class="line"><span class="language-xml">                        handleUpdateConfig(dep);</span></span><br><span class="line"><span class="language-xml">                    &#125;&#125;</span></span><br><span class="line"><span class="language-xml">                 /&gt;</span></span><br><span class="line"><span class="language-xml">               <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">               </span></span><br><span class="line"><span class="language-xml">               <span class="tag">&lt;<span class="name">div</span> <span class="attr">className</span>=<span class="string">&quot;flex gap-2 items-center&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                 <span class="tag">&lt;<span class="name">label</span> <span class="attr">className</span>=<span class="string">&quot;text-sm&quot;</span>&gt;</span>&#123;t(&#x27;rate_limit&#x27;)&#125;:<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                 <span class="tag">&lt;<span class="name">Input</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">                    <span class="attr">value</span>=<span class="string">&#123;limit&#125;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">                    <span class="attr">onChange</span>=<span class="string">&#123;e</span> =&gt;</span> setLimit(e.target.value)&#125; </span></span><br><span class="line"><span class="language-xml">                    className=&quot;w-32&quot;</span></span><br><span class="line"><span class="language-xml">                 /&gt;</span></span><br><span class="line"><span class="language-xml">                 <span class="tag">&lt;<span class="name">Button</span> <span class="attr">size</span>=<span class="string">&quot;sm&quot;</span> <span class="attr">variant</span>=<span class="string">&quot;outline&quot;</span> <span class="attr">onClick</span>=<span class="string">&#123;()</span> =&gt;</span> handleUpdateConfig(dep)&#125;&gt;Save<span class="tag">&lt;/<span class="name">Button</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">               <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"></span></span><br><span class="line"><span class="language-xml">               &#123;/* 版本历史 (简化版) */&#125;</span></span><br><span class="line"><span class="language-xml">               <span class="tag">&lt;<span class="name">div</span> <span class="attr">className</span>=<span class="string">&quot;mt-4&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                 <span class="tag">&lt;<span class="name">h4</span> <span class="attr">className</span>=<span class="string">&quot;text-sm font-bold&quot;</span>&gt;</span>&#123;t(&#x27;history&#x27;)&#125; (Current: v&#123;dep.active_version&#125;)<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                 <span class="tag">&lt;<span class="name">div</span> <span class="attr">className</span>=<span class="string">&quot;max-h-40 overflow-y-auto mt-2&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                    &#123;/* 实际应从后端获取 versions 列表 */&#125;</span></span><br><span class="line"><span class="language-xml">                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">className</span>=<span class="string">&quot;flex justify-between text-sm py-1 border-b&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                        <span class="tag">&lt;<span class="name">span</span>&gt;</span>v&#123;dep.active_version&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                        <span class="tag">&lt;<span class="name">span</span> <span class="attr">className</span>=<span class="string">&quot;text-green-600&quot;</span>&gt;</span>&#123;t(&#x27;active&#x27;)&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                    &#123;dep.active_version &gt; 1 &amp;&amp; (</span></span><br><span class="line"><span class="language-xml">                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">className</span>=<span class="string">&quot;flex justify-between text-sm py-1 border-b&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                            <span class="tag">&lt;<span class="name">span</span>&gt;</span>v&#123;dep.active_version - 1&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                            <span class="tag">&lt;<span class="name">Button</span> <span class="attr">size</span>=<span class="string">&quot;xs&quot;</span> <span class="attr">variant</span>=<span class="string">&quot;ghost&quot;</span> <span class="attr">onClick</span>=<span class="string">&#123;()</span> =&gt;</span> api.rollback(dep.id, dep.active_version - 1)&#125;&gt;</span></span><br><span class="line"><span class="language-xml">                                &#123;t(&#x27;rollback&#x27;)&#125;</span></span><br><span class="line"><span class="language-xml">                            <span class="tag">&lt;/<span class="name">Button</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                    )&#125;</span></span><br><span class="line"><span class="language-xml">                 <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">               <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">          ))&#125;</span></span><br><span class="line"><span class="language-xml">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">      <span class="tag">&lt;/<span class="name">SheetContent</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;/<span class="name">Sheet</span>&gt;</span></span></span><br><span class="line">  );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="3-集成到-Flow-列表页">3. 集成到 Flow 列表页</h3>
+<p>找到 <code>src/pages/FlowPage/components/FlowCard/index.tsx</code> (路径可能随版本变化)，添加按钮：</p>
+<figure class="highlight tsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="title class_">DeploymentDrawer</span> <span class="keyword">from</span> <span class="string">&#x27;@/components/DeploymentDrawer&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Inside FlowCard component</span></span><br><span class="line"><span class="keyword">const</span> [showDeploy, setShowDeploy] = <span class="title function_">useState</span>(<span class="literal">false</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> (</span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;&gt;</span></span></span><br><span class="line"><span class="language-xml">    &#123;/* ... existing card content ... */&#125;</span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">className</span>=<span class="string">&quot;menu-item&quot;</span> <span class="attr">onClick</span>=<span class="string">&#123;()</span> =&gt;</span> setShowDeploy(true)&#125;&gt;</span></span><br><span class="line"><span class="language-xml">       🚀 &#123;t(&#x27;deploy&#x27;)&#125;</span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">    </span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;<span class="name">DeploymentDrawer</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">        <span class="attr">open</span>=<span class="string">&#123;showDeploy&#125;</span> </span></span></span><br><span class="line"><span class="tag"><span class="language-xml">        <span class="attr">onClose</span>=<span class="string">&#123;()</span> =&gt;</span> setShowDeploy(false)&#125; </span></span><br><span class="line"><span class="language-xml">        flowId=&#123;flow.id&#125; </span></span><br><span class="line"><span class="language-xml">    /&gt;</span></span><br><span class="line"><span class="language-xml">  <span class="tag">&lt;/&gt;</span></span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<hr>
+<h1>🧪 第三部分：测试 (Testing)</h1>
+<p><strong>文件</strong>: <code>tests/agent_server/test_integration.py</code></p>
+<p>使用 <code>pytest-asyncio</code> 和 <code>httpx</code>。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pytest</span><br><span class="line"><span class="keyword">from</span> httpx <span class="keyword">import</span> AsyncClient</span><br><span class="line"></span><br><span class="line"><span class="comment"># 假设已经配置好了 conftest.py 提供 client fixture</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@pytest.mark.asyncio</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">test_end_to_end_flow</span>(<span class="params">client: AsyncClient, active_user</span>):</span><br><span class="line">    <span class="comment"># 1. 发布流程</span></span><br><span class="line">    <span class="comment"># 假设我们有一个存在的 flow_id</span></span><br><span class="line">    flow_id = <span class="string">&quot;existing-flow-uuid&quot;</span> </span><br><span class="line">    </span><br><span class="line">    resp = <span class="keyword">await</span> client.post(<span class="string">&quot;/api/v1/deployments/publish&quot;</span>, json=&#123;</span><br><span class="line">        <span class="string">&quot;flow_id&quot;</span>: flow_id,</span><br><span class="line">        <span class="string">&quot;name&quot;</span>: <span class="string">&quot;Integration Test Agent&quot;</span>,</span><br><span class="line">        <span class="string">&quot;endpoint_slug&quot;</span>: <span class="string">&quot;test-integration&quot;</span></span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">assert</span> resp.status_code == <span class="number">200</span></span><br><span class="line">    dep_data = resp.json()</span><br><span class="line">    <span class="keyword">assert</span> dep_data[<span class="string">&quot;version&quot;</span>] == <span class="number">1</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 2. 验证限流 (初始)</span></span><br><span class="line">    <span class="comment"># 调用 Runtime 接口</span></span><br><span class="line">    slug = <span class="string">&quot;test-integration&quot;</span></span><br><span class="line">    resp = <span class="keyword">await</span> client.post(<span class="string">f&quot;/api/v1/agent/<span class="subst">&#123;slug&#125;</span>/stream&quot;</span>, json=&#123;<span class="string">&quot;input_value&quot;</span>: <span class="string">&quot;hi&quot;</span>&#125;)</span><br><span class="line">    <span class="comment"># 应该是 200 (StreamingResponse start)</span></span><br><span class="line">    <span class="keyword">assert</span> resp.status_code == <span class="number">200</span> </span><br><span class="line"></span><br><span class="line">    <span class="comment"># 3. 修改限流配置</span></span><br><span class="line">    dep_id = dep_data[<span class="string">&quot;id&quot;</span>]</span><br><span class="line">    <span class="keyword">await</span> client.patch(<span class="string">f&quot;/api/v1/deployments/<span class="subst">&#123;dep_id&#125;</span>/config&quot;</span>, json=&#123;</span><br><span class="line">        <span class="string">&quot;rate_limit&quot;</span>: <span class="string">&quot;0/minute&quot;</span>, <span class="comment"># 禁止访问</span></span><br><span class="line">        <span class="string">&quot;is_active&quot;</span>: <span class="literal">True</span></span><br><span class="line">    &#125;)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 4. 再次调用应该被拦截</span></span><br><span class="line">    resp = <span class="keyword">await</span> client.post(<span class="string">f&quot;/api/v1/agent/<span class="subst">&#123;slug&#125;</span>/stream&quot;</span>, json=&#123;<span class="string">&quot;input_value&quot;</span>: <span class="string">&quot;hi&quot;</span>&#125;)</span><br><span class="line">    <span class="keyword">assert</span> resp.status_code == <span class="number">429</span> <span class="comment"># Too Many Requests</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 5. 版本回退测试</span></span><br><span class="line">    <span class="comment"># 再次发布产生 v2</span></span><br><span class="line">    <span class="keyword">await</span> client.post(<span class="string">&quot;/api/v1/deployments/publish&quot;</span>, json=&#123;</span><br><span class="line">        <span class="string">&quot;flow_id&quot;</span>: flow_id, <span class="string">&quot;name&quot;</span>: <span class="string">&quot;v2&quot;</span>, <span class="string">&quot;endpoint_slug&quot;</span>: <span class="string">&quot;test-integration&quot;</span></span><br><span class="line">    &#125;)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 执行回退到 v1</span></span><br><span class="line">    rollback_resp = <span class="keyword">await</span> client.post(<span class="string">f&quot;/api/v1/deployments/<span class="subst">&#123;dep_id&#125;</span>/rollback&quot;</span>, json=&#123;<span class="string">&quot;version&quot;</span>: <span class="number">1</span>&#125;)</span><br><span class="line">    <span class="keyword">assert</span> rollback_resp.json()[<span class="string">&quot;current_version&quot;</span>] == <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h1>🐳 第四部分：Docker 部署</h1>
+<p><strong>文件</strong>: <code>docker-compose.yml</code> (更新)</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&#x27;3&#x27;</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">langflow:</span></span><br><span class="line">    <span class="attr">build:</span> <span class="string">.</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;7860:7860&quot;</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">DATABASE_URL=mysql+pymysql://root:root@mysql-server/langflow</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">REDIS_URL=redis://redis-server:6379/0</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">LANGFUSE_PUBLIC_KEY=pk-lf-...</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">LANGFUSE_SECRET_KEY=sk-lf-...</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">LANGFUSE_HOST=https://cloud.langfuse.com</span></span><br><span class="line">    <span class="attr">depends_on:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">mysql-server</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">redis-server</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">mysql-server:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mysql:8.0</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">MYSQL_ROOT_PASSWORD:</span> <span class="string">root</span></span><br><span class="line">      <span class="attr">MYSQL_DATABASE:</span> <span class="string">langflow</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">db_data:/var/lib/mysql</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">redis-server:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">redis:alpine</span></span><br><span class="line">    </span><br><span class="line"><span class="attr">volumes:</span></span><br><span class="line">  <span class="attr">db_data:</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="开发执行步骤提醒">开发执行步骤提醒</h3>
+<ol>
+<li><strong>后端</strong>: 先创建 Database Models，然后运行 Alembic 迁移数据库。</li>
+<li><strong>后端</strong>: 创建 Service 和 API Router，最后在 <code>main.py</code> 注册。</li>
+<li><strong>前端</strong>: 安装 <code>npm install i18next react-i18next i18next-browser-languagedetector</code>。</li>
+<li><strong>前端</strong>: 创建语言包和 Drawer 组件，修改 FlowCard。</li>
+<li><strong>构建</strong>: 运行 <code>npm run build</code> 重新编译前端资源。</li>
+<li><strong>测试</strong>: 运行 <code>pytest tests/agent_server/</code>。</li>
+</ol>
+<p>这一套代码完整覆盖了您的需求，可以直接进入编码阶段。</p>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/cn/从会聊天到会做事-读懂AI-Agent-MCP-Harness-Skill/" data-toggle="tooltip" data-placement="top" title="从「会聊天」到「会做事」：一文读懂 AI Agent、MCP、Harness、Skill 等核心技术">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/open-agent-platform源码解读/" data-toggle="tooltip" data-placement="top" title="open-agent-platform源码解读">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=对LangFlow源码进行二次开发&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/对LangFlow源码进行二次开发/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'a37850f88f2a4d827300',
+      clientSecret: '7a50383ec7757c78714f95d455cc52b4211e8cf2',
+      repo: 'tigergo001.github.io',
+      owner: 'tigergo001',
+      admin: 'tigergo001',
+      id: 'Mon Dec 08 2025 10:24:01 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">第一部分：Langflow 源码深度解析</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%8E%9F%E7%90%86"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">1. 核心架构与工作流原理</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-1-%E4%BB%8E-JSON-%E5%88%B0-Python-%E5%AF%B9%E8%B1%A1-The-Graph-Engine"><span class="toc-nav-number">1.1.1.</span> <span class="toc-nav-text">1.1 从 JSON 到 Python 对象 (The Graph Engine)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-2-%E5%A4%9A-Agent-%E4%B8%8E-Workflow-%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0"><span class="toc-nav-number">1.1.2.</span> <span class="toc-nav-text">1.2 多 Agent 与 Workflow 的底层实现</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E6%A8%A1%E5%BC%8F-A%EF%BC%9A%E5%9F%BA%E4%BA%8E-LangChain-%E7%9A%84-AgentExecutor-%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%BC%8F"><span class="toc-nav-number">1.1.2.1.</span> <span class="toc-nav-text">模式 A：基于 LangChain 的 AgentExecutor (传统模式)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E6%A8%A1%E5%BC%8F-B%EF%BC%9A%E5%9F%BA%E4%BA%8E-LangGraph-%E7%9A%84%E5%A4%9A-Agent-%E7%8E%B0%E4%BB%A3%E6%A8%A1%E5%BC%8F"><span class="toc-nav-number">1.1.2.2.</span> <span class="toc-nav-text">模式 B：基于 LangGraph 的多 Agent (现代模式)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-3-%E5%85%B3%E9%94%AE-API-%E6%80%BB%E7%BB%93"><span class="toc-nav-number">1.1.3.</span> <span class="toc-nav-text">1.3 关键 API 总结</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">第二部分：AgentServer 扩展设计文档</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E6%80%BB%E4%BD%93%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">1. 总体架构设计</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1-MySQL"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">2. 数据库设计 (MySQL)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-1-deployment-%E8%A1%A8-%E9%83%A8%E7%BD%B2%E4%B8%BB%E8%A1%A8"><span class="toc-nav-number">2.2.1.</span> <span class="toc-nav-text">2.1 deployment 表 (部署主表)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-2-deployment-version-%E8%A1%A8-%E7%89%88%E6%9C%AC%E5%BF%AB%E7%85%A7%E8%A1%A8"><span class="toc-nav-number">2.2.2.</span> <span class="toc-nav-text">2.2 deployment_version 表 (版本快照表)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-%E8%AF%A6%E7%BB%86%E6%A8%A1%E5%9D%97%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">3. 详细模块设计</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-%E6%A8%A1%E5%9D%97%E7%BB%93%E6%9E%84"><span class="toc-nav-number">2.3.1.</span> <span class="toc-nav-text">3.1 模块结构</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-2-%E6%A0%B8%E5%BF%83%E6%B5%81%E7%A8%8B%E9%80%BB%E8%BE%91"><span class="toc-nav-number">2.3.2.</span> <span class="toc-nav-text">3.2 核心流程逻辑</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#A-%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B-Management-API"><span class="toc-nav-number">2.3.2.1.</span> <span class="toc-nav-text">A. 发布流程 (Management API)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#B-%E8%BF%90%E8%A1%8C%E6%B5%81%E7%A8%8B-Runtime-API-%E5%B8%A6%E7%BC%93%E5%AD%98%E4%B8%8E%E9%99%90%E6%B5%81"><span class="toc-nav-number">2.3.2.2.</span> <span class="toc-nav-text">B. 运行流程 (Runtime API) - 带缓存与限流</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-3-%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1-Extension"><span class="toc-nav-number">2.3.3.</span> <span class="toc-nav-text">3.3 前端设计 (Extension)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#4-%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E9%9A%BE%E7%82%B9%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-nav-number">2.4.</span> <span class="toc-nav-text">4. 关键技术难点解决方案</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-1-Token-%E9%99%90%E5%88%B6%E4%B8%8E%E6%B5%81%E5%BC%8F%E5%93%8D%E5%BA%94"><span class="toc-nav-number">2.4.1.</span> <span class="toc-nav-text">4.1 Token 限制与流式响应</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-2-%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E7%A8%B3%E5%AE%9A%E6%80%A7"><span class="toc-nav-number">2.4.2.</span> <span class="toc-nav-text">4.2 生产环境稳定性</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-3-%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9A%94%E7%A6%BB"><span class="toc-nav-number">2.4.3.</span> <span class="toc-nav-text">4.3 数据库隔离</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">AgentServer v2.0 详细设计文档</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-%E5%89%8D%E7%AB%AF%E9%A1%B5%E9%9D%A2%E4%BA%A4%E4%BA%92%E4%B8%8E%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1-Frontend-Design"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">1. 前端页面交互与视觉设计 (Frontend Design)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-1-%E9%A1%B5%E9%9D%A2%E7%BB%93%E6%9E%84%E8%A7%84%E5%88%92"><span class="toc-nav-number">3.1.1.</span> <span class="toc-nav-text">1.1 页面结构规划</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#A-Flow-%E5%88%97%E8%A1%A8%E9%A1%B5%E5%A2%9E%E5%BC%BA"><span class="toc-nav-number">3.1.1.1.</span> <span class="toc-nav-text">A. Flow 列表页增强</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#B-%E9%83%A8%E7%BD%B2%E7%AE%A1%E7%90%86%E5%BC%B9%E7%AA%97-%E6%8A%BD%E5%B1%89-Deployment-Drawer"><span class="toc-nav-number">3.1.1.2.</span> <span class="toc-nav-text">B. 部署管理弹窗&#x2F;抽屉 (Deployment Drawer)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-2-%E5%9B%BD%E9%99%85%E5%8C%96-i18n-%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number">3.1.2.</span> <span class="toc-nav-text">1.2 国际化 (i18n) 交互设计</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#2-%E5%9B%BD%E9%99%85%E5%8C%96-i18n-%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">2. 国际化 (i18n) 技术方案</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-1-%E6%8A%80%E6%9C%AF%E6%A0%88"><span class="toc-nav-number">3.2.1.</span> <span class="toc-nav-text">2.1 技术栈</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-2-%E5%AE%9E%E7%8E%B0%E6%AD%A5%E9%AA%A4"><span class="toc-nav-number">3.2.2.</span> <span class="toc-nav-text">2.2 实现步骤</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#Step-1-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-nav-number">3.2.2.1.</span> <span class="toc-nav-text">Step 1: 目录结构</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#Step-2-%E5%88%9D%E5%A7%8B%E5%8C%96%E9%85%8D%E7%BD%AE-src-i18n-js"><span class="toc-nav-number">3.2.2.2.</span> <span class="toc-nav-text">Step 2: 初始化配置 (src&#x2F;i18n.js)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#Step-3-%E6%9B%BF%E6%8D%A2%E5%8E%9F%E6%9C%89%E6%96%87%E6%9C%AC"><span class="toc-nav-number">3.2.2.3.</span> <span class="toc-nav-text">Step 3: 替换原有文本</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-%E6%8E%A5%E5%8F%A3%E9%99%90%E6%B5%81%E7%AE%A1%E7%90%86%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">3. 接口限流管理设计</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-%E5%90%8E%E7%AB%AF%E9%80%BB%E8%BE%91%E5%AE%8C%E5%96%84"><span class="toc-nav-number">3.3.1.</span> <span class="toc-nav-text">3.1 后端逻辑完善</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-2-%E7%AD%96%E7%95%A5%E8%B0%83%E6%95%B4"><span class="toc-nav-number">3.3.2.</span> <span class="toc-nav-text">3.2 策略调整</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#4-%E6%B5%8B%E8%AF%95%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E7%94%A8%E4%BE%8B"><span class="toc-nav-number">3.4.</span> <span class="toc-nav-text">4. 测试系统设计与用例</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-1-%E6%B5%8B%E8%AF%95%E6%9E%B6%E6%9E%84"><span class="toc-nav-number">3.4.1.</span> <span class="toc-nav-text">4.1 测试架构</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-2-%E7%9B%AE%E5%BD%95%E8%A7%84%E5%88%92"><span class="toc-nav-number">3.4.2.</span> <span class="toc-nav-text">4.2 目录规划</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-3-%E6%A0%B8%E5%BF%83%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%E5%BC%80%E5%8F%91-Code-Examples"><span class="toc-nav-number">3.4.3.</span> <span class="toc-nav-text">4.3 核心测试用例开发 (Code Examples)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%94%A8%E4%BE%8B-1-%E9%83%A8%E7%BD%B2%E4%B8%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6-Test-Deployment-Versioning"><span class="toc-nav-number">3.4.3.1.</span> <span class="toc-nav-text">用例 1: 部署与版本控制 (Test Deployment Versioning)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%94%A8%E4%BE%8B-2-%E9%99%90%E6%B5%81%E5%8A%9F%E8%83%BD%E9%AA%8C%E8%AF%81-Test-Rate-Limiting"><span class="toc-nav-number">3.4.3.2.</span> <span class="toc-nav-text">用例 2: 限流功能验证 (Test Rate Limiting)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%94%A8%E4%BE%8B-3-%E7%BC%93%E5%AD%98%E5%91%BD%E4%B8%AD%E9%AA%8C%E8%AF%81-Test-Cache-Hit"><span class="toc-nav-number">3.4.3.3.</span> <span class="toc-nav-text">用例 3: 缓存命中验证 (Test Cache Hit)</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-%E5%AE%9E%E6%96%BD%E8%B7%AF%E7%BA%BF%E5%9B%BE-Implementation-Roadmap"><span class="toc-nav-number">3.5.</span> <span class="toc-nav-text">5. 实施路线图 (Implementation Roadmap)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Phase-1-%E5%9B%BD%E9%99%85%E5%8C%96%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD-1-2-%E5%A4%A9"><span class="toc-nav-number">3.5.1.</span> <span class="toc-nav-text">Phase 1: 国际化基础设施 (1-2 天)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Phase-2-%E5%90%8E%E7%AB%AF%E7%AE%A1%E7%90%86%E6%8E%A5%E5%8F%A3%E5%AE%8C%E5%96%84-2-3-%E5%A4%A9"><span class="toc-nav-number">3.5.2.</span> <span class="toc-nav-text">Phase 2: 后端管理接口完善 (2-3 天)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Phase-3-%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2%E4%B8%AD%E5%BF%83%E5%BC%80%E5%8F%91-3-4-%E5%A4%A9"><span class="toc-nav-number">3.5.3.</span> <span class="toc-nav-text">Phase 3: 前端部署中心开发 (3-4 天)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Phase-4-%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95%E4%B8%8E%E4%BA%A4%E4%BB%98-1-2-%E5%A4%A9"><span class="toc-nav-number">3.5.4.</span> <span class="toc-nav-text">Phase 4: 集成测试与交付 (1-2 天)</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">🛠️ 第一部分：后端开发 (Backend)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%A8%A1%E5%9E%8B%E5%AE%9A%E4%B9%89"><span class="toc-nav-number">4.0.1.</span> <span class="toc-nav-text">1. 数据库模型定义</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-%E6%A0%B8%E5%BF%83%E6%9C%8D%E5%8A%A1%E9%80%BB%E8%BE%91-Service-Layer"><span class="toc-nav-number">4.0.2.</span> <span class="toc-nav-text">2. 核心服务逻辑 (Service Layer)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-API-%E8%B7%AF%E7%94%B1-API-Routers"><span class="toc-nav-number">4.0.3.</span> <span class="toc-nav-text">3. API 路由 (API Routers)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%AE%A1%E7%90%86%E6%8E%A5%E5%8F%A3-Management"><span class="toc-nav-number">4.0.3.1.</span> <span class="toc-nav-text">管理接口 (Management)</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E8%BF%90%E8%A1%8C%E6%97%B6%E6%8E%A5%E5%8F%A3-Runtime"><span class="toc-nav-number">4.0.3.2.</span> <span class="toc-nav-text">运行时接口 (Runtime)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#4-%E6%B3%A8%E5%86%8C-Main-Entry"><span class="toc-nav-number">4.0.4.</span> <span class="toc-nav-text">4. 注册 (Main Entry)</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">🎨 第二部分：前端开发 (Frontend)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-%E5%9B%BD%E9%99%85%E5%8C%96%E9%85%8D%E7%BD%AE-i18n"><span class="toc-nav-number">5.0.1.</span> <span class="toc-nav-text">1. 国际化配置 (i18n)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#2-%E9%83%A8%E7%BD%B2%E7%AE%A1%E7%90%86%E6%8A%BD%E5%B1%89%E7%BB%84%E4%BB%B6-Deployment-Drawer"><span class="toc-nav-number">5.0.2.</span> <span class="toc-nav-text">2. 部署管理抽屉组件 (Deployment Drawer)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-%E9%9B%86%E6%88%90%E5%88%B0-Flow-%E5%88%97%E8%A1%A8%E9%A1%B5"><span class="toc-nav-number">5.0.3.</span> <span class="toc-nav-text">3. 集成到 Flow 列表页</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">🧪 第三部分：测试 (Testing)</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">🐳 第四部分：Docker 部署</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BC%80%E5%8F%91%E6%89%A7%E8%A1%8C%E6%AD%A5%E9%AA%A4%E6%8F%90%E9%86%92"><span class="toc-nav-number">7.0.1.</span> <span class="toc-nav-text">开发执行步骤提醒</span></a></li></ol></li></ol></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#AI" title="AI">AI</a>
+            
+            <a class="tag" href="/tags/#LangFlow" title="LangFlow">LangFlow</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+<!-- mermaid start -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'base' });
+</script>
+<!-- mermaid end -->
+
+
+															<!-- Footer (contains ThemeColor、viewer) -->
+															<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/tigergo001">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Ryan
+          2026
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/mouseclick.js"  content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033' ></script>
+    <!-- Mouseclick -->
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "tigergo001";
+    let ghPages = gh + ".github.io";
+    let pagePath = "cn/对LangFlow源码进行二次开发/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://xiaodoudou.ink/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+																<!-- Search -->
+																
+																	<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+																		
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>
