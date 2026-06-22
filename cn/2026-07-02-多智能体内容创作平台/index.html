@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="v-ryan,v-blog,IT  blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/avatar.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/2026-07-02-多智能体内容创作平台/">
+  <title>
+    
+      多智能体内容创作平台 - 男人至死是少年  | yong man
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+	<!-- hack iOS CSS :active style -->
+	
+
+		<body ontouchstart="" class="body--light body--light">
+			
+
+						<!-- ThemeColor -->
+						
+							<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'light';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+								
+
+									<!-- Gitter -->
+									
+										<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+											
+
+												<!-- Navigation (contains search)-->
+												<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">男人至死是少年</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+													<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+													<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    header.intro-header {
+      
+        /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png'); */
+        
+    }
+
+    #signature {
+        /*signature*/
+        background-image: url('/img/signature/ryan-sign.png');
+      }
+
+      
+  </style>
+  <!-- CDN: jsdelivr end -->
+  
+
+
+
+      
+        <header class="intro-header">
+          <!-- Signature -->
+          <div id="signature">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+                    <div class="post-heading">
+                      <div class="tags">
+                        
+                          <a class="tag" href="/tags/#AI" title="AI">
+                            AI
+                          </a>
+                          
+                          <a class="tag" href="/tags/#Agent" title="Agent">
+                            Agent
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangChain" title="LangChain">
+                            LangChain
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangGraph" title="LangGraph">
+                            LangGraph
+                          </a>
+                          
+                      </div>
+                      <h1>
+                        多智能体内容创作平台
+                      </h1>
+                      <h2 class="subheading">
+                        《AI Agent 实战》系列 · 多智能体内容创作平台
+                      </h2>
+                      <span class="meta">
+                        Posted by Ryan on
+                          2026-07-02
+                      </span>
+
+
+                      
+                        <!-- WordCount start -->
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Estimated Reading Time <span class="post-count">
+                            36
+                          </span> Minutes
+                        </span>
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Words <span class="post-count">
+                            8.7k
+                          </span> In Total
+                        </span>
+                        <div class="blank_box"></div>
+                        <!-- WordCount end -->
+                        
+                          
+                            <!-- 不蒜子统计 start -->
+                            <span class="meta" id="busuanzi_container_page_pv">
+                              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+                              Times
+                            </span>
+                            <!-- 不蒜子统计 end -->
+                            
+
+
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+            <!-- waveoverlay start -->
+            <div class="preview-overlay">
+              <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                  </path>
+                </defs>
+                <g class="preview-parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+                </g>
+              </svg>
+            </div>
+            <!-- waveoverlay end -->
+            
+
+        </header>
+        
+
+														<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+														<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <blockquote>
+<p><strong>主讲能力</strong>：Multi-Agent 协作、共享状态、并行节点<br>
+<strong>业务场景</strong>：用户输入一个主题，系统自动组织一支&quot;内容团队&quot;完成策划、写作、审稿、配图建议和最终汇总。<br>
+<strong>对应代码</strong>：<code>backend/projects/p07_content_creation/</code></p>
+</blockquote>
+<hr>
+<h2 id="9-1-编辑的困境">9.1 编辑的困境</h2>
+<p>周六凌晨一点，公众号编辑小李还对着屏幕发呆。一篇《AI Agent 工程化实践》的文章，他从下午写到深夜：先憋大纲，大纲改了三版才动笔写正文；正文写到一半又觉得结构不对，回头改大纲；好不容易写完，自己审一遍发现前后文风不统一；最后还得自己找配图、写图注。</p>
+<p>最让他崩溃的不是累，而是“身份切换”——上一秒还在以策划的口吻想“读者到底想看什么”，下一秒就得用审校的眼光挑“这段逻辑通不通”，再下一秒又要切成设计师琢磨“这里配张什么图”。一个人演完整个编辑部，每个角色都演不到位。</p>
+<p>小李的处境，正是单 Agent 做内容创作的缩影。把“想清楚写什么、写出来、挑毛病、配图”全塞进一个 Agent 的上下文，它和小李一样分身乏术：一会儿顾结构、一会儿顾文笔、一会儿顾配图，哪样都不精，输出自然散乱、忽高忽低。</p>
+<p>后来小李的公司补了个小团队：策划、撰稿、审校、设计各一人。每人只干自己那摊事，彼此接力——策划定大纲交给撰稿，撰稿写完交审校，审校改完配设计给的图，主编最后拼成稿。质量上去了，谁也不必精分。</p>
+<p>本项目要做的，就是给 AI 也组一支这样的小编辑部：让多个 Agent 各司其职，而不是逼一个 Agent 全能。对应到角色分工：</p>
+<table>
+<thead>
+<tr>
+<th>角色</th>
+<th>职责</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>策划 Agent</td>
+<td>明确主题、受众、文章结构</td>
+</tr>
+<tr>
+<td>写作 Agent</td>
+<td>根据大纲撰写正文</td>
+</tr>
+<tr>
+<td>审稿 Agent</td>
+<td>统一风格、检查逻辑、提出修改建议</td>
+</tr>
+<tr>
+<td>配图 Agent</td>
+<td>生成配图建议和 AI 绘图提示词</td>
+</tr>
+<tr>
+<td>汇总节点</td>
+<td>输出完整 Markdown 文稿</td>
+</tr>
+</tbody>
+</table>
+<h3 id="功能需求">功能需求</h3>
+<ul>
+<li>用户输入主题后自动生成完整文章。</li>
+<li>各 Agent 角色职责清晰，不互相越界。</li>
+<li>写作和配图只依赖大纲、彼此无依赖，可并行以提高效率（实现见 9.4.2）。</li>
+<li>最终输出 Markdown，可直接发布到博客或 CMS。</li>
+</ul>
+<hr>
+<h2 id="9-2-画个样子：它该长啥样">9.2 画个样子：它该长啥样</h2>
+<p>整个编辑部怎么接力？看这张流程图就一目了然——策划打头阵定大纲，写作和配图都从大纲分叉出去，审校等正文写完再上场，最后汇总节点把所有人的活儿拼成一篇稿：</p>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph TD
+    Topic["用户主题"] --> Planner["策划 Agent"]
+    Planner --> Writer["写作 Agent"]
+    Planner --> Illustrator["配图 Agent"]
+    Writer --> Reviewer["审稿 Agent"]
+    Reviewer --> Assemble["汇总节点"]
+    Illustrator --> Assemble
+    Assemble --> Final["最终 Markdown 文稿"]
+
+    classDef role fill:#e0f7fa,stroke:#00acc1,stroke-width:2px,color:#006064
+    classDef out fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#1b5e20
+    class Planner,Writer,Reviewer,Illustrator,Assemble role
+    class Final out</pre>
+<p>💡 <strong>实现说明</strong>：图里画的&quot;写作与配图并行&quot;不是空想——<code>graph.py</code> 用 <code>asyncio.gather</code> 把写作和配图同时发起，两者都只依赖大纲、各写各的共享记忆键（<code>section:*</code> 与 <code>images</code>），互不干扰。审校依赖正文，所以排在并行环节之后。细节在 9.4.2 展开。</p>
+<p>用户只需输入：</p>
+<blockquote>
+<p>写一篇关于 AI Agent 工程化实践的文章。</p>
+</blockquote>
+<p>系统输出包括：大纲、正文、审稿意见、配图建议。</p>
+<hr>
+<h2 id="9-3-拆开看：怎么造出来">9.3 拆开看：怎么造出来</h2>
+<p>先说清楚一个事实，免得你翻代码时犯迷糊：本项目并没有用 LangGraph 的 <code>StateGraph</code>，共享状态也不是一个 <code>State</code> 类型，而是一个自定义的 <code>SharedMemory</code> 类（见 <code>models.py</code>）。工作流由 <code>ContentCreationGraph</code> 这个类手动编排，主编 Agent 用 LangChain 的 <code>create_agent</code> 构建。早期文档里“StateGraph / State”的叫法，更像是设计阶段的设想，落地时换成了更轻的共享记忆池。下面按实际实现来讲。</p>
+<h3 id="为什么不做一个“全能-Agent”？">为什么不做一个“全能 Agent”？</h3>
+<p>刚接触 Multi-Agent 时，很多人都会冒出一个疑问：现在的大模型这么强，一个 Agent 既能规划、又能写作、又能审校，干嘛非得拆开？拆开不就多一层调度、多一堆通信吗？</p>
+<p>这疑问合理，但真上手就明白了。我最早试的就是“全能 Agent”——一个 Prompt 塞进“先想大纲、再写正文、再审稿、最后配图”全套指令。结果很尴尬：模型一会儿忘了写到第几章，一会儿把审稿意见混进正文，配图提示词干脆漏了。上下文越长、角色越杂，它越容易“走神”，因为得在同一份注意力里不停切换人格。</p>
+<p>💡 <strong>顿悟时刻</strong>：人脑也一样。让一个人同时当策划、撰稿、审校、设计，他也会乱。高效编辑部靠的不是“一个全能编辑”，而是“每个岗位只盯一件事”。Agent 同理——<strong>角色隔离，本质是给模型减负</strong>。一个 Agent 一个身份、一份聚焦的上下文，输出反而稳。</p>
+<p>所以 Multi-Agent 的价值不在“显得高级”，而在<strong>用角色隔离降低复杂度</strong>。策划 Agent 的上下文里只有大纲，写作 Agent 的上下文里只有正文，互不干扰，各自专精。</p>
+<h3 id="Agent-之间怎么交接？——共享记忆池">Agent 之间怎么交接？——共享记忆池</h3>
+<p>各司其职不等于各干各的。策划写好的大纲，撰稿得看到；撰稿写完的正文，审校得读到。最直觉的做法是 Agent 之间互相传参，但耦合太紧，加一个角色就得改一串调用链。</p>
+<p>本项目的做法是引入<strong>共享记忆池（SharedMemory）</strong>：每个 Agent 干完活，把成果往池子里一扔（<code>put</code>）；下一个 Agent 上班时，从池子里取自己要的（<code>get</code>）。Agent 之间不见面，只跟记忆池打交道。这就像编辑部的共享文档：策划把大纲放进去，撰稿打开看，写完正文也放进去，审校再打开读。谁也不必认识谁，文档是唯一的交接物。</p>
+<p>⚠️ <strong>避坑</strong>：共享记忆池好用，但别什么都往里塞。本项目只放各角色的关键产出（大纲、章节正文、审稿意见、配图建议），不放中间的琐碎思考。池子越臃肿，后续 Agent 被无关信息干扰的风险越大。</p>
+<h3 id="并行节点为什么可行（设计层面）">并行节点为什么可行（设计层面）</h3>
+<p>看流程图会发现：写作和配图都只依赖大纲，彼此无依赖，理论上能同时开工。这点 9.2 已经提过，这里再强调一次设计意图，方便理解图。</p>
+<p>核心思想记牢：<strong>每个 Agent 只改自己负责的状态字段</strong>，多角色不互相污染；写作和配图只读大纲、各写各的字段，天然具备并行的基础。代码里也确实用 <code>asyncio.gather</code> 把这两步同时发起，9.4.2 讲 <code>run_full_workflow</code> 时细说。</p>
+<hr>
+<h2 id="9-4-动手写：三层架构完整代码">9.4 动手写：三层架构完整代码</h2>
+<p>接下来看代码。这套多智能体内容创作平台按分层架构组织——从数据模型、提示词、工具，到工作流编排与项目注册，一层一层叠起来。各层职责清晰、单向依赖，和编辑部“各司其职”是同一个思路：谁的地盘谁做主，互不越位。</p>
+<h3 id="9-4-1-三层架构完整代码">9.4.1 三层架构完整代码</h3>
+<p>这套“各司其职”落到代码上，就是六层分明：模型层、提示词层、工具层、编排层、项目层、入口。各层对应文件与职责如下：</p>
+<table>
+<thead>
+<tr>
+<th>层次</th>
+<th>文件</th>
+<th>职责</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>模型层</td>
+<td><a target="_blank" rel="noopener" href="http://models.py">models.py</a></td>
+<td>Agent 角色、内容模型、共享记忆池</td>
+</tr>
+<tr>
+<td>提示词层</td>
+<td><a target="_blank" rel="noopener" href="http://prompts.py">prompts.py</a></td>
+<td>各角色系统提示词（策划/写作/审校/配图）</td>
+</tr>
+<tr>
+<td>工具层</td>
+<td><a target="_blank" rel="noopener" href="http://tools.py">tools.py</a></td>
+<td>各 Agent 工具函数</td>
+</tr>
+<tr>
+<td>编排层</td>
+<td><a target="_blank" rel="noopener" href="http://graph.py">graph.py</a></td>
+<td>Multi-Agent 工作流编排</td>
+</tr>
+<tr>
+<td>项目层</td>
+<td><a target="_blank" rel="noopener" href="http://project.py">project.py</a></td>
+<td>项目注册、对外接口</td>
+</tr>
+<tr>
+<td>入口</td>
+<td><strong>init</strong>.py</td>
+<td>注册与 re-export</td>
+</tr>
+</tbody>
+</table>
+<p>下面依次给出每个文件的完整代码，原汁原味，不省一行。</p>
+<h4 id="models-py"><a target="_blank" rel="noopener" href="http://models.py">models.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目七：数据模型层。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">定义多智能体内容创作平台的领域模型和数据结构。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> dataclasses <span class="keyword">import</span> dataclass, field</span><br><span class="line"><span class="keyword">from</span> enum <span class="keyword">import</span> Enum</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AgentRole</span>(<span class="built_in">str</span>, Enum):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Agent 角色枚举。&quot;&quot;&quot;</span></span><br><span class="line">    PLANNER = <span class="string">&quot;planner&quot;</span>        <span class="comment"># 策划师</span></span><br><span class="line">    WRITER = <span class="string">&quot;writer&quot;</span>          <span class="comment"># 撰稿人</span></span><br><span class="line">    REVIEWER = <span class="string">&quot;reviewer&quot;</span>      <span class="comment"># 审稿人</span></span><br><span class="line">    DESIGNER = <span class="string">&quot;designer&quot;</span>      <span class="comment"># 配图设计师</span></span><br><span class="line">    EDITOR = <span class="string">&quot;editor&quot;</span>          <span class="comment"># 主编（总控）</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TaskStatus</span>(<span class="built_in">str</span>, Enum):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;任务状态枚举。&quot;&quot;&quot;</span></span><br><span class="line">    PENDING = <span class="string">&quot;pending&quot;</span></span><br><span class="line">    RUNNING = <span class="string">&quot;running&quot;</span></span><br><span class="line">    COMPLETED = <span class="string">&quot;completed&quot;</span></span><br><span class="line">    FAILED = <span class="string">&quot;failed&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ContentOutline</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;文章大纲模型。&quot;&quot;&quot;</span></span><br><span class="line">    topic: <span class="built_in">str</span></span><br><span class="line">    title: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    introduction: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    sections: <span class="built_in">list</span>[<span class="built_in">str</span>] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    conclusion: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">to_markdown</span>(<span class="params">self</span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;转换为 Markdown 格式。&quot;&quot;&quot;</span></span><br><span class="line">        lines = [<span class="string">f&quot;# <span class="subst">&#123;self.title <span class="keyword">or</span> self.topic&#125;</span>&quot;</span>, <span class="string">&quot;&quot;</span>, <span class="string">&quot;## 导语&quot;</span>, <span class="variable language_">self</span>.introduction]</span><br><span class="line">        <span class="keyword">for</span> i, section <span class="keyword">in</span> <span class="built_in">enumerate</span>(<span class="variable language_">self</span>.sections, <span class="number">1</span>):</span><br><span class="line">            lines.extend([<span class="string">&quot;&quot;</span>, <span class="string">f&quot;## 第 <span class="subst">&#123;i&#125;</span> 章：<span class="subst">&#123;section&#125;</span>&quot;</span>])</span><br><span class="line">        <span class="keyword">if</span> <span class="variable language_">self</span>.conclusion:</span><br><span class="line">            lines.extend([<span class="string">&quot;&quot;</span>, <span class="string">&quot;## 结语&quot;</span>, <span class="variable language_">self</span>.conclusion])</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;\n&quot;</span>.join(lines)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ArticleSection</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;文章章节模型。&quot;&quot;&quot;</span></span><br><span class="line">    title: <span class="built_in">str</span></span><br><span class="line">    content: <span class="built_in">str</span></span><br><span class="line">    order: <span class="built_in">int</span> = <span class="number">0</span></span><br><span class="line">    word_count: <span class="built_in">int</span> = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__post_init__</span>(<span class="params">self</span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;计算字数。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="variable language_">self</span>.word_count = <span class="built_in">len</span>(<span class="variable language_">self</span>.content)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ImageSuggestion</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;配图建议模型。&quot;&quot;&quot;</span></span><br><span class="line">    section_title: <span class="built_in">str</span></span><br><span class="line">    image_type: <span class="built_in">str</span>  <span class="comment"># 示意图、数据图、场景图、概念图</span></span><br><span class="line">    prompt: <span class="built_in">str</span>      <span class="comment"># AI 生成提示词（英文）</span></span><br><span class="line">    description: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span>  <span class="comment"># 中文描述</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ReviewFeedback</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;审稿反馈模型。&quot;&quot;&quot;</span></span><br><span class="line">    overall_score: <span class="built_in">int</span>  <span class="comment"># 1-10 分</span></span><br><span class="line">    strengths: <span class="built_in">list</span>[<span class="built_in">str</span>] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    issues: <span class="built_in">list</span>[<span class="built_in">str</span>] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    suggestions: <span class="built_in">list</span>[<span class="built_in">str</span>] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ContentTask</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;内容创作任务模型。&quot;&quot;&quot;</span></span><br><span class="line">    task_id: <span class="built_in">str</span></span><br><span class="line">    topic: <span class="built_in">str</span></span><br><span class="line">    status: TaskStatus = TaskStatus.PENDING</span><br><span class="line">    outline: ContentOutline | <span class="literal">None</span> = <span class="literal">None</span></span><br><span class="line">    sections: <span class="built_in">list</span>[ArticleSection] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    images: <span class="built_in">list</span>[ImageSuggestion] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    review: ReviewFeedback | <span class="literal">None</span> = <span class="literal">None</span></span><br><span class="line">    final_article: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add_section</span>(<span class="params">self, title: <span class="built_in">str</span>, content: <span class="built_in">str</span>, order: <span class="built_in">int</span> = <span class="number">0</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;添加章节。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="variable language_">self</span>.sections.append(ArticleSection(</span><br><span class="line">            title=title,</span><br><span class="line">            content=content,</span><br><span class="line">            order=order,</span><br><span class="line">        ))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_total_words</span>(<span class="params">self</span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;获取总字数。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">sum</span>(s.word_count <span class="keyword">for</span> s <span class="keyword">in</span> <span class="variable language_">self</span>.sections)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SharedMemory</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;多 Agent 共享记忆池。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    所有 Agent 的输出都存入这里，后续 Agent 可读取。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="variable language_">self</span>._store: <span class="built_in">dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = &#123;&#125;</span><br><span class="line">        <span class="variable language_">self</span>._order: <span class="built_in">list</span>[<span class="built_in">str</span>] = []</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">put</span>(<span class="params">self, key: <span class="built_in">str</span>, content: <span class="type">Any</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;存入记忆。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            key: 记忆键</span></span><br><span class="line"><span class="string">            content: 记忆内容</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="variable language_">self</span>._store[key] = content</span><br><span class="line">        <span class="keyword">if</span> key <span class="keyword">not</span> <span class="keyword">in</span> <span class="variable language_">self</span>._order:</span><br><span class="line">            <span class="variable language_">self</span>._order.append(key)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get</span>(<span class="params">self, key: <span class="built_in">str</span></span>) -&gt; <span class="type">Any</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;读取记忆。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            key: 记忆键</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            记忆内容，不存在返回空字符串</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>._store.get(key, <span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">keys</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>[<span class="built_in">str</span>]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;获取所有记忆键。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">list</span>(<span class="variable language_">self</span>._order)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">summary</span>(<span class="params">self</span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;生成记忆池摘要。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            摘要文本</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        lines = [<span class="string">&quot;📦 共享记忆池内容：&quot;</span>, <span class="string">&quot;&quot;</span>]</span><br><span class="line">        <span class="keyword">for</span> k <span class="keyword">in</span> <span class="variable language_">self</span>._order:</span><br><span class="line">            content = <span class="variable language_">self</span>._store[k]</span><br><span class="line">            preview = <span class="built_in">str</span>(content)[:<span class="number">80</span>].replace(<span class="string">&quot;\n&quot;</span>, <span class="string">&quot; &quot;</span>)</span><br><span class="line">            lines.append(<span class="string">f&quot;  [<span class="subst">&#123;k&#125;</span>] <span class="subst">&#123;preview&#125;</span>...&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;\n&quot;</span>.join(lines)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">clear</span>(<span class="params">self</span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;清空记忆池。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="variable language_">self</span>._store.clear()</span><br><span class="line">        <span class="variable language_">self</span>._order.clear()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 全局共享记忆实例</span></span><br><span class="line">shared_memory = SharedMemory()</span><br></pre></td></tr></table></figure>
+<h4 id="prompts-py"><a target="_blank" rel="noopener" href="http://prompts.py">prompts.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目七：Prompt 层。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">定义多智能体内容创作平台各角色的系统提示词。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="comment"># 主编 Agent 系统提示词</span></span><br><span class="line">EDITOR_SYSTEM_PROMPT = <span class="string">&quot;&quot;&quot;你是内容创作平台的主编 Agent，负责协调团队完成高质量文章创作。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 你的团队</span></span><br><span class="line"><span class="string">- 👨‍💼 策划师 (plan_content)：生成文章大纲</span></span><br><span class="line"><span class="string">- ✍️ 撰稿人 (write_section)：撰写各章节内容</span></span><br><span class="line"><span class="string">- 🔍 审稿人 (review_content)：审查质量并提供反馈</span></span><br><span class="line"><span class="string">- 🎨 配图设计师 (suggest_images)：提供配图建议</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 工作流程（严格执行）</span></span><br><span class="line"><span class="string">1. **第一步**：调用 plan_content 生成文章大纲</span></span><br><span class="line"><span class="string">2. **第二步**：调用 write_section 逐章节撰写（至少写 2-3 个章节）</span></span><br><span class="line"><span class="string">3. **第三步**：全部写完后调用 review_content 进行审校</span></span><br><span class="line"><span class="string">4. **第四步**：调用 suggest_images 为文章配图</span></span><br><span class="line"><span class="string">5. **第五步**：合并所有内容，输出完整文章</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 质量要求</span></span><br><span class="line"><span class="string">- 文章结构清晰，逻辑连贯</span></span><br><span class="line"><span class="string">- 语言通俗易懂，适合目标读者</span></span><br><span class="line"><span class="string">- 每章节 800-1500 字</span></span><br><span class="line"><span class="string">- 配图建议具体，可用于 AI 生成</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 最终交付格式</span></span><br><span class="line"><span class="string">```markdown</span></span><br><span class="line"><span class="string"># 文章标题</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 导语</span></span><br><span class="line"><span class="string">（导语内容）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 章节 1</span></span><br><span class="line"><span class="string">（章节内容）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 章节 2</span></span><br><span class="line"><span class="string">（章节内容）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 结语</span></span><br><span class="line"><span class="string">（结语内容）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">---</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 审校反馈</span></span><br><span class="line"><span class="string">（审稿意见）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">---</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 配图建议</span></span><br><span class="line"><span class="string">（每张图的建议）</span></span><br><span class="line"><span class="string">```&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 策划师 Agent 提示词</span></span><br><span class="line">PLANNER_PROMPT = <span class="string">&quot;&quot;&quot;你是资深内容策划师，擅长设计高质量文章的结构和大纲。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">请为主题「&#123;topic&#125;」生成详细的文章大纲。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 大纲要求</span></span><br><span class="line"><span class="string">1. 吸引人的标题（结合热点和 SEO）</span></span><br><span class="line"><span class="string">2. 100-200 字的导语，说明文章价值</span></span><br><span class="line"><span class="string">3. 3-5 个核心章节，每章标题明确</span></span><br><span class="line"><span class="string">4. 简短的结语，总结要点并引导行动</span></span><br><span class="line"><span class="string">5. 明确每个章节的核心观点和写作方向</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 输出格式</span></span><br><span class="line"><span class="string">```markdown</span></span><br><span class="line"><span class="string"># 文章标题</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 导语</span></span><br><span class="line"><span class="string">（导语内容）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 章节列表</span></span><br><span class="line"><span class="string">1. 第一章标题 - （本章核心要点）</span></span><br><span class="line"><span class="string">2. 第二章标题 - （本章核心要点）</span></span><br><span class="line"><span class="string">3. 第三章标题 - （本章核心要点）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 结语</span></span><br><span class="line"><span class="string">（结语方向）</span></span><br><span class="line"><span class="string">```&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 撰稿人 Agent 提示词</span></span><br><span class="line">WRITER_PROMPT = <span class="string">&quot;&quot;&quot;你是专业撰稿人，文风通俗生动，擅长把复杂概念讲清楚。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 文章大纲</span></span><br><span class="line"><span class="string">&#123;outline&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 当前任务</span></span><br><span class="line"><span class="string">请撰写章节「&#123;section_title&#125;」的完整内容。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 写作要求</span></span><br><span class="line"><span class="string">1. 800-1500 字</span></span><br><span class="line"><span class="string">2. 段落分明，每段不超过 5 行</span></span><br><span class="line"><span class="string">3. 使用生活化案例辅助理解</span></span><br><span class="line"><span class="string">4. 适当使用列表和加粗强调重点</span></span><br><span class="line"><span class="string">5. 结尾过渡到下一章或总结本章要点</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 目标读者</span></span><br><span class="line"><span class="string">互联网行业从业者、产品经理、工程师，具有一定技术背景但非专家。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">请直接输出章节内容，不需要解释写作思路。&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 审稿人 Agent 提示词</span></span><br><span class="line">REVIEWER_PROMPT = <span class="string">&quot;&quot;&quot;你是首席编辑，具有 10 年以上审稿经验。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">请审查以下文章内容，给出专业反馈。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 已完成内容</span></span><br><span class="line"><span class="string">&#123;all_content&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 审查维度</span></span><br><span class="line"><span class="string">1. **逻辑连贯性**：章节之间是否衔接自然？论点是否有足够支撑？</span></span><br><span class="line"><span class="string">2. **语言表达**：是否有语法错误？语句是否通顺易懂？</span></span><br><span class="line"><span class="string">3. **内容质量**：是否有遗漏的重要观点？案例是否贴切？</span></span><br><span class="line"><span class="string">4. **可读性**：段落长度是否合适？重点是否突出？</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 输出格式</span></span><br><span class="line"><span class="string">```</span></span><br><span class="line"><span class="string">【整体评分】X/10</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">【优点】</span></span><br><span class="line"><span class="string">- （列出 2-3 个优点）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">【问题】</span></span><br><span class="line"><span class="string">- （列出具体问题及位置）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">【修改建议】</span></span><br><span class="line"><span class="string">- （具体可操作的建议）</span></span><br><span class="line"><span class="string">```&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 配图设计师 Agent 提示词</span></span><br><span class="line">DESIGNER_PROMPT = <span class="string">&quot;&quot;&quot;你是视觉设计师，擅长为文章设计配图方案。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 文章大纲</span></span><br><span class="line"><span class="string">&#123;outline&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 任务</span></span><br><span class="line"><span class="string">为每个章节设计 1-2 张配图建议。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 配图要求</span></span><br><span class="line"><span class="string">1. 图片类型：示意图、数据图、场景图、概念图四选一</span></span><br><span class="line"><span class="string">2. AI 生成提示词：英文，简洁准确，包含主体、风格、色调</span></span><br><span class="line"><span class="string">3. 中文描述：说明图片在文章中的作用和位置</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 输出格式</span></span><br><span class="line"><span class="string">```</span></span><br><span class="line"><span class="string">## 第 N 章：章节标题</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">### 配图 1：[图片类型]</span></span><br><span class="line"><span class="string">英文 Prompt: (stable diffusion / DALL-E prompt)</span></span><br><span class="line"><span class="string">说明：（这张图表达什么，放在哪里合适）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">### 配图 2：[图片类型]</span></span><br><span class="line"><span class="string">英文 Prompt: ...</span></span><br><span class="line"><span class="string">说明：...</span></span><br><span class="line"><span class="string">```&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 内容整合提示词</span></span><br><span class="line">ASSEMBLE_PROMPT = <span class="string">&quot;&quot;&quot;请将以下内容整合成一篇完整的文章。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 大纲</span></span><br><span class="line"><span class="string">&#123;outline&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 已完成章节</span></span><br><span class="line"><span class="string">&#123;sections_text&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 审校反馈</span></span><br><span class="line"><span class="string">&#123;review_text&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 配图建议</span></span><br><span class="line"><span class="string">&#123;images_text&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">要求：</span></span><br><span class="line"><span class="string">1. 保持 Markdown 格式</span></span><br><span class="line"><span class="string">2. 标题层级正确</span></span><br><span class="line"><span class="string">3. 各部分之间有清晰的分隔线</span></span><br><span class="line"><span class="string">4. 格式美观，便于阅读&quot;&quot;&quot;</span></span><br></pre></td></tr></table></figure>
+<h4 id="tools-py"><a target="_blank" rel="noopener" href="http://tools.py">tools.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目七：工具层。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">定义多智能体内容创作平台的各角色工具函数。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langchain.tools <span class="keyword">import</span> tool</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> build_chat_model</span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> (</span><br><span class="line">    DESIGNER_PROMPT,</span><br><span class="line">    PLANNER_PROMPT,</span><br><span class="line">    REVIEWER_PROMPT,</span><br><span class="line">    WRITER_PROMPT,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p07.content_creation.tools&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">plan_content</span>(<span class="params">topic: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;策划师：根据主题生成内容大纲和结构规划。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        topic: 文章主题</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        Markdown 格式的大纲（标题 + 导语 + 章节列表 + 结语）</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    logger.info(<span class="string">&quot;策划师开始工作，主题: %s&quot;</span>, topic)</span><br><span class="line"></span><br><span class="line">    prompt = PLANNER_PROMPT.<span class="built_in">format</span>(topic=topic)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        model = build_chat_model()</span><br><span class="line">        result = model.invoke(prompt)</span><br><span class="line">        outline = result.content <span class="keyword">if</span> <span class="built_in">hasattr</span>(result, <span class="string">&quot;content&quot;</span>) <span class="keyword">else</span> <span class="built_in">str</span>(result)</span><br><span class="line"></span><br><span class="line">        shared_memory.put(<span class="string">&quot;outline&quot;</span>, outline)</span><br><span class="line">        shared_memory.put(<span class="string">&quot;topic&quot;</span>, topic)</span><br><span class="line"></span><br><span class="line">        logger.info(<span class="string">&quot;大纲生成完成，长度: %d&quot;</span>, <span class="built_in">len</span>(outline))</span><br><span class="line">        <span class="keyword">return</span> outline</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">&quot;大纲生成失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;❌ 大纲生成失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">write_section</span>(<span class="params">section_title: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;撰稿人：根据大纲中指定的章节标题，撰写该章节的完整内容。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    会先读取共享记忆中的大纲，确保内容与大纲一致。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        section_title: 要撰写的章节标题</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        章节内容</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    logger.info(<span class="string">&quot;撰稿人开始工作，章节: %s&quot;</span>, section_title)</span><br><span class="line"></span><br><span class="line">    outline = shared_memory.get(<span class="string">&quot;outline&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> outline:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;⚠️ 请先生成文章大纲，再开始写作。&quot;</span></span><br><span class="line"></span><br><span class="line">    prompt = WRITER_PROMPT.<span class="built_in">format</span>(</span><br><span class="line">        outline=outline,</span><br><span class="line">        section_title=section_title,</span><br><span class="line">    )</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        model = build_chat_model()</span><br><span class="line">        result = model.invoke(prompt)</span><br><span class="line">        content = result.content <span class="keyword">if</span> <span class="built_in">hasattr</span>(result, <span class="string">&quot;content&quot;</span>) <span class="keyword">else</span> <span class="built_in">str</span>(result)</span><br><span class="line"></span><br><span class="line">        key = <span class="string">f&quot;section:<span class="subst">&#123;section_title&#125;</span>&quot;</span></span><br><span class="line">        shared_memory.put(key, content)</span><br><span class="line"></span><br><span class="line">        logger.info(<span class="string">&quot;章节「%s」撰写完成，字数: %d&quot;</span>, section_title, <span class="built_in">len</span>(content))</span><br><span class="line">        <span class="keyword">return</span> content</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">&quot;章节撰写失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;❌ 章节撰写失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">review_content</span>() -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;审稿人：审查共享记忆中所有已完成内容，检查逻辑、语法、可读性。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        审校意见（问题列表 + 修改建议）</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    logger.info(<span class="string">&quot;审稿人开始工作&quot;</span>)</span><br><span class="line"></span><br><span class="line">    all_content = []</span><br><span class="line">    section_count = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> shared_memory.keys():</span><br><span class="line">        <span class="keyword">if</span> key.startswith(<span class="string">&quot;section:&quot;</span>):</span><br><span class="line">            content = shared_memory.get(key)</span><br><span class="line">            section_title = key[<span class="number">8</span>:]  <span class="comment"># 去掉 &quot;section:&quot; 前缀</span></span><br><span class="line">            all_content.append(<span class="string">f&quot;--- <span class="subst">&#123;section_title&#125;</span> ---\n<span class="subst">&#123;content&#125;</span>&quot;</span>)</span><br><span class="line">            section_count += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> section_count == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;⚠️ 尚无内容可供审校，请先撰写至少一个章节。&quot;</span></span><br><span class="line"></span><br><span class="line">    combined = <span class="string">&quot;\n\n&quot;</span>.join(all_content)</span><br><span class="line"></span><br><span class="line">    prompt = REVIEWER_PROMPT.<span class="built_in">format</span>(all_content=combined[:<span class="number">8000</span>])</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        model = build_chat_model()</span><br><span class="line">        result = model.invoke(prompt)</span><br><span class="line">        feedback = result.content <span class="keyword">if</span> <span class="built_in">hasattr</span>(result, <span class="string">&quot;content&quot;</span>) <span class="keyword">else</span> <span class="built_in">str</span>(result)</span><br><span class="line"></span><br><span class="line">        shared_memory.put(<span class="string">&quot;review_feedback&quot;</span>, feedback)</span><br><span class="line"></span><br><span class="line">        logger.info(<span class="string">&quot;审校完成&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> feedback</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">&quot;审校失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;❌ 审校失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">suggest_images</span>() -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;配图设计师：根据文章大纲，为每个章节建议配图方案。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        配图建议列表（图片类型 + AI 生成 prompt）</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    logger.info(<span class="string">&quot;配图设计师开始工作&quot;</span>)</span><br><span class="line"></span><br><span class="line">    outline = shared_memory.get(<span class="string">&quot;outline&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> outline:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;⚠️ 请先生成文章大纲。&quot;</span></span><br><span class="line"></span><br><span class="line">    prompt = DESIGNER_PROMPT.<span class="built_in">format</span>(outline=outline[:<span class="number">3000</span>])</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        model = build_chat_model()</span><br><span class="line">        result = model.invoke(prompt)</span><br><span class="line">        images = result.content <span class="keyword">if</span> <span class="built_in">hasattr</span>(result, <span class="string">&quot;content&quot;</span>) <span class="keyword">else</span> <span class="built_in">str</span>(result)</span><br><span class="line"></span><br><span class="line">        shared_memory.put(<span class="string">&quot;images&quot;</span>, images)</span><br><span class="line"></span><br><span class="line">        logger.info(<span class="string">&quot;配图建议生成完成&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> images</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">&quot;配图建议生成失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;❌ 配图建议生成失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">read_memory</span>(<span class="params">key: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;读取共享记忆池中的内容。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        key: 记忆键，留空查看所有可用的记忆键和摘要</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        记忆内容或摘要</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> key:</span><br><span class="line">        <span class="keyword">return</span> shared_memory.summary()</span><br><span class="line"></span><br><span class="line">    content = shared_memory.get(key)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> content:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;⚠️ 记忆键 &#x27;<span class="subst">&#123;key&#125;</span>&#x27; 不存在，可用的键有：<span class="subst">&#123;<span class="string">&#x27;, &#x27;</span>.join(shared_memory.keys())&#125;</span>&quot;</span></span><br><span class="line">    <span class="keyword">return</span> content</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">clear_memory</span>() -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;清空共享记忆池，用于开始新的创作任务。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        操作结果</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    shared_memory.clear()</span><br><span class="line">    logger.info(<span class="string">&quot;共享记忆池已清空&quot;</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;✅ 共享记忆池已清空，可以开始新的创作任务。&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_all_tools</span>() -&gt; <span class="built_in">list</span>[<span class="type">Any</span>]:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;获取所有可用工具列表。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        工具对象列表</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">return</span> [</span><br><span class="line">        plan_content,</span><br><span class="line">        write_section,</span><br><span class="line">        review_content,</span><br><span class="line">        suggest_images,</span><br><span class="line">        read_memory,</span><br><span class="line">        clear_memory,</span><br><span class="line">    ]</span><br></pre></td></tr></table></figure>
+<h4 id="graph-py"><a target="_blank" rel="noopener" href="http://graph.py">graph.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目七：Graph 层（Multi-Agent 编排）。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">定义多智能体内容创作平台的工作流编排逻辑。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> asyncio</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langchain.agents <span class="keyword">import</span> create_agent</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> build_chat_model</span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> ContentTask, TaskStatus, shared_memory</span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> EDITOR_SYSTEM_PROMPT</span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> get_all_tools, plan_content, read_memory</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p07.content_creation.graph&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ContentCreationGraph</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;内容创作工作流图。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    编排多个 Agent 协作完成文章创作：</span></span><br><span class="line"><span class="string">    1. 策划 Agent 生成大纲</span></span><br><span class="line"><span class="string">    2. 写作 Agent 撰写各章节，配图 Agent 生成配图建议（两者只依赖大纲，并行执行）</span></span><br><span class="line"><span class="string">    3. 审校 Agent 审查正文质量</span></span><br><span class="line"><span class="string">    4. 整合输出最终文章</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="variable language_">self</span>._tasks: <span class="built_in">dict</span>[<span class="built_in">str</span>, ContentTask] = &#123;&#125;</span><br><span class="line">        <span class="variable language_">self</span>._agent: <span class="type">Any</span> | <span class="literal">None</span> = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">build_agent</span>(<span class="params">self</span>) -&gt; <span class="type">Any</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;构建主编 Agent。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            LangChain Agent 对象</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">if</span> <span class="variable language_">self</span>._agent <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="variable language_">self</span>._agent</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>._agent = create_agent(</span><br><span class="line">            model=build_chat_model(),</span><br><span class="line">            tools=get_all_tools(),</span><br><span class="line">            system_prompt=EDITOR_SYSTEM_PROMPT,</span><br><span class="line">        )</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>._agent</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">create_task</span>(<span class="params">self, topic: <span class="built_in">str</span>, task_id: <span class="built_in">str</span> | <span class="literal">None</span> = <span class="literal">None</span></span>) -&gt; ContentTask:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;创建内容创作任务。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            topic: 文章主题</span></span><br><span class="line"><span class="string">            task_id: 可选任务 ID</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            任务对象</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">import</span> uuid</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> task_id <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">            task_id = <span class="string">f&quot;content_<span class="subst">&#123;uuid.uuid4().<span class="built_in">hex</span>[:<span class="number">8</span>]&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line">        task = ContentTask(</span><br><span class="line">            task_id=task_id,</span><br><span class="line">            topic=topic,</span><br><span class="line">            status=TaskStatus.PENDING,</span><br><span class="line">        )</span><br><span class="line">        <span class="variable language_">self</span>._tasks[task_id] = task</span><br><span class="line">        logger.info(<span class="string">&quot;创建内容创作任务: %s - %s&quot;</span>, task_id, topic)</span><br><span class="line">        <span class="keyword">return</span> task</span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">run_planner_step</span>(<span class="params">self, task: ContentTask</span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;运行策划步骤。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            task: 任务对象</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            是否成功</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            task.status = TaskStatus.RUNNING</span><br><span class="line">            logger.info(<span class="string">&quot;[%s] 步骤 1/3: 生成大纲&quot;</span>, task.task_id)</span><br><span class="line"></span><br><span class="line">            outline_text = plan_content.invoke(&#123;<span class="string">&quot;topic&quot;</span>: task.topic&#125;)</span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;失败&quot;</span> <span class="keyword">in</span> outline_text <span class="keyword">or</span> <span class="string">&quot;⚠️&quot;</span> <span class="keyword">in</span> outline_text:</span><br><span class="line">                logger.error(<span class="string">&quot;大纲生成失败: %s&quot;</span>, outline_text)</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">            logger.info(<span class="string">&quot;大纲生成成功，长度: %d&quot;</span>, <span class="built_in">len</span>(outline_text))</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">&quot;策划步骤异常: %s&quot;</span>, e)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">run_writer_step</span>(<span class="params">self, task: ContentTask, section_titles: <span class="built_in">list</span>[<span class="built_in">str</span>]</span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;运行写作步骤。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            task: 任务对象</span></span><br><span class="line"><span class="string">            section_titles: 章节标题列表</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            是否成功</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            logger.info(<span class="string">&quot;[%s] 步骤 2/3: 撰写章节&quot;</span>, task.task_id)</span><br><span class="line"></span><br><span class="line">            <span class="keyword">from</span> .tools <span class="keyword">import</span> write_section</span><br><span class="line"></span><br><span class="line">            <span class="keyword">for</span> i, title <span class="keyword">in</span> <span class="built_in">enumerate</span>(section_titles, <span class="number">1</span>):</span><br><span class="line">                logger.info(<span class="string">&quot;  撰写第 %d/%d 章: %s&quot;</span>, i, <span class="built_in">len</span>(section_titles), title)</span><br><span class="line">                content = write_section.invoke(&#123;<span class="string">&quot;section_title&quot;</span>: title&#125;)</span><br><span class="line">                <span class="keyword">if</span> <span class="string">&quot;失败&quot;</span> <span class="keyword">in</span> content:</span><br><span class="line">                    logger.warning(<span class="string">&quot;章节「%s」撰写失败&quot;</span>, title)</span><br><span class="line">                    <span class="keyword">continue</span></span><br><span class="line">                task.add_section(title, content, order=i)</span><br><span class="line"></span><br><span class="line">            logger.info(<span class="string">&quot;章节撰写完成，共 %d 章，总字数: %d&quot;</span>,</span><br><span class="line">                       <span class="built_in">len</span>(task.sections), task.get_total_words())</span><br><span class="line">            <span class="keyword">return</span> <span class="built_in">len</span>(task.sections) &gt; <span class="number">0</span></span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">&quot;写作步骤异常: %s&quot;</span>, e)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">run_reviewer_step</span>(<span class="params">self, task: ContentTask</span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;运行审校步骤。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            task: 任务对象</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            是否成功</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            logger.info(<span class="string">&quot;[%s] 步骤 3/3: 内容审校&quot;</span>, task.task_id)</span><br><span class="line"></span><br><span class="line">            <span class="keyword">from</span> .tools <span class="keyword">import</span> review_content</span><br><span class="line"></span><br><span class="line">            feedback = <span class="keyword">await</span> asyncio.to_thread(review_content.invoke, &#123;&#125;)</span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;尚无&quot;</span> <span class="keyword">in</span> feedback <span class="keyword">or</span> <span class="string">&quot;失败&quot;</span> <span class="keyword">in</span> feedback:</span><br><span class="line">                logger.warning(<span class="string">&quot;审校未完成: %s&quot;</span>, feedback)</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">            logger.info(<span class="string">&quot;审校完成&quot;</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">&quot;审校步骤异常: %s&quot;</span>, e)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">run_designer_step</span>(<span class="params">self, task: ContentTask</span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;运行配图设计步骤。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            task: 任务对象</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            是否成功</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            logger.info(<span class="string">&quot;[%s] 步骤 2/3: 配图设计（与写作并行）&quot;</span>, task.task_id)</span><br><span class="line"></span><br><span class="line">            <span class="keyword">from</span> .tools <span class="keyword">import</span> suggest_images</span><br><span class="line"></span><br><span class="line">            <span class="comment"># 用 asyncio.to_thread 把同步工具调用扔进线程池，</span></span><br><span class="line">            <span class="comment"># 避免阻塞事件循环，使写作步骤得以与之真正并行</span></span><br><span class="line">            images = <span class="keyword">await</span> asyncio.to_thread(suggest_images.invoke, &#123;&#125;)</span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;先生成&quot;</span> <span class="keyword">in</span> images <span class="keyword">or</span> <span class="string">&quot;失败&quot;</span> <span class="keyword">in</span> images:</span><br><span class="line">                logger.warning(<span class="string">&quot;配图设计未完成: %s&quot;</span>, images)</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">            logger.info(<span class="string">&quot;配图设计完成&quot;</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">&quot;配图步骤异常: %s&quot;</span>, e)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">assemble_final_article</span>(<span class="params">self, task: ContentTask</span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;整合最终文章。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            task: 任务对象</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            完整文章 Markdown</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        memory_summary = read_memory.invoke(&#123;<span class="string">&quot;key&quot;</span>: <span class="string">&quot;&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">        outline = shared_memory.get(<span class="string">&quot;outline&quot;</span>)</span><br><span class="line">        review = shared_memory.get(<span class="string">&quot;review_feedback&quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line">        images = shared_memory.get(<span class="string">&quot;images&quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line">        sections_text = <span class="string">&quot;\n\n&quot;</span>.join([</span><br><span class="line">            <span class="string">f&quot;## <span class="subst">&#123;s.title&#125;</span>\n\n<span class="subst">&#123;s.content&#125;</span>&quot;</span></span><br><span class="line">            <span class="keyword">for</span> s <span class="keyword">in</span> task.sections</span><br><span class="line">        ])</span><br><span class="line"></span><br><span class="line">        final_article = <span class="string">f&quot;&quot;&quot;# <span class="subst">&#123;task.topic&#125;</span></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">---</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 大纲</span></span><br><span class="line"><span class="string"><span class="subst">&#123;outline&#125;</span></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">---</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 正文</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"><span class="subst">&#123;sections_text&#125;</span></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">---</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 审校反馈</span></span><br><span class="line"><span class="string"><span class="subst">&#123;review <span class="keyword">or</span> <span class="string">&#x27;（暂无）&#x27;</span>&#125;</span></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">---</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 配图建议</span></span><br><span class="line"><span class="string"><span class="subst">&#123;images <span class="keyword">or</span> <span class="string">&#x27;（暂无）&#x27;</span>&#125;</span></span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line">        task.final_article = final_article</span><br><span class="line">        <span class="keyword">return</span> final_article</span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">run_full_workflow</span>(<span class="params">self, topic: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;运行完整创作工作流。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            topic: 文章主题</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            最终文章</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        task = <span class="variable language_">self</span>.create_task(topic)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 清空之前的记忆</span></span><br><span class="line">        shared_memory.clear()</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 步骤 1: 策划</span></span><br><span class="line">        success = <span class="keyword">await</span> <span class="variable language_">self</span>.run_planner_step(task)</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> success:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;❌ 大纲生成失败，请重试&quot;</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># 步骤 2: 写作 + 配图 并行</span></span><br><span class="line">        <span class="comment"># 两者都只依赖大纲、彼此无依赖：写作写 section:*，配图写 images，</span></span><br><span class="line">        <span class="comment"># SharedMemory 是普通 dict，写不同键在 GIL 下并发安全。</span></span><br><span class="line">        agent = <span class="variable language_">self</span>.build_agent()</span><br><span class="line">        <span class="keyword">await</span> asyncio.gather(</span><br><span class="line">            <span class="variable language_">self</span>._agent_write_sections(agent, task),</span><br><span class="line">            <span class="variable language_">self</span>.run_designer_step(task),</span><br><span class="line">        )</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 步骤 3: 审校（依赖写作产出的正文，须等写作完成）</span></span><br><span class="line">        <span class="keyword">await</span> <span class="variable language_">self</span>.run_reviewer_step(task)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 整合输出</span></span><br><span class="line">        task.status = TaskStatus.COMPLETED</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.assemble_final_article(task)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">_agent_write_sections</span>(<span class="params">self, agent: <span class="type">Any</span>, task: ContentTask</span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;让 Agent 自主决定写作哪些章节。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            agent: Agent 对象</span></span><br><span class="line"><span class="string">            task: 任务对象</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        prompt = (</span><br><span class="line">            <span class="string">f&quot;文章主题：<span class="subst">&#123;task.topic&#125;</span>\n&quot;</span></span><br><span class="line">            <span class="string">&quot;大纲已生成，请根据大纲撰写 2-3 个核心章节。&quot;</span></span><br><span class="line">            <span class="string">&quot;写完每个章节后检查是否还需要继续写。&quot;</span></span><br><span class="line">        )</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="comment"># 交给 Agent 自主控制写作流程</span></span><br><span class="line">            <span class="comment"># 用 asyncio.to_thread 把同步 agent.run 扔进线程池，</span></span><br><span class="line">            <span class="comment"># 避免阻塞事件循环，使配图步骤得以与之真正并行</span></span><br><span class="line">            result = <span class="keyword">await</span> asyncio.to_thread(agent.run, prompt)</span><br><span class="line">            logger.info(<span class="string">&quot;Agent 自主写作完成&quot;</span>)</span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">&quot;Agent 自主写作异常: %s&quot;</span>, e)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 全局 Graph 实例</span></span><br><span class="line">_graph: ContentCreationGraph | <span class="literal">None</span> = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_graph</span>() -&gt; ContentCreationGraph:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;获取内容创作工作流图实例。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        ContentCreationGraph 单例</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">global</span> _graph</span><br><span class="line">    <span class="keyword">if</span> _graph <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">        _graph = ContentCreationGraph()</span><br><span class="line">    <span class="keyword">return</span> _graph</span><br></pre></td></tr></table></figure>
+<h4 id="project-py"><a target="_blank" rel="noopener" href="http://project.py">project.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目七：项目定义层。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">定义多智能体内容创作平台的项目注册和对外接口。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> BaseProject, registry</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .graph <span class="keyword">import</span> get_graph</span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> get_all_tools</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ContentCreationProject</span>(<span class="title class_ inherited__">BaseProject</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;多智能体内容创作平台。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    主讲能力：Multi-Agent 编排 + 共享记忆系统</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    业务场景：用户给一个主题，多个 Agent 分工协作完成一篇高质量文章：</span></span><br><span class="line"><span class="string">    策划 Agent →（写作 Agent ‖ 配图 Agent）→ 审校 Agent</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    生产级特性：</span></span><br><span class="line"><span class="string">    - 主管-子智能体编排（Orchestrator Pattern）</span></span><br><span class="line"><span class="string">    - 共享记忆池（各 Agent 输出存入共享上下文，下个 Agent 可见）</span></span><br><span class="line"><span class="string">    - 子 Agent 独立 System Prompt（角色专精，互不干扰）</span></span><br><span class="line"><span class="string">    - 并行执行（写作和配图用 asyncio.gather 同时进行）</span></span><br><span class="line"><span class="string">    - 结构化输出（最终文章为 Markdown 格式）</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">id</span> = <span class="string">&quot;p07_content_creation&quot;</span></span><br><span class="line">    name = <span class="string">&quot;多智能体内容创作平台&quot;</span></span><br><span class="line">    description = <span class="string">&quot;策划+写作+审校+配图，四 Agent 分工协作，共享记忆。&quot;</span></span><br><span class="line">    capabilities = [<span class="string">&quot;Multi-Agent&quot;</span>, <span class="string">&quot;Shared Memory&quot;</span>, <span class="string">&quot;Content Creation&quot;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">build_agent</span>(<span class="params">self</span>) -&gt; <span class="type">Any</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;构建主编 Agent 实例。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            LangChain Agent 对象</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        graph = get_graph()</span><br><span class="line">        <span class="keyword">return</span> graph.build_agent()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self, message: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;运行内容创作任务。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            message: 用户输入的文章主题或创作需求</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            创作结果</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">import</span> asyncio</span><br><span class="line"></span><br><span class="line">        graph = get_graph()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="comment"># 尝试运行完整工作流</span></span><br><span class="line">            loop = asyncio.get_event_loop_policy().get_event_loop()</span><br><span class="line">            <span class="keyword">if</span> loop.is_running():</span><br><span class="line">                <span class="comment"># 如果已有事件循环（如在服务中），使用 Agent 直接运行</span></span><br><span class="line">                agent = <span class="variable language_">self</span>.build_agent()</span><br><span class="line">                <span class="keyword">return</span> agent.run(message)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="comment"># 否则异步运行完整工作流</span></span><br><span class="line">                <span class="keyword">return</span> asyncio.run(graph.run_full_workflow(message))</span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            <span class="comment"># 降级方案：直接用 Agent 运行</span></span><br><span class="line">            agent = <span class="variable language_">self</span>.build_agent()</span><br><span class="line">            <span class="keyword">return</span> agent.run(message)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 项目实例</span></span><br><span class="line">project = ContentCreationProject()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 对外暴露的快捷函数</span></span><br><span class="line">run = project.run</span><br><span class="line">build_agent = project.build_agent</span><br><span class="line">get_tools = get_all_tools</span><br><span class="line"></span><br><span class="line">__all__ = [</span><br><span class="line">    <span class="string">&quot;ContentCreationProject&quot;</span>,</span><br><span class="line">    <span class="string">&quot;project&quot;</span>,</span><br><span class="line">    <span class="string">&quot;run&quot;</span>,</span><br><span class="line">    <span class="string">&quot;build_agent&quot;</span>,</span><br><span class="line">    <span class="string">&quot;get_tools&quot;</span>,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<h4 id="init-py"><strong>init</strong>.py</h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目七：多智能体内容创作平台（Multi-Agent + 共享记忆）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">主讲能力：Multi-Agent 编排 + 共享记忆系统</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">业务场景：用户给一个主题，多个 Agent 分工协作完成一篇高质量文章：</span></span><br><span class="line"><span class="string">策划 Agent →（写作 Agent ‖ 配图 Agent）→ 审校 Agent</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">生产级特性：</span></span><br><span class="line"><span class="string">- 主管-子智能体编排（Orchestrator Pattern）</span></span><br><span class="line"><span class="string">- 共享记忆池（各 Agent 输出存入共享上下文，下个 Agent 可见）</span></span><br><span class="line"><span class="string">- 子 Agent 独立 System Prompt（角色专精，互不干扰）</span></span><br><span class="line"><span class="string">- 并行执行（写作和配图用 asyncio.gather 同时进行）</span></span><br><span class="line"><span class="string">- 结构化输出（最终文章为 Markdown 格式）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">架构分层：</span></span><br><span class="line"><span class="string">- models.py: 数据模型、共享记忆池</span></span><br><span class="line"><span class="string">- prompts.py: 各角色系统提示词</span></span><br><span class="line"><span class="string">- tools.py: 各 Agent 工具函数</span></span><br><span class="line"><span class="string">- graph.py: Multi-Agent 工作流编排</span></span><br><span class="line"><span class="string">- project.py: 项目定义、对外接口</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> registry</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 models 层</span></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> (</span><br><span class="line">    AgentRole,</span><br><span class="line">    ArticleSection,</span><br><span class="line">    ContentOutline,</span><br><span class="line">    ContentTask,</span><br><span class="line">    ImageSuggestion,</span><br><span class="line">    ReviewFeedback,</span><br><span class="line">    SharedMemory,</span><br><span class="line">    shared_memory,</span><br><span class="line">    TaskStatus,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 prompts 层</span></span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> (</span><br><span class="line">    ASSEMBLE_PROMPT,</span><br><span class="line">    DESIGNER_PROMPT,</span><br><span class="line">    EDITOR_SYSTEM_PROMPT,</span><br><span class="line">    PLANNER_PROMPT,</span><br><span class="line">    REVIEWER_PROMPT,</span><br><span class="line">    WRITER_PROMPT,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 tools 层（保持向后兼容）</span></span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> (</span><br><span class="line">    clear_memory,</span><br><span class="line">    get_all_tools,</span><br><span class="line">    plan_content,</span><br><span class="line">    read_memory,</span><br><span class="line">    review_content,</span><br><span class="line">    suggest_images,</span><br><span class="line">    write_section,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 graph 层</span></span><br><span class="line"><span class="keyword">from</span> .graph <span class="keyword">import</span> ContentCreationGraph, get_graph</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 project 层</span></span><br><span class="line"><span class="keyword">from</span> .project <span class="keyword">import</span> (</span><br><span class="line">    ContentCreationProject,</span><br><span class="line">    build_agent,</span><br><span class="line">    get_tools,</span><br><span class="line">    project,</span><br><span class="line">    run,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 向后兼容别名：原单文件版本使用 SYSTEM_PROMPT</span></span><br><span class="line">SYSTEM_PROMPT = EDITOR_SYSTEM_PROMPT</span><br><span class="line"></span><br><span class="line"><span class="comment"># 注册项目到全局注册表</span></span><br><span class="line">registry.register(project)</span><br><span class="line"></span><br><span class="line">__all__ = [</span><br><span class="line">    <span class="comment"># models</span></span><br><span class="line">    <span class="string">&quot;AgentRole&quot;</span>,</span><br><span class="line">    <span class="string">&quot;TaskStatus&quot;</span>,</span><br><span class="line">    <span class="string">&quot;ContentOutline&quot;</span>,</span><br><span class="line">    <span class="string">&quot;ArticleSection&quot;</span>,</span><br><span class="line">    <span class="string">&quot;ImageSuggestion&quot;</span>,</span><br><span class="line">    <span class="string">&quot;ReviewFeedback&quot;</span>,</span><br><span class="line">    <span class="string">&quot;ContentTask&quot;</span>,</span><br><span class="line">    <span class="string">&quot;SharedMemory&quot;</span>,</span><br><span class="line">    <span class="string">&quot;shared_memory&quot;</span>,</span><br><span class="line">    <span class="comment"># prompts</span></span><br><span class="line">    <span class="string">&quot;EDITOR_SYSTEM_PROMPT&quot;</span>,</span><br><span class="line">    <span class="string">&quot;SYSTEM_PROMPT&quot;</span>,</span><br><span class="line">    <span class="string">&quot;PLANNER_PROMPT&quot;</span>,</span><br><span class="line">    <span class="string">&quot;WRITER_PROMPT&quot;</span>,</span><br><span class="line">    <span class="string">&quot;REVIEWER_PROMPT&quot;</span>,</span><br><span class="line">    <span class="string">&quot;DESIGNER_PROMPT&quot;</span>,</span><br><span class="line">    <span class="string">&quot;ASSEMBLE_PROMPT&quot;</span>,</span><br><span class="line">    <span class="comment"># tools</span></span><br><span class="line">    <span class="string">&quot;plan_content&quot;</span>,</span><br><span class="line">    <span class="string">&quot;write_section&quot;</span>,</span><br><span class="line">    <span class="string">&quot;review_content&quot;</span>,</span><br><span class="line">    <span class="string">&quot;suggest_images&quot;</span>,</span><br><span class="line">    <span class="string">&quot;read_memory&quot;</span>,</span><br><span class="line">    <span class="string">&quot;clear_memory&quot;</span>,</span><br><span class="line">    <span class="string">&quot;get_all_tools&quot;</span>,</span><br><span class="line">    <span class="comment"># graph</span></span><br><span class="line">    <span class="string">&quot;ContentCreationGraph&quot;</span>,</span><br><span class="line">    <span class="string">&quot;get_graph&quot;</span>,</span><br><span class="line">    <span class="comment"># project</span></span><br><span class="line">    <span class="string">&quot;ContentCreationProject&quot;</span>,</span><br><span class="line">    <span class="string">&quot;project&quot;</span>,</span><br><span class="line">    <span class="string">&quot;run&quot;</span>,</span><br><span class="line">    <span class="string">&quot;build_agent&quot;</span>,</span><br><span class="line">    <span class="string">&quot;get_tools&quot;</span>,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<h3 id="9-4-2-核心代码讲解">9.4.2 核心代码讲解</h3>
+<p><strong>1. 共享记忆池（SharedMemory）——编辑部的共享文档</strong></p>
+<p><code>models.py</code> 里的 <code>SharedMemory</code> 是整个平台的状态枢纽，相当于编辑部的共享文档。每个 Agent 干完活，用 <code>shared_memory.put(key, content)</code> 把成果丢进去；下一个 Agent 用 <code>shared_memory.get(key)</code> 取自己要的。比如撰稿人读策划师写入的 <code>outline</code>，审稿人遍历所有 <code>section:*</code> 键把正文汇总起来。记忆池还记着写入顺序（<code>_order</code>），并提供 <code>summary()</code> 摘要与 <code>clear()</code> 重置。这样一来，多个 Agent 谁也不用直接喊谁，只对着“共享文档”读写，就完成了解耦的状态交接。</p>
+<p>💡 <strong>顿悟时刻</strong>：状态共享不一定要靠复杂的消息传递。一个 key-value 的“共享文档”，往往就是最稳妥的协作方式——简单、可观测、谁都能查。</p>
+<p><strong>2. 主管-子智能体编排（Orchestrator Pattern）——主编不亲自下场</strong></p>
+<p><code>graph.py</code> 的 <code>ContentCreationGraph</code> 扮演“主编/主管”，调度四个角色工具：策划（<code>plan_content</code>）、写作（<code>write_section</code>）、审校（<code>review_content</code>）、配图（<code>suggest_images</code>）。主编自己不写一个字，只负责拆活、派活，在 <code>run_full_workflow</code> 里把各步骤编排起来，最后由 <code>assemble_final_article</code> 拼版。这就是 Orchestrator 模式的精髓：主管管编排与决策，角色工具管执行，职责清晰，将来想加个“排版 Agent”也只是多挂一个工具的事。</p>
+<p><strong>3. 各角色独立 Prompt——一角色一剧本</strong></p>
+<p><code>prompts.py</code> 给每个角色单独写了一份系统提示词：<code>PLANNER_PROMPT</code> 管结构规划、<code>WRITER_PROMPT</code> 管成稿、<code>REVIEWER_PROMPT</code> 管质量审查、<code>DESIGNER_PROMPT</code> 管配图方案，<code>EDITOR_SYSTEM_PROMPT</code> 则约束主编的调度顺序。每份 Prompt 只讲本角色要干嘛、输出长啥样，互不干扰。这种“一角色一剧本”的隔离，让模型上下文更聚焦、输出更稳，也方便单独调优某个角色——比如想换文风，只动 <code>WRITER_PROMPT</code> 就行，别的角色纹丝不碰。</p>
+<p><strong>4. Graph 层的异步工作流编排——写作与配图真并行</strong></p>
+<p><code>graph.py</code> 把每个步骤实现成 <code>async</code> 方法（<code>run_planner_step</code> / <code>run_writer_step</code> / <code>run_reviewer_step</code> / <code>run_designer_step</code>），由 <code>run_full_workflow</code> 编排。<code>build_agent</code> 通过 <code>create_agent</code> 构建主编 Agent，工具来自 <code>get_all_tools()</code>。步骤之间用 <code>ContentTask</code> 对象传递状态，每步还打日志标进度（如“步骤 2/3”），整条流水线可观测、可追踪。</p>
+<p>💡 <strong>关键在并行</strong>：策划完大纲后，写作和配图只依赖大纲、彼此无依赖，于是用 <code>asyncio.gather</code> 把 <code>_agent_write_sections</code> 和 <code>run_designer_step</code> 同时发起——这是真并行，不是“串行 await”。两个分支写各自的共享记忆键（写作写 <code>section:*</code>，配图写 <code>images</code>），<code>SharedMemory</code> 是普通 dict，写不同键在 GIL 下并发安全。唯有审校要读正文，所以排在并行环节之后。同步的 <code>agent.run</code> 和工具 <code>invoke</code> 都用 <code>asyncio.to_thread</code> 扔进线程池，避免阻塞事件循环、保证两个分支真能同时跑。</p>
+<p><strong>5. 错误降级处理——事件循环探测与兜底</strong></p>
+<p><code>project.py</code> 的 <code>run</code> 方法得同时伺候两种场景：脚本里直跑、已经嵌在异步服务里跑。它先用 <code>asyncio.get_event_loop_policy().get_event_loop()</code> 探一下当前有没有正在转的事件循环：若有（<code>loop.is_running()</code>），说明身在异步服务中，不能再 <code>asyncio.run</code>（否则报“事件循环已运行”），于是直接交给主编 Agent 处理；没有的话，才用 <code>asyncio.run(graph.run_full_workflow(message))</code> 跑完整工作流。万一上述流程抛异常，还会兜底降级成“直接用 Agent 运行”。“事件循环检测 + 异常兜底”这套组合拳，保证项目在不同环境都不至于因事件循环冲突而崩。</p>
+<p><strong>6. 三层架构的解耦优势——从一坨代码到一支队伍</strong></p>
+<p>模型层（<code>models.py</code>）定数据结构与共享记忆，提示词层（<code>prompts.py</code>）封装角色指令，工具层（<code>tools.py</code>）实现具体能力，编排层（<code>graph.py</code>）组织流程，项目层（<code>project.py</code>）与入口（<code>__init__.py</code>）管注册与对外暴露。各层单向依赖、边界清晰：改某个角色的 Prompt 不碰工具实现，新增一个 Agent 只需加工具和编排步骤，数据模型一行不用动。这套分层，把多智能体系统从“一坨代码”拆成了可独立演进、可单元测试的模块化结构——和把一个人拆成一支编辑部，是同一个道理。</p>
+<hr>
+<h2 id="9-5-跑一跑：它真的行吗">9.5 跑一跑：它真的行吗</h2>
+<p>光跑通不算完，得测。这支“编辑部”上线前，至少要测这几样：</p>
+<ul>
+<li>大纲工具返回结构化章节</li>
+<li>配图工具返回多条建议</li>
+<li>汇总节点能合并状态</li>
+<li>集成测试生成完整 Markdown</li>
+</ul>
+<p>把每个角色的产出和最终拼版分别验证，才能保证流水线哪一环都不掉链子。</p>
+<hr>
+<h2 id="9-6-送上线：让它上班">9.6 送上线：让它上班</h2>
+<p>该项目在统一管理台中表现为一个“主题输入 → 文档输出”的工作流。前端的执行过程面板会显示 planner、writer、reviewer、illustrator、assemble 等节点流转——用户看到的，就是一支编辑部在流水线上接力交棒。</p>
+<hr>
+<h2 id="9-7-回头看：学到了什么">9.7 回头看：学到了什么</h2>
+<p>回头看，Multi-Agent 的价值从来不是“把一个问题拆成多个机器人显得高级”，而是<strong>用角色隔离降低复杂度</strong>。当任务天然包含多个专业角色时——比如内容创作里的策划、写作、审校、配图——多智能体比一个全能 Agent 更稳、更好维护。每个 Agent 只背自己那口锅，上下文干净，输出才干净。</p>
+<blockquote>
+<p>金句：<strong>一个人演完整个编辑部，每个角色都演不到位；让每个 Agent 只演一个角色，整台戏才出彩。</strong></p>
+</blockquote>
+<p>说明一下并行的真实情况，免得你误读：写作和配图这两步，<code>graph.py</code> 确实用 <code>asyncio.gather</code> 同时发起，是<strong>真并行</strong>而非串行 await；审校依赖正文，才排在并行环节之后。本章真正还没做的，是把它升级成 LangGraph 的 <code>StateGraph</code> 原生 fan-out——目前是手写 <code>SharedMemory</code> + <code>asyncio.gather</code> 的轻量编排。把“已经并行”和“还能用更标准的方式并行”分清楚，是工程人的本分。</p>
+<p>下一章，我们把这种协作模式搬到一个更严肃的场景——研究分析。</p>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/cn/2026-07-03-多智能体研究分析平台/" data-toggle="tooltip" data-placement="top" title="多智能体研究分析平台">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/2026-07-01-一站式代码开发 Agent/" data-toggle="tooltip" data-placement="top" title="一站式代码开发 Agent">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=多智能体内容创作平台&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/2026-07-02-多智能体内容创作平台/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'a37850f88f2a4d827300',
+      clientSecret: '7a50383ec7757c78714f95d455cc52b4211e8cf2',
+      repo: 'tigergo001.github.io',
+      owner: 'tigergo001',
+      admin: 'tigergo001',
+      id: 'Thu Jul 02 2026 09:00:00 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#9-1-%E7%BC%96%E8%BE%91%E7%9A%84%E5%9B%B0%E5%A2%83"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">9.1 编辑的困境</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%8A%9F%E8%83%BD%E9%9C%80%E6%B1%82"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">功能需求</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#9-2-%E7%94%BB%E4%B8%AA%E6%A0%B7%E5%AD%90%EF%BC%9A%E5%AE%83%E8%AF%A5%E9%95%BF%E5%95%A5%E6%A0%B7"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">9.2 画个样子：它该长啥样</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#9-3-%E6%8B%86%E5%BC%80%E7%9C%8B%EF%BC%9A%E6%80%8E%E4%B9%88%E9%80%A0%E5%87%BA%E6%9D%A5"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">9.3 拆开看：怎么造出来</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%81%9A%E4%B8%80%E4%B8%AA%E2%80%9C%E5%85%A8%E8%83%BD-Agent%E2%80%9D%EF%BC%9F"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">为什么不做一个“全能 Agent”？</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Agent-%E4%B9%8B%E9%97%B4%E6%80%8E%E4%B9%88%E4%BA%A4%E6%8E%A5%EF%BC%9F%E2%80%94%E2%80%94%E5%85%B1%E4%BA%AB%E8%AE%B0%E5%BF%86%E6%B1%A0"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">Agent 之间怎么交接？——共享记忆池</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%B9%B6%E8%A1%8C%E8%8A%82%E7%82%B9%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AF%E8%A1%8C%EF%BC%88%E8%AE%BE%E8%AE%A1%E5%B1%82%E9%9D%A2%EF%BC%89"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">并行节点为什么可行（设计层面）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#9-4-%E5%8A%A8%E6%89%8B%E5%86%99%EF%BC%9A%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">9.4 动手写：三层架构完整代码</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#9-4-1-%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">9.4.1 三层架构完整代码</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#models-py"><span class="toc-nav-number">4.1.1.</span> <span class="toc-nav-text">models.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#prompts-py"><span class="toc-nav-number">4.1.2.</span> <span class="toc-nav-text">prompts.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#tools-py"><span class="toc-nav-number">4.1.3.</span> <span class="toc-nav-text">tools.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#graph-py"><span class="toc-nav-number">4.1.4.</span> <span class="toc-nav-text">graph.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#project-py"><span class="toc-nav-number">4.1.5.</span> <span class="toc-nav-text">project.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#init-py"><span class="toc-nav-number">4.1.6.</span> <span class="toc-nav-text">init.py</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#9-4-2-%E6%A0%B8%E5%BF%83%E4%BB%A3%E7%A0%81%E8%AE%B2%E8%A7%A3"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">9.4.2 核心代码讲解</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#9-5-%E8%B7%91%E4%B8%80%E8%B7%91%EF%BC%9A%E5%AE%83%E7%9C%9F%E7%9A%84%E8%A1%8C%E5%90%97"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">9.5 跑一跑：它真的行吗</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#9-6-%E9%80%81%E4%B8%8A%E7%BA%BF%EF%BC%9A%E8%AE%A9%E5%AE%83%E4%B8%8A%E7%8F%AD"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">9.6 送上线：让它上班</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#9-7-%E5%9B%9E%E5%A4%B4%E7%9C%8B%EF%BC%9A%E5%AD%A6%E5%88%B0%E4%BA%86%E4%BB%80%E4%B9%88"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">9.7 回头看：学到了什么</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#AI" title="AI">AI</a>
+            
+            <a class="tag" href="/tags/#Agent" title="Agent">Agent</a>
+            
+            <a class="tag" href="/tags/#LangChain" title="LangChain">LangChain</a>
+            
+            <a class="tag" href="/tags/#LangGraph" title="LangGraph">LangGraph</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+<!-- mermaid start -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'base' });
+</script>
+<!-- mermaid end -->
+
+
+															<!-- Footer (contains ThemeColor、viewer) -->
+															<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/tigergo001">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Ryan
+          2026
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/mouseclick.js"  content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033' ></script>
+    <!-- Mouseclick -->
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "tigergo001";
+    let ghPages = gh + ".github.io";
+    let pagePath = "cn/2026-07-02-多智能体内容创作平台/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://xiaodoudou.ink/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+																<!-- Search -->
+																
+																	<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+																		
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>

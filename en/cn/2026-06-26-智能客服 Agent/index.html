@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="v-ryan,v-blog,IT  blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/avatar.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/2026-06-26-智能客服 Agent/">
+  <title>
+    
+      智能客服 Agent - 男人至死是少年  | yong man
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+	<!-- hack iOS CSS :active style -->
+	
+
+		<body ontouchstart="" class="body--light body--light">
+			
+
+						<!-- ThemeColor -->
+						
+							<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'light';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+								
+
+									<!-- Gitter -->
+									
+										<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+											
+
+												<!-- Navigation (contains search)-->
+												<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">男人至死是少年</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+													<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+													<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    header.intro-header {
+      
+        /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png'); */
+        
+    }
+
+    #signature {
+        /*signature*/
+        background-image: url('/img/signature/ryan-sign.png');
+      }
+
+      
+  </style>
+  <!-- CDN: jsdelivr end -->
+  
+
+
+
+      
+        <header class="intro-header">
+          <!-- Signature -->
+          <div id="signature">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+                    <div class="post-heading">
+                      <div class="tags">
+                        
+                          <a class="tag" href="/tags/#AI" title="AI">
+                            AI
+                          </a>
+                          
+                          <a class="tag" href="/tags/#Agent" title="Agent">
+                            Agent
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangChain" title="LangChain">
+                            LangChain
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangGraph" title="LangGraph">
+                            LangGraph
+                          </a>
+                          
+                      </div>
+                      <h1>
+                        智能客服 Agent
+                      </h1>
+                      <h2 class="subheading">
+                        《AI Agent 实战》系列 · 智能客服 Agent
+                      </h2>
+                      <span class="meta">
+                        Posted by Ryan on
+                          2026-06-26
+                      </span>
+
+
+                      
+                        <!-- WordCount start -->
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Estimated Reading Time <span class="post-count">
+                            31
+                          </span> Minutes
+                        </span>
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Words <span class="post-count">
+                            7.4k
+                          </span> In Total
+                        </span>
+                        <div class="blank_box"></div>
+                        <!-- WordCount end -->
+                        
+                          
+                            <!-- 不蒜子统计 start -->
+                            <span class="meta" id="busuanzi_container_page_pv">
+                              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+                              Times
+                            </span>
+                            <!-- 不蒜子统计 end -->
+                            
+
+
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+            <!-- waveoverlay start -->
+            <div class="preview-overlay">
+              <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                  </path>
+                </defs>
+                <g class="preview-parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+                </g>
+              </svg>
+            </div>
+            <!-- waveoverlay end -->
+            
+
+        </header>
+        
+
+														<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+														<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <blockquote>
+<p><strong>全书主线进度</strong>：第 2 章搭好了生产级工程底座。现在，我们开始第一个实战项目。这是全书最简单的项目——<strong>只有一个 Agent、三个工具、一个精心设计的 Prompt</strong>——但它完整覆盖了做一款 AI Agent 产品从需求到上线的全链路。更重要的是，它让你第一次亲眼看到：<strong>一个只会&quot;说话&quot;的模型，是如何通过 Tool 真正&quot;做事&quot;的。</strong></p>
+<p><strong>主讲能力</strong>：Tool（工具调用）+ Prompt（提示词工程）<br>
+<strong>业务场景</strong>：「云购商城」电商客服，自动查订单、查物流、查售后政策，超范围转人工。<br>
+<strong>技术栈</strong>：LangChain v1.0 <code>create_agent</code> + 三个自定义 Tool + 精心设计的 System Prompt + SQLite 持久化</p>
+</blockquote>
+<hr>
+<h2 id="开篇：客服小张的崩溃一天">开篇：客服小张的崩溃一天</h2>
+<p>凌晨一点，「云购商城」的客服小张还在回消息。</p>
+<p>「我那个订单发货了吗？」「10001 到哪了？」「能退货吗？」……同一个问题，换着花样问，一晚上几百条。小张不是不敬业，是这种活儿太磨人——答案就在系统里摆着，他只是个人肉查询接口。他盯着屏幕想：<strong>这些破事，就不能让机器干吗？</strong></p>
+<p>第二天，技术部给了他一个「智能客服 Agent」。小张将信将疑地让它上线，自己躲去喝茶。结果一整个下午，买家查订单、查物流、问退换货，Agent 全接住了，回答又准又快。只有遇到「我要投诉你们发货太慢」这种事，它才老老实实把人转给小张。</p>
+<p>小张有点恍惚：它又没长眼睛，怎么知道订单发了没？它又没去过仓库，怎么知道包裹到哪了？</p>
+<p>答案就藏在两个词里：<strong>Tool（工具）</strong> 和 <strong>Prompt（提示词）</strong>。这一章，我们就把小张的疑问彻底解开——亲手造一个这样的客服 Agent。它会是我们「培养新员工」之路上的第一站：<strong>教他学会用工具，并学会好好说话</strong>。</p>
+<hr>
+<h2 id="3-1-小张的诉求">3.1 小张的诉求</h2>
+<p>带着小张的烦恼，我们正式进入需求分析。一个能替小张挡掉 70% 重复问题的客服 Agent，到底要满足什么？</p>
+<h3 id="3-1-1-业务背景与痛点">3.1.1 业务背景与痛点</h3>
+<p>一家中型电商平台的客服团队每天要处理上千条重复咨询，其中 70% 以上属于三类固定问题：</p>
+<ol>
+<li><strong>查订单</strong>：「我的订单发货了吗？」「订单金额是多少？」</li>
+<li><strong>查物流</strong>：「到哪了？」「什么时候送到？」</li>
+<li><strong>查政策</strong>：「能退吗？」「运费谁出？」</li>
+</ol>
+<p>人工客服反复回答这些问题，效率低、成本高、情绪消耗大。而这恰好是 AI Agent 最擅长的场景——<strong>标准化、高频、有明确数据源的问题，交给 Agent 自动处理</strong>。</p>
+<h3 id="3-1-2-目标用户与画像">3.1.2 目标用户与画像</h3>
+<table>
+<thead>
+<tr>
+<th>用户角色</th>
+<th>特征</th>
+<th>典型需求</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通买家</td>
+<td>手机端居多，对技术不敏感</td>
+<td>查订单状态、查物流、问退换货</td>
+</tr>
+<tr>
+<td>长辈用户</td>
+<td>不太会打字，习惯自然语言提问</td>
+<td>口语化表达，如&quot;我那耳机发了吗&quot;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-1-3-用户故事">3.1.3 用户故事</h3>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>作为</th>
+<th>我想要</th>
+<th>以便</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US-1</td>
+<td>买家</td>
+<td>输入订单号，立刻知道订单状态</td>
+<td>不用打电话或等人工</td>
+</tr>
+<tr>
+<td>US-2</td>
+<td>买家</td>
+<td>输入订单号，知道包裹到哪了</td>
+<td>安排收货</td>
+</tr>
+<tr>
+<td>US-3</td>
+<td>买家</td>
+<td>询问退换货条件</td>
+<td>决定要不要退</td>
+</tr>
+<tr>
+<td>US-4</td>
+<td>买家</td>
+<td>超出能力的问题转人工</td>
+<td>复杂问题不被耽误</td>
+</tr>
+<tr>
+<td>US-5</td>
+<td>运营</td>
+<td>客服机器人 7×24 在线</td>
+<td>降低人工成本</td>
+</tr>
+<tr>
+<td>US-6</td>
+<td>运维</td>
+<td>服务有健康检查、指标、日志</td>
+<td>生产环境可运维</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-1-4-功能性需求">3.1.4 功能性需求</h3>
+<ul>
+<li><strong>FR-1 订单查询</strong>：用户说&quot;订单 XXX&quot;或&quot;查订单&quot;，Agent 调用 <code>query_order</code> 返回状态、商品、金额</li>
+<li><strong>FR-2 物流查询</strong>：用户说&quot;到哪了&quot;“物流”，Agent 调用 <code>query_logistics</code> 返回配送进度</li>
+<li><strong>FR-3 政策查询</strong>：用户问&quot;退换货&quot;“运费谁出”，Agent 调用 <code>query_policy</code> 返回政策原文</li>
+<li><strong>FR-4 转人工</strong>：涉及退款审批、投诉、无法识别的问题，Agent 礼貌引导转人工</li>
+<li><strong>FR-5 友好交互</strong>：语气亲切但不啰嗦，先共情再给方案</li>
+<li><strong>FR-6 生产级可靠性</strong>：数据库故障时工具返回降级提示，不崩溃；模型调用失败时自动重试后返回兜底文案</li>
+</ul>
+<h3 id="3-1-5-非功能性需求">3.1.5 非功能性需求</h3>
+<ul>
+<li>单次响应 &lt; 5 秒（含工具调用）</li>
+<li>回答必须基于工具返回的真实数据，不得编造</li>
+<li>订单号、金额等敏感信息原文展示，不篡改</li>
+<li>数据库故障时优雅降级，返回&quot;服务暂时不可用&quot;</li>
+<li>支持多品牌（通过配置切换 System Prompt 中的品牌名）</li>
+</ul>
+<h3 id="3-1-6-验收标准">3.1.6 验收标准</h3>
+<table>
+<thead>
+<tr>
+<th>场景</th>
+<th>输入</th>
+<th>期望输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>正常查订单</td>
+<td>“帮我查订单 10001”</td>
+<td>返回无线耳机、299 元、已发货</td>
+</tr>
+<tr>
+<td>不存在的订单</td>
+<td>“查订单 99999”</td>
+<td>提示未找到，请核对订单号</td>
+</tr>
+<tr>
+<td>查物流</td>
+<td>“10001 到哪了”</td>
+<td>返回杭州转运中心，预计明天送达</td>
+</tr>
+<tr>
+<td>问政策</td>
+<td>“能退货吗”</td>
+<td>返回 7 天无理由退货政策</td>
+</tr>
+<tr>
+<td>超范围</td>
+<td>“我要投诉”</td>
+<td>礼貌引导转人工</td>
+</tr>
+<tr>
+<td>数据库故障</td>
+<td>模拟数据库异常</td>
+<td>返回&quot;服务暂时不可用&quot;，不崩溃</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="3-2-画个样子：它该长啥样">3.2 画个样子：它该长啥样</h2>
+<h3 id="3-2-1-功能架构图">3.2.1 功能架构图</h3>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph TD
+    U["用户输入"] --> Agent["智能客服 Agent<br/>create_agent"]
+    Agent --> T1["🔧 query_order 查订单<br/>→ SQLite orders 表"]
+    Agent --> T2["🔧 query_logistics 查物流<br/>→ SQLite logistics 表"]
+    Agent --> T3["🔧 query_policy 查政策<br/>→ SQLite policies 表"]
+    Agent --> Fallback["转人工回复"]
+    T1 & T2 & T3 --> Reply["返回最终回复"]
+    Fallback --> Reply
+
+    classDef uN fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    classDef aN fill:#ede7f6,stroke:#5e35b1,stroke-width:2px,color:#311b92
+    classDef tN fill:#e0f7fa,stroke:#00acc1,stroke-width:2px,color:#006064
+    classDef rN fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#1b5e20
+    class U uN
+    class Agent aN
+    class T1,T2,T3 tN
+    class Fallback,Reply rN</pre>
+<h3 id="3-2-2-核心交互流程">3.2.2 核心交互流程</h3>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+sequenceDiagram
+    participant U as 用户
+    participant A as Agent
+    participant T as 工具
+    participant DB as SQLite
+
+    U->>A: "帮我查订单 10001"
+    Note over A: 思考：需要查订单
+    A->>T: query_order("10001")
+    T->>DB: SELECT * FROM orders WHERE id='10001'
+    DB->>T: {无线耳机, 299元, 已发货}
+    T->>A: 订单 10001：无线耳机...
+    Note over A: 组织语言回复
+    A->>U: "您的订单 10001（无线耳机，299元）已发货!"</pre>
+<h3 id="3-2-3-边界与异常处理">3.2.3 边界与异常处理</h3>
+<table>
+<thead>
+<tr>
+<th>异常</th>
+<th>处理方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>订单号不存在</td>
+<td>工具返回&quot;未找到&quot;，Agent 转述给用户</td>
+</tr>
+<tr>
+<td>物流暂无信息</td>
+<td>提示&quot;可能尚未发货&quot;</td>
+</tr>
+<tr>
+<td>用户输入无法识别</td>
+<td>Agent 礼貌说明能力范围，引导转人工</td>
+</tr>
+<tr>
+<td>数据库故障</td>
+<td>工具捕获异常，返回&quot;服务暂时不可用&quot;</td>
+</tr>
+<tr>
+<td>模型 API 超时</td>
+<td>自动重试 3 次（指数退避），最终失败返回兜底文案</td>
+</tr>
+<tr>
+<td>瞬时高并发</td>
+<td>流控检查，超出阈值返回&quot;系统繁忙&quot;</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="3-3-拆开看：怎么造出来">3.3 拆开看：怎么造出来</h2>
+<h3 id="3-3-1-系统架构图">3.3.1 系统架构图</h3>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph TD
+    U["用户"] --> FE["前端管理台"]
+    FE --> API["FastAPI /stream"]
+    API --> P01["项目一 Agent"]
+    P01 --> Core["BaseProject.run()<br/>流控 + 重试 + 指标"]
+    Core --> LC["create_agent<br/>(LangChain v1.0)"]
+    LC --> Model["Claude Sonnet 4.6"]
+    LC --> T1["query_order"]
+    LC --> T2["query_logistics"]
+    LC --> T3["query_policy"]
+    T1 & T2 & T3 --> DB["SQLite<br/>customer_service.db"]
+
+    classDef uN fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    classDef sN fill:#ede7f6,stroke:#5e35b1,stroke-width:2px,color:#311b92
+    classDef aN fill:#e0f2f1,stroke:#00897b,stroke-width:2px,color:#004d40
+    classDef tN fill:#e0f7fa,stroke:#00acc1,stroke-width:2px,color:#006064
+    class U uN
+    class FE,API,Core sN
+    class P01,LC,Model aN
+    class T1,T2,T3,DB tN</pre>
+<h3 id="3-3-2-技术选型与理由">3.3.2 技术选型与理由</h3>
+<table>
+<thead>
+<tr>
+<th>技术点</th>
+<th>选型</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent 框架</td>
+<td><code>langchain.agents.create_agent</code></td>
+<td>官方 v1.0 推荐；内置 agent loop</td>
+</tr>
+<tr>
+<td>大模型</td>
+<td>Claude Sonnet 4.6</td>
+<td>长上下文、经济实惠、中文流畅</td>
+</tr>
+<tr>
+<td>工具定义</td>
+<td><code>@tool</code> 装饰器</td>
+<td>官方方式，docstring 自动转为工具说明书</td>
+</tr>
+<tr>
+<td>数据存储</td>
+<td><strong>SQLite</strong>（可替换为 PostgreSQL）</td>
+<td>零配置、零运维，适合学习和单机部署</td>
+</tr>
+<tr>
+<td>错误处理</td>
+<td>工具级 try/except + 基类级重试</td>
+<td>两级兜底，故障不崩溃</td>
+</tr>
+<tr>
+<td>后端</td>
+<td>FastAPI（复用第 2 章）</td>
+<td>统一入口，支持 SSE 流式</td>
+</tr>
+<tr>
+<td>前端</td>
+<td>React（复用第 2 章）</td>
+<td>统一管理台</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-3-3-数据库设计">3.3.3 数据库设计</h3>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 订单表</span></span><br><span class="line"><span class="keyword">CREATE TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> orders (</span><br><span class="line">    id TEXT <span class="keyword">PRIMARY KEY</span>,          <span class="comment">-- 订单号</span></span><br><span class="line">    item TEXT <span class="keyword">NOT NULL</span>,           <span class="comment">-- 商品名</span></span><br><span class="line">    amount <span class="type">REAL</span> <span class="keyword">NOT NULL</span>,         <span class="comment">-- 金额</span></span><br><span class="line">    status TEXT <span class="keyword">NOT NULL</span> <span class="keyword">DEFAULT</span> <span class="string">&#x27;待付款&#x27;</span>,  <span class="comment">-- 状态</span></span><br><span class="line">    created_at TEXT <span class="keyword">NOT NULL</span> <span class="keyword">DEFAULT</span> (datetime(<span class="string">&#x27;now&#x27;</span>))</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 物流表</span></span><br><span class="line"><span class="keyword">CREATE TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> logistics (</span><br><span class="line">    order_id TEXT <span class="keyword">PRIMARY KEY</span>,    <span class="comment">-- 关联订单号</span></span><br><span class="line">    tracking_info TEXT <span class="keyword">NOT NULL</span>,  <span class="comment">-- 物流信息</span></span><br><span class="line">    updated_at TEXT <span class="keyword">NOT NULL</span> <span class="keyword">DEFAULT</span> (datetime(<span class="string">&#x27;now&#x27;</span>)),</span><br><span class="line">    <span class="keyword">FOREIGN KEY</span> (order_id) <span class="keyword">REFERENCES</span> orders(id)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 政策表</span></span><br><span class="line"><span class="keyword">CREATE TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> policies (</span><br><span class="line">    id <span class="type">INTEGER</span> <span class="keyword">PRIMARY KEY</span> AUTOINCREMENT,</span><br><span class="line">    topic TEXT <span class="keyword">NOT NULL</span>,          <span class="comment">-- 政策主题</span></span><br><span class="line">    content TEXT <span class="keyword">NOT NULL</span>         <span class="comment">-- 政策内容</span></span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+<p><strong>设计要点</strong>：</p>
+<ul>
+<li>三张表各自独立，通过 <code>order_id</code> 外键关联</li>
+<li>种子数据在模块加载时自动插入（幂等：仅当表为空时）</li>
+<li>生产环境可替换为 PostgreSQL，只需改连接字符串</li>
+</ul>
+<h3 id="3-3-4-关键设计：工具的错误处理">3.3.4 关键设计：工具的错误处理</h3>
+<p>每个工具函数都用 <code>try/except/finally</code> 包裹，捕获 <code>sqlite3.Error</code> 后返回用户友好的降级文案，而非抛出异常堆栈：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">query_order</span>(<span class="params">order_id: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;根据订单号查询订单状态、商品和金额。&quot;&quot;&quot;</span></span><br><span class="line">    conn = <span class="literal">None</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        conn = _get_db()</span><br><span class="line">        row = conn.execute(<span class="string">&quot;SELECT ...&quot;</span>).fetchone()</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> row:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">f&quot;未找到订单 <span class="subst">&#123;order_id&#125;</span>，请核对订单号后重试。&quot;</span></span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;订单 <span class="subst">&#123;order_id&#125;</span>：<span class="subst">&#123;row[<span class="string">&#x27;item&#x27;</span>]&#125;</span>...&quot;</span></span><br><span class="line">    <span class="keyword">except</span> sqlite3.Error <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">&quot;查询订单失败: order_id=%s error=%s&quot;</span>, order_id, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;订单查询服务暂时不可用，请稍后重试或联系人工客服。&quot;</span></span><br><span class="line">    <span class="keyword">finally</span>:</span><br><span class="line">        <span class="keyword">if</span> conn:</span><br><span class="line">            conn.close()</span><br></pre></td></tr></table></figure>
+<p><strong>三层错误处理</strong>：</p>
+<ol>
+<li><strong>工具层</strong>（这里）：数据库异常返回降级文案</li>
+<li><strong>基类层</strong>（<code>BaseProject.run()</code>）：模型调用失败自动重试</li>
+<li><strong>最终兜底</strong>：重试全部失败后返回&quot;抱歉，处理您的请求时遇到了技术问题&quot;</li>
+</ol>
+<h3 id="3-3-5-关键设计：Prompt-工程">3.3.5 关键设计：Prompt 工程</h3>
+<p>System Prompt 的设计原则：</p>
+<ol>
+<li><strong>角色设定</strong>：第一句明确身份——“你是「云购商城」的金牌智能客服”</li>
+<li><strong>工具使用约束</strong>：明确要求&quot;涉及订单、物流、售后政策的问题，必须调用相应工具，不得凭空回答&quot;</li>
+<li><strong>语气风格</strong>：“热情、专业、简洁”+“先共情再给方案”</li>
+<li><strong>边界设定</strong>：“超出能力范围礼貌转人工”</li>
+<li><strong>错误传播</strong>：“如果工具返回错误，如实告知用户并建议稍后重试”</li>
+</ol>
+<hr>
+<h2 id="3-4-动手写：三层架构完整代码">3.4 动手写：三层架构完整代码</h2>
+<h3 id="3-4-1-三层架构总览">3.4.1 三层架构总览</h3>
+<p>项目一采用经典的三层架构设计，关注点分离，便于维护和扩展：</p>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>职责</th>
+<th>对应文件</th>
+<th>依赖</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>领域模型层</strong></td>
+<td>定义业务实体的数据结构</td>
+<td><code>models.py</code></td>
+<td>无（纯数据类）</td>
+</tr>
+<tr>
+<td><strong>数据仓储层</strong></td>
+<td>封装数据库操作，返回领域模型</td>
+<td><code>repositories.py</code></td>
+<td>models</td>
+</tr>
+<tr>
+<td><strong>工具服务层</strong></td>
+<td>Agent 可调用的工具，带错误降级</td>
+<td><code>tools.py</code></td>
+<td>repositories</td>
+</tr>
+<tr>
+<td><strong>Prompt 层</strong></td>
+<td>配置驱动的 System Prompt 生成</td>
+<td><code>prompts.py</code></td>
+<td>无</td>
+</tr>
+<tr>
+<td><strong>Agent 工厂层</strong></td>
+<td>统一构建 Agent 实例</td>
+<td><code>service.py</code></td>
+<td>tools, prompts</td>
+</tr>
+<tr>
+<td><strong>项目定义层</strong></td>
+<td>继承 BaseProject，注册到全局路由</td>
+<td><code>project.py</code></td>
+<td>service</td>
+</tr>
+<tr>
+<td><strong>入口层</strong></td>
+<td>重新导出对外接口，注册项目</td>
+<td><code>__init__.py</code></td>
+<td>project, tools</td>
+</tr>
+</tbody>
+</table>
+<p><strong>架构优势</strong>：</p>
+<ul>
+<li><strong>可测试性</strong>：每层都可以单独单元测试</li>
+<li><strong>可替换性</strong>：SQLite 仓储可无缝替换为 PostgreSQL 仓储</li>
+<li><strong>可扩展性</strong>：新增工具只需在 <a target="_blank" rel="noopener" href="http://tools.py">tools.py</a> 添加，不影响其他层</li>
+<li><strong>向后兼容</strong>：<code>from projects.p01_customer_service import query_order</code> 继续可用</li>
+</ul>
+<hr>
+<h3 id="3-4-2-三层架构完整代码">3.4.2 三层架构完整代码</h3>
+<p><strong>代码清单 3-1：领域模型层（<a target="_blank" rel="noopener" href="http://models.py">models.py</a>）</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;领域模型层：定义订单、物流、政策等核心数据结构。&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> dataclasses <span class="keyword">import</span> dataclass</span><br><span class="line"><span class="keyword">from</span> enum <span class="keyword">import</span> Enum</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">OrderStatus</span>(<span class="built_in">str</span>, Enum):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;订单状态枚举。&quot;&quot;&quot;</span></span><br><span class="line">    PENDING_PAYMENT = <span class="string">&quot;待付款&quot;</span></span><br><span class="line">    PAID = <span class="string">&quot;已付款&quot;</span></span><br><span class="line">    SHIPPED = <span class="string">&quot;已发货&quot;</span></span><br><span class="line">    DELIVERED = <span class="string">&quot;已签收&quot;</span></span><br><span class="line">    CANCELLED = <span class="string">&quot;已取消&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Order</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;订单领域模型。&quot;&quot;&quot;</span></span><br><span class="line">    <span class="built_in">id</span>: <span class="built_in">str</span></span><br><span class="line">    item: <span class="built_in">str</span></span><br><span class="line">    amount: <span class="built_in">float</span></span><br><span class="line">    status: OrderStatus</span><br><span class="line">    created_at: <span class="built_in">str</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__str__</span>(<span class="params">self</span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;订单 <span class="subst">&#123;self.<span class="built_in">id</span>&#125;</span>：<span class="subst">&#123;self.item&#125;</span>，金额 <span class="subst">&#123;self.amount&#125;</span> 元，状态：<span class="subst">&#123;self.status&#125;</span>。&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">LogisticsInfo</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;物流信息领域模型。&quot;&quot;&quot;</span></span><br><span class="line">    order_id: <span class="built_in">str</span></span><br><span class="line">    tracking_info: <span class="built_in">str</span></span><br><span class="line">    updated_at: <span class="built_in">str</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__str__</span>(<span class="params">self</span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;订单 <span class="subst">&#123;self.order_id&#125;</span> 物流：<span class="subst">&#123;self.tracking_info&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Policy</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;售后政策领域模型。&quot;&quot;&quot;</span></span><br><span class="line">    <span class="built_in">id</span>: <span class="built_in">int</span></span><br><span class="line">    topic: <span class="built_in">str</span></span><br><span class="line">    content: <span class="built_in">str</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__str__</span>(<span class="params">self</span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;【<span class="subst">&#123;self.topic&#125;</span>】<span class="subst">&#123;self.content&#125;</span>&quot;</span></span><br></pre></td></tr></table></figure>
+<p><strong>设计要点</strong>：</p>
+<ul>
+<li>使用 <code>str, Enum</code> 双重继承，既保证类型安全，又能直接和数据库字符串比较</li>
+<li>枚举值使用中文，是展示友好设计，便于直接输出给用户</li>
+<li>
+<blockquote>
+<p>生产环境多语言方案：可改为 code + display_name 结构，如 <code>PENDING_PAYMENT = (&quot;pending_payment&quot;, &quot;待付款&quot;)</code>，根据用户语言选择展示文本</p>
+</blockquote>
+</li>
+<li>每个模型实现 <code>__str__()</code>，工具层直接 <code>str(order)</code> 输出给用户</li>
+<li>不依赖任何外部库，纯数据类</li>
+</ul>
+<hr>
+<p><strong>代码清单 3-2：数据仓储层（<a target="_blank" rel="noopener" href="http://repositories.py">repositories.py</a>）</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;数据仓储层：SQLite 持久化存储。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">这是三层架构的中间层，负责数据访问。</span></span><br><span class="line"><span class="string">封装数据库操作，向上层提供领域模型对象。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">&gt; 设计说明：</span></span><br><span class="line"><span class="string">&gt; - SQLite 适合教学演示和单机部署，零配置零运维</span></span><br><span class="line"><span class="string">&gt; - 生产环境可替换为 PostgreSQL，只需修改连接字符串和驱动</span></span><br><span class="line"><span class="string">&gt; - 仓储层接口保持不变，上层代码无需修改</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> sqlite3</span><br><span class="line"><span class="keyword">from</span> functools <span class="keyword">import</span> lru_cache</span><br><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">List</span>, <span class="type">Optional</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core.config <span class="keyword">import</span> DATA_DIR</span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> LogisticsInfo, Order, OrderStatus, Policy</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p01.repository&quot;</span>)</span><br><span class="line">DB_PATH = DATA_DIR / <span class="string">&quot;customer_service.db&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomerServiceRepository</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;客服数据仓储，封装所有数据库操作。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    所有方法均返回领域模型对象或 None，上层无需处理原始 Row。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, db_path: Path = DB_PATH</span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="variable language_">self</span>._db_path = db_path</span><br><span class="line">        <span class="variable language_">self</span>._init_db()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">_get_db</span>(<span class="params">self</span>) -&gt; sqlite3.Connection:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;获取数据库连接（每次新建，避免跨线程共享问题）。&quot;&quot;&quot;</span></span><br><span class="line">        conn = sqlite3.connect(<span class="built_in">str</span>(<span class="variable language_">self</span>._db_path))</span><br><span class="line">        conn.row_factory = sqlite3.Row</span><br><span class="line">        <span class="keyword">return</span> conn</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">_init_db</span>(<span class="params">self</span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;初始化数据库表与种子数据（幂等）。&quot;&quot;&quot;</span></span><br><span class="line">        conn = <span class="variable language_">self</span>._get_db()</span><br><span class="line">        conn.executescript(<span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">            CREATE TABLE IF NOT EXISTS orders (</span></span><br><span class="line"><span class="string">                id TEXT PRIMARY KEY,</span></span><br><span class="line"><span class="string">                item TEXT NOT NULL,</span></span><br><span class="line"><span class="string">                amount REAL NOT NULL,</span></span><br><span class="line"><span class="string">                status TEXT NOT NULL DEFAULT &#x27;待付款&#x27;,</span></span><br><span class="line"><span class="string">                created_at TEXT NOT NULL DEFAULT (datetime(&#x27;now&#x27;))</span></span><br><span class="line"><span class="string">            );</span></span><br><span class="line"><span class="string">            CREATE TABLE IF NOT EXISTS logistics (</span></span><br><span class="line"><span class="string">                order_id TEXT PRIMARY KEY,</span></span><br><span class="line"><span class="string">                tracking_info TEXT NOT NULL,</span></span><br><span class="line"><span class="string">                updated_at TEXT NOT NULL DEFAULT (datetime(&#x27;now&#x27;)),</span></span><br><span class="line"><span class="string">                FOREIGN KEY (order_id) REFERENCES orders(id)</span></span><br><span class="line"><span class="string">            );</span></span><br><span class="line"><span class="string">            CREATE TABLE IF NOT EXISTS policies (</span></span><br><span class="line"><span class="string">                id INTEGER PRIMARY KEY AUTOINCREMENT,</span></span><br><span class="line"><span class="string">                topic TEXT NOT NULL,</span></span><br><span class="line"><span class="string">                content TEXT NOT NULL</span></span><br><span class="line"><span class="string">            );</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span>)</span><br><span class="line">        <span class="comment"># 种子数据（仅当表为空时插入）</span></span><br><span class="line">        cur = conn.execute(<span class="string">&quot;SELECT COUNT(*) FROM orders&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> cur.fetchone()[<span class="number">0</span>] == <span class="number">0</span>:</span><br><span class="line">            conn.executescript(<span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                INSERT INTO orders(id, item, amount, status) VALUES</span></span><br><span class="line"><span class="string">                    (&#x27;10001&#x27;, &#x27;无线耳机&#x27;, 299, &#x27;已发货&#x27;),</span></span><br><span class="line"><span class="string">                    (&#x27;10002&#x27;, &#x27;机械键盘&#x27;, 459, &#x27;待付款&#x27;),</span></span><br><span class="line"><span class="string">                    (&#x27;10003&#x27;, &#x27;便携充电宝&#x27;, 129, &#x27;已签收&#x27;);</span></span><br><span class="line"><span class="string">                INSERT INTO logistics(order_id, tracking_info) VALUES</span></span><br><span class="line"><span class="string">                    (&#x27;10001&#x27;, &#x27;已到达【杭州转运中心】，预计明天送达&#x27;);</span></span><br><span class="line"><span class="string">                INSERT INTO policies(topic, content) VALUES</span></span><br><span class="line"><span class="string">                    (&#x27;退换货&#x27;,</span></span><br><span class="line"><span class="string">                     &#x27;商品签收后 7 天内无理由退货（商品需保持完好）；&#x27;</span></span><br><span class="line"><span class="string">                     &#x27;质量问题 15 天内可换货，运费由商家承担。&#x27;),</span></span><br><span class="line"><span class="string">                    (&#x27;发票&#x27;,</span></span><br><span class="line"><span class="string">                     &#x27;电子发票在签收后 3 个工作日内发送至您的注册邮箱。&#x27;);</span></span><br><span class="line"><span class="string">            &quot;&quot;&quot;</span>)</span><br><span class="line">        conn.commit()</span><br><span class="line">        conn.close()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_order</span>(<span class="params">self, order_id: <span class="built_in">str</span></span>) -&gt; <span class="type">Optional</span>[Order]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;根据订单号查询订单，返回领域模型或 None。&quot;&quot;&quot;</span></span><br><span class="line">        conn = <span class="literal">None</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            conn = <span class="variable language_">self</span>._get_db()</span><br><span class="line">            row = conn.execute(</span><br><span class="line">                <span class="string">&quot;SELECT id, item, amount, status, created_at FROM orders WHERE id = ?&quot;</span>,</span><br><span class="line">                (order_id,),</span><br><span class="line">            ).fetchone()</span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> row:</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line">            <span class="keyword">return</span> Order(</span><br><span class="line">                <span class="built_in">id</span>=row[<span class="string">&quot;id&quot;</span>],</span><br><span class="line">                item=row[<span class="string">&quot;item&quot;</span>],</span><br><span class="line">                amount=row[<span class="string">&quot;amount&quot;</span>],</span><br><span class="line">                status=OrderStatus(row[<span class="string">&quot;status&quot;</span>]),</span><br><span class="line">                created_at=row[<span class="string">&quot;created_at&quot;</span>],</span><br><span class="line">            )</span><br><span class="line">        <span class="keyword">except</span> sqlite3.Error <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">&quot;查询订单失败: order_id=%s error=%s&quot;</span>, order_id, e)</span><br><span class="line">            <span class="keyword">raise</span>  <span class="comment"># 仓储层只记录日志，向上抛出异常</span></span><br><span class="line">        <span class="keyword">finally</span>:</span><br><span class="line">            <span class="keyword">if</span> conn:</span><br><span class="line">                conn.close()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_logistics</span>(<span class="params">self, order_id: <span class="built_in">str</span></span>) -&gt; <span class="type">Optional</span>[LogisticsInfo]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;根据订单号查询物流信息。&quot;&quot;&quot;</span></span><br><span class="line">        conn = <span class="literal">None</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            conn = <span class="variable language_">self</span>._get_db()</span><br><span class="line">            row = conn.execute(</span><br><span class="line">                <span class="string">&quot;SELECT order_id, tracking_info, updated_at FROM logistics WHERE order_id = ?&quot;</span>,</span><br><span class="line">                (order_id,),</span><br><span class="line">            ).fetchone()</span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> row:</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line">            <span class="keyword">return</span> LogisticsInfo(</span><br><span class="line">                order_id=row[<span class="string">&quot;order_id&quot;</span>],</span><br><span class="line">                tracking_info=row[<span class="string">&quot;tracking_info&quot;</span>],</span><br><span class="line">                updated_at=row[<span class="string">&quot;updated_at&quot;</span>],</span><br><span class="line">            )</span><br><span class="line">        <span class="keyword">except</span> sqlite3.Error <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">&quot;查询物流失败: order_id=%s error=%s&quot;</span>, order_id, e)</span><br><span class="line">            <span class="keyword">raise</span></span><br><span class="line">        <span class="keyword">finally</span>:</span><br><span class="line">            <span class="keyword">if</span> conn:</span><br><span class="line">                conn.close()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">search_policies</span>(<span class="params">self, keyword: <span class="built_in">str</span></span>) -&gt; <span class="type">List</span>[Policy]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;根据关键词搜索售后政策。&quot;&quot;&quot;</span></span><br><span class="line">        conn = <span class="literal">None</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            conn = <span class="variable language_">self</span>._get_db()</span><br><span class="line">            rows = conn.execute(</span><br><span class="line">                <span class="string">&quot;SELECT id, topic, content FROM policies &quot;</span></span><br><span class="line">                <span class="string">&quot;WHERE topic LIKE ? OR content LIKE ?&quot;</span>,</span><br><span class="line">                (<span class="string">f&quot;%<span class="subst">&#123;keyword&#125;</span>%&quot;</span>, <span class="string">f&quot;%<span class="subst">&#123;keyword&#125;</span>%&quot;</span>),</span><br><span class="line">            ).fetchall()</span><br><span class="line">            <span class="keyword">return</span> [</span><br><span class="line">                Policy(</span><br><span class="line">                    <span class="built_in">id</span>=r[<span class="string">&quot;id&quot;</span>],</span><br><span class="line">                    topic=r[<span class="string">&quot;topic&quot;</span>],</span><br><span class="line">                    content=r[<span class="string">&quot;content&quot;</span>],</span><br><span class="line">                )</span><br><span class="line">                <span class="keyword">for</span> r <span class="keyword">in</span> rows</span><br><span class="line">            ]</span><br><span class="line">        <span class="keyword">except</span> sqlite3.Error <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">&quot;查询政策失败: keyword=%s error=%s&quot;</span>, keyword, e)</span><br><span class="line">            <span class="keyword">raise</span></span><br><span class="line">        <span class="keyword">finally</span>:</span><br><span class="line">            <span class="keyword">if</span> conn:</span><br><span class="line">                conn.close()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@lru_cache(<span class="params">maxsize=<span class="literal">None</span></span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_repository</span>() -&gt; CustomerServiceRepository:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;获取仓储单例（线程安全）。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    使用 functools.lru_cache 实现单例模式，避免多线程环境下重复初始化。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">return</span> CustomerServiceRepository()</span><br></pre></td></tr></table></figure>
+<p><strong>设计要点</strong>：</p>
+<ul>
+<li>仓储层只抛出异常，不做降级处理——降级是工具层的职责</li>
+<li>使用 <code>lru_cache</code> 实现线程安全的单例，避免重复初始化数据库</li>
+<li>所有方法返回领域模型对象，上层不接触原始 <code>sqlite3.Row</code></li>
+</ul>
+<hr>
+<p><strong>代码清单 3-3：工具层（<a target="_blank" rel="noopener" href="http://tools.py">tools.py</a>）</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;工具层：定义 Agent 可调用的工具函数。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">这是三层架构的上层，依赖仓储层。</span></span><br><span class="line"><span class="string">每个工具都带有错误处理和降级，保证生产稳定性。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langchain.tools <span class="keyword">import</span> tool</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"><span class="keyword">from</span> .repositories <span class="keyword">import</span> get_repository</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p01.tools&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">query_order</span>(<span class="params">order_id: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;根据订单号查询订单状态、商品和金额。&quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        repo = get_repository()</span><br><span class="line">        order = repo.get_order(order_id)</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> order:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">f&quot;未找到订单 <span class="subst">&#123;order_id&#125;</span>，请核对订单号后重试。&quot;</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">str</span>(order)</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.exception(<span class="string">&quot;查询订单失败: order_id=%s error=%s&quot;</span>, order_id, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;订单查询服务暂时不可用，请稍后重试或联系人工客服。&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">query_logistics</span>(<span class="params">order_id: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;根据订单号查询物流配送进度。&quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        repo = get_repository()</span><br><span class="line">        logistics = repo.get_logistics(order_id)</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> logistics:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">f&quot;订单 <span class="subst">&#123;order_id&#125;</span> 暂无物流信息（可能尚未发货）。&quot;</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">str</span>(logistics)</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.exception(<span class="string">&quot;查询物流失败: order_id=%s error=%s&quot;</span>, order_id, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;物流查询服务暂时不可用，请稍后重试。&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">query_policy</span>(<span class="params">topic: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;查询售后政策（退货、换货、发票等）。&quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        repo = get_repository()</span><br><span class="line">        policies = repo.search_policies(topic)</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> policies:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">f&quot;未找到与「<span class="subst">&#123;topic&#125;</span>」相关的政策，请尝试其他关键词或转人工客服。&quot;</span></span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;\n\n&quot;</span>.join(<span class="built_in">str</span>(p) <span class="keyword">for</span> p <span class="keyword">in</span> policies)</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.exception(<span class="string">&quot;查询政策失败: topic=%s error=%s&quot;</span>, topic, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;政策查询服务暂时不可用，请稍后重试。&quot;</span></span><br></pre></td></tr></table></figure>
+<p><strong>设计要点</strong>：</p>
+<ul>
+<li>捕获 <code>Exception</code>（包含数据库初始化失败、IO 错误等），返回用户友好的降级文案</li>
+<li>使用 <code>logger.exception</code> 自动记录完整堆栈，便于生产环境排查</li>
+<li>业务逻辑（“未找到”、“暂无物流”）在工具层处理</li>
+<li>工具只返回字符串，Agent 不需要理解领域模型</li>
+</ul>
+<hr>
+<p><strong>代码清单 3-4：Prompt 层（<a target="_blank" rel="noopener" href="http://prompts.py">prompts.py</a>）</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;Prompt 层：构建 System Prompt。&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">build_system_prompt</span>(<span class="params">brand: <span class="built_in">str</span> = <span class="string">&quot;云购商城&quot;</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;按品牌生成 System Prompt。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    设计原则：</span></span><br><span class="line"><span class="string">    1. 角色设定：第一句明确身份</span></span><br><span class="line"><span class="string">    2. 工具使用约束：必须调用工具，不得凭空回答</span></span><br><span class="line"><span class="string">    3. 语气风格：亲切、专业、简洁</span></span><br><span class="line"><span class="string">    4. 边界设定：超出能力礼貌转人工</span></span><br><span class="line"><span class="string">    5. 错误传播：工具错误如实告知用户</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">return</span> <span class="string">f&quot;&quot;&quot;你是「<span class="subst">&#123;brand&#125;</span>」的金牌智能客服，热情、专业、简洁。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">工作要求：</span></span><br><span class="line"><span class="string">1. 涉及订单、物流、售后政策的问题，必须调用相应工具获取准确信息，不得凭空回答。</span></span><br><span class="line"><span class="string">2. 回答用中文，语气亲切，先共情再给方案。</span></span><br><span class="line"><span class="string">3. 如果用户问题超出你的能力（如投诉、退款审批、价格谈判），</span></span><br><span class="line"><span class="string">   礼貌告知将转接人工客服，并说明原因。</span></span><br><span class="line"><span class="string">4. 不要编造订单号、政策内容或价格信息。</span></span><br><span class="line"><span class="string">5. 如果工具返回错误（如&quot;服务不可用&quot;），如实告知用户并建议稍后重试。&quot;&quot;&quot;</span></span><br></pre></td></tr></table></figure>
+<p><strong>设计要点</strong>：</p>
+<ul>
+<li>配置驱动，支持多品牌切换</li>
+<li>五点设计原则，覆盖 Agent 的行为边界</li>
+<li>生产环境可扩展为从配置中心或数据库读取 Prompt 模板</li>
+</ul>
+<hr>
+<p><strong>代码清单 3-5：Agent 工厂层（<a target="_blank" rel="noopener" href="http://service.py">service.py</a>）</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;Agent 服务层：Agent 工厂。&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langchain_core.language_models <span class="keyword">import</span> BaseChatModel</span><br><span class="line"><span class="keyword">from</span> langchain_core.tools <span class="keyword">import</span> BaseTool</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> build_chat_model, get_settings</span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> build_system_prompt</span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> query_logistics, query_order, query_policy</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomerServiceAgentFactory</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;客服 Agent 工厂，统一构建 Agent 实例。&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">    @staticmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_tools</span>() -&gt; <span class="built_in">list</span>[BaseTool]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;获取客服可用的所有工具。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">return</span> [query_order, query_logistics, query_policy]</span><br><span class="line"></span><br><span class="line"><span class="meta">    @staticmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">build_agent</span>(<span class="params"></span></span><br><span class="line"><span class="params">        model: BaseChatModel | <span class="literal">None</span> = <span class="literal">None</span>,</span></span><br><span class="line"><span class="params">        system_prompt: <span class="built_in">str</span> | <span class="literal">None</span> = <span class="literal">None</span>,</span></span><br><span class="line"><span class="params">    </span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;构建智能客服 Agent。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">from</span> langchain.agents <span class="keyword">import</span> create_agent</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> model <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">            model = build_chat_model()</span><br><span class="line">        <span class="keyword">if</span> system_prompt <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">            system_prompt = build_system_prompt()</span><br><span class="line">        tools = CustomerServiceAgentFactory.get_tools()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> create_agent(</span><br><span class="line">            model=model,</span><br><span class="line">            tools=tools,</span><br><span class="line">            system_prompt=system_prompt,</span><br><span class="line">        )</span><br></pre></td></tr></table></figure>
+<p><strong>设计要点</strong>：</p>
+<ul>
+<li>工厂模式，统一 Agent 构建入口</li>
+<li>支持注入自定义 model 和 system_prompt（便于测试和扩展）</li>
+<li>工具列表集中管理，新增工具只需修改 <code>get_tools()</code></li>
+</ul>
+<hr>
+<p><strong>代码清单 3-6：项目定义层（<a target="_blank" rel="noopener" href="http://project.py">project.py</a>）</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目定义层：Project 子类。&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> BaseProject</span><br><span class="line"><span class="keyword">from</span> .service <span class="keyword">import</span> CustomerServiceAgentFactory</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomerServiceProject</span>(<span class="title class_ inherited__">BaseProject</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;智能客服项目。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    继承 BaseProject，自动获得：</span></span><br><span class="line"><span class="string">    - 模型调用自动重试</span></span><br><span class="line"><span class="string">    - 流控检查</span></span><br><span class="line"><span class="string">    - 指标收集</span></span><br><span class="line"><span class="string">    - SSE 流式支持</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">id</span> = <span class="string">&quot;p01_customer_service&quot;</span></span><br><span class="line">    name = <span class="string">&quot;智能客服 Agent&quot;</span></span><br><span class="line">    description = <span class="string">&quot;电商客服：查订单、查物流、查售后政策，超范围转人工。&quot;</span></span><br><span class="line">    capabilities = [<span class="string">&quot;Tool&quot;</span>, <span class="string">&quot;Prompt&quot;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">build_agent</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;构建 Agent 实例。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">return</span> CustomerServiceAgentFactory.build_agent()</span><br></pre></td></tr></table></figure>
+<p><strong>设计要点</strong>：</p>
+<ul>
+<li>Project 类只做&quot;装配&quot;，不包含业务逻辑</li>
+<li>继承 <code>BaseProject</code> 自动获得生产级特性（重试、流控、指标等）</li>
+<li>所有业务逻辑都下沉到下层</li>
+</ul>
+<hr>
+<p><strong>代码清单 3-7：入口层（<strong>init</strong>.py）</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目一：智能客服 Agent（生产级）。&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> registry</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .project <span class="keyword">import</span> CustomerServiceProject</span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> query_logistics, query_order, query_policy</span><br><span class="line"></span><br><span class="line"><span class="comment"># 注册到全局路由表</span></span><br><span class="line">registry.register(CustomerServiceProject())</span><br><span class="line"></span><br><span class="line">__all__ = [</span><br><span class="line">    <span class="string">&quot;CustomerServiceProject&quot;</span>,</span><br><span class="line">    <span class="string">&quot;query_order&quot;</span>,</span><br><span class="line">    <span class="string">&quot;query_logistics&quot;</span>,</span><br><span class="line">    <span class="string">&quot;query_policy&quot;</span>,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<p><strong>设计要点</strong>：</p>
+<ul>
+<li>只做两件事：重新导出对外接口 + 注册项目</li>
+<li>保证向后兼容：<code>from projects.p01_customer_service import query_order</code> 继续可用</li>
+<li>模块加载时自动注册，后端通过 <code>registry</code> 自动发现所有项目</li>
+</ul>
+<hr>
+<h3 id="3-4-3-核心代码解读">3.4.3 核心代码解读</h3>
+<p>在讲分层之前，先回答开篇小张的那个疑问：<strong>它又没长眼睛，怎么知道订单发了没？</strong></p>
+<p>这里藏着一个让初学者最绕不过去的认知关口。很多人以为「Agent 调用工具」是模型亲自去查了数据库——错。模型从头到尾只会做一件事：<strong>输出文字</strong>。它没有手，碰不到数据库。</p>
+<p>那它怎么「查」的？秘密在 <code>@tool</code> 装饰器和 <code>create_agent</code> 之间的一场「默契配合」：</p>
+<ol>
+<li><code>@tool</code> 把 <code>query_order</code> 这个函数的<strong>名字和 docstring</strong>（「根据订单号查询订单状态、商品和金额」）偷偷塞进给模型的输入里——相当于递给模型一本工具说明书。</li>
+<li>模型读到用户说「查订单 10001」，又看到说明书上有「查订单」这工具，于是它<strong>不直接回答</strong>，而是输出一段结构化的「调用请求」：<code>调用 query_order，参数 order_id=10001</code>。注意，这只是它「说」要查，还没真查。</li>
+<li><code>create_agent</code> 内置的循环（Harness）接住这段请求，<strong>替</strong>模型真正执行 <code>query_order(&quot;10001&quot;)</code>，拿到「无线耳机，299 元，已发货」。</li>
+<li>循环把结果再喂回模型：「你刚要查的，结果是这个。」模型这才组织成一句人话回给用户。</li>
+</ol>
+<p>所以小张看到的「它知道订单发了没」，真相是：<strong>模型表达了「我想查」的意图，程序替它查了，再把答案递回它嘴边</strong>。模型始终没碰过数据库，但它配合程序，完成了「做事」的效果。这就是 Tool 的本质——不是让模型变成全能选手，而是让它学会「求助」。</p>
+<blockquote>
+<p>💡 <strong>顿悟时刻</strong>：理解了这一点，你就理解了整个 Agent 技术的根基。后面所有的 Harness、MCP、Multi-Agent，本质上都是在围绕这场「模型表达意图 ↔ 程序执行」的配合做文章——让它循环、让它标准化、让它组队。</p>
+</blockquote>
+<p><strong>分层的意义</strong>：</p>
+<ol>
+<li>
+<p><strong>领域模型层</strong>是整个系统的&quot;通用语言&quot;——仓储层返回它，工具层把它转为字符串给 Agent。无论上层怎么变，业务实体的定义是稳定的。</p>
+</li>
+<li>
+<p><strong>仓储层</strong>做了一个关键设计：捕获异常后只记录日志然后 <code>raise</code>，而不是返回降级文案。这是因为&quot;降级&quot;是工具层的职责——仓储层的职责是数据访问，不是决定给用户返回什么文案。<strong>单一职责原则</strong>。</p>
+</li>
+<li>
+<p><strong>工具层</strong>是 Agent 的&quot;手和脚&quot;——它知道如何处理&quot;未找到&quot;这种业务场景，也知道数据库挂了该给用户看什么提示。Agent 只需要调用工具，不需要关心这些细节。</p>
+</li>
+<li>
+<p><strong>工厂模式</strong>让测试变得简单：写单元测试时可以注入 Mock model，不需要真实 API Key。</p>
+</li>
+</ol>
+<p><strong>依赖方向</strong>：</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">__init__.<span class="keyword">py</span> → project.<span class="keyword">py</span> → service.<span class="keyword">py</span> → tools.<span class="keyword">py</span> → repositories.<span class="keyword">py</span> → models.<span class="keyword">py</span></span><br></pre></td></tr></table></figure>
+<p>所有箭头都指向&quot;更稳定&quot;的下层。<a target="_blank" rel="noopener" href="http://models.py">models.py</a> 不依赖任何其他文件，是最稳定的；<code>__init__.py</code> 依赖所有人，是最不稳定的。这符合<strong>稳定依赖原则</strong>。</p>
+<p><strong>向后兼容</strong>：</p>
+<p>虽然内部拆成了 7 个文件，但外部导入完全不变：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 这行代码在重构前后完全一样</span></span><br><span class="line"><span class="keyword">from</span> projects.p01_customer_service <span class="keyword">import</span> query_order, CustomerServiceProject</span><br></pre></td></tr></table></figure>
+<p>这就是<strong>开闭原则</strong>：对扩展开放，对修改关闭。</p>
+<hr>
+<h2 id="3-5-跑一跑：它真的行吗">3.5 跑一跑：它真的行吗</h2>
+<h3 id="3-5-1-工具单元测试（离线，不依赖模型）">3.5.1 工具单元测试（离线，不依赖模型）</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">TestQueryOrder</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">test_order_found</span>(<span class="params">self</span>):</span><br><span class="line">        out = query_order.invoke(&#123;<span class="string">&quot;order_id&quot;</span>: <span class="string">&quot;10001&quot;</span>&#125;)</span><br><span class="line">        <span class="keyword">assert</span> <span class="string">&quot;无线耳机&quot;</span> <span class="keyword">in</span> out <span class="keyword">and</span> <span class="string">&quot;已发货&quot;</span> <span class="keyword">in</span> out <span class="keyword">and</span> <span class="string">&quot;299&quot;</span> <span class="keyword">in</span> out</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">test_order_not_found</span>(<span class="params">self</span>):</span><br><span class="line">        out = query_order.invoke(&#123;<span class="string">&quot;order_id&quot;</span>: <span class="string">&quot;99999&quot;</span>&#125;)</span><br><span class="line">        <span class="keyword">assert</span> <span class="string">&quot;未找到&quot;</span> <span class="keyword">in</span> out</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">test_order_db_error_graceful</span>(<span class="params">self, monkeypatch</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;验证数据库异常时工具优雅降级而非崩溃。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">def</span> <span class="title function_">_boom</span>(<span class="params">*a, **kw</span>):</span><br><span class="line">            <span class="keyword">raise</span> sqlite3.Error(<span class="string">&quot;模拟数据库故障&quot;</span>)</span><br><span class="line">        monkeypatch.<span class="built_in">setattr</span>(sqlite3, <span class="string">&quot;connect&quot;</span>, _boom)</span><br><span class="line">        out = query_order.invoke(&#123;<span class="string">&quot;order_id&quot;</span>: <span class="string">&quot;10001&quot;</span>&#125;)</span><br><span class="line">        <span class="keyword">assert</span> <span class="string">&quot;暂时不可用&quot;</span> <span class="keyword">in</span> out  <span class="comment"># 降级提示，而非崩溃</span></span><br></pre></td></tr></table></figure>
+<p><strong>测试覆盖</strong>：</p>
+<ul>
+<li>正常查询（订单存在）</li>
+<li>查询不存在的订单（返回&quot;未找到&quot;）</li>
+<li>数据库故障（优雅降级，不崩溃）——这是生产级代码的关键测试</li>
+</ul>
+<h3 id="3-5-2-集成测试（需要-API-Key，调用真实模型）">3.5.2 集成测试（需要 API Key，调用真实模型）</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">TestAgentIntegration</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">test_order_query_uses_tool</span>(<span class="params">self</span>):</span><br><span class="line">        project = CustomerServiceProject()</span><br><span class="line">        reply = project.run(<span class="string">&quot;帮我查订单 10001 的状态&quot;</span>)</span><br><span class="line">        <span class="keyword">assert</span> <span class="string">&quot;10001&quot;</span> <span class="keyword">in</span> reply</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">test_out_of_scope_escalates</span>(<span class="params">self</span>):</span><br><span class="line">        project = CustomerServiceProject()</span><br><span class="line">        reply = project.run(<span class="string">&quot;我要投诉你们发货太慢&quot;</span>)</span><br><span class="line">        <span class="keyword">assert</span> <span class="built_in">any</span>(w <span class="keyword">in</span> reply <span class="keyword">for</span> w <span class="keyword">in</span> [<span class="string">&quot;转接&quot;</span>, <span class="string">&quot;人工&quot;</span>, <span class="string">&quot;客服&quot;</span>])</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">test_metrics_incremented</span>(<span class="params">self</span>):</span><br><span class="line">        project = CustomerServiceProject()</span><br><span class="line">        before = project.metrics.total_runs</span><br><span class="line">        project.run(<span class="string">&quot;查订单 10001&quot;</span>)</span><br><span class="line">        <span class="keyword">assert</span> project.metrics.total_runs == before + <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<h3 id="3-5-3-手工验收">3.5.3 手工验收</h3>
+<p>在统一管理台中，选择「智能客服 Agent」，依次测试：</p>
+<table>
+<thead>
+<tr>
+<th>输入</th>
+<th>预期行为</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“帮我查订单 10001”</td>
+<td>显示无线耳机、299 元、已发货</td>
+</tr>
+<tr>
+<td>“那它的物流呢”</td>
+<td>显示杭州转运中心</td>
+</tr>
+<tr>
+<td>“能退货吗”</td>
+<td>返回 7 天无理由退货政策</td>
+</tr>
+<tr>
+<td>“我要投诉”</td>
+<td>礼貌引导转人工</td>
+</tr>
+<tr>
+<td>“你好”</td>
+<td>友好问候，引导说明需求</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="3-6-送上线：让它上班">3.6 送上线：让它上班</h2>
+<h3 id="3-6-1-本地运行">3.6.1 本地运行</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> backend</span><br><span class="line"><span class="built_in">cp</span> .env.example .<span class="built_in">env</span></span><br><span class="line"><span class="comment"># 编辑 .env，填入 ANTHROPIC_API_KEY</span></span><br><span class="line">uvicorn main:app --reload --port 8000</span><br></pre></td></tr></table></figure>
+<h3 id="3-6-2-Docker-部署">3.6.2 Docker 部署</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> ANTHROPIC_API_KEY=<span class="string">&quot;sk-ant-...&quot;</span></span><br><span class="line">docker compose up -d</span><br></pre></td></tr></table></figure>
+<h3 id="3-6-3-生产部署-Checklist">3.6.3 生产部署 Checklist</h3>
+<ul>
+<li>[ ] 替换 SQLite 为 PostgreSQL（修改连接字符串）</li>
+<li>[ ] 配置 <code>ENVIRONMENT=production</code></li>
+<li>[ ] 设置合理的流控和并发阈值</li>
+<li>[ ] 接入日志聚合系统</li>
+<li>[ ] 配置 Prometheus 抓取 <code>/api/metrics</code></li>
+</ul>
+<hr>
+<h2 id="3-7-回头看：学到了什么">3.7 回头看：学到了什么</h2>
+<h3 id="3-7-1-用到的能力回顾">3.7.1 用到的能力回顾</h3>
+<table>
+<thead>
+<tr>
+<th>能力</th>
+<th>在本项目中的体现</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tool 工具调用</strong></td>
+<td>三个 <code>@tool</code> 装饰的函数，Agent 自动判断何时调用</td>
+</tr>
+<tr>
+<td><strong>Prompt 工程</strong></td>
+<td>精心设计的 System Prompt：角色、工具约束、语气、边界、错误传播</td>
+</tr>
+<tr>
+<td><strong>数据持久化</strong></td>
+<td>SQLite 三张表，可替换为 PostgreSQL</td>
+</tr>
+<tr>
+<td><strong>错误处理</strong></td>
+<td>工具级 try/except + 基类级重试 + 最终兜底，三层保护</td>
+</tr>
+<tr>
+<td><strong>流控</strong></td>
+<td>基类内置 per-thread 滑动窗口</td>
+</tr>
+<tr>
+<td><strong>指标</strong></td>
+<td>AgentMetrics 自动收集运行次数、错误率、耗时</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-7-2-常见坑">3.7.2 常见坑</h3>
+<ol>
+<li><strong>docstring 太笼统</strong>——Agent 不知道什么时候该用工具。docstring 要具体到操作对象和返回内容。</li>
+<li><strong>工具不返回&quot;未找到&quot;</strong>——对不存在的订单返回空字符串，Agent 会困惑。工具要明确返回&quot;未找到&quot;。</li>
+<li><strong>System Prompt 缺少边界</strong>——不加&quot;超出能力转人工&quot;，Agent 会试图处理它处理不了的事。</li>
+<li><strong>数据库连接不关闭</strong>——<code>finally: conn.close()</code> 是必须的，否则连接泄漏。</li>
+</ol>
+<h3 id="3-7-3-可扩展方向">3.7.3 可扩展方向</h3>
+<ul>
+<li>接入真实数据库（PostgreSQL）</li>
+<li>增加更多工具：<code>create_return_order</code>、<code>query_coupon</code></li>
+<li>多轮对话记忆：接入 LangGraph Checkpointer</li>
+<li>RAG 升级：政策文本从硬编码改为向量检索</li>
+</ul>
+<hr>
+<blockquote>
+<p>📌 <strong>项目一完成。</strong> 从需求分析到部署上线，我们完整走完了一个生产级 Agent 项目的开发全链路。这只是开始——下一个项目我们将深入 <strong>RAG</strong>，用 LangGraph + LlamaIndex 构建一个能回答企业私有文档的「企业知识库问答 Agent」。</p>
+</blockquote>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/cn/2026-06-27-企业知识库问答 Agent/" data-toggle="tooltip" data-placement="top" title="企业知识库问答 Agent">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/2026-06-25-通用脚手架：搭建一个能跑十个项目的工程底座/" data-toggle="tooltip" data-placement="top" title="通用脚手架：搭建一个能跑十个项目的工程底座">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=智能客服 Agent&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/2026-06-26-智能客服 Agent/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'a37850f88f2a4d827300',
+      clientSecret: '7a50383ec7757c78714f95d455cc52b4211e8cf2',
+      repo: 'tigergo001.github.io',
+      owner: 'tigergo001',
+      admin: 'tigergo001',
+      id: 'Fri Jun 26 2026 09:00:00 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%BC%80%E7%AF%87%EF%BC%9A%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%BC%A0%E7%9A%84%E5%B4%A9%E6%BA%83%E4%B8%80%E5%A4%A9"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">开篇：客服小张的崩溃一天</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-1-%E5%B0%8F%E5%BC%A0%E7%9A%84%E8%AF%89%E6%B1%82"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">3.1 小张的诉求</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-1-%E4%B8%9A%E5%8A%A1%E8%83%8C%E6%99%AF%E4%B8%8E%E7%97%9B%E7%82%B9"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">3.1.1 业务背景与痛点</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-2-%E7%9B%AE%E6%A0%87%E7%94%A8%E6%88%B7%E4%B8%8E%E7%94%BB%E5%83%8F"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">3.1.2 目标用户与画像</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-3-%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">3.1.3 用户故事</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-4-%E5%8A%9F%E8%83%BD%E6%80%A7%E9%9C%80%E6%B1%82"><span class="toc-nav-number">2.4.</span> <span class="toc-nav-text">3.1.4 功能性需求</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-5-%E9%9D%9E%E5%8A%9F%E8%83%BD%E6%80%A7%E9%9C%80%E6%B1%82"><span class="toc-nav-number">2.5.</span> <span class="toc-nav-text">3.1.5 非功能性需求</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-1-6-%E9%AA%8C%E6%94%B6%E6%A0%87%E5%87%86"><span class="toc-nav-number">2.6.</span> <span class="toc-nav-text">3.1.6 验收标准</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-2-%E7%94%BB%E4%B8%AA%E6%A0%B7%E5%AD%90%EF%BC%9A%E5%AE%83%E8%AF%A5%E9%95%BF%E5%95%A5%E6%A0%B7"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">3.2 画个样子：它该长啥样</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-2-1-%E5%8A%9F%E8%83%BD%E6%9E%B6%E6%9E%84%E5%9B%BE"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">3.2.1 功能架构图</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-2-2-%E6%A0%B8%E5%BF%83%E4%BA%A4%E4%BA%92%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">3.2.2 核心交互流程</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-2-3-%E8%BE%B9%E7%95%8C%E4%B8%8E%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">3.2.3 边界与异常处理</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-3-%E6%8B%86%E5%BC%80%E7%9C%8B%EF%BC%9A%E6%80%8E%E4%B9%88%E9%80%A0%E5%87%BA%E6%9D%A5"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">3.3 拆开看：怎么造出来</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-3-1-%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E5%9B%BE"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">3.3.1 系统架构图</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-3-2-%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B%E4%B8%8E%E7%90%86%E7%94%B1"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">3.3.2 技术选型与理由</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-3-3-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number">4.3.</span> <span class="toc-nav-text">3.3.3 数据库设计</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-3-4-%E5%85%B3%E9%94%AE%E8%AE%BE%E8%AE%A1%EF%BC%9A%E5%B7%A5%E5%85%B7%E7%9A%84%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86"><span class="toc-nav-number">4.4.</span> <span class="toc-nav-text">3.3.4 关键设计：工具的错误处理</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-3-5-%E5%85%B3%E9%94%AE%E8%AE%BE%E8%AE%A1%EF%BC%9APrompt-%E5%B7%A5%E7%A8%8B"><span class="toc-nav-number">4.5.</span> <span class="toc-nav-text">3.3.5 关键设计：Prompt 工程</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-4-%E5%8A%A8%E6%89%8B%E5%86%99%EF%BC%9A%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">3.4 动手写：三层架构完整代码</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-4-1-%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E6%80%BB%E8%A7%88"><span class="toc-nav-number">5.1.</span> <span class="toc-nav-text">3.4.1 三层架构总览</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-4-2-%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81"><span class="toc-nav-number">5.2.</span> <span class="toc-nav-text">3.4.2 三层架构完整代码</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-4-3-%E6%A0%B8%E5%BF%83%E4%BB%A3%E7%A0%81%E8%A7%A3%E8%AF%BB"><span class="toc-nav-number">5.3.</span> <span class="toc-nav-text">3.4.3 核心代码解读</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-5-%E8%B7%91%E4%B8%80%E8%B7%91%EF%BC%9A%E5%AE%83%E7%9C%9F%E7%9A%84%E8%A1%8C%E5%90%97"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">3.5 跑一跑：它真的行吗</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-5-1-%E5%B7%A5%E5%85%B7%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%EF%BC%88%E7%A6%BB%E7%BA%BF%EF%BC%8C%E4%B8%8D%E4%BE%9D%E8%B5%96%E6%A8%A1%E5%9E%8B%EF%BC%89"><span class="toc-nav-number">6.1.</span> <span class="toc-nav-text">3.5.1 工具单元测试（离线，不依赖模型）</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-5-2-%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95%EF%BC%88%E9%9C%80%E8%A6%81-API-Key%EF%BC%8C%E8%B0%83%E7%94%A8%E7%9C%9F%E5%AE%9E%E6%A8%A1%E5%9E%8B%EF%BC%89"><span class="toc-nav-number">6.2.</span> <span class="toc-nav-text">3.5.2 集成测试（需要 API Key，调用真实模型）</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-5-3-%E6%89%8B%E5%B7%A5%E9%AA%8C%E6%94%B6"><span class="toc-nav-number">6.3.</span> <span class="toc-nav-text">3.5.3 手工验收</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-6-%E9%80%81%E4%B8%8A%E7%BA%BF%EF%BC%9A%E8%AE%A9%E5%AE%83%E4%B8%8A%E7%8F%AD"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">3.6 送上线：让它上班</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-6-1-%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8C"><span class="toc-nav-number">7.1.</span> <span class="toc-nav-text">3.6.1 本地运行</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-6-2-Docker-%E9%83%A8%E7%BD%B2"><span class="toc-nav-number">7.2.</span> <span class="toc-nav-text">3.6.2 Docker 部署</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-6-3-%E7%94%9F%E4%BA%A7%E9%83%A8%E7%BD%B2-Checklist"><span class="toc-nav-number">7.3.</span> <span class="toc-nav-text">3.6.3 生产部署 Checklist</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#3-7-%E5%9B%9E%E5%A4%B4%E7%9C%8B%EF%BC%9A%E5%AD%A6%E5%88%B0%E4%BA%86%E4%BB%80%E4%B9%88"><span class="toc-nav-number">8.</span> <span class="toc-nav-text">3.7 回头看：学到了什么</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-7-1-%E7%94%A8%E5%88%B0%E7%9A%84%E8%83%BD%E5%8A%9B%E5%9B%9E%E9%A1%BE"><span class="toc-nav-number">8.1.</span> <span class="toc-nav-text">3.7.1 用到的能力回顾</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-7-2-%E5%B8%B8%E8%A7%81%E5%9D%91"><span class="toc-nav-number">8.2.</span> <span class="toc-nav-text">3.7.2 常见坑</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#3-7-3-%E5%8F%AF%E6%89%A9%E5%B1%95%E6%96%B9%E5%90%91"><span class="toc-nav-number">8.3.</span> <span class="toc-nav-text">3.7.3 可扩展方向</span></a></li></ol></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#AI" title="AI">AI</a>
+            
+            <a class="tag" href="/tags/#Agent" title="Agent">Agent</a>
+            
+            <a class="tag" href="/tags/#LangChain" title="LangChain">LangChain</a>
+            
+            <a class="tag" href="/tags/#LangGraph" title="LangGraph">LangGraph</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+<!-- mermaid start -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'base' });
+</script>
+<!-- mermaid end -->
+
+
+															<!-- Footer (contains ThemeColor、viewer) -->
+															<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/tigergo001">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Ryan
+          2026
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/mouseclick.js"  content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033' ></script>
+    <!-- Mouseclick -->
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "tigergo001";
+    let ghPages = gh + ".github.io";
+    let pagePath = "cn/2026-06-26-智能客服 Agent/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://xiaodoudou.ink/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+																<!-- Search -->
+																
+																	<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+																		
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>

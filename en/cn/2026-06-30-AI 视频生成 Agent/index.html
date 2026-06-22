@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="v-ryan,v-blog,IT  blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/avatar.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/2026-06-30-AI 视频生成 Agent/">
+  <title>
+    
+      AI 视频生成 Agent - 男人至死是少年  | yong man
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+	<!-- hack iOS CSS :active style -->
+	
+
+		<body ontouchstart="" class="body--light body--light">
+			
+
+						<!-- ThemeColor -->
+						
+							<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'light';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+								
+
+									<!-- Gitter -->
+									
+										<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+											
+
+												<!-- Navigation (contains search)-->
+												<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">男人至死是少年</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+													<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+													<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    header.intro-header {
+      
+        /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png'); */
+        
+    }
+
+    #signature {
+        /*signature*/
+        background-image: url('/img/signature/ryan-sign.png');
+      }
+
+      
+  </style>
+  <!-- CDN: jsdelivr end -->
+  
+
+
+
+      
+        <header class="intro-header">
+          <!-- Signature -->
+          <div id="signature">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+                    <div class="post-heading">
+                      <div class="tags">
+                        
+                          <a class="tag" href="/tags/#AI" title="AI">
+                            AI
+                          </a>
+                          
+                          <a class="tag" href="/tags/#Agent" title="Agent">
+                            Agent
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangChain" title="LangChain">
+                            LangChain
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangGraph" title="LangGraph">
+                            LangGraph
+                          </a>
+                          
+                      </div>
+                      <h1>
+                        AI 视频生成 Agent
+                      </h1>
+                      <h2 class="subheading">
+                        《AI Agent 实战》系列 · AI 视频生成 Agent
+                      </h2>
+                      <span class="meta">
+                        Posted by Ryan on
+                          2026-06-30
+                      </span>
+
+
+                      
+                        <!-- WordCount start -->
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Estimated Reading Time <span class="post-count">
+                            23
+                          </span> Minutes
+                        </span>
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Words <span class="post-count">
+                            5.3k
+                          </span> In Total
+                        </span>
+                        <div class="blank_box"></div>
+                        <!-- WordCount end -->
+                        
+                          
+                            <!-- 不蒜子统计 start -->
+                            <span class="meta" id="busuanzi_container_page_pv">
+                              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+                              Times
+                            </span>
+                            <!-- 不蒜子统计 end -->
+                            
+
+
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+            <!-- waveoverlay start -->
+            <div class="preview-overlay">
+              <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                  </path>
+                </defs>
+                <g class="preview-parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+                </g>
+              </svg>
+            </div>
+            <!-- waveoverlay end -->
+            
+
+        </header>
+        
+
+														<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+														<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>周五晚上十一点，自媒体博主小林还窝在工位上。这周他得交一条两分钟的科技科普视频，流程他闭着眼都能走：先写脚本，再手画分镜，然后钻进衣柜里录旁白（图个隔音），最后剪到凌晨两点。一个人活成了一条流水线——累，且慢。</p>
+<p>隔壁市场部更头疼。产品要上新，想做个演示视频，找外包一问：两周起步，五位数报价，改一版还得排队。</p>
+<p>小林盯着屏幕发愣时冒出一个念头：写脚本、画分镜、配配音、剪片子，这四件事 AI 其实都会。缺的不是能力，是一个把它们串起来的&quot;人&quot;。要是有个 Agent 能当导演，调度编剧、配音、剪辑这些工具，自己只管甩一句&quot;做个两分钟的 Python 介绍视频&quot;——那该多好？</p>
+<p>这一章，我们就来造这个导演。</p>
+<blockquote>
+<p><strong>全书主线进度</strong>：前面的项目都是&quot;单一步骤&quot;的任务——查订单、搜知识库、审查代码。现在我们要让 Agent 处理<strong>多步骤流水线</strong>——脚本→分镜→配音→合成，四步环环相扣，出错还要能重试或跳过。这是&quot;单 Agent 越来越能干&quot;的关键一步。</p>
+<p><strong>主讲能力</strong>：多模态工具编排 + 流水线状态管理<br>
+<strong>业务场景</strong>：用户输入视频主题，Agent 协调脚本创作、分镜设计、配音生成、视频合成全流程。<br>
+<strong>技术栈</strong>：LangChain create_agent + 多个 Claude API 调用 + 流水线状态追踪</p>
+</blockquote>
+<hr>
+<h2 id="7-1-小林的苦衷">7.1 小林的苦衷</h2>
+<h3 id="7-1-1-业务背景">7.1.1 业务背景</h3>
+<p>短视频是当下最主流的内容形式。可一条视频背后，藏着四种手艺：策划脚本的编剧脑、设计分镜的美术眼、录制配音的播音嗓、合成画面的剪辑手。让一个人同时凑齐这四样，难；让四个人协同，慢。</p>
+<p>AI 的妙处在于：这四种能力它都有，缺的只是把它们按顺序&quot;排戏&quot;的那个导演。而这，恰恰是 Agent 的本职。</p>
+<h3 id="7-1-2-用户故事">7.1.2 用户故事</h3>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>作为</th>
+<th>我想要</th>
+<th>以便</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US-1</td>
+<td>自媒体创作者</td>
+<td>输入主题就能得到一段完整视频</td>
+<td>降低视频制作门槛</td>
+</tr>
+<tr>
+<td>US-2</td>
+<td>企业培训师</td>
+<td>把培训大纲转成视频教程</td>
+<td>批量生产培训内容</td>
+</tr>
+<tr>
+<td>US-3</td>
+<td>项目经理</td>
+<td>能实时看到制作流水线的进度</td>
+<td>知道哪一步出问题了</td>
+</tr>
+</tbody>
+</table>
+<h3 id="7-1-3-功能性需求">7.1.3 功能性需求</h3>
+<ul>
+<li><strong>FR-1 脚本创作</strong>：根据主题创作分场景脚本</li>
+<li><strong>FR-2 分镜生成</strong>：提取每个场景的 AI 图片 prompt</li>
+<li><strong>FR-3 配音生成</strong>：将旁白文本转为音频文件</li>
+<li><strong>FR-4 视频合成</strong>：将画面和配音合成为最终视频</li>
+<li><strong>FR-5 进度追踪</strong>：实时查看流水线各步骤状态</li>
+</ul>
+<hr>
+<h2 id="7-2-画个样子：它该长啥样">7.2 画个样子：它该长啥样</h2>
+<p>把这条流水线画出来，长这样：</p>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph LR
+    Topic["用户输入主题"] --> Script["create_script<br/>创作脚本"]
+    Script --> Board["generate_storyboard<br/>生成分镜"]
+    Board --> Voice["generate_voiceover<br/>生成配音"]
+    Voice --> Compose["compose_video<br/>合成视频"]
+    Compose --> Output["最终视频文件"]
+
+    classDef s fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    classDef t fill:#e0f7fa,stroke:#00acc1,stroke-width:2px,color:#006064
+    class Topic,Output s
+    class Script,Board,Voice,Compose t</pre>
+<p>盯紧这张图——它不是一次大模型调用，而是四个工具在接力。Agent 站在中间当导演，喊一声&quot;开拍&quot;，编剧工具先上场，写完剧本递给分镜工具；分镜画完递给配音工具；配音录完递给剪辑工具。哪一步卡壳了，导演还能喊停、重拍，或者干脆跳过这一条接着往下走。</p>
+<blockquote>
+<p>金句：<strong>Agent 不是全能选手，而是最好的调度员。</strong> 它的本事不在样样精通，而在把对的人安排到对的工位上。</p>
+</blockquote>
+<hr>
+<h2 id="7-3-拆开看：怎么造出来">7.3 拆开看：怎么造出来</h2>
+<h3 id="7-3-1-技术选型">7.3.1 技术选型</h3>
+<table>
+<thead>
+<tr>
+<th>技术点</th>
+<th>选型</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent</td>
+<td>create_agent</td>
+<td>统一</td>
+</tr>
+<tr>
+<td>脚本创作</td>
+<td>Claude Sonnet（专用 prompt）</td>
+<td>高品质文本生成</td>
+</tr>
+<tr>
+<td>分镜提取</td>
+<td>Claude Haiku（轻量任务）</td>
+<td>结构化提取，成本低</td>
+</tr>
+<tr>
+<td>配音</td>
+<td>预留给真实 TTS API（如 ElevenLabs）</td>
+<td>当前模拟实现</td>
+</tr>
+<tr>
+<td>视频合成</td>
+<td>预留给 FFmpeg 或其他合成工具</td>
+<td>当前模拟实现</td>
+</tr>
+<tr>
+<td>状态追踪</td>
+<td>VideoPipelineState 类</td>
+<td>每步独立追踪，可观测</td>
+</tr>
+</tbody>
+</table>
+<p>💡 <strong>顿悟时刻</strong>：很多人第一次做&quot;AI 视频&quot;，本能反应是&quot;找一个会生成视频的大模型，一句话出片&quot;。真去试就会栽跟头——这条路又贵又不靠谱。原因很简单：<strong>视频生成本质是多个工具按序协作，不是一次大模型调用。</strong> 脚本要文本能力（Sonnet），分镜要结构化提取（Haiku 又快又省），配音要 TTS，合成要 FFmpeg。没有一个模型样样精通，但每个环节都有最合适的工具。Agent 的价值，就是当那个把工具排成一条龙的导演。</p>
+<h3 id="7-3-2-关键设计：流水线状态管理">7.3.2 关键设计：流水线状态管理</h3>
+<p>导演得随时摸清剧组进度：哪场戏拍完了，哪场卡住了，哪场跳过了。这就是 <code>VideoPipelineState</code> 干的事——它是导演手里的场记板。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">VideoPipelineState</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">update</span>(<span class="params">self, step: <span class="built_in">str</span>, status: <span class="built_in">str</span>, output: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.steps[step] = &#123;<span class="string">&quot;status&quot;</span>: status, <span class="string">&quot;output&quot;</span>: output, <span class="string">&quot;timestamp&quot;</span>: ...&#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">summary</span>(<span class="params">self</span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="comment"># 返回 ✅🔄❌ 图标化的进度摘要</span></span><br></pre></td></tr></table></figure>
+<h3 id="7-3-3-关键设计：模拟-vs-真实服务">7.3.3 关键设计：模拟 vs 真实服务</h3>
+<p>先把丑话说前头：本项目的 <code>generate_voiceover</code> 和 <code>compose_video</code> 用的是<strong>模拟实现</strong>——生成的是文本占位文件，不是真能播放的 mp3、mp4。这是有意为之：真实的 TTS（如 ElevenLabs）和视频合成（如 FFmpeg）要额外的 API Key 和系统依赖，塞进一个&quot;即装即跑&quot;的教学项目里反而不友好。</p>
+<p>但接口是预留好的：函数签名不动，把内部的 <code>write_text</code> 换成真实 API 调用，Agent 侧一行都不用改。换句话说，这是个<strong>骨架已经搭好、肌肉等你填</strong>的教学项目。</p>
+<hr>
+<h2 id="7-4-动手写：三层架构完整代码">7.4 动手写：三层架构完整代码</h2>
+<h3 id="7-4-1-架构分层总览">7.4.1 架构分层总览</h3>
+<p>这套导演系统分五层，各司其职：</p>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>文件名</th>
+<th>职责</th>
+<th>核心类/函数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>领域模型层</td>
+<td><code>models.py</code></td>
+<td>流水线状态、脚本、分镜等数据结构</td>
+<td><code>PipelineState</code>, <code>StepResult</code>, <code>VideoScript</code>, <code>Storyboard</code></td>
+</tr>
+<tr>
+<td>提示词层</td>
+<td><code>prompts.py</code></td>
+<td>脚本创作、分镜提取的提示词模板</td>
+<td><code>build_script_prompt()</code>, <code>build_storyboard_prompt()</code></td>
+</tr>
+<tr>
+<td>工具层</td>
+<td><code>tools.py</code></td>
+<td>各步骤的工具函数（脚本、分镜、配音、合成）</td>
+<td><code>create_script()</code>, <code>generate_storyboard()</code>, <code>get_pipeline_status()</code></td>
+</tr>
+<tr>
+<td>服务层</td>
+<td><code>service.py</code></td>
+<td>流水线编排、重试、降级策略</td>
+<td><code>VideoProductionService</code></td>
+</tr>
+<tr>
+<td>项目入口层</td>
+<td><code>project.py</code></td>
+<td>Agent 构建、项目注册</td>
+<td><code>VideoGenerationProject</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="7-4-2-models-py-领域模型层">7.4.2 <a target="_blank" rel="noopener" href="http://models.py">models.py</a> - 领域模型层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;P05 AI 视频生成 Agent - 领域模型层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> dataclasses <span class="keyword">import</span> dataclass, field</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> enum <span class="keyword">import</span> Enum</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">PipelineStatus</span>(<span class="built_in">str</span>, Enum):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;流水线步骤状态。&quot;&quot;&quot;</span></span><br><span class="line">    PENDING = <span class="string">&quot;pending&quot;</span></span><br><span class="line">    RUNNING = <span class="string">&quot;running&quot;</span></span><br><span class="line">    SUCCESS = <span class="string">&quot;success&quot;</span></span><br><span class="line">    FAILED = <span class="string">&quot;failed&quot;</span></span><br><span class="line">    SKIPPED = <span class="string">&quot;skipped&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">StepResult</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;单个步骤的执行结果。&quot;&quot;&quot;</span></span><br><span class="line">    step_name: <span class="built_in">str</span></span><br><span class="line">    status: PipelineStatus</span><br><span class="line">    output: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    error_message: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    start_time: <span class="built_in">str</span> = field(default_factory=<span class="keyword">lambda</span>: datetime.now().isoformat())</span><br><span class="line">    end_time: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    duration_seconds: <span class="built_in">float</span> = <span class="number">0.0</span></span><br><span class="line">    metadata: <span class="built_in">dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>] = field(default_factory=<span class="built_in">dict</span>)</span><br><span class="line"></span><br><span class="line"><span class="meta">    @property</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">is_success</span>(<span class="params">self</span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.status == PipelineStatus.SUCCESS</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">VideoScript</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;视频脚本。&quot;&quot;&quot;</span></span><br><span class="line">    topic: <span class="built_in">str</span></span><br><span class="line">    duration_minutes: <span class="built_in">int</span></span><br><span class="line">    scenes: <span class="built_in">list</span>[<span class="built_in">dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>]] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    voiceover_text: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    style: <span class="built_in">str</span> = <span class="string">&quot;professional&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Storyboard</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;分镜表。&quot;&quot;&quot;</span></span><br><span class="line">    script_id: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    scenes: <span class="built_in">list</span>[<span class="built_in">dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>]] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add_scene</span>(<span class="params">self, scene_number: <span class="built_in">int</span>, prompt: <span class="built_in">str</span>, duration: <span class="built_in">int</span> = <span class="number">5</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="variable language_">self</span>.scenes.append(&#123;</span><br><span class="line">            <span class="string">&quot;scene_number&quot;</span>: scene_number,</span><br><span class="line">            <span class="string">&quot;prompt&quot;</span>: prompt,</span><br><span class="line">            <span class="string">&quot;duration_seconds&quot;</span>: duration,</span><br><span class="line">        &#125;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">PipelineState</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;视频制作流水线状态。&quot;&quot;&quot;</span></span><br><span class="line">    topic: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    steps: <span class="built_in">dict</span>[<span class="built_in">str</span>, StepResult] = field(default_factory=<span class="built_in">dict</span>)</span><br><span class="line">    final_video_path: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">update_step</span>(<span class="params">self, step: <span class="built_in">str</span>, status: PipelineStatus,</span></span><br><span class="line"><span class="params">                    output: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span>, error: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;更新步骤状态。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">if</span> step <span class="keyword">not</span> <span class="keyword">in</span> <span class="variable language_">self</span>.steps:</span><br><span class="line">            <span class="variable language_">self</span>.steps[step] = StepResult(step_name=step, status=status)</span><br><span class="line">        <span class="variable language_">self</span>.steps[step].status = status</span><br><span class="line">        <span class="variable language_">self</span>.steps[step].output = output</span><br><span class="line">        <span class="variable language_">self</span>.steps[step].error_message = error</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">mark_step_end</span>(<span class="params">self, step: <span class="built_in">str</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;标记步骤结束，计算耗时。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">if</span> step <span class="keyword">in</span> <span class="variable language_">self</span>.steps:</span><br><span class="line">            <span class="variable language_">self</span>.steps[step].end_time = datetime.now().isoformat()</span><br><span class="line">            start = datetime.fromisoformat(<span class="variable language_">self</span>.steps[step].start_time)</span><br><span class="line">            end = datetime.fromisoformat(<span class="variable language_">self</span>.steps[step].end_time)</span><br><span class="line">            <span class="variable language_">self</span>.steps[step].duration_seconds = (end - start).total_seconds()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_progress_percent</span>(<span class="params">self</span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;获取总体进度百分比。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> <span class="variable language_">self</span>.steps:</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">        completed = <span class="built_in">sum</span>(<span class="number">1</span> <span class="keyword">for</span> s <span class="keyword">in</span> <span class="variable language_">self</span>.steps.values()</span><br><span class="line">                       <span class="keyword">if</span> s.status <span class="keyword">in</span> (PipelineStatus.SUCCESS, PipelineStatus.SKIPPED))</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">int</span>(completed / <span class="built_in">len</span>(<span class="variable language_">self</span>.steps) * <span class="number">100</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">summary_markdown</span>(<span class="params">self</span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;生成状态摘要（Markdown 格式）。&quot;&quot;&quot;</span></span><br><span class="line">        status_emojis = &#123;</span><br><span class="line">            PipelineStatus.SUCCESS: <span class="string">&quot;✅&quot;</span>,</span><br><span class="line">            PipelineStatus.RUNNING: <span class="string">&quot;🔄&quot;</span>,</span><br><span class="line">            PipelineStatus.FAILED: <span class="string">&quot;❌&quot;</span>,</span><br><span class="line">            PipelineStatus.SKIPPED: <span class="string">&quot;⏭️&quot;</span>,</span><br><span class="line">        &#125;</span><br><span class="line">        step_names = &#123;</span><br><span class="line">            <span class="string">&quot;script&quot;</span>: <span class="string">&quot;脚本创作&quot;</span>,</span><br><span class="line">            <span class="string">&quot;storyboard&quot;</span>: <span class="string">&quot;分镜生成&quot;</span>,</span><br><span class="line">            <span class="string">&quot;voiceover&quot;</span>: <span class="string">&quot;配音生成&quot;</span>,</span><br><span class="line">            <span class="string">&quot;video_compose&quot;</span>: <span class="string">&quot;视频合成&quot;</span>,</span><br><span class="line">        &#125;</span><br><span class="line">        lines = [<span class="string">&quot;## 🎬 视频制作流水线状态&quot;</span>, <span class="string">&quot;&quot;</span>,</span><br><span class="line">                <span class="string">f&quot;**主题**: <span class="subst">&#123;self.topic <span class="keyword">or</span> <span class="string">&#x27;未设置&#x27;</span>&#125;</span>&quot;</span>,</span><br><span class="line">                <span class="string">f&quot;**进度**: <span class="subst">&#123;self.get_progress_percent()&#125;</span>%&quot;</span>, <span class="string">&quot;&quot;</span>,</span><br><span class="line">                <span class="string">&quot;### 各步骤状态:&quot;</span>, <span class="string">&quot;&quot;</span>]</span><br><span class="line">        <span class="keyword">for</span> step_key, name <span class="keyword">in</span> step_names.items():</span><br><span class="line">            step = <span class="variable language_">self</span>.steps.get(step_key)</span><br><span class="line">            <span class="keyword">if</span> step:</span><br><span class="line">                emoji = status_emojis.get(step.status, <span class="string">&quot;⏳&quot;</span>)</span><br><span class="line">                lines.append(<span class="string">f&quot;<span class="subst">&#123;emoji&#125;</span> **<span class="subst">&#123;name&#125;</span>** (<span class="subst">&#123;step.duration_seconds:<span class="number">.1</span>f&#125;</span>s)&quot;</span>)</span><br><span class="line">                <span class="keyword">if</span> step.error_message:</span><br><span class="line">                    lines.append(<span class="string">f&quot;   错误: <span class="subst">&#123;step.error_message&#125;</span>&quot;</span>)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                lines.append(<span class="string">f&quot;⏳ **<span class="subst">&#123;name&#125;</span>** (未开始)&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;\n&quot;</span>.join(lines)</span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>状态机设计</strong>：每个步骤独立追踪，像剧组的场记单，哪场戏可以单独重拍、单独跳过，互不连坐</li>
+<li><strong>富进度信息</strong>：不光记状态，还记执行时间、错误信息、输出结果——导演要的就是这种细颗粒度</li>
+<li><strong>Emoji 友好输出</strong>：<code>summary_markdown()</code> 直接生成用户能看懂的进度报告，✅🔄❌ 一眼分明</li>
+<li><strong>幂等更新</strong>：<code>update_step()</code> 可以反复调用，不会把已经记下的数据冲掉</li>
+</ul>
+<hr>
+<h3 id="7-4-3-prompts-py-提示词层">7.4.3 <a target="_blank" rel="noopener" href="http://prompts.py">prompts.py</a> - 提示词层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;P05 AI 视频生成 Agent - Prompt 层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line">SCRIPT_PROMPT_TEMPLATE = <span class="string">&quot;&quot;&quot;请为一段 &#123;duration_minutes&#125; 分钟的短视频创作详细脚本。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">**主题**: &#123;topic&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 输出格式要求</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">请输出 Markdown 格式，严格遵守以下结构：</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># 视频脚本</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 分场景脚本</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">### 场景 1</span></span><br><span class="line"><span class="string">**画面描述 (English)**: A visually striking opening shot...</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">**旁白文本 (中文)**: 大家好，今天我们要聊的是...</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">**建议时长**: 15 秒</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">...</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 完整旁白（配音用）</span></span><br><span class="line"><span class="string">（将所有场景的旁白合并成一段连续的文本）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 创作要求</span></span><br><span class="line"><span class="string">1. **场景数量**: &#123;scenes_count&#125; 个场景（每个 10-20 秒）</span></span><br><span class="line"><span class="string">2. **画面描述**: 用英文，适合作为 AI 图片生成的 prompt，包含景别、光线</span></span><br><span class="line"><span class="string">3. **旁白文本**: 用中文，口语化、自然，适合朗读</span></span><br><span class="line"><span class="string">4. **画面描述技巧**: 要包含主体描述、景别、光线、画质、风格</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">build_script_prompt</span>(<span class="params">topic: <span class="built_in">str</span>, duration_minutes: <span class="built_in">int</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;构建脚本创作提示词。&quot;&quot;&quot;</span></span><br><span class="line">    scenes_count = <span class="built_in">max</span>(<span class="number">5</span>, <span class="built_in">int</span>(duration_minutes * <span class="number">4</span>))</span><br><span class="line">    <span class="keyword">return</span> SCRIPT_PROMPT_TEMPLATE.<span class="built_in">format</span>(</span><br><span class="line">        topic=topic,</span><br><span class="line">        duration_minutes=duration_minutes,</span><br><span class="line">        scenes_count=scenes_count,</span><br><span class="line">    )</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">STORYBOARD_PROMPT_TEMPLATE = <span class="string">&quot;&quot;&quot;请从以下视频脚本中提取每个场景的画面描述，转换为 AI 图片生成 prompt。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 脚本内容</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">&#123;script_text&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 输出要求</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">请输出 **纯 JSON 数组**，不要其他文字，不要 markdown 标记。格式如下：</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">[</span></span><br><span class="line"><span class="string">  &#123;&#123;</span></span><br><span class="line"><span class="string">    &quot;scene_number&quot;: 1,</span></span><br><span class="line"><span class="string">    &quot;prompt&quot;: &quot;Wide shot of modern office, cinematic lighting, 4K, professional&quot;,</span></span><br><span class="line"><span class="string">    &quot;duration_seconds&quot;: 15</span></span><br><span class="line"><span class="string">  &#125;&#125;</span></span><br><span class="line"><span class="string">]</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">每个 prompt 必须是英文，包含：景别、光线、画质、风格。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">build_storyboard_prompt</span>(<span class="params">script_text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;构建分镜提取提示词。&quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">return</span> STORYBOARD_PROMPT_TEMPLATE.<span class="built_in">format</span>(script_text=script_text[:<span class="number">4000</span>])</span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>格式契约明确</strong>：每个 prompt 都把输出格式（Markdown / JSON）写得明明白白，降低解析失败率——给 AI 定规矩，比事后修格式省心</li>
+<li><strong>长度保护</strong>：脚本超过 4000 字自动截断，防止 Token 溢出把后续步骤拖崩</li>
+<li><strong>结构化输出引导</strong>：直接甩一段 JSON 样例给 AI 看，比干巴巴说&quot;请输出 JSON&quot;有效得多</li>
+</ul>
+<hr>
+<h3 id="7-4-4-tools-py-工具层">7.4.4 <a target="_blank" rel="noopener" href="http://tools.py">tools.py</a> - 工具层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;P05 AI 视频生成 Agent - 工具层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langchain.tools <span class="keyword">import</span> tool</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core.config <span class="keyword">import</span> DATA_DIR</span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> PipelineState, PipelineStatus</span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> build_script_prompt, build_storyboard_prompt</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p05.video_generation.tools&quot;</span>)</span><br><span class="line">VIDEO_OUTPUT_DIR = DATA_DIR / <span class="string">&quot;videos&quot;</span></span><br><span class="line">VIDEO_OUTPUT_DIR.mkdir(parents=<span class="literal">True</span>, exist_ok=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 全局流水线状态</span></span><br><span class="line">_pipeline = PipelineState()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">_call_llm_for_script</span>(<span class="params">prompt: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;调用 LLM 生成脚本。生产环境替换为真实的 Claude API 调用。&quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">from</span> anthropic <span class="keyword">import</span> Anthropic</span><br><span class="line">        client = Anthropic()</span><br><span class="line">        resp = client.messages.create(</span><br><span class="line">            model=<span class="string">&quot;claude-sonnet-4-6&quot;</span>,</span><br><span class="line">            max_tokens=<span class="number">4096</span>,</span><br><span class="line">            messages=[&#123;<span class="string">&quot;role&quot;</span>: <span class="string">&quot;user&quot;</span>, <span class="string">&quot;content&quot;</span>: prompt&#125;],</span><br><span class="line">        )</span><br><span class="line">        <span class="keyword">return</span> resp.content[<span class="number">0</span>].text</span><br><span class="line">    <span class="keyword">except</span> ImportError:</span><br><span class="line">        <span class="comment"># 开发环境模拟返回</span></span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;# 视频脚本\n\n## 场景 1\n**画面描述**: Test scene\n**旁白**: 测试旁白&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">create_script</span>(<span class="params">topic: <span class="built_in">str</span>, duration_minutes: <span class="built_in">int</span> = <span class="number">3</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;根据主题创作视频脚本。&quot;&quot;&quot;</span></span><br><span class="line">    logger.info(<span class="string">&quot;开始创建脚本: topic=&#x27;%s&#x27;&quot;</span>, topic)</span><br><span class="line">    _pipeline.topic = topic</span><br><span class="line">    _pipeline.update_step(<span class="string">&quot;script&quot;</span>, PipelineStatus.RUNNING)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        prompt = build_script_prompt(topic, duration_minutes)</span><br><span class="line">        script = _call_llm_for_script(prompt)</span><br><span class="line">        </span><br><span class="line">        _pipeline.update_step(<span class="string">&quot;script&quot;</span>, PipelineStatus.SUCCESS,</span><br><span class="line">                             output=<span class="string">f&quot;脚本已生成，长度 <span class="subst">&#123;<span class="built_in">len</span>(script)&#125;</span> 字符&quot;</span>)</span><br><span class="line">        _pipeline.mark_step_end(<span class="string">&quot;script&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> script</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        _pipeline.update_step(<span class="string">&quot;script&quot;</span>, PipelineStatus.FAILED, error=<span class="built_in">str</span>(e))</span><br><span class="line">        _pipeline.mark_step_end(<span class="string">&quot;script&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;脚本创作失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">generate_storyboard</span>(<span class="params">script: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;根据脚本生成分镜表。&quot;&quot;&quot;</span></span><br><span class="line">    logger.info(<span class="string">&quot;开始生成分镜表&quot;</span>)</span><br><span class="line">    _pipeline.update_step(<span class="string">&quot;storyboard&quot;</span>, PipelineStatus.RUNNING)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        prompt = build_storyboard_prompt(script)</span><br><span class="line">        storyboard_json = _call_llm_for_script(prompt)  <span class="comment"># 复用 LLM 调用函数</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 提取并解析 JSON</span></span><br><span class="line">        json_match = re.search(<span class="string">r&#x27;\[.*\]&#x27;</span>, storyboard_json, re.DOTALL)</span><br><span class="line">        <span class="keyword">if</span> json_match:</span><br><span class="line">            scenes = json.loads(json_match.group(<span class="number">0</span>))</span><br><span class="line">            _pipeline.update_step(<span class="string">&quot;storyboard&quot;</span>, PipelineStatus.SUCCESS,</span><br><span class="line">                                 output=<span class="string">f&quot;分镜表已生成，共 <span class="subst">&#123;<span class="built_in">len</span>(scenes)&#125;</span> 个场景&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            _pipeline.update_step(<span class="string">&quot;storyboard&quot;</span>, PipelineStatus.SUCCESS,</span><br><span class="line">                                 output=<span class="string">&quot;分镜表已生成（JSON 解析未确认）&quot;</span>)</span><br><span class="line">        _pipeline.mark_step_end(<span class="string">&quot;storyboard&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> storyboard_json</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        _pipeline.update_step(<span class="string">&quot;storyboard&quot;</span>, PipelineStatus.FAILED, error=<span class="built_in">str</span>(e))</span><br><span class="line">        _pipeline.mark_step_end(<span class="string">&quot;storyboard&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;分镜生成失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">generate_voiceover</span>(<span class="params">script_text: <span class="built_in">str</span>, output_filename: <span class="built_in">str</span> = <span class="string">&quot;voiceover.mp3&quot;</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;为脚本生成配音。生产环境替换为真实 TTS API。&quot;&quot;&quot;</span></span><br><span class="line">    _pipeline.update_step(<span class="string">&quot;voiceover&quot;</span>, PipelineStatus.RUNNING)</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        output_path = VIDEO_OUTPUT_DIR / output_filename</span><br><span class="line">        <span class="comment"># 模拟实现：写入占位文件</span></span><br><span class="line">        output_path.write_text(<span class="string">f&quot;[配音占位] 脚本长度: <span class="subst">&#123;<span class="built_in">len</span>(script_text)&#125;</span>&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line">        _pipeline.update_step(<span class="string">&quot;voiceover&quot;</span>, PipelineStatus.SUCCESS, output=<span class="built_in">str</span>(output_path))</span><br><span class="line">        _pipeline.mark_step_end(<span class="string">&quot;voiceover&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;配音已生成并保存到: <span class="subst">&#123;output_path&#125;</span>&quot;</span></span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        _pipeline.update_step(<span class="string">&quot;voiceover&quot;</span>, PipelineStatus.FAILED, error=<span class="built_in">str</span>(e))</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;配音生成失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">compose_video</span>(<span class="params">scenes_json: <span class="built_in">str</span>, output_filename: <span class="built_in">str</span> = <span class="string">&quot;final_video.mp4&quot;</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;将各场景画面和配音合成为最终视频。生产环境替换为 FFmpeg。&quot;&quot;&quot;</span></span><br><span class="line">    _pipeline.update_step(<span class="string">&quot;video_compose&quot;</span>, PipelineStatus.RUNNING)</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        output_path = VIDEO_OUTPUT_DIR / output_filename</span><br><span class="line">        output_path.write_text(<span class="string">f&quot;[视频占位] 场景数: <span class="subst">&#123;scenes_json.count(<span class="string">&#x27;scene&#x27;</span>)&#125;</span>&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line">        _pipeline.final_video_path = <span class="built_in">str</span>(output_path)</span><br><span class="line">        _pipeline.update_step(<span class="string">&quot;video_compose&quot;</span>, PipelineStatus.SUCCESS, output=<span class="built_in">str</span>(output_path))</span><br><span class="line">        _pipeline.mark_step_end(<span class="string">&quot;video_compose&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;视频已合成并保存到: <span class="subst">&#123;output_path&#125;</span>&quot;</span></span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        _pipeline.update_step(<span class="string">&quot;video_compose&quot;</span>, PipelineStatus.FAILED, error=<span class="built_in">str</span>(e))</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;视频合成失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_pipeline_status</span>() -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;查看当前视频制作流水线的进度状态。&quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">return</span> _pipeline.summary_markdown()</span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>状态自动更新</strong>：每个工具函数内部自己更新流水线状态，Agent 不用操心记场记——导演只管喊&quot;开拍&quot;，进度单自动填</li>
+<li><strong>模拟 vs 真实接口</strong>：工具签名稳定，内部实现可从&quot;模拟&quot;切到&quot;真实 API&quot;，Agent 侧零改动</li>
+<li><strong>容错设计</strong>：异常被捕获并记进流水线状态，不会让整条生产线因为一格胶片卡住而全盘崩</li>
+<li><strong>进度可查询</strong>：<code>get_pipeline_status()</code> 让用户随时摸到脉搏</li>
+</ul>
+<blockquote>
+<p>说明：上面这份清单为了聚焦主线做了精简。完整源码里分镜走的是单独的 <code>_call_llm_for_storyboard</code>，用的是 Claude Haiku（和 7.3.1 选型表对得上，又快又省）；清单里复用 <code>_call_llm_for_script</code> 只是为演示省篇幅。</p>
+</blockquote>
+<p>⚠️ <strong>避坑：文件路径安全</strong>。<code>output_filename</code> 是外部传入的参数，直接拼路径就有路径遍历风险——万一传进来一个 <code>../../etc/passwd</code>，文件就写到外面去了。完整源码 <code>tools.py</code> 里用 <code>_validate_output_filename</code> 把关：禁止文件名包含 <code>/</code> 或 <code>\</code>，再用 <code>Path.resolve()</code> 校验最终路径必须落在 <code>VIDEO_OUTPUT_DIR</code> 内。这份精简清单没展示这段防护，落地时别忘了补上。</p>
+<hr>
+<h3 id="7-4-5-service-py-服务层">7.4.5 <a target="_blank" rel="noopener" href="http://service.py">service.py</a> - 服务层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;P05 AI 视频生成 Agent - 服务层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Callable</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> PipelineState, PipelineStatus</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p05.video_generation.service&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">VideoProductionService</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;视频制作服务。编排流水线执行、重试、降级。&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, max_retries: <span class="built_in">int</span> = <span class="number">2</span>, skip_on_failure: <span class="built_in">bool</span> = <span class="literal">True</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.max_retries = max_retries</span><br><span class="line">        <span class="variable language_">self</span>.skip_on_failure = skip_on_failure</span><br><span class="line">        <span class="variable language_">self</span>.pipeline = PipelineState()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">_execute_step</span>(<span class="params">self, step_name: <span class="built_in">str</span>, func: <span class="type">Callable</span>, *args, **kwargs</span>) -&gt; <span class="built_in">any</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;执行单个步骤，包含重试逻辑。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">for</span> attempt <span class="keyword">in</span> <span class="built_in">range</span>(<span class="variable language_">self</span>.max_retries + <span class="number">1</span>):</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                logger.info(<span class="string">&quot;执行步骤 &#x27;%s&#x27;，第 %d/%d 次尝试&quot;</span>,</span><br><span class="line">                           step_name, attempt + <span class="number">1</span>, <span class="variable language_">self</span>.max_retries + <span class="number">1</span>)</span><br><span class="line">                result = func(*args, **kwargs)</span><br><span class="line">                </span><br><span class="line">                <span class="keyword">if</span> <span class="built_in">isinstance</span>(result, <span class="built_in">str</span>) <span class="keyword">and</span> <span class="string">&quot;失败&quot;</span> <span class="keyword">in</span> result:</span><br><span class="line">                    <span class="keyword">raise</span> Exception(result)</span><br><span class="line">                </span><br><span class="line">                logger.info(<span class="string">&quot;步骤 &#x27;%s&#x27; 执行成功&quot;</span>, step_name)</span><br><span class="line">                <span class="keyword">return</span> result</span><br><span class="line">            <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">                logger.warning(<span class="string">&quot;步骤 &#x27;%s&#x27; 第 %d 次尝试失败: %s&quot;</span>, step_name, attempt + <span class="number">1</span>, e)</span><br><span class="line">                <span class="keyword">if</span> attempt &lt; <span class="variable language_">self</span>.max_retries:</span><br><span class="line">                    wait_seconds = <span class="number">2</span> ** attempt  <span class="comment"># 指数退避</span></span><br><span class="line">                    logger.info(<span class="string">&quot;等待 %d 秒后重试...&quot;</span>, wait_seconds)</span><br><span class="line">                    time.sleep(wait_seconds)</span><br><span class="line">                <span class="keyword">elif</span> <span class="variable language_">self</span>.skip_on_failure:</span><br><span class="line">                    logger.warning(<span class="string">&quot;跳过步骤 &#x27;%s&#x27;，继续后续流程&quot;</span>, step_name)</span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    <span class="keyword">raise</span></span><br><span class="line">        <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">create_full_video</span>(<span class="params">self, topic: <span class="built_in">str</span>, duration_minutes: <span class="built_in">int</span> = <span class="number">2</span></span>) -&gt; PipelineState:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;执行完整的视频制作流水线。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">from</span> .tools <span class="keyword">import</span> (create_script, generate_storyboard,</span><br><span class="line">                           generate_voiceover, compose_video)</span><br><span class="line">        </span><br><span class="line">        logger.info(<span class="string">&quot;开始完整视频制作: topic=&#x27;%s&#x27;&quot;</span>, topic)</span><br><span class="line">        <span class="variable language_">self</span>.pipeline.topic = topic</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 步骤 1: 创建脚本</span></span><br><span class="line">        script = <span class="variable language_">self</span>._execute_step(<span class="string">&quot;script&quot;</span>, create_script.invoke,</span><br><span class="line">                                   &#123;<span class="string">&quot;topic&quot;</span>: topic, <span class="string">&quot;duration_minutes&quot;</span>: duration_minutes&#125;)</span><br><span class="line">        <span class="comment"># 步骤 2: 生成分镜</span></span><br><span class="line">        storyboard = <span class="literal">None</span></span><br><span class="line">        <span class="keyword">if</span> script <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">            storyboard = <span class="variable language_">self</span>._execute_step(<span class="string">&quot;storyboard&quot;</span>, generate_storyboard.invoke,</span><br><span class="line">                                           &#123;<span class="string">&quot;script&quot;</span>: script&#125;)</span><br><span class="line">        <span class="comment"># 步骤 3: 生成配音</span></span><br><span class="line">        <span class="keyword">if</span> script <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">            <span class="variable language_">self</span>._execute_step(<span class="string">&quot;voiceover&quot;</span>, generate_voiceover.invoke,</span><br><span class="line">                              &#123;<span class="string">&quot;script_text&quot;</span>: script[:<span class="number">2000</span>]&#125;)</span><br><span class="line">        <span class="comment"># 步骤 4: 合成视频</span></span><br><span class="line">        <span class="keyword">if</span> storyboard <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">            <span class="variable language_">self</span>._execute_step(<span class="string">&quot;video_compose&quot;</span>, compose_video.invoke,</span><br><span class="line">                              &#123;<span class="string">&quot;scenes_json&quot;</span>: storyboard&#125;)</span><br><span class="line"></span><br><span class="line">        logger.info(<span class="string">&quot;视频制作完成，进度: %d%%&quot;</span>, <span class="variable language_">self</span>.pipeline.get_progress_percent())</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.pipeline</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">regenerate_step</span>(<span class="params">self, step_name: <span class="built_in">str</span>, **kwargs</span>) -&gt; <span class="built_in">any</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;重新执行某个步骤。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">from</span> .tools <span class="keyword">import</span> (create_script, generate_storyboard,</span><br><span class="line">                           generate_voiceover, compose_video)</span><br><span class="line">        step_funcs = &#123;</span><br><span class="line">            <span class="string">&quot;script&quot;</span>: create_script.invoke,</span><br><span class="line">            <span class="string">&quot;storyboard&quot;</span>: generate_storyboard.invoke,</span><br><span class="line">            <span class="string">&quot;voiceover&quot;</span>: generate_voiceover.invoke,</span><br><span class="line">            <span class="string">&quot;video_compose&quot;</span>: compose_video.invoke,</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>._execute_step(step_name, step_funcs[step_name], kwargs)</span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>自动重试</strong>：<code>_execute_step()</code> 内置指数退避重试（1s→2s→4s），容忍临时故障，像导演给演员多几次 NG 的机会</li>
+<li><strong>失败降级</strong>：单步失败可跳过继续，不浪费已成功步骤的资源——配音没录成，不代表前面写好的脚本要作废</li>
+<li><strong>编排可复用</strong>：服务层编排不依赖 Agent，也能作为独立 API 供非 Agent 系统调用</li>
+<li><strong>进度钩子</strong>：完整源码中 <code>create_full_video</code> 还接受 <code>progress_callback</code> 参数，可扩展为 WebSocket 实时推送进度</li>
+</ul>
+<p>⚠️ <strong>避坑：外部 API 调用降级</strong>。脚本和分镜都靠 Claude API，网络抖动、限流、余额不足随时会让某一步炸掉。<code>_execute_step</code> 这套&quot;重试 + 跳过&quot;兜底，比&quot;一次失败全盘崩溃&quot;值钱得多——生产环境里，能带着伤继续跑的流水线，才是好流水线。</p>
+<hr>
+<h3 id="7-4-6-project-py-项目入口层">7.4.6 <a target="_blank" rel="noopener" href="http://project.py">project.py</a> - 项目入口层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;P05 AI 视频生成 Agent - 项目入口层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langchain.agents <span class="keyword">import</span> create_agent</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> BaseProject, build_chat_model, registry</span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> build_system_prompt</span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> get_available_tools</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p05.video_generation.project&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">VideoGenerationProject</span>(<span class="title class_ inherited__">BaseProject</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;AI 视频生成 Agent 项目。&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">id</span> = <span class="string">&quot;p05_video_generation&quot;</span></span><br><span class="line">    name = <span class="string">&quot;AI 视频生成 Agent&quot;</span></span><br><span class="line">    description = <span class="string">&quot;多模态工具编排：脚本→分镜→配音→视频合成&quot;</span></span><br><span class="line">    capabilities = [<span class="string">&quot;多模态&quot;</span>, <span class="string">&quot;流水线&quot;</span>, <span class="string">&quot;LLM 编排&quot;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">build_agent</span>(<span class="params">self</span>) -&gt; <span class="built_in">any</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;构建视频生成 Agent。&quot;&quot;&quot;</span></span><br><span class="line">        model = build_chat_model()</span><br><span class="line">        tools = get_available_tools()</span><br><span class="line">        system_prompt = build_system_prompt()</span><br><span class="line">        <span class="keyword">return</span> create_agent(model=model, tools=tools, system_prompt=system_prompt)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">registry.register(VideoGenerationProject())</span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>关注点分离</strong>：工具层负责单步执行，服务层负责流水线编排，Agent 层负责人机交互理解——导演、剧组、场务各管一摊</li>
+<li><strong>多层 API</strong>：既支持完整 Agent 交互，也支持直接调用 Service 做自动化批量制作</li>
+<li><strong>可插拔架构</strong>：工具内部实现可独立替换（模拟 TTS → 真实 TTS → 不同厂商 TTS），换个肌肉不伤骨架</li>
+</ul>
+<hr>
+<h2 id="7-5-跑一跑：它真的行吗">7.5 跑一跑：它真的行吗</h2>
+<table>
+<thead>
+<tr>
+<th>测试</th>
+<th>验证</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>test_pipeline_state_tracking</code></td>
+<td>状态追踪正常（✅🔄 图标正确）</td>
+</tr>
+<tr>
+<td><code>test_create_script</code>（集成）</td>
+<td>脚本包含&quot;场景&quot;内容</td>
+</tr>
+<tr>
+<td><code>test_basic_workflow</code>（集成）</td>
+<td>完整流水线能跑通</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="7-6-送上线：让它上班">7.6 送上线：让它上班</h2>
+<p>同前——继承 BaseProject，自动接入统一 API。</p>
+<hr>
+<h2 id="7-7-回头看：学到了什么">7.7 回头看：学到了什么</h2>
+<table>
+<thead>
+<tr>
+<th>能力</th>
+<th>在本项目中的体现</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>多模态工具编排</td>
+<td>脚本(文本) → 分镜(结构提取) → 配音(音频) → 合成(视频)</td>
+</tr>
+<tr>
+<td>流水线状态</td>
+<td>VideoPipelineState 每步独立追踪</td>
+</tr>
+<tr>
+<td>失败降级</td>
+<td>某步失败不影响已完成步骤</td>
+</tr>
+<tr>
+<td>模拟服务模式</td>
+<td>预留真实 API 接口，当前模拟实现</td>
+</tr>
+</tbody>
+</table>
+<p>⚠️ <strong>常见坑</strong>：</p>
+<ol>
+<li><strong>脚本太长，分镜提取超时</strong> — 已做 4000 字截断兜底</li>
+<li><strong>不查看流水线状态</strong> — 用户不知道进度干着急。把状态查询工具化（<code>get_pipeline_status</code>）这件事，看着小，体验上天差地别</li>
+</ol>
+<blockquote>
+<p>📌 <strong>项目五完成。</strong> 单 Agent 阶段过半——Agent 已经能从&quot;一问一答&quot;进化到&quot;流水线编排&quot;。下一章我们迈进 <strong>Multi-Agent 阶段</strong>：让多个 Agent 组成团队，分工协作。</p>
+</blockquote>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/cn/2026-07-01-一站式代码开发 Agent/" data-toggle="tooltip" data-placement="top" title="一站式代码开发 Agent">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/2026-06-29-数据分析 Agent/" data-toggle="tooltip" data-placement="top" title="数据分析 Agent">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=AI 视频生成 Agent&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/2026-06-30-AI 视频生成 Agent/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'a37850f88f2a4d827300',
+      clientSecret: '7a50383ec7757c78714f95d455cc52b4211e8cf2',
+      repo: 'tigergo001.github.io',
+      owner: 'tigergo001',
+      admin: 'tigergo001',
+      id: 'Tue Jun 30 2026 09:00:00 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#7-1-%E5%B0%8F%E6%9E%97%E7%9A%84%E8%8B%A6%E8%A1%B7"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">7.1 小林的苦衷</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-1-1-%E4%B8%9A%E5%8A%A1%E8%83%8C%E6%99%AF"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">7.1.1 业务背景</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-1-2-%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">7.1.2 用户故事</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-1-3-%E5%8A%9F%E8%83%BD%E6%80%A7%E9%9C%80%E6%B1%82"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">7.1.3 功能性需求</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#7-2-%E7%94%BB%E4%B8%AA%E6%A0%B7%E5%AD%90%EF%BC%9A%E5%AE%83%E8%AF%A5%E9%95%BF%E5%95%A5%E6%A0%B7"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">7.2 画个样子：它该长啥样</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#7-3-%E6%8B%86%E5%BC%80%E7%9C%8B%EF%BC%9A%E6%80%8E%E4%B9%88%E9%80%A0%E5%87%BA%E6%9D%A5"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">7.3 拆开看：怎么造出来</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-3-1-%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">7.3.1 技术选型</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-3-2-%E5%85%B3%E9%94%AE%E8%AE%BE%E8%AE%A1%EF%BC%9A%E6%B5%81%E6%B0%B4%E7%BA%BF%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">7.3.2 关键设计：流水线状态管理</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-3-3-%E5%85%B3%E9%94%AE%E8%AE%BE%E8%AE%A1%EF%BC%9A%E6%A8%A1%E6%8B%9F-vs-%E7%9C%9F%E5%AE%9E%E6%9C%8D%E5%8A%A1"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">7.3.3 关键设计：模拟 vs 真实服务</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#7-4-%E5%8A%A8%E6%89%8B%E5%86%99%EF%BC%9A%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">7.4 动手写：三层架构完整代码</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-4-1-%E6%9E%B6%E6%9E%84%E5%88%86%E5%B1%82%E6%80%BB%E8%A7%88"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">7.4.1 架构分层总览</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-4-2-models-py-%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B%E5%B1%82"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">7.4.2 models.py - 领域模型层</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-4-3-prompts-py-%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B1%82"><span class="toc-nav-number">4.3.</span> <span class="toc-nav-text">7.4.3 prompts.py - 提示词层</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-4-4-tools-py-%E5%B7%A5%E5%85%B7%E5%B1%82"><span class="toc-nav-number">4.4.</span> <span class="toc-nav-text">7.4.4 tools.py - 工具层</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-4-5-service-py-%E6%9C%8D%E5%8A%A1%E5%B1%82"><span class="toc-nav-number">4.5.</span> <span class="toc-nav-text">7.4.5 service.py - 服务层</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#7-4-6-project-py-%E9%A1%B9%E7%9B%AE%E5%85%A5%E5%8F%A3%E5%B1%82"><span class="toc-nav-number">4.6.</span> <span class="toc-nav-text">7.4.6 project.py - 项目入口层</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#7-5-%E8%B7%91%E4%B8%80%E8%B7%91%EF%BC%9A%E5%AE%83%E7%9C%9F%E7%9A%84%E8%A1%8C%E5%90%97"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">7.5 跑一跑：它真的行吗</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#7-6-%E9%80%81%E4%B8%8A%E7%BA%BF%EF%BC%9A%E8%AE%A9%E5%AE%83%E4%B8%8A%E7%8F%AD"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">7.6 送上线：让它上班</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#7-7-%E5%9B%9E%E5%A4%B4%E7%9C%8B%EF%BC%9A%E5%AD%A6%E5%88%B0%E4%BA%86%E4%BB%80%E4%B9%88"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">7.7 回头看：学到了什么</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#AI" title="AI">AI</a>
+            
+            <a class="tag" href="/tags/#Agent" title="Agent">Agent</a>
+            
+            <a class="tag" href="/tags/#LangChain" title="LangChain">LangChain</a>
+            
+            <a class="tag" href="/tags/#LangGraph" title="LangGraph">LangGraph</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+<!-- mermaid start -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'base' });
+</script>
+<!-- mermaid end -->
+
+
+															<!-- Footer (contains ThemeColor、viewer) -->
+															<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/tigergo001">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Ryan
+          2026
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/mouseclick.js"  content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033' ></script>
+    <!-- Mouseclick -->
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "tigergo001";
+    let ghPages = gh + ".github.io";
+    let pagePath = "cn/2026-06-30-AI 视频生成 Agent/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://xiaodoudou.ink/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+																<!-- Search -->
+																
+																	<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+																		
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>
