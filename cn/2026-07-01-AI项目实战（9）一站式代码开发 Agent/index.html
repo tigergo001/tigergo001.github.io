@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="v-ryan,v-blog,IT  blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/avatar.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/2026-07-01-AI项目实战（9）一站式代码开发 Agent/">
+  <title>
+    
+      AI项目实战（9）一站式代码开发 Agent - 男人至死是少年  | yong man
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+	<!-- hack iOS CSS :active style -->
+	
+
+		<body ontouchstart="" class="body--light body--light">
+			
+
+						<!-- ThemeColor -->
+						
+							<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'light';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+								
+
+									<!-- Gitter -->
+									
+										<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+											
+
+												<!-- Navigation (contains search)-->
+												<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">男人至死是少年</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+													<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+													<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    header.intro-header {
+      
+        /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png'); */
+        
+    }
+
+    #signature {
+        /*signature*/
+        background-image: url('/img/signature/ryan-sign.png');
+      }
+
+      
+  </style>
+  <!-- CDN: jsdelivr end -->
+  
+
+
+
+      
+        <header class="intro-header">
+          <!-- Signature -->
+          <div id="signature">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+                    <div class="post-heading">
+                      <div class="tags">
+                        
+                          <a class="tag" href="/tags/#AI" title="AI">
+                            AI
+                          </a>
+                          
+                          <a class="tag" href="/tags/#Agent" title="Agent">
+                            Agent
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangChain" title="LangChain">
+                            LangChain
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangGraph" title="LangGraph">
+                            LangGraph
+                          </a>
+                          
+                      </div>
+                      <h1>
+                        AI项目实战（9）一站式代码开发 Agent
+                      </h1>
+                      <h2 class="subheading">
+                        《AI Agent 实战》系列 · 一站式代码开发 Agent
+                      </h2>
+                      <span class="meta">
+                        Posted by Ryan on
+                          2026-07-01
+                      </span>
+
+
+                      
+                        <!-- WordCount start -->
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Estimated Reading Time <span class="post-count">
+                            33
+                          </span> Minutes
+                        </span>
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Words <span class="post-count">
+                            8.2k
+                          </span> In Total
+                        </span>
+                        <div class="blank_box"></div>
+                        <!-- WordCount end -->
+                        
+                          
+                            <!-- 不蒜子统计 start -->
+                            <span class="meta" id="busuanzi_container_page_pv">
+                              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+                              Times
+                            </span>
+                            <!-- 不蒜子统计 end -->
+                            
+
+
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+            <!-- waveoverlay start -->
+            <div class="preview-overlay">
+              <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                  </path>
+                </defs>
+                <g class="preview-parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+                </g>
+              </svg>
+            </div>
+            <!-- waveoverlay end -->
+            
+
+        </header>
+        
+
+														<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+														<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <blockquote>
+<p><strong>主讲能力</strong>：复杂 Harness 闭环、测试驱动开发、自动修复循环<br>
+<strong>业务场景</strong>：用户提出一个功能需求，Agent 自动完成需求分析、接口设计、代码生成、测试编写、测试运行、失败修复与最终交付。<br>
+<strong>对应代码</strong>：<code>backend/projects/p06_code_dev/</code></p>
+</blockquote>
+<hr>
+<h2 id="8-1-老张的执念">8.1 老张的执念</h2>
+<h3 id="8-1-1-业务背景">8.1.1 业务背景</h3>
+<p>先讲个真事。</p>
+<p>周二下午，后端老张接到产品一个需求：写个函数，算订单用完优惠券后还该付多少钱。需求听着不复杂，老张端着咖啡，半小时就把代码敲完了，屏幕上一行行整整齐齐，看着挺顺眼。可临提交前他心里发虚——这玩意儿到底对不对？于是老老实实补了几个测试，一跑，红了。改两行，再跑，又红。来回折腾到第六遍，屏幕上终于齐刷刷一片绿点，他长舒一口气，抬头一看，天都黑了。</p>
+<p>老张这一下午其实在干嘛？就干了一件事：<strong>写代码、跑测试、看报错、改代码、再跑</strong>——一个不断逼近正确的闭环。</p>
+<p>再看另一面。隔壁组小李用上了某个&quot;AI 写代码&quot;工具，让它生成分页查询函数。AI 吐出来的代码漂漂亮亮，有类型注解、有 docstring，小李扫了一眼，“嗯，看起来对”，直接提了 PR 合并上线。结果第二天线上就报了错——边界条件没处理，最后一页数据直接漏掉。AI 写的代码&quot;看起来对&quot;，可没人真去验证过。</p>
+<p>两个故事指向同一件事：<strong>代码写完不算完，验证过才算完</strong>。</p>
+<p>真实研发里，一个小功能从需求到上线，要走过需求澄清、技术设计、编码、测试、修复、再验证、提交说明这一长串。市面上不少 AI 代码工具只停在&quot;帮我写一段代码&quot;这一步，写得像模像样，却没人替你兜底验证。可生产开发真正需要的，是一个<strong>闭环系统</strong>：写完要能验证，验证失败要能修，修完还得再测——直到测试说&quot;过了&quot;为止。</p>
+<p>本章的一站式代码开发 Agent 不追求替代整个研发团队，而是聚焦在<strong>中小型可自动化开发任务</strong>上：工具函数、API 端点、数据处理脚本、测试用例、简单的模块重构。说白了，就是让 Agent 把老张那一下午的活儿——写、测、改、再测——自己包圆了。</p>
+<h3 id="8-1-2-目标用户">8.1.2 目标用户</h3>
+<table>
+<thead>
+<tr>
+<th>用户</th>
+<th>场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>后端工程师</td>
+<td>快速生成工具函数/API/测试</td>
+</tr>
+<tr>
+<td>技术负责人</td>
+<td>将重复开发任务交给 Agent 初步完成</td>
+</tr>
+<tr>
+<td>学习者</td>
+<td>学习标准的测试驱动开发闭环</td>
+</tr>
+</tbody>
+</table>
+<h3 id="8-1-3-功能需求">8.1.3 功能需求</h3>
+<ul>
+<li>FR-1：接收自然语言需求，先生成结构化需求分析。</li>
+<li>FR-2：生成实现代码与测试代码。</li>
+<li>FR-3：自动运行测试。</li>
+<li>FR-4：若测试失败，读取相关文件、定位错误、修复代码、重新测试。</li>
+<li>FR-5：最多自动修复 3 轮，超过后输出失败原因与人工建议。</li>
+<li>FR-6：所有文件写入受控工作空间，不越权修改用户项目文件。</li>
+</ul>
+<h3 id="8-1-4-非功能需求">8.1.4 非功能需求</h3>
+<ul>
+<li>工具执行有超时控制，防止测试卡死。</li>
+<li>文件写入限定在 <code>backend/data/code_workspace/</code>。</li>
+<li>每次工具调用有结构化日志。</li>
+<li>自动生成代码需具备类型注解、docstring、测试用例。</li>
+</ul>
+<hr>
+<h2 id="8-2-画个样子：它该长啥样">8.2 画个样子：它该长啥样</h2>
+<h3 id="8-2-1-功能流程">8.2.1 功能流程</h3>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph TD
+    U["用户需求"] --> A["需求分析"]
+    A --> T["生成测试"]
+    T --> C["生成实现代码"]
+    C --> R["运行测试"]
+    R -->|通过| Done["交付代码和报告"]
+    R -->|失败| D["读取失败日志和文件"]
+    D --> F["修复代码"]
+    F --> R
+    R -->|超过3轮仍失败| H["输出人工接管建议"]
+
+    classDef n fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    classDef ok fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#1b5e20
+    classDef warn fill:#fff3e0,stroke:#fb8c00,stroke-width:2px,color:#e65100
+    class U,A,T,C,R,D,F n
+    class Done ok
+    class H warn</pre>
+<h3 id="8-2-2-用户交互样例">8.2.2 用户交互样例</h3>
+<p>用户输入：</p>
+<blockquote>
+<p>写一个 <code>fibonacci(n)</code> 函数，返回前 n 项斐波那契数列，并附带测试。</p>
+</blockquote>
+<p>Agent 输出应包含：</p>
+<ul>
+<li><code>fibonacci.py</code></li>
+<li><code>test_fibonacci.py</code></li>
+<li>测试运行结果</li>
+<li>修复记录（如果有）</li>
+<li>最终使用说明</li>
+</ul>
+<hr>
+<h2 id="8-3-拆开看：怎么造出来">8.3 拆开看：怎么造出来</h2>
+<h3 id="8-3-1-架构设计">8.3.1 架构设计</h3>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph LR
+    Agent["create_agent"] --> Tools["工具集合"]
+    Tools --> W["write_file"]
+    Tools --> Read["read_file"]
+    Tools --> LS["list_workspace"]
+    Tools --> Test["run_tests"]
+    Tools --> Req["analyze_requirement"]
+    Test --> Pytest["pytest 子进程"]
+    W --> WS[("受控工作空间")]
+    Read --> WS
+    LS --> WS
+
+    classDef a fill:#ede7f6,stroke:#5e35b1,stroke-width:2px,color:#311b92
+    classDef t fill:#e0f7fa,stroke:#00acc1,stroke-width:2px,color:#006064
+    classDef s fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#1b5e20
+    class Agent a
+    class Tools,W,Read,LS,Test,Req t
+    class Pytest,WS s</pre>
+<h3 id="8-3-2-核心设计">8.3.2 核心设计</h3>
+<p>很多人一上来会盯着模型本身较劲——“是不是换个更强的模型就行了？”。但本项目的关键不在模型，而在<strong>可控的工具边界</strong>。模型再强，也得通过工具动手；工具的边界画在哪，Agent 的能力天花板就在哪。我们给 Agent 配了四件趁手的家伙：</p>
+<ol>
+<li><code>write_file</code>：只能写进受控工作空间，别处一概不许碰。</li>
+<li><code>read_file</code>：读取时自动截断，防止一份大文件把上下文撑爆。</li>
+<li><code>run_tests</code>：开独立子进程跑 pytest，外加 60 秒超时，慢了就掐。</li>
+<li><code>analyze_requirement</code>：逼着 Agent 先做需求分析、再动笔写代码。</li>
+</ol>
+<p>这四件工具合起来，就圈出了 Agent 的&quot;活动范围&quot;——它什么都能干，但只能在围栏里干。</p>
+<h3 id="8-3-3-为什么不是直接让模型写代码">8.3.3 为什么不是直接让模型写代码</h3>
+<p>这个问题乍一听有点傻——AI 不就是用来写代码的吗？让它直接写不就完了？</p>
+<p>但你回头想想小李的故事。让模型直接吐一段代码，最大的问题不是写得丑，而是<strong>没有验证</strong>。代码生成出来的那一刻，没人知道它对不对——连模型自己都不知道，它只是&quot;看起来&quot;写得很顺。要是就这么交出去，等于把一个未经检验的答案直接塞进生产线。</p>
+<p>生产级开发有一条铁律：<strong>别问模型&quot;你写对了吗&quot;，要用测试证明它对</strong>。模型嘴上说&quot;这段代码实现了斐波那契数列&quot;，这话一文不值；只有 pytest 跑出一排绿点，才算数。</p>
+<p>所以本项目干了一件反直觉的事：把测试从&quot;事后补一步&quot;提升为整个闭环的<strong>中心</strong>。</p>
+<ul>
+<li>先让 Agent 做需求分析，把接口和验收标准想清楚——磨刀不误砍柴工。</li>
+<li>再让它写测试（没错，<strong>先写测试</strong>）。</li>
+<li>然后才写实现代码。</li>
+<li>写完立刻跑测试。</li>
+<li>测试要是红了，就回去读代码、定位、修，再跑——如此循环，最多三轮。</li>
+</ul>
+<p>这就是所谓的测试驱动闭环（TDD-flavored Harness）。它的灵魂就一句话：</p>
+<blockquote>
+<p><strong>测试是 Agent 行为的事实反馈，不是模型的自我感觉。</strong></p>
+</blockquote>
+<p>你大概会问：既然最后都要修，为什么不能一次写对，非要绕这个圈？</p>
+<p>💡 <strong>顿悟时刻</strong>：因为模型本来就不是一次写对的。哪怕是最强的模型，碰上边界条件、异常输入、类型细节，照样会翻车。与其幻想&quot;一次写对&quot;然后祈祷不出事，不如大方承认它会错，干脆把&quot;错了→改→再验&quot;这件事<strong>机制化</strong>——让循环替你兜底。一次写对是运气，循环收敛才是工程。</p>
+<p>你大概还会问：那为什么要<strong>先写测试</strong>？实现都还没有，测什么？</p>
+<p>这正是 TDD 的精髓。先写测试，逼着 Agent 在动手编码前，就把&quot;什么算对&quot;想清楚——参数是什么、返回什么、边界在哪。测试一旦写好，实现就有了靶子，跑通的那一刻就是验收通过的那一刻。反过来，如果先写实现再补测试，人（和 Agent）很容易下意识地照着实现去凑测试，测了等于没测——自己考自己，当然满分。</p>
+<p>⚠️ <strong>避坑</strong>：先写测试还有个隐藏好处。Agent 改代码时，测试就是它的&quot;安全网&quot;——改完一跑，绿了说明没改坏，红了说明改出新问题了。没有这张网，Agent 每次修改都像在悬崖边蒙眼走路，改着改着就回不去了。</p>
+<p>所以这一节真正回答的，不是&quot;要不要让模型写代码&quot;，而是&quot;<strong>怎么让模型写的代码可信</strong>&quot;。答案就是：让它自己写、自己测、自己改，形成一个能自我纠错的闭环。下面 8.4 节，咱们就把这个闭环一行行地落地。</p>
+<hr>
+<h2 id="8-4-动手写：三层架构完整代码">8.4 动手写：三层架构完整代码</h2>
+<p>本节给出项目六的完整实现代码。代码不是一锅乱炖，而是按职责分层堆起来的——从最底下的数据模型，一层层往上叠到对外接口。每一层只依赖它下面那一层，形成一个职责清晰、能独立测试、方便后续演进的开发闭环。核心代码都住在 <code>backend/projects/p06_code_dev/</code> 目录里。</p>
+<h3 id="8-4-1-三层架构完整代码">8.4.1 三层架构完整代码</h3>
+<p>项目按职责拆成六个文件，各司其职、单向依赖，谁也不回头找上家的麻烦，这样每一层都能单独拎出来测试和演进：</p>
+<table>
+<thead>
+<tr>
+<th>层次</th>
+<th>文件</th>
+<th>职责</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>模型层</td>
+<td><a target="_blank" rel="noopener" href="http://models.py">models.py</a></td>
+<td>数据模型、配置常量、领域对象</td>
+</tr>
+<tr>
+<td>提示词层</td>
+<td><a target="_blank" rel="noopener" href="http://prompts.py">prompts.py</a></td>
+<td>系统提示词、模板</td>
+</tr>
+<tr>
+<td>工具层</td>
+<td><a target="_blank" rel="noopener" href="http://tools.py">tools.py</a></td>
+<td>文件读写、测试运行、需求分析工具</td>
+</tr>
+<tr>
+<td>服务层</td>
+<td><a target="_blank" rel="noopener" href="http://service.py">service.py</a></td>
+<td>任务管理、流程编排、Agent 构建</td>
+</tr>
+<tr>
+<td>项目层</td>
+<td><a target="_blank" rel="noopener" href="http://project.py">project.py</a></td>
+<td>项目注册、对外接口</td>
+</tr>
+<tr>
+<td>入口</td>
+<td><strong>init</strong>.py</td>
+<td>注册与 re-export</td>
+</tr>
+</tbody>
+</table>
+<p>下面依次给出每个文件的完整代码。</p>
+<h4 id="models-py"><a target="_blank" rel="noopener" href="http://models.py">models.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目六：数据模型层。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">定义代码开发 Agent 的领域模型、配置常量和数据结构。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> dataclasses <span class="keyword">import</span> dataclass, field</span><br><span class="line"><span class="keyword">from</span> enum <span class="keyword">import</span> Enum</span><br><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Optional</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core.config <span class="keyword">import</span> DATA_DIR</span><br><span class="line"></span><br><span class="line"><span class="comment"># 工作空间根目录</span></span><br><span class="line">WORKSPACE = DATA_DIR / <span class="string">&quot;code_workspace&quot;</span></span><br><span class="line">WORKSPACE.mkdir(parents=<span class="literal">True</span>, exist_ok=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 开发闭环配置</span></span><br><span class="line">MAX_RETRY_ROUNDS = <span class="number">3</span>  <span class="comment"># 最多自动修复 3 轮</span></span><br><span class="line">TEST_TIMEOUT_SECONDS = <span class="number">60</span>  <span class="comment"># 测试运行超时</span></span><br><span class="line">MAX_FILE_CONTENT_LENGTH = <span class="number">6000</span>  <span class="comment"># 文件读取最大长度</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TaskStatus</span>(<span class="built_in">str</span>, Enum):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;任务状态。&quot;&quot;&quot;</span></span><br><span class="line">    PENDING = <span class="string">&quot;pending&quot;</span></span><br><span class="line">    ANALYZING = <span class="string">&quot;analyzing&quot;</span></span><br><span class="line">    CODING = <span class="string">&quot;coding&quot;</span></span><br><span class="line">    TESTING = <span class="string">&quot;testing&quot;</span></span><br><span class="line">    FIXING = <span class="string">&quot;fixing&quot;</span></span><br><span class="line">    SUCCESS = <span class="string">&quot;success&quot;</span></span><br><span class="line">    FAILED = <span class="string">&quot;failed&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CodeFile</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;代码文件模型。&quot;&quot;&quot;</span></span><br><span class="line">    file_path: <span class="built_in">str</span></span><br><span class="line">    content: <span class="built_in">str</span></span><br><span class="line">    file_type: <span class="built_in">str</span> = <span class="string">&quot;python&quot;</span>  <span class="comment"># python, test, config</span></span><br><span class="line">    created_at: <span class="built_in">str</span> = field(default=<span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TestResult</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;测试结果模型。&quot;&quot;&quot;</span></span><br><span class="line">    success: <span class="built_in">bool</span></span><br><span class="line">    output: <span class="built_in">str</span></span><br><span class="line">    failed_files: <span class="built_in">list</span>[<span class="built_in">str</span>] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    error_count: <span class="built_in">int</span> = <span class="number">0</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">DevTask</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;开发任务模型。&quot;&quot;&quot;</span></span><br><span class="line">    task_id: <span class="built_in">str</span></span><br><span class="line">    description: <span class="built_in">str</span></span><br><span class="line">    status: TaskStatus = TaskStatus.PENDING</span><br><span class="line">    files: <span class="built_in">list</span>[CodeFile] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    test_results: <span class="built_in">list</span>[TestResult] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    retry_count: <span class="built_in">int</span> = <span class="number">0</span></span><br><span class="line">    final_report: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">can_retry</span>(<span class="params">self</span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;判断是否还可以重试。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.retry_count &lt; MAX_RETRY_ROUNDS</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add_file</span>(<span class="params">self, file_path: <span class="built_in">str</span>, content: <span class="built_in">str</span>, file_type: <span class="built_in">str</span> = <span class="string">&quot;python&quot;</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;添加代码文件。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="variable language_">self</span>.files.append(CodeFile(</span><br><span class="line">            file_path=file_path,</span><br><span class="line">            content=content,</span><br><span class="line">            file_type=file_type,</span><br><span class="line">        ))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add_test_result</span>(<span class="params">self, success: <span class="built_in">bool</span>, output: <span class="built_in">str</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;添加测试结果。&quot;&quot;&quot;</span></span><br><span class="line">        <span class="variable language_">self</span>.test_results.append(TestResult(</span><br><span class="line">            success=success,</span><br><span class="line">            output=output,</span><br><span class="line">        ))</span><br></pre></td></tr></table></figure>
+<h4 id="prompts-py"><a target="_blank" rel="noopener" href="http://prompts.py">prompts.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目六：Prompt 层。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">定义代码开发 Agent 的系统提示词和工具描述模板。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="comment"># 主 Agent 系统提示词</span></span><br><span class="line">SYSTEM_PROMPT = <span class="string">&quot;&quot;&quot;你是全栈开发 Agent，负责从需求到代码的完整闭环。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 核心能力</span></span><br><span class="line"><span class="string">1. 需求分析：将自然语言需求转成结构化规格说明</span></span><br><span class="line"><span class="string">2. 代码生成：生成符合规范的 Python 代码和测试</span></span><br><span class="line"><span class="string">3. 测试运行：自动执行测试并收集结果</span></span><br><span class="line"><span class="string">4. 错误修复：根据测试失败日志定位问题并修复</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 工作流程（严格按顺序）</span></span><br><span class="line"><span class="string">1. **第一步**：调用 analyze_requirement 分析需求，明确接口和验收标准</span></span><br><span class="line"><span class="string">2. **第二步**：基于分析结果，用 write_file 创建代码文件（先写测试，再写实现）</span></span><br><span class="line"><span class="string">3. **第三步**：调用 run_tests 运行测试验证</span></span><br><span class="line"><span class="string">4. **第四步**：如果测试失败：</span></span><br><span class="line"><span class="string">   - 调用 read_file 查看相关代码</span></span><br><span class="line"><span class="string">   - 定位问题根因</span></span><br><span class="line"><span class="string">   - 调用 write_file 修复代码</span></span><br><span class="line"><span class="string">   - 调用 run_tests 重新验证</span></span><br><span class="line"><span class="string">5. 修复循环最多 3 轮，3 轮后仍失败则报告问题和你的分析</span></span><br><span class="line"><span class="string">6. 全部通过后，汇报最终工作成果</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 编码规范</span></span><br><span class="line"><span class="string">- Python 3.10+，使用类型注解</span></span><br><span class="line"><span class="string">- 每个函数有 docstring，说明参数、返回值、异常</span></span><br><span class="line"><span class="string">- 单文件不超过 300 行</span></span><br><span class="line"><span class="string">- 测试和实现分开：test_xxx.py + xxx.py</span></span><br><span class="line"><span class="string">- 使用 pytest 风格的测试用例</span></span><br><span class="line"><span class="string">- 关键逻辑要有注释</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 文件命名约定</span></span><br><span class="line"><span class="string">- 实现代码：&#123;module_name&#125;.py</span></span><br><span class="line"><span class="string">- 测试代码：test_&#123;module_name&#125;.py</span></span><br><span class="line"><span class="string">- 配置文件：config.py 或 settings.py</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 输出要求</span></span><br><span class="line"><span class="string">- 每一步操作后简要说明做了什么</span></span><br><span class="line"><span class="string">- 测试通过后列出所有创建的文件</span></span><br><span class="line"><span class="string">- 如有修复，说明修改了什么和为什么</span></span><br><span class="line"><span class="string">- 最终给出使用示例&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 需求分析工具的系统提示词</span></span><br><span class="line">ANALYSIS_PROMPT = <span class="string">&quot;&quot;&quot;你是需求分析师。请分析以下功能需求，输出结构化规格说明。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 需要包含的内容</span></span><br><span class="line"><span class="string">1. 功能描述：一句话概括这个功能做什么</span></span><br><span class="line"><span class="string">2. 接口定义：函数签名、参数类型、返回值类型</span></span><br><span class="line"><span class="string">3. 输入输出示例：至少 2 个示例</span></span><br><span class="line"><span class="string">4. 边界条件：异常输入、空值、极限值的处理</span></span><br><span class="line"><span class="string">5. 验收标准：什么样的结果算通过</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 输出格式</span></span><br><span class="line"><span class="string">用 Markdown 格式，结构清晰，便于后续编码实现。&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 代码生成提示词模板</span></span><br><span class="line">CODE_GEN_TEMPLATE = <span class="string">&quot;&quot;&quot;根据以下需求生成高质量 Python 代码：</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">需求分析：</span></span><br><span class="line"><span class="string">&#123;analysis&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">要求：</span></span><br><span class="line"><span class="string">1. 类型注解完整</span></span><br><span class="line"><span class="string">2. 有 docstring</span></span><br><span class="line"><span class="string">3. 错误处理适当</span></span><br><span class="line"><span class="string">4. 代码简洁可读</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">生成文件：&#123;file_name&#125;&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 测试生成提示词模板</span></span><br><span class="line">TEST_GEN_TEMPLATE = <span class="string">&quot;&quot;&quot;为以下代码生成 pytest 测试用例：</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">实现代码：</span></span><br><span class="line"><span class="string">&#123;code&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">要求：</span></span><br><span class="line"><span class="string">1. 正常情况测试</span></span><br><span class="line"><span class="string">2. 边界条件测试</span></span><br><span class="line"><span class="string">3. 异常情况测试</span></span><br><span class="line"><span class="string">4. 测试用例有描述性名称</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">生成文件：test_&#123;module_name&#125;.py&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 错误修复提示词模板</span></span><br><span class="line">FIX_PROMPT = <span class="string">&quot;&quot;&quot;根据以下测试失败信息修复代码：</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">失败日志：</span></span><br><span class="line"><span class="string">&#123;error_log&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">相关代码：</span></span><br><span class="line"><span class="string">&#123;code_content&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">要求：</span></span><br><span class="line"><span class="string">1. 定位问题根因</span></span><br><span class="line"><span class="string">2. 给出修复方案</span></span><br><span class="line"><span class="string">3. 保证不引入新问题</span></span><br><span class="line"><span class="string">4. 保持原有接口不变&quot;&quot;&quot;</span></span><br></pre></td></tr></table></figure>
+<h4 id="tools-py"><a target="_blank" rel="noopener" href="http://tools.py">tools.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目六：工具层。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">定义代码开发 Agent 使用的所有工具函数。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> subprocess</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langchain.tools <span class="keyword">import</span> tool</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core.config <span class="keyword">import</span> get_settings</span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> (</span><br><span class="line">    MAX_FILE_CONTENT_LENGTH,</span><br><span class="line">    TEST_TIMEOUT_SECONDS,</span><br><span class="line">    WORKSPACE,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p06.code_dev.tools&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">write_file</span>(<span class="params">file_path: <span class="built_in">str</span>, content: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;将内容写入指定文件（在代码工作空间内）。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        file_path: 相对于工作空间的路径，如 &#x27;app.py&#x27;、&#x27;utils/helpers.py&#x27;</span></span><br><span class="line"><span class="string">        content: 文件的完整内容</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        操作结果描述</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        full = WORKSPACE / file_path</span><br><span class="line">        full.parent.mkdir(parents=<span class="literal">True</span>, exist_ok=<span class="literal">True</span>)</span><br><span class="line">        full.write_text(content, encoding=<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line">        logger.info(<span class="string">&quot;写入文件: %s (%d 字节)&quot;</span>, full, <span class="built_in">len</span>(content))</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;✅ 文件已保存: <span class="subst">&#123;file_path&#125;</span> (<span class="subst">&#123;<span class="built_in">len</span>(content)&#125;</span> 字节)&quot;</span></span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">&quot;写入文件失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;❌ 写入失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;读取工作空间中的文件内容。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        file_path: 相对于工作空间的文件路径</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        文件内容或错误信息</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    full = WORKSPACE / file_path</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        content = full.read_text(encoding=<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(content) &gt; MAX_FILE_CONTENT_LENGTH:</span><br><span class="line">            content = content[:MAX_FILE_CONTENT_LENGTH] + <span class="string">&quot;\n... (内容过长，已截断)&quot;</span></span><br><span class="line">        <span class="keyword">return</span> content</span><br><span class="line">    <span class="keyword">except</span> FileNotFoundError:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;❌ 文件不存在: <span class="subst">&#123;file_path&#125;</span>&quot;</span></span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">&quot;读取文件失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;❌ 读取失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">list_workspace</span>() -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;列出代码工作空间中所有文件。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        工作空间文件列表</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        files = []</span><br><span class="line">        <span class="keyword">for</span> p <span class="keyword">in</span> <span class="built_in">sorted</span>(WORKSPACE.rglob(<span class="string">&quot;*&quot;</span>)):</span><br><span class="line">            <span class="keyword">if</span> p.is_file() <span class="keyword">and</span> <span class="string">&quot;.git&quot;</span> <span class="keyword">not</span> <span class="keyword">in</span> <span class="built_in">str</span>(p) <span class="keyword">and</span> <span class="string">&quot;__pycache__&quot;</span> <span class="keyword">not</span> <span class="keyword">in</span> <span class="built_in">str</span>(p):</span><br><span class="line">                rel = p.relative_to(WORKSPACE)</span><br><span class="line">                size = p.stat().st_size</span><br><span class="line">                files.append(<span class="string">f&quot;  <span class="subst">&#123;rel&#125;</span> (<span class="subst">&#123;size&#125;</span> 字节)&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> files:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;📂 工作空间为空，尚无文件。&quot;</span></span><br><span class="line">        result = <span class="string">&quot;📂 工作空间文件：\n&quot;</span> + <span class="string">&quot;\n&quot;</span>.join(files[:<span class="number">50</span>])</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(files) &gt; <span class="number">50</span>:</span><br><span class="line">            result += <span class="string">f&quot;\n  ... 还有 <span class="subst">&#123;<span class="built_in">len</span>(files) - <span class="number">50</span>&#125;</span> 个文件&quot;</span></span><br><span class="line">        <span class="keyword">return</span> result</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">&quot;列出文件失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;❌ 列出文件失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">run_tests</span>(<span class="params">test_path: <span class="built_in">str</span> = <span class="string">&quot;.&quot;</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;运行指定路径的 Python 测试。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        test_path: 测试目录或文件路径（相对于工作空间），默认为当前目录</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        测试运行结果</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    full = WORKSPACE / test_path</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        result = subprocess.run(</span><br><span class="line">            [<span class="string">&quot;python&quot;</span>, <span class="string">&quot;-m&quot;</span>, <span class="string">&quot;pytest&quot;</span>, <span class="built_in">str</span>(full), <span class="string">&quot;-x&quot;</span>, <span class="string">&quot;--tb=short&quot;</span>, <span class="string">&quot;-q&quot;</span>],</span><br><span class="line">            capture_output=<span class="literal">True</span>,</span><br><span class="line">            text=<span class="literal">True</span>,</span><br><span class="line">            timeout=TEST_TIMEOUT_SECONDS,</span><br><span class="line">            cwd=<span class="built_in">str</span>(WORKSPACE),</span><br><span class="line">            env=&#123;**os.environ, <span class="string">&quot;PYTHONPATH&quot;</span>: <span class="built_in">str</span>(WORKSPACE)&#125;,</span><br><span class="line">        )</span><br><span class="line">        output = result.stdout</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(output) &gt; MAX_FILE_CONTENT_LENGTH:</span><br><span class="line">            output = output[-MAX_FILE_CONTENT_LENGTH:] + <span class="string">&quot;\n... (输出过长，已截断末尾)&quot;</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> output.strip():</span><br><span class="line">            output = result.stderr[-<span class="number">2000</span>:] <span class="keyword">if</span> <span class="built_in">len</span>(result.stderr) &gt; <span class="number">2000</span> <span class="keyword">else</span> result.stderr</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> result.returncode == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">f&quot;✅ 测试通过！\n\n<span class="subst">&#123;output <span class="keyword">or</span> <span class="string">&#x27;无输出&#x27;</span>&#125;</span>&quot;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">f&quot;❌ 测试失败（退出码: <span class="subst">&#123;result.returncode&#125;</span>）\n\n<span class="subst">&#123;output <span class="keyword">or</span> <span class="string">&#x27;无输出&#x27;</span>&#125;</span>&quot;</span></span><br><span class="line">    <span class="keyword">except</span> subprocess.TimeoutExpired:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;⏱️ 测试运行超时（<span class="subst">&#123;TEST_TIMEOUT_SECONDS&#125;</span> 秒），请检查是否有死循环或慢速测试&quot;</span></span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.error(<span class="string">&quot;测试运行失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;❌ 测试运行失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">analyze_requirement</span>(<span class="params">description: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;分析功能需求，输出结构化规格说明。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    包括：接口定义（函数签名）、输入输出类型、边界条件、验收标准。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        description: 用户的功能需求描述</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        结构化的需求分析</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        <span class="string">f&quot;📋 需求分析\n&quot;</span></span><br><span class="line">        <span class="string">f&quot;原始描述：<span class="subst">&#123;description&#125;</span>\n\n&quot;</span></span><br><span class="line">        <span class="string">f&quot;（Agent 将基于此分析进行接口设计和编码实现）\n\n&quot;</span></span><br><span class="line">        <span class="string">f&quot;建议分析方向：\n&quot;</span></span><br><span class="line">        <span class="string">f&quot;1. 功能概述：这个函数/模块主要做什么？\n&quot;</span></span><br><span class="line">        <span class="string">f&quot;2. 输入参数：需要哪些参数？类型是什么？\n&quot;</span></span><br><span class="line">        <span class="string">f&quot;3. 返回值：返回什么数据？结构如何？\n&quot;</span></span><br><span class="line">        <span class="string">f&quot;4. 边界条件：空值、异常值、极限值如何处理？\n&quot;</span></span><br><span class="line">        <span class="string">f&quot;5. 验收标准：什么情况算功能正确？&quot;</span></span><br><span class="line">    )</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_all_tools</span>() -&gt; <span class="built_in">list</span>[<span class="type">Any</span>]:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;获取所有可用工具列表。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        工具对象列表</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">return</span> [</span><br><span class="line">        analyze_requirement,</span><br><span class="line">        write_file,</span><br><span class="line">        read_file,</span><br><span class="line">        list_workspace,</span><br><span class="line">        run_tests,</span><br><span class="line">    ]</span><br></pre></td></tr></table></figure>
+<h4 id="service-py"><a target="_blank" rel="noopener" href="http://service.py">service.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目六：服务层。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">封装代码开发 Agent 的核心业务逻辑，包括任务管理、流程编排等。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> build_chat_model</span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> DevTask, TaskStatus</span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> SYSTEM_PROMPT</span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> get_all_tools</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p06.code_dev.service&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CodeDevService</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;代码开发服务类。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    封装代码开发 Agent 的核心业务逻辑，包括：</span></span><br><span class="line"><span class="string">    - 创建开发任务</span></span><br><span class="line"><span class="string">    - 跟踪任务状态</span></span><br><span class="line"><span class="string">    - 管理开发闭环</span></span><br><span class="line"><span class="string">    - 生成最终报告</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">        <span class="variable language_">self</span>._tasks: <span class="built_in">dict</span>[<span class="built_in">str</span>, DevTask] = &#123;&#125;</span><br><span class="line">        <span class="variable language_">self</span>._agent: <span class="type">Any</span> | <span class="literal">None</span> = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">create_task</span>(<span class="params">self, description: <span class="built_in">str</span>, task_id: <span class="built_in">str</span> | <span class="literal">None</span> = <span class="literal">None</span></span>) -&gt; DevTask:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;创建新的开发任务。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            description: 功能需求描述</span></span><br><span class="line"><span class="string">            task_id: 可选的任务 ID，自动生成</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            任务对象</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">import</span> uuid</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> task_id <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">            task_id = <span class="string">f&quot;dev_<span class="subst">&#123;uuid.uuid4().<span class="built_in">hex</span>[:<span class="number">8</span>]&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line">        task = DevTask(</span><br><span class="line">            task_id=task_id,</span><br><span class="line">            description=description,</span><br><span class="line">            status=TaskStatus.PENDING,</span><br><span class="line">        )</span><br><span class="line">        <span class="variable language_">self</span>._tasks[task_id] = task</span><br><span class="line">        logger.info(<span class="string">&quot;创建开发任务: %s&quot;</span>, task_id)</span><br><span class="line">        <span class="keyword">return</span> task</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_task</span>(<span class="params">self, task_id: <span class="built_in">str</span></span>) -&gt; DevTask | <span class="literal">None</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;获取任务。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            task_id: 任务 ID</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            任务对象或 None</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>._tasks.get(task_id)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">update_task_status</span>(<span class="params">self, task_id: <span class="built_in">str</span>, status: TaskStatus</span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;更新任务状态。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            task_id: 任务 ID</span></span><br><span class="line"><span class="string">            status: 新状态</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            是否成功</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        task = <span class="variable language_">self</span>.get_task(task_id)</span><br><span class="line">        <span class="keyword">if</span> task <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">            logger.warning(<span class="string">&quot;任务不存在: %s&quot;</span>, task_id)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line">        task.status = status</span><br><span class="line">        logger.info(<span class="string">&quot;任务 %s 状态更新为: %s&quot;</span>, task_id, status)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">increment_retry</span>(<span class="params">self, task_id: <span class="built_in">str</span></span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;增加任务重试计数。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            task_id: 任务 ID</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            是否成功（达到最大重试次数时返回 False）</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        task = <span class="variable language_">self</span>.get_task(task_id)</span><br><span class="line">        <span class="keyword">if</span> task <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> task.can_retry():</span><br><span class="line">            logger.warning(<span class="string">&quot;任务 %s 已达到最大重试次数&quot;</span>, task_id)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line">        task.retry_count += <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">generate_final_report</span>(<span class="params">self, task_id: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;生成任务最终报告。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            task_id: 任务 ID</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            报告内容</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        task = <span class="variable language_">self</span>.get_task(task_id)</span><br><span class="line">        <span class="keyword">if</span> task <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;任务不存在&quot;</span></span><br><span class="line"></span><br><span class="line">        lines = [</span><br><span class="line">            <span class="string">&quot;# 开发任务完成报告&quot;</span>,</span><br><span class="line">            <span class="string">&quot;&quot;</span>,</span><br><span class="line">            <span class="string">f&quot;**任务 ID**: <span class="subst">&#123;task.task_id&#125;</span>&quot;</span>,</span><br><span class="line">            <span class="string">f&quot;**需求描述**: <span class="subst">&#123;task.description&#125;</span>&quot;</span>,</span><br><span class="line">            <span class="string">f&quot;**最终状态**: <span class="subst">&#123;task.status.value&#125;</span>&quot;</span>,</span><br><span class="line">            <span class="string">&quot;&quot;</span>,</span><br><span class="line">            <span class="string">&quot;## 创建的文件&quot;</span>,</span><br><span class="line">            <span class="string">&quot;&quot;</span>,</span><br><span class="line">        ]</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> task.files:</span><br><span class="line">            <span class="keyword">for</span> f <span class="keyword">in</span> task.files:</span><br><span class="line">                lines.append(<span class="string">f&quot;- `<span class="subst">&#123;f.file_path&#125;</span>` (<span class="subst">&#123;f.file_type&#125;</span>)&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            lines.append(<span class="string">&quot;（无文件创建记录）&quot;</span>)</span><br><span class="line"></span><br><span class="line">        lines.extend([</span><br><span class="line">            <span class="string">&quot;&quot;</span>,</span><br><span class="line">            <span class="string">&quot;## 测试结果&quot;</span>,</span><br><span class="line">            <span class="string">&quot;&quot;</span>,</span><br><span class="line">        ])</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> task.test_results:</span><br><span class="line">            <span class="keyword">for</span> i, result <span class="keyword">in</span> <span class="built_in">enumerate</span>(task.test_results, <span class="number">1</span>):</span><br><span class="line">                status = <span class="string">&quot;✅ 通过&quot;</span> <span class="keyword">if</span> result.success <span class="keyword">else</span> <span class="string">&quot;❌ 失败&quot;</span></span><br><span class="line">                lines.append(<span class="string">f&quot;第 <span class="subst">&#123;i&#125;</span> 轮: <span class="subst">&#123;status&#125;</span>&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            lines.append(<span class="string">&quot;（无测试运行记录）&quot;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> task.retry_count &gt; <span class="number">0</span>:</span><br><span class="line">            lines.extend([</span><br><span class="line">                <span class="string">&quot;&quot;</span>,</span><br><span class="line">                <span class="string">&quot;## 修复记录&quot;</span>,</span><br><span class="line">                <span class="string">&quot;&quot;</span>,</span><br><span class="line">                <span class="string">f&quot;自动修复 <span class="subst">&#123;task.retry_count&#125;</span> 轮&quot;</span>,</span><br><span class="line">            ])</span><br><span class="line"></span><br><span class="line">        lines.extend([</span><br><span class="line">            <span class="string">&quot;&quot;</span>,</span><br><span class="line">            <span class="string">&quot;## 使用说明&quot;</span>,</span><br><span class="line">            <span class="string">&quot;&quot;</span>,</span><br><span class="line">            <span class="string">&quot;所有文件已保存到工作空间目录。&quot;</span>,</span><br><span class="line">            <span class="string">&quot;如需进一步修改，请提供新的需求描述。&quot;</span>,</span><br><span class="line">        ])</span><br><span class="line"></span><br><span class="line">        report = <span class="string">&quot;\n&quot;</span>.join(lines)</span><br><span class="line">        task.final_report = report</span><br><span class="line">        <span class="keyword">return</span> report</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">build_agent</span>(<span class="params">self</span>) -&gt; <span class="type">Any</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;构建代码开发 Agent。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            LangChain Agent 对象</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">if</span> <span class="variable language_">self</span>._agent <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="variable language_">self</span>._agent</span><br><span class="line"></span><br><span class="line">        <span class="keyword">from</span> langchain.agents <span class="keyword">import</span> create_agent</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>._agent = create_agent(</span><br><span class="line">            model=build_chat_model(),</span><br><span class="line">            tools=get_all_tools(),</span><br><span class="line">            system_prompt=SYSTEM_PROMPT,</span><br><span class="line">        )</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>._agent</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run_dev_task</span>(<span class="params">self, description: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;运行完整的开发任务流程。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            description: 功能需求描述</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            任务执行结果</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        task = <span class="variable language_">self</span>.create_task(description)</span><br><span class="line">        <span class="variable language_">self</span>.update_task_status(task.task_id, TaskStatus.ANALYZING)</span><br><span class="line"></span><br><span class="line">        agent = <span class="variable language_">self</span>.build_agent()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            result = agent.run(description)</span><br><span class="line">            <span class="variable language_">self</span>.update_task_status(task.task_id, TaskStatus.SUCCESS)</span><br><span class="line">            <span class="keyword">return</span> result</span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            logger.error(<span class="string">&quot;开发任务执行失败: %s&quot;</span>, e)</span><br><span class="line">            <span class="variable language_">self</span>.update_task_status(task.task_id, TaskStatus.FAILED)</span><br><span class="line">            <span class="keyword">return</span> <span class="string">f&quot;开发任务执行失败: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 全局服务实例</span></span><br><span class="line">_service: CodeDevService | <span class="literal">None</span> = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_service</span>() -&gt; CodeDevService:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;获取代码开发服务实例。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        CodeDevService 单例</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">global</span> _service</span><br><span class="line">    <span class="keyword">if</span> _service <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">        _service = CodeDevService()</span><br><span class="line">    <span class="keyword">return</span> _service</span><br></pre></td></tr></table></figure>
+<h4 id="project-py"><a target="_blank" rel="noopener" href="http://project.py">project.py</a></h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目六：项目定义层。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">定义项目注册和对外暴露的接口。</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> BaseProject, registry</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .service <span class="keyword">import</span> get_service</span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> get_all_tools</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CodeDevProject</span>(<span class="title class_ inherited__">BaseProject</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;一站式代码开发 Agent 项目。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    主讲能力：复杂 Harness 闭环、测试驱动开发、自动修复循环</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    业务场景：用户提出一个功能需求，Agent 自动完成需求分析、接口设计、</span></span><br><span class="line"><span class="string">    代码生成、测试编写、测试运行、失败修复与最终交付。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">id</span> = <span class="string">&quot;p06_code_dev&quot;</span></span><br><span class="line">    name = <span class="string">&quot;一站式代码开发 Agent&quot;</span></span><br><span class="line">    description = <span class="string">&quot;需求→设计→编码→测试→修复→验证，完整开发闭环。&quot;</span></span><br><span class="line">    capabilities = [<span class="string">&quot;Harness&quot;</span>, <span class="string">&quot;Tool&quot;</span>, <span class="string">&quot;Test-Driven&quot;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">build_agent</span>(<span class="params">self</span>) -&gt; <span class="type">Any</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;构建 Agent 实例。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            LangChain Agent 对象</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        service = get_service()</span><br><span class="line">        <span class="keyword">return</span> service.build_agent()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self, message: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;运行项目任务。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">            message: 用户输入的需求描述</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">            Agent 响应</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        service = get_service()</span><br><span class="line">        <span class="keyword">return</span> service.run_dev_task(message)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 项目实例</span></span><br><span class="line">project = CodeDevProject()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 对外暴露的快捷函数</span></span><br><span class="line">run = project.run</span><br><span class="line">build_agent = project.build_agent</span><br><span class="line">get_tools = get_all_tools</span><br><span class="line"></span><br><span class="line">__all__ = [</span><br><span class="line">    <span class="string">&quot;CodeDevProject&quot;</span>,</span><br><span class="line">    <span class="string">&quot;project&quot;</span>,</span><br><span class="line">    <span class="string">&quot;run&quot;</span>,</span><br><span class="line">    <span class="string">&quot;build_agent&quot;</span>,</span><br><span class="line">    <span class="string">&quot;get_tools&quot;</span>,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<h4 id="init-py"><strong>init</strong>.py</h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目六：一站式代码开发 Agent（复杂 Harness 闭环）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">主讲能力：复杂 Harness 闭环——需求分析 → 代码生成 → 测试验证 → 修复 → 再测试</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">业务场景：用户描述功能需求，Agent 自动完成完整开发闭环：</span></span><br><span class="line"><span class="string">分析需求 → 设计接口 → 生成代码 → 编写测试 → 运行测试 → 根据失败修复 → 重新验证</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">生产级特性：</span></span><br><span class="line"><span class="string">- StateGraph 驱动的开发闭环（非简单一问一答）</span></span><br><span class="line"><span class="string">- 需求分析和接口设计先于编码（避免返工）</span></span><br><span class="line"><span class="string">- 测试驱动：先生成测试用例，再生成实现代码</span></span><br><span class="line"><span class="string">- 自动修复循环：测试失败 → 分析原因 → 修复 → 重跑，最多 3 轮</span></span><br><span class="line"><span class="string">- Git 友好：每次修改生成清晰的 commit message</span></span><br><span class="line"><span class="string">- 文件操作安全：不覆盖用户未授权的文件</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">架构分层：</span></span><br><span class="line"><span class="string">- models.py: 数据模型、配置常量</span></span><br><span class="line"><span class="string">- prompts.py: 系统提示词、模板</span></span><br><span class="line"><span class="string">- tools.py: 工具函数</span></span><br><span class="line"><span class="string">- service.py: 业务逻辑、Agent 编排</span></span><br><span class="line"><span class="string">- project.py: 项目定义、对外接口</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> registry</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 models 层</span></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> (</span><br><span class="line">    CodeFile,</span><br><span class="line">    DevTask,</span><br><span class="line">    MAX_FILE_CONTENT_LENGTH,</span><br><span class="line">    MAX_RETRY_ROUNDS,</span><br><span class="line">    TaskStatus,</span><br><span class="line">    TestResult,</span><br><span class="line">    TEST_TIMEOUT_SECONDS,</span><br><span class="line">    WORKSPACE,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 prompts 层</span></span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> (</span><br><span class="line">    ANALYSIS_PROMPT,</span><br><span class="line">    CODE_GEN_TEMPLATE,</span><br><span class="line">    FIX_PROMPT,</span><br><span class="line">    SYSTEM_PROMPT,</span><br><span class="line">    TEST_GEN_TEMPLATE,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 tools 层（保持向后兼容）</span></span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> (</span><br><span class="line">    analyze_requirement,</span><br><span class="line">    get_all_tools,</span><br><span class="line">    list_workspace,</span><br><span class="line">    read_file,</span><br><span class="line">    run_tests,</span><br><span class="line">    write_file,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 service 层</span></span><br><span class="line"><span class="keyword">from</span> .service <span class="keyword">import</span> CodeDevService, get_service</span><br><span class="line"></span><br><span class="line"><span class="comment"># 导出 project 层</span></span><br><span class="line"><span class="keyword">from</span> .project <span class="keyword">import</span> (</span><br><span class="line">    CodeDevProject,</span><br><span class="line">    build_agent,</span><br><span class="line">    get_tools,</span><br><span class="line">    project,</span><br><span class="line">    run,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 注册项目到全局注册表</span></span><br><span class="line">registry.register(project)</span><br><span class="line"></span><br><span class="line">__all__ = [</span><br><span class="line">    <span class="comment"># models</span></span><br><span class="line">    <span class="string">&quot;WORKSPACE&quot;</span>,</span><br><span class="line">    <span class="string">&quot;MAX_RETRY_ROUNDS&quot;</span>,</span><br><span class="line">    <span class="string">&quot;TEST_TIMEOUT_SECONDS&quot;</span>,</span><br><span class="line">    <span class="string">&quot;MAX_FILE_CONTENT_LENGTH&quot;</span>,</span><br><span class="line">    <span class="string">&quot;TaskStatus&quot;</span>,</span><br><span class="line">    <span class="string">&quot;CodeFile&quot;</span>,</span><br><span class="line">    <span class="string">&quot;TestResult&quot;</span>,</span><br><span class="line">    <span class="string">&quot;DevTask&quot;</span>,</span><br><span class="line">    <span class="comment"># prompts</span></span><br><span class="line">    <span class="string">&quot;SYSTEM_PROMPT&quot;</span>,</span><br><span class="line">    <span class="string">&quot;ANALYSIS_PROMPT&quot;</span>,</span><br><span class="line">    <span class="string">&quot;CODE_GEN_TEMPLATE&quot;</span>,</span><br><span class="line">    <span class="string">&quot;TEST_GEN_TEMPLATE&quot;</span>,</span><br><span class="line">    <span class="string">&quot;FIX_PROMPT&quot;</span>,</span><br><span class="line">    <span class="comment"># tools</span></span><br><span class="line">    <span class="string">&quot;write_file&quot;</span>,</span><br><span class="line">    <span class="string">&quot;read_file&quot;</span>,</span><br><span class="line">    <span class="string">&quot;list_workspace&quot;</span>,</span><br><span class="line">    <span class="string">&quot;run_tests&quot;</span>,</span><br><span class="line">    <span class="string">&quot;analyze_requirement&quot;</span>,</span><br><span class="line">    <span class="string">&quot;get_all_tools&quot;</span>,</span><br><span class="line">    <span class="comment"># service</span></span><br><span class="line">    <span class="string">&quot;CodeDevService&quot;</span>,</span><br><span class="line">    <span class="string">&quot;get_service&quot;</span>,</span><br><span class="line">    <span class="comment"># project</span></span><br><span class="line">    <span class="string">&quot;CodeDevProject&quot;</span>,</span><br><span class="line">    <span class="string">&quot;project&quot;</span>,</span><br><span class="line">    <span class="string">&quot;run&quot;</span>,</span><br><span class="line">    <span class="string">&quot;build_agent&quot;</span>,</span><br><span class="line">    <span class="string">&quot;get_tools&quot;</span>,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<h3 id="8-4-2-核心代码讲解">8.4.2 核心代码讲解</h3>
+<p>上面这六个文件看着平铺直叙，其实每一处都藏着一条生产级的设计决策。咱们挨个扒开来看。</p>
+<p><strong>受控工作空间的路径安全设计</strong></p>
+<p>先说一个最容易翻车的地方：给 Agent 文件写权限。给少了它干不了活，给多了它能把你整个项目改花。怎么两全？</p>
+<p><code>models.py</code> 在模块一加载时就建好 <code>WORKSPACE = DATA_DIR / &quot;code_workspace&quot;</code> 这个根目录，往后所有文件操作都从这里出发。<code>tools.py</code> 里的 <code>write_file</code>、<code>read_file</code>、<code>run_tests</code>，无一例外都用 <code>WORKSPACE / file_path</code> 来拼路径——Agent 哪怕想耍小聪明传个 <code>../../etc/passwd</code> 之类的路径，也翻不出这五指山。<code>write_file</code> 还顺手调了 <code>full.parent.mkdir(parents=True, exist_ok=True)</code>，自动把子目录建好，让 Agent 能自由组织多文件工程，又不会捅破隔离边界。</p>
+<p>一句话总结这个设计：<strong>给 Agent 文件权限，但不给它无边界的权限</strong>。</p>
+<p>⚠️ <strong>避坑</strong>：工作空间隔离不是可选项，是底线。一旦 Agent 能直接写用户的项目文件，一个 <code>write_file</code> 调用就可能覆盖掉线上配置或别人未提交的代码。把它关进 <code>code_workspace</code> 这个笼子里，哪怕它写崩了，崩的也只是这个一次性沙盒，拍拍屁股重来就行。</p>
+<p><strong>测试驱动的 Harness 闭环</strong></p>
+<p>接下来是整章的灵魂。<code>run_tests</code> 没有图省事在当前进程里 <code>import</code> 被测代码，而是郑重其事地用 <code>subprocess.run</code> 拉起一个独立子进程跑 <code>pytest</code>，还专门设了 <code>cwd=str(WORKSPACE)</code> 和 <code>PYTHONPATH=str(WORKSPACE)</code>。这么折腾图什么？图的是<strong>彻底隔离</strong>——被测代码里万一有什么副作用（改全局变量、注册钩子、甚至死循环），也污染不到 Agent 主进程。<code>-x --tb=short -q</code> 这串参数，意思是&quot;一失败就停、traceback 给短点、输出别啰嗦&quot;，正好喂给 Agent 去定位问题。</p>
+<p>测试的退出码和输出，就是 Harness 的&quot;事实反馈&quot;——模型说对不算数，测试通过才算数。这正是 8.3 节那句&quot;为什么不是直接让模型写代码&quot;的工程落地。</p>
+<p>💡 <strong>顿悟时刻</strong>：你会发现，整个闭环里模型其实没有最终决定权，<strong>测试才有</strong>。模型可以天花乱坠地解释自己的代码多优雅，但只要 pytest 退出码非零，它就得乖乖回去改。测试是唯一不带偏见的裁判。</p>
+<p><strong>自动修复循环（最多 3 轮）</strong></p>
+<p>光会跑测试还不够，跑挂了得会修。<code>models.py</code> 里定了个 <code>MAX_RETRY_ROUNDS = 3</code>，<code>DevTask.can_retry()</code> 拿它来判断还能不能再试；<code>service.py</code> 的 <code>increment_retry</code> 一旦发现到顶了，就返回 <code>False</code> 并敲一行警告日志。光有代码约束还不够，<code>SYSTEM_PROMPT</code> 把规矩也写进了提示词：测试失败后，老老实实按&quot;读文件 → 定位根因 → 修复 → 重跑&quot;的顺序来，最多三轮，三轮还过不了就如实汇报问题和分析——既不无限死磕，也不装作成功。</p>
+<p>为什么是 3 轮，不是 1 轮也不是 30 轮？这是个经验值：1 轮太苛刻，模型第一次难免手生；30 轮太放纵，容易在同一个坑里反复横跳烧 token。3 轮给足纠错空间，又逼着 Agent 在有限步骤里收敛。</p>
+<blockquote>
+<p>配置常量管&quot;能不能&quot;，提示词管&quot;该不该&quot;——双重约束，把&quot;高级工程师的工作纪律&quot;固化进了系统。</p>
+</blockquote>
+<p><strong>三层架构的解耦优势</strong></p>
+<p>本项目在经典&quot;模型—工具—服务&quot;三层架构上又细切了一刀，变成六个文件，但单向依赖的规矩没变：<code>models.py</code> 只管数据结构和常量，不沾任何业务；<code>prompts.py</code> 只放纯字符串提示词；<code>tools.py</code> 依赖 <code>models</code> 给的常量；<code>service.py</code> 调度前三层来编排任务、构建 Agent；<code>project.py</code> 只负责把服务包成统一的 <code>BaseProject</code> 接口；<code>__init__.py</code> 收尾做聚合导出和注册。</p>
+<p>这么分有什么好？每一层都能被单独替换或单独测。换数据模型不碍着工具，换工具不碍着提示词，哪天想换 LLM 框架，只动 <code>service.build_agent</code> 一个函数就够。分层还顺带让单元测试变得轻松——每一层都能单独 mock，不必非得连上真实 LLM 才跑得起来。</p>
+<p><strong>错误降级和日志设计</strong></p>
+<p>最后说一处不起眼但救命的设计。每个工具都把核心逻辑裹在 <code>try/except</code> 里，出了岔子不抛异常，而是带个 ❌ 前缀转成友好字符串返回给 Agent。这一手至关重要：闭环不中断，Agent 才能&quot;看见&quot;错误并据此去修，而不是整个流程一崩了之。</p>
+<p>各处还埋了防溢出的小心机：<code>read_file</code> 把超长内容截到 <code>MAX_FILE_CONTENT_LENGTH</code>，防上下文爆炸；<code>run_tests</code> 从末尾截断超长输出（错误信息最关键的尾巴得留着），还单独接住 <code>TimeoutExpired</code>，免得一个死循环测试把整个 Agent 拖垮。所有关键操作都通过 <code>get_logger</code> 吐结构化日志（写了多少字节、状态怎么变、重试到第几次），既方便人肉调试，又不会污染喂给 Agent 的内容。最外层 <code>service.run_dev_task</code> 还兜了底，万一真出意外，把任务状态降级成 <code>FAILED</code> 并返回一句人话，保证调用方拿到的永远是个字符串，而不是一坨栈崩溃。</p>
+<p>⚠️ <strong>避坑</strong>：子进程超时这条线必须拉紧。测试代码是 Agent 现写的，质量没保证——万一里面藏个 <code>while True</code>，没有 <code>timeout</code> 兜着，整个 Agent 就会卡死在那儿再也回不来。<code>TEST_TIMEOUT_SECONDS = 60</code> 就是那根救命的保险丝。</p>
+<hr>
+<h2 id="8-5-跑一跑：它真的行吗">8.5 跑一跑：它真的行吗</h2>
+<p>光说不练假把式，Agent 自己写的代码要测，项目本身也得测。离线测试覆盖这几块：</p>
+<ul>
+<li>文件写入与读取</li>
+<li>工作空间列表</li>
+<li>需求分析工具</li>
+<li>集成测试（需 API Key）</li>
+</ul>
+<p>运行方式：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> backend</span><br><span class="line">pytest projects/p06_code_dev/test_agent.py -v</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="8-6-送上线：让它上班">8.6 送上线：让它上班</h2>
+<p>该项目已经注册到统一后端和前端管理台，部署方式和前几章如出一辙：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">uvicorn main:app --reload --port 8000</span><br><span class="line"><span class="built_in">cd</span> frontend &amp;&amp; npm run dev</span><br></pre></td></tr></table></figure>
+<p>起好服务，到前端选「一站式代码开发 Agent」，把开发需求丢进去，就能眼睁睁看着它一步步调用工具、跑测试、看反馈——闭环是怎么转起来的，一清二楚。</p>
+<hr>
+<h2 id="8-7-回头看：学到了什么">8.7 回头看：学到了什么</h2>
+<p>走到这儿，我们把 Agent 从&quot;能回答&quot;推进到了&quot;能交付代码&quot;。回过头看，老张那一下午来回折腾的循环，被我们写成了一段会自我纠错的程序。几条关键经验，值得带走：</p>
+<ul>
+<li>不要信模型的自我声明，<strong>用测试验证</strong>——嘴上说对不算数，绿点才算数。</li>
+<li>不要给 Agent 无边界的文件权限，<strong>用工作空间隔离</strong>——能干活的笼子，才是好笼子。</li>
+<li>不要让失败停在原地，<strong>用闭环让它修复</strong>——错了不可怕，错了能改回来才叫工程。</li>
+</ul>
+<blockquote>
+<p>一句话：让 Agent 自己写、自己测、自己修，把&quot;信任&quot;建立在&quot;验证&quot;之上，而不是建立在&quot;看起来对&quot;之上。</p>
+</blockquote>
+<p>下一章，我们迈入 Multi-Agent 阶段，让多个智能体组团，搭起一支内容创作团队。</p>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/cn/2026-07-02-AI项目实战（10）多智能体内容创作平台/" data-toggle="tooltip" data-placement="top" title="AI项目实战（10）多智能体内容创作平台">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/2026-06-30-AI项目实战（8）AI 视频生成 Agent/" data-toggle="tooltip" data-placement="top" title="AI项目实战（8）AI 视频生成 Agent">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=AI项目实战（9）一站式代码开发 Agent&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/2026-07-01-AI项目实战（9）一站式代码开发 Agent/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'a37850f88f2a4d827300',
+      clientSecret: '7a50383ec7757c78714f95d455cc52b4211e8cf2',
+      repo: 'tigergo001.github.io',
+      owner: 'tigergo001',
+      admin: 'tigergo001',
+      id: 'Wed Jul 01 2026 09:00:00 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#8-1-%E8%80%81%E5%BC%A0%E7%9A%84%E6%89%A7%E5%BF%B5"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">8.1 老张的执念</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-1-1-%E4%B8%9A%E5%8A%A1%E8%83%8C%E6%99%AF"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">8.1.1 业务背景</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-1-2-%E7%9B%AE%E6%A0%87%E7%94%A8%E6%88%B7"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">8.1.2 目标用户</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-1-3-%E5%8A%9F%E8%83%BD%E9%9C%80%E6%B1%82"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">8.1.3 功能需求</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-1-4-%E9%9D%9E%E5%8A%9F%E8%83%BD%E9%9C%80%E6%B1%82"><span class="toc-nav-number">1.4.</span> <span class="toc-nav-text">8.1.4 非功能需求</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#8-2-%E7%94%BB%E4%B8%AA%E6%A0%B7%E5%AD%90%EF%BC%9A%E5%AE%83%E8%AF%A5%E9%95%BF%E5%95%A5%E6%A0%B7"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">8.2 画个样子：它该长啥样</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-2-1-%E5%8A%9F%E8%83%BD%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">8.2.1 功能流程</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-2-2-%E7%94%A8%E6%88%B7%E4%BA%A4%E4%BA%92%E6%A0%B7%E4%BE%8B"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">8.2.2 用户交互样例</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#8-3-%E6%8B%86%E5%BC%80%E7%9C%8B%EF%BC%9A%E6%80%8E%E4%B9%88%E9%80%A0%E5%87%BA%E6%9D%A5"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">8.3 拆开看：怎么造出来</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-3-1-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">8.3.1 架构设计</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-3-2-%E6%A0%B8%E5%BF%83%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">8.3.2 核心设计</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-3-3-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%98%AF%E7%9B%B4%E6%8E%A5%E8%AE%A9%E6%A8%A1%E5%9E%8B%E5%86%99%E4%BB%A3%E7%A0%81"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">8.3.3 为什么不是直接让模型写代码</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#8-4-%E5%8A%A8%E6%89%8B%E5%86%99%EF%BC%9A%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">8.4 动手写：三层架构完整代码</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-4-1-%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">8.4.1 三层架构完整代码</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#models-py"><span class="toc-nav-number">4.1.1.</span> <span class="toc-nav-text">models.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#prompts-py"><span class="toc-nav-number">4.1.2.</span> <span class="toc-nav-text">prompts.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#tools-py"><span class="toc-nav-number">4.1.3.</span> <span class="toc-nav-text">tools.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#service-py"><span class="toc-nav-number">4.1.4.</span> <span class="toc-nav-text">service.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#project-py"><span class="toc-nav-number">4.1.5.</span> <span class="toc-nav-text">project.py</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#init-py"><span class="toc-nav-number">4.1.6.</span> <span class="toc-nav-text">init.py</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#8-4-2-%E6%A0%B8%E5%BF%83%E4%BB%A3%E7%A0%81%E8%AE%B2%E8%A7%A3"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">8.4.2 核心代码讲解</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#8-5-%E8%B7%91%E4%B8%80%E8%B7%91%EF%BC%9A%E5%AE%83%E7%9C%9F%E7%9A%84%E8%A1%8C%E5%90%97"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">8.5 跑一跑：它真的行吗</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#8-6-%E9%80%81%E4%B8%8A%E7%BA%BF%EF%BC%9A%E8%AE%A9%E5%AE%83%E4%B8%8A%E7%8F%AD"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">8.6 送上线：让它上班</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#8-7-%E5%9B%9E%E5%A4%B4%E7%9C%8B%EF%BC%9A%E5%AD%A6%E5%88%B0%E4%BA%86%E4%BB%80%E4%B9%88"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">8.7 回头看：学到了什么</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#AI" title="AI">AI</a>
+            
+            <a class="tag" href="/tags/#Agent" title="Agent">Agent</a>
+            
+            <a class="tag" href="/tags/#LangChain" title="LangChain">LangChain</a>
+            
+            <a class="tag" href="/tags/#LangGraph" title="LangGraph">LangGraph</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+<!-- mermaid start -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'base' });
+</script>
+<!-- mermaid end -->
+
+
+															<!-- Footer (contains ThemeColor、viewer) -->
+															<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/tigergo001">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Ryan
+          2026
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/mouseclick.js"  content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033' ></script>
+    <!-- Mouseclick -->
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "tigergo001";
+    let ghPages = gh + ".github.io";
+    let pagePath = "cn/2026-07-01-AI项目实战（9）一站式代码开发 Agent/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://xiaodoudou.ink/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+																<!-- Search -->
+																
+																	<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+																		
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>

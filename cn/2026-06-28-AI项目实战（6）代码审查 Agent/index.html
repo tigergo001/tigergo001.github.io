@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="v-ryan,v-blog,IT  blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/avatar.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/2026-06-28-AI项目实战（6）代码审查 Agent/">
+  <title>
+    
+      AI项目实战（6）代码审查 Agent - 男人至死是少年  | yong man
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+	<!-- hack iOS CSS :active style -->
+	
+
+		<body ontouchstart="" class="body--light body--light">
+			
+
+						<!-- ThemeColor -->
+						
+							<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'light';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+								
+
+									<!-- Gitter -->
+									
+										<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+											
+
+												<!-- Navigation (contains search)-->
+												<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">男人至死是少年</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+													<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+													<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    header.intro-header {
+      
+        /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png'); */
+        
+    }
+
+    #signature {
+        /*signature*/
+        background-image: url('/img/signature/ryan-sign.png');
+      }
+
+      
+  </style>
+  <!-- CDN: jsdelivr end -->
+  
+
+
+
+      
+        <header class="intro-header">
+          <!-- Signature -->
+          <div id="signature">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+                    <div class="post-heading">
+                      <div class="tags">
+                        
+                          <a class="tag" href="/tags/#AI" title="AI">
+                            AI
+                          </a>
+                          
+                          <a class="tag" href="/tags/#Agent" title="Agent">
+                            Agent
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangChain" title="LangChain">
+                            LangChain
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangGraph" title="LangGraph">
+                            LangGraph
+                          </a>
+                          
+                      </div>
+                      <h1>
+                        AI项目实战（6）代码审查 Agent
+                      </h1>
+                      <h2 class="subheading">
+                        《AI Agent 实战》系列 · 代码审查 Agent
+                      </h2>
+                      <span class="meta">
+                        Posted by Ryan on
+                          2026-06-28
+                      </span>
+
+
+                      
+                        <!-- WordCount start -->
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Estimated Reading Time <span class="post-count">
+                            23
+                          </span> Minutes
+                        </span>
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Words <span class="post-count">
+                            5.6k
+                          </span> In Total
+                        </span>
+                        <div class="blank_box"></div>
+                        <!-- WordCount end -->
+                        
+                          
+                            <!-- 不蒜子统计 start -->
+                            <span class="meta" id="busuanzi_container_page_pv">
+                              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+                              Times
+                            </span>
+                            <!-- 不蒜子统计 end -->
+                            
+
+
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+            <!-- waveoverlay start -->
+            <div class="preview-overlay">
+              <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                  </path>
+                </defs>
+                <g class="preview-parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+                </g>
+              </svg>
+            </div>
+            <!-- waveoverlay end -->
+            
+
+        </header>
+        
+
+														<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+														<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>老王是公司里的资深工程师，工位上常年摆着三块屏幕。每天早上一打开代码托管平台，二十几个 PR 排着队等他 review。他不是不乐意审，是真审不动——光是把每个 PR 的改动看完就要大半天，更别提还要查规范、追漏洞、跑测试。结果呢？常常审到第 15 个 PR 时眼皮打架，一个 SQL 注入就这么从眼皮底下溜了过去，上线第二天数据库就被拖走了。</p>
+<p>新人的处境也没好到哪去。小李刚入职，兴冲冲提了第一个 PR，挂在那儿三天没人看。等到终于有人路过点了两下，留下一句&quot;看着没问题&quot;就 approve 了。一周后线上告警，回过头一查，问题就藏在那段没人认真看过的代码里。</p>
+<p>这两端的痛，指向同一件事：<strong>代码审查这件事，光靠人盯，是盯不住的。</strong> 于是有了本章的主角——代码审查 Agent。我们要让 Agent 像老王一样审代码：会读文件、会搜模式、会从安全/性能/规范三个维度挑刺，还会跑测试验证。区别只有一点：Agent 不会打瞌睡，也不嫌 PR 多。</p>
+<blockquote>
+<p><strong>全书主线进度</strong>：第 4 章的 RAG Agent 让 Agent 学会了查资料，但它干活还是&quot;一问一答&quot;——你说一句，它用一次工具，回一句。真实任务可比这复杂多了。代码审查就是典型：要&quot;读文件 → 搜模式 → 安全审查 → 性能审查 → 规范审查 → 建议修复 → 跑测试验证&quot;。这是<strong>多轮、多维度、还得自我修正</strong>的活儿。本章攻克两个关键能力：<strong>Harness 循环</strong>（让 Agent 反复地想-做-看-再想）和 <strong>Skill 封装</strong>（把审查方法论打包成可复用模块）。</p>
+<p><strong>主讲能力</strong>：Harness 循环 + Skill 技能封装<br>
+<strong>业务场景</strong>：自动审查代码变更，检查安全漏洞、性能问题、编码规范，输出结构化审查报告。<br>
+<strong>技术栈</strong>：LangChain v1.0 <code>create_agent</code> + 三个审查 Skill + 文件读写/搜索/测试工具</p>
+</blockquote>
+<hr>
+<h2 id="5-1-老王的心愿">5.1 老王的心愿</h2>
+<h3 id="5-1-1-业务背景与痛点">5.1.1 业务背景与痛点</h3>
+<p>把老王和小李的遭遇拆开看，代码审查的痛其实就四条：</p>
+<ul>
+<li>初级工程师的代码，缺一个经验老到的审查者把关；</li>
+<li>安全漏洞（SQL 注入、XSS）藏在 PR 里，人眼一晃就过；</li>
+<li>同一类规范问题被反复指出，审的人烦、改的人也烦；</li>
+<li>修完没人自动验证，按下葫芦浮起瓢，引入新问题。</li>
+</ul>
+<p>人工审查的覆盖面有限，效率还会随团队扩大直线下降。既然如此，能不能把&quot;老王式的审查&quot;固化下来，让 Agent 不知疲倦地干？这就是本项目要回答的问题。</p>
+<h3 id="5-1-2-用户故事">5.1.2 用户故事</h3>
+<p>把上面的痛翻译成一张用户故事表，需求就清晰了：</p>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>作为</th>
+<th>我想要</th>
+<th>以便</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US-1</td>
+<td>开发者</td>
+<td>PR 提交后立刻得到自动化审查报告</td>
+<td>修复问题后再找同事审查</td>
+</tr>
+<tr>
+<td>US-2</td>
+<td>架构师</td>
+<td>审查覆盖安全、性能、规范三个维度</td>
+<td>不会漏掉关键问题</td>
+</tr>
+<tr>
+<td>US-3</td>
+<td>Tech Lead</td>
+<td>审查报告结构化（JSON），便于接入 CI</td>
+<td>在 CI 中自动拦截高危问题</td>
+</tr>
+<tr>
+<td>US-4</td>
+<td>开发者</td>
+<td>审查后可选地自动运行测试</td>
+<td>确认修复不引入回归</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-1-3-功能性需求">5.1.3 功能性需求</h3>
+<ul>
+<li><strong>FR-1 文件读取</strong>：Agent 能读取待审查的文件内容</li>
+<li><strong>FR-2 代码搜索</strong>：Agent 能用 grep 搜索潜在问题模式（如硬编码密钥）</li>
+<li><strong>FR-3 三维度审查</strong>：安全、性能、规范逐维度进行</li>
+<li><strong>FR-4 结构化报告</strong>：JSON 格式，含文件路径、行号、严重程度、修复建议</li>
+<li><strong>FR-5 测试执行</strong>：可选地运行 pytest 验证</li>
+</ul>
+<hr>
+<h2 id="5-2-画个样子：它该长啥样">5.2 画个样子：它该长啥样</h2>
+<p>用户提交一个代码文件，Agent 就该像老王接过 PR 一样开工：先读文件、再搜模式，然后分别掏出三本&quot;审查手册&quot;——安全、性能、规范——逐条对照，最后汇成一份结构化报告。要是不放心，还能顺手跑一遍测试。整条流水线画出来是这样的：</p>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph TD
+    U["用户提交代码文件"] --> Agent["代码审查 Agent"]
+    Agent --> R["read_file 读取文件"]
+    Agent --> G["grep_code 搜索模式"]
+    R & G --> S1["🛡️ Security Skill<br/>SQL注入/XSS/密钥泄露"]
+    R & G --> S2["⚡ Performance Skill<br/>N+1查询/复杂度"]
+    R & G --> S3["📐 Style Skill<br/>命名/类型/长度"]
+    S1 & S2 & S3 --> Report["结构化报告<br/>JSON: issues[], score"]
+    Agent --> Test["run_tests<br/>（可选）验证修复"]
+
+    classDef uN fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    classDef aN fill:#ede7f6,stroke:#5e35b1,stroke-width:2px,color:#311b92
+    classDef tN fill:#e0f7fa,stroke:#00acc1,stroke-width:2px,color:#006064
+    classDef sN fill:#e0f2f1,stroke:#00897b,stroke-width:2px,color:#004d40
+    class U uN
+    class Agent aN
+    class R,G,Test tN
+    class S1,S2,S3,Report sN</pre>
+<hr>
+<h2 id="5-3-拆开看：怎么造出来">5.3 拆开看：怎么造出来</h2>
+<h3 id="5-3-1-技术选型">5.3.1 技术选型</h3>
+<table>
+<thead>
+<tr>
+<th>技术点</th>
+<th>选型</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent</td>
+<td><code>create_agent</code></td>
+<td>内置 agent loop（自动多轮）</td>
+</tr>
+<tr>
+<td>工具</td>
+<td><code>read_file</code> / <code>grep_code</code> / <code>run_tests</code></td>
+<td>对应的就是真实代码审查工具</td>
+</tr>
+<tr>
+<td>Skill</td>
+<td><code>ReviewSkill</code> 基类 + 3 个子类</td>
+<td>每个审查维度独立封装，可插拔</td>
+</tr>
+<tr>
+<td>模型</td>
+<td>Claude Sonnet 4.6</td>
+<td>强代码理解能力</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-3-2-关键设计：Skill-模块化——把老王的经验写成-SOP-手册">5.3.2 关键设计：Skill 模块化——把老王的经验写成 SOP 手册</h3>
+<p>老王审了十年代码，脑子里攒了一堆&quot;经验法则&quot;：看到 <code>password =</code> 就要警惕硬编码、看到循环里有数据库查询就要查 N+1、看到函数超过 50 行就想让人拆……这些经验平时只活在老王脑子里，新人学不到，老王一休假就断了档。</p>
+<p>Skill 做的事，就是把这些经验一条条抠出来，写成一本&quot;审查 SOP 手册&quot;。每翻开一页（一个 Skill），Agent 就瞬间变成那个维度的专家。不同于项目一直接把 Prompt 写死在代码里，本章把&quot;审查方法论&quot;抽象为 <code>ReviewSkill</code> 类：每个 Skill 有自己的 <code>name</code> 和 <code>prompt_template</code>，要增加新的审查维度（比如&quot;国际化审查&quot;），只需新增一个子类，已有代码一行都不用动。</p>
+<blockquote>
+<p>💡 <strong>顿悟时刻</strong>：Skill 的本质，是&quot;把人的隐性经验，变成 Agent 的显性能力&quot;。新人一翻手册就变专家，老王休假也不怕——因为经验已经长在代码里了。</p>
+</blockquote>
+<h3 id="5-3-3-关键设计：Harness-循环——像老王那样-看一眼、查一下、再回头看">5.3.3 关键设计：Harness 循环——像老王那样&quot;看一眼、查一下、再回头看&quot;</h3>
+<p>很多人第一次接触 Agent 都会冒出一个问题：<strong>现在的大模型那么强，把整个文件丢给它，让它一次审完不行吗？为什么要绕着圈循环？</strong></p>
+<p>我当初也是这么想的。直到我真把一个 500 行的文件丢给模型，让它&quot;全面审查&quot;。它确实吐了一份报告，但读下来你会发现：满纸都是&quot;建议增加注释&quot;&quot;变量名可更清晰&quot;这类不痛不痒的话，而那个藏在第 317 行的 SQL 拼接，它压根没提。</p>
+<p>为什么？因为&quot;一次性审完&quot;违背了人脑审查的方式。回头看看老王是怎么审一个 PR 的：</p>
+<ol>
+<li>先扫一眼 diff——“这段在拼 SQL？嗯，可疑。”</li>
+<li>翻出公司的安全规范，对照一下——“确认了，拼接 SQL 是高危。”</li>
+<li>还不放心，grep 一下整个仓库——“看看还有没有别的地方也这么写。”</li>
+<li>跑一下相关测试——“看会不会挂。”</li>
+<li>回头再看一眼最初那段代码——这时候的判断，已经比第一眼深了好几层。</li>
+</ol>
+<p>老王从来不是一眼扫完就写报告，他是带着疑问一步步往下挖的。<strong>看到第 50 行的 SQL 拼接，他会停下来专门去搜；搜完回来，对第 50 行的判断就变了。审查的质量，来自&quot;看了之后回头再想&quot;的来回，而不是一次性看完。</strong></p>
+<p><code>create_agent</code> 内置的 agent loop，正是逼着模型像人一样，一步、一停、一回头：</p>
+<ol>
+<li>读文件 → 发现潜在问题</li>
+<li>用 grep 搜索确认 → 定位到具体行</li>
+<li>对照 Skill 的审查标准 → 形成报告</li>
+<li>如果有修复建议 → 用户可以要求重新审查（开启新一轮循环）</li>
+</ol>
+<p>每跑一圈，模型对这份代码的理解就深一层。这就是 Harness 循环存在的理由，也是它反直觉却必不可少的地方。</p>
+<blockquote>
+<p>💡 <strong>金句</strong>：一次性审完，得到的是&quot;走马观花&quot;；循环着审，得到的才是&quot;老王的眼光&quot;。</p>
+</blockquote>
+<hr>
+<h2 id="5-4-动手写：三层架构完整代码">5.4 动手写：三层架构完整代码</h2>
+<h3 id="5-4-1-架构分层总览">5.4.1 架构分层总览</h3>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>文件名</th>
+<th>职责</th>
+<th>核心类/函数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>领域模型层</td>
+<td><code>models.py</code></td>
+<td>定义审查相关的数据结构、状态枚举、Skill 基类</td>
+<td><code>ReviewIssue</code>, <code>ReviewReport</code>, <code>ReviewSkill</code>, <code>Severity</code></td>
+</tr>
+<tr>
+<td>提示词层</td>
+<td><code>prompts.py</code></td>
+<td>集中管理所有系统提示词和审查模板</td>
+<td><code>build_system_prompt()</code>, <code>build_dimension_review_prompt()</code></td>
+</tr>
+<tr>
+<td>工具层</td>
+<td><code>tools.py</code></td>
+<td>封装文件读取、代码搜索、测试运行等工具</td>
+<td><code>read_file</code>, <code>grep_code</code>, <code>run_tests</code></td>
+</tr>
+<tr>
+<td>服务层</td>
+<td><code>service.py</code></td>
+<td>业务逻辑编排、静态规则检查、缓存管理</td>
+<td><code>CodeReviewService</code></td>
+</tr>
+<tr>
+<td>项目入口层</td>
+<td><code>project.py</code></td>
+<td>Agent 构建、项目注册、API 适配</td>
+<td><code>CodeReviewProject</code></td>
+</tr>
+<tr>
+<td>导出层</td>
+<td><code>__init__.py</code></td>
+<td>对外导出、向后兼容</td>
+<td>所有 public API</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="5-4-2-models-py-领域模型层">5.4.2 <a target="_blank" rel="noopener" href="http://models.py">models.py</a> - 领域模型层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;P03 代码审查 Agent - 领域模型层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"><span class="keyword">from</span> dataclasses <span class="keyword">import</span> asdict, dataclass, field</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> enum <span class="keyword">import</span> Enum</span><br><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Any</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Severity</span>(<span class="built_in">str</span>, Enum):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;问题严重程度枚举。&quot;&quot;&quot;</span></span><br><span class="line">    HIGH = <span class="string">&quot;高危&quot;</span></span><br><span class="line">    MEDIUM = <span class="string">&quot;中危&quot;</span></span><br><span class="line">    LOW = <span class="string">&quot;低危&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ReviewDimension</span>(<span class="built_in">str</span>, Enum):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;审查维度枚举。&quot;&quot;&quot;</span></span><br><span class="line">    SECURITY = <span class="string">&quot;security&quot;</span></span><br><span class="line">    PERFORMANCE = <span class="string">&quot;performance&quot;</span></span><br><span class="line">    STYLE = <span class="string">&quot;style&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ReviewIssue</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;单个审查问题条目。&quot;&quot;&quot;</span></span><br><span class="line">    file_path: <span class="built_in">str</span></span><br><span class="line">    line_number: <span class="built_in">int</span> | <span class="literal">None</span> = <span class="literal">None</span></span><br><span class="line">    severity: Severity = Severity.LOW</span><br><span class="line">    dimension: ReviewDimension = ReviewDimension.STYLE</span><br><span class="line">    description: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    suggestion: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    code_snippet: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">validate</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>[<span class="built_in">str</span>]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;验证字段合法性，返回错误列表。&quot;&quot;&quot;</span></span><br><span class="line">        errors: <span class="built_in">list</span>[<span class="built_in">str</span>] = []</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> <span class="variable language_">self</span>.file_path:</span><br><span class="line">            errors.append(<span class="string">&quot;file_path 不能为空&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> <span class="variable language_">self</span>.description:</span><br><span class="line">            errors.append(<span class="string">&quot;description 不能为空&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> errors</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">to_dict</span>(<span class="params">self</span>) -&gt; <span class="built_in">dict</span>[<span class="built_in">str</span>, <span class="type">Any</span>]:</span><br><span class="line">        data = asdict(<span class="variable language_">self</span>)</span><br><span class="line">        data[<span class="string">&quot;severity&quot;</span>] = <span class="variable language_">self</span>.severity.value</span><br><span class="line">        data[<span class="string">&quot;dimension&quot;</span>] = <span class="variable language_">self</span>.dimension.value</span><br><span class="line">        <span class="keyword">return</span> data</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@dataclass</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ReviewReport</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;完整的审查报告。&quot;&quot;&quot;</span></span><br><span class="line">    target_files: <span class="built_in">list</span>[<span class="built_in">str</span>] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    issues: <span class="built_in">list</span>[ReviewIssue] = field(default_factory=<span class="built_in">list</span>)</span><br><span class="line">    score: <span class="built_in">int</span> = <span class="number">10</span></span><br><span class="line">    reviewed_at: <span class="built_in">str</span> = field(default_factory=<span class="keyword">lambda</span>: datetime.now().isoformat())</span><br><span class="line">    duration_seconds: <span class="built_in">float</span> = <span class="number">0.0</span></span><br><span class="line"></span><br><span class="line"><span class="meta">    @property</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">issue_count</span>(<span class="params">self</span>) -&gt; <span class="built_in">dict</span>[<span class="built_in">str</span>, <span class="built_in">int</span>]:</span><br><span class="line">        counts: <span class="built_in">dict</span>[<span class="built_in">str</span>, <span class="built_in">int</span>] = &#123;<span class="string">&quot;高危&quot;</span>: <span class="number">0</span>, <span class="string">&quot;中危&quot;</span>: <span class="number">0</span>, <span class="string">&quot;低危&quot;</span>: <span class="number">0</span>&#125;</span><br><span class="line">        <span class="keyword">for</span> issue <span class="keyword">in</span> <span class="variable language_">self</span>.issues:</span><br><span class="line">            counts[issue.severity.value] += <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> counts</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">calculate_score</span>(<span class="params">self</span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">        base = <span class="number">10</span></span><br><span class="line">        <span class="keyword">for</span> issue <span class="keyword">in</span> <span class="variable language_">self</span>.issues:</span><br><span class="line">            <span class="keyword">if</span> issue.severity == Severity.HIGH:</span><br><span class="line">                base -= <span class="number">2</span></span><br><span class="line">            <span class="keyword">elif</span> issue.severity == Severity.MEDIUM:</span><br><span class="line">                base -= <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">max</span>(<span class="number">1</span>, <span class="built_in">min</span>(<span class="number">10</span>, <span class="built_in">int</span>(<span class="built_in">round</span>(base))))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ReviewSkill</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;审查 Skill 基类。&quot;&quot;&quot;</span></span><br><span class="line">    name: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    dimension: ReviewDimension = ReviewDimension.STYLE</span><br><span class="line">    prompt_template: <span class="built_in">str</span> = <span class="string">&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SecurityReviewSkill</span>(<span class="title class_ inherited__">ReviewSkill</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;安全审查 Skill。&quot;&quot;&quot;</span></span><br><span class="line">    name = <span class="string">&quot;security&quot;</span></span><br><span class="line">    dimension = ReviewDimension.SECURITY</span><br><span class="line">    prompt_template = <span class="string">&quot;&quot;&quot;你是安全审计专家。审查以下代码的安全问题：</span></span><br><span class="line"><span class="string">- SQL 注入（拼接 SQL 字符串）</span></span><br><span class="line"><span class="string">- XSS 漏洞（直接输出用户输入未转义）</span></span><br><span class="line"><span class="string">- 硬编码的密钥/密码/Token</span></span><br><span class="line"><span class="string">- 命令注入（os.system / subprocess 拼接用户输入）</span></span><br><span class="line"><span class="string">对每个发现的问题标注严重程度，并提供可直接执行的修复代码。&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">PerformanceReviewSkill</span>(<span class="title class_ inherited__">ReviewSkill</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;性能审查 Skill。&quot;&quot;&quot;</span></span><br><span class="line">    name = <span class="string">&quot;performance&quot;</span></span><br><span class="line">    dimension = ReviewDimension.PERFORMANCE</span><br><span class="line">    prompt_template = <span class="string">&quot;&quot;&quot;你是性能优化专家。审查以下代码的性能问题：</span></span><br><span class="line"><span class="string">- N+1 查询（循环内执行数据库查询）</span></span><br><span class="line"><span class="string">- 不必要的 O(n) 操作（可用 O(1) 替代）</span></span><br><span class="line"><span class="string">- 大对象未释放（内存泄漏风险）</span></span><br><span class="line"><span class="string">- 可并行化的串行操作&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">StyleReviewSkill</span>(<span class="title class_ inherited__">ReviewSkill</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;编码规范审查 Skill。&quot;&quot;&quot;</span></span><br><span class="line">    name = <span class="string">&quot;style&quot;</span></span><br><span class="line">    dimension = ReviewDimension.STYLE</span><br><span class="line">    prompt_template = <span class="string">&quot;&quot;&quot;你是代码规范专家。审查以下代码的规范问题：</span></span><br><span class="line"><span class="string">- 函数/变量命名是否符合 PEP 8（snake_case）</span></span><br><span class="line"><span class="string">- 缺少类型注解（函数参数和返回值）</span></span><br><span class="line"><span class="string">- 函数过长（超过 50 行建议拆分）</span></span><br><span class="line"><span class="string">- 缺少 docstring（模块、类、公共方法）</span></span><br><span class="line"><span class="string">- 过深的嵌套层级（超过 3 层）&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">REVIEW_SKILLS: <span class="built_in">list</span>[ReviewSkill] = [</span><br><span class="line">    SecurityReviewSkill(),</span><br><span class="line">    PerformanceReviewSkill(),</span><br><span class="line">    StyleReviewSkill(),</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>枚举类型安全</strong>：<code>Severity</code> 和 <code>ReviewDimension</code> 用 <code>str</code> 枚举，既保证了类型安全，又能直接序列化进 JSON——老王写报告可不想再手动转换一遍&quot;高危&quot;两个字</li>
+<li><strong>数据验证</strong>：<code>ReviewIssue.validate()</code> 给每条问题兜底，确保最终报告里不会出现&quot;光有行号没有描述&quot;这种半拉子条目</li>
+<li><strong>可扩展的 Skill 设计</strong>：想加新审查维度？继承 <code>ReviewSkill</code>、填一段 <code>prompt_template</code> 就完事——这正是前文说的&quot;往 SOP 手册里再塞一页&quot;</li>
+</ul>
+<hr>
+<h3 id="5-4-3-prompts-py-提示词层">5.4.3 <a target="_blank" rel="noopener" href="http://prompts.py">prompts.py</a> - 提示词层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;P03 代码审查 Agent - Prompt 层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> REVIEW_SKILLS, ReviewSkill</span><br><span class="line"></span><br><span class="line">AGENT_SYSTEM_PROMPT = <span class="string">&quot;&quot;&quot;你是高级代码审查 Agent，负责对代码变更进行全面审查。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 核心职责</span></span><br><span class="line"><span class="string">1. 读取待审查的文件内容</span></span><br><span class="line"><span class="string">2. 从安全、性能、规范三个维度逐一审查</span></span><br><span class="line"><span class="string">3. 输出结构化的审查报告（JSON 格式）</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">## 输出格式要求</span></span><br><span class="line"><span class="string">必须输出 JSON 格式的审查报告，结构如下：</span></span><br><span class="line"><span class="string">```json</span></span><br><span class="line"><span class="string">&#123;&#123;</span></span><br><span class="line"><span class="string">  &quot;target_files&quot;: [&quot;path/to/file.py&quot;],</span></span><br><span class="line"><span class="string">  &quot;issues&quot;: [</span></span><br><span class="line"><span class="string">    &#123;&#123;</span></span><br><span class="line"><span class="string">      &quot;file_path&quot;: &quot;path/to/file.py&quot;,</span></span><br><span class="line"><span class="string">      &quot;line_number&quot;: 42,</span></span><br><span class="line"><span class="string">      &quot;severity&quot;: &quot;高危&quot;,</span></span><br><span class="line"><span class="string">      &quot;dimension&quot;: &quot;security&quot;,</span></span><br><span class="line"><span class="string">      &quot;description&quot;: &quot;问题描述&quot;,</span></span><br><span class="line"><span class="string">      &quot;suggestion&quot;: &quot;修复建议&quot;</span></span><br><span class="line"><span class="string">    &#125;&#125;</span></span><br><span class="line"><span class="string">  ],</span></span><br><span class="line"><span class="string">  &quot;score&quot;: 8</span></span><br><span class="line"><span class="string">&#125;&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="审查维度">审查维度</h2>
+<p>{review_dimensions}<br>
+“”&quot;</p>
+<p>def build_system_prompt() -&gt; str:<br>
+“”“构建完整的系统提示词，动态注入审查维度。”“”<br>
+dimensions_desc = []<br>
+for skill in REVIEW_SKILLS:<br>
+first_line = skill.prompt_template.split(‘\n’)[0]<br>
+dimensions_desc.append(f&quot;- <strong>{skill.name.upper()}</strong>: {first_line}“)<br>
+return AGENT_SYSTEM_PROMPT.format(review_dimensions=”\n&quot;.join(dimensions_desc))</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">**核心代码讲解**：</span><br><span class="line">- **集中管理**：所有提示词收在一个文件里，就像把老王的口头规矩统一抄到一本手册上，便于维护和版本控制</span><br><span class="line">- **动态构建**：`build_system_prompt()` 自动遍历已注册的 Skill，挨个拼出维度说明——新增 Skill 时，提示词会自动跟上，不用手动改</span><br><span class="line">- **格式契约**：白纸黑字写死了 JSON 输出结构，确保下游解析时不会因为格式漂移而炸场</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 5.4.4 tools.py - 工具层</span></span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="string">&quot;&quot;&quot;P03 代码审查 Agent - 工具层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> subprocess</span><br><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langchain.tools <span class="keyword">import</span> tool</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p03.code_review.tools&quot;</span>)</span><br><span class="line">MAX_FILE_SIZE = <span class="number">8000</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;读取指定文件的全部内容。&quot;&quot;&quot;</span></span><br><span class="line">    logger.info(<span class="string">&quot;读取文件: %s&quot;</span>, file_path)</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        path = Path(file_path)</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> path.exists():</span><br><span class="line">            <span class="keyword">return</span> <span class="string">f&quot;文件不存在: <span class="subst">&#123;file_path&#125;</span>&quot;</span></span><br><span class="line">        content = path.read_text(encoding=<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(content) &gt; MAX_FILE_SIZE:</span><br><span class="line">            content = content[:MAX_FILE_SIZE] + <span class="string">f&quot;\n... (已截断至 <span class="subst">&#123;MAX_FILE_SIZE&#125;</span> 字符)&quot;</span></span><br><span class="line">        <span class="keyword">return</span> content</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.exception(<span class="string">&quot;读取文件失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;读取文件失败: <span class="subst">&#123;<span class="built_in">type</span>(e).__name__&#125;</span>: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">grep_code</span>(<span class="params">pattern: <span class="built_in">str</span>, directory: <span class="built_in">str</span> = <span class="string">&quot;.&quot;</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;在指定目录中搜索代码模式（正则表达式）。&quot;&quot;&quot;</span></span><br><span class="line">    logger.info(<span class="string">&quot;代码搜索: pattern=&#x27;%s&#x27;&quot;</span>, pattern)</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        result = subprocess.run(</span><br><span class="line">            [<span class="string">&quot;grep&quot;</span>, <span class="string">&quot;-rn&quot;</span>, <span class="string">&quot;--include=*.py&quot;</span>, <span class="string">&quot;-n&quot;</span>, pattern, directory],</span><br><span class="line">            capture_output=<span class="literal">True</span>,</span><br><span class="line">            text=<span class="literal">True</span>,</span><br><span class="line">            timeout=<span class="number">10</span>,</span><br><span class="line">        )</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> result.stdout.strip():</span><br><span class="line">            <span class="keyword">return</span> <span class="string">f&quot;未找到匹配 &#x27;<span class="subst">&#123;pattern&#125;</span>&#x27; 的代码&quot;</span></span><br><span class="line">        <span class="keyword">return</span> result.stdout</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.exception(<span class="string">&quot;搜索失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;搜索失败: <span class="subst">&#123;<span class="built_in">type</span>(e).__name__&#125;</span>: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@tool</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">run_tests</span>(<span class="params">repo_path: <span class="built_in">str</span> = <span class="string">&quot;.&quot;</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;在指定目录运行 Python 测试套件。&quot;&quot;&quot;</span></span><br><span class="line">    logger.info(<span class="string">&quot;运行测试: repo_path=%s&quot;</span>, repo_path)</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        result = subprocess.run(</span><br><span class="line">            [<span class="string">&quot;python&quot;</span>, <span class="string">&quot;-m&quot;</span>, <span class="string">&quot;pytest&quot;</span>, <span class="string">&quot;-x&quot;</span>, <span class="string">&quot;--tb=short&quot;</span>, <span class="string">&quot;-q&quot;</span>],</span><br><span class="line">            capture_output=<span class="literal">True</span>,</span><br><span class="line">            text=<span class="literal">True</span>,</span><br><span class="line">            timeout=<span class="number">60</span>,</span><br><span class="line">            cwd=repo_path,</span><br><span class="line">        )</span><br><span class="line">        <span class="keyword">return</span> result.stdout <span class="keyword">or</span> result.stderr</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        logger.exception(<span class="string">&quot;测试运行失败: %s&quot;</span>, e)</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;测试运行失败: <span class="subst">&#123;<span class="built_in">type</span>(e).__name__&#125;</span>: <span class="subst">&#123;e&#125;</span>&quot;</span></span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>错误降级</strong>：每个工具都裹了 try/except，失败时返回一句友好的人话，而不是让整个 Agent 崩掉——就像老王审到读不了的文件会跳过继续，而不是摔键盘走人</li>
+<li><strong>资源保护</strong>：<code>read_file</code> 设了 8000 字截断，防止大文件撑爆上下文窗口；子进程都挂了 timeout，免得一条 grep 把 Agent 卡死到天黑</li>
+<li><strong>可观测性</strong>：每次工具调用都打日志，事后能复盘 Agent 这一圈到底干了啥</li>
+</ul>
+<blockquote>
+<p>⚠️ <strong>避坑</strong>：当前 <code>read_file</code> 只检查了&quot;文件存不存在&quot;，并没有限制路径范围。要是有人传进 <code>../../../../etc/passwd</code> 这类路径，Agent 会乖乖读出来。生产环境记得补上 <code>Path.resolve()</code> 加根目录校验，把 Agent 关在自己的项目院子里，别放它出去乱翻。</p>
+</blockquote>
+<hr>
+<h3 id="5-4-5-service-py-服务层">5.4.5 <a target="_blank" rel="noopener" href="http://service.py">service.py</a> - 服务层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;P03 代码审查 Agent - 服务层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> REVIEW_SKILLS, ReviewIssue, ReviewReport, Severity</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p03.code_review.service&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CodeReviewService</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;代码审查服务。&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, skills=<span class="literal">None</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.skills = skills <span class="keyword">or</span> REVIEW_SKILLS</span><br><span class="line">        logger.info(<span class="string">&quot;代码审查服务初始化完成，加载 %d 个审查 Skill&quot;</span>, <span class="built_in">len</span>(<span class="variable language_">self</span>.skills))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">review_file</span>(<span class="params">self, file_path: <span class="built_in">str</span>, run_grep: <span class="built_in">bool</span> = <span class="literal">True</span></span>) -&gt; ReviewReport:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;审查单个文件。&quot;&quot;&quot;</span></span><br><span class="line">        start_time = time.time()</span><br><span class="line">        logger.info(<span class="string">&quot;开始审查文件: %s&quot;</span>, file_path)</span><br><span class="line"></span><br><span class="line">        report = ReviewReport(target_files=[file_path])</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 静态规则检查</span></span><br><span class="line">        static_issues = <span class="variable language_">self</span>._static_rule_check(file_path)</span><br><span class="line">        report.issues.extend(static_issues)</span><br><span class="line"></span><br><span class="line">        report.score = report.calculate_score()</span><br><span class="line">        report.duration_seconds = time.time() - start_time</span><br><span class="line">        <span class="keyword">return</span> report</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">_static_rule_check</span>(<span class="params">self, file_path: <span class="built_in">str</span>, content: <span class="built_in">str</span></span>) -&gt; <span class="built_in">list</span>[ReviewIssue]:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;静态规则检查（简单的字符串模式匹配）。&quot;&quot;&quot;</span></span><br><span class="line">        issues: <span class="built_in">list</span>[ReviewIssue] = []</span><br><span class="line">        lines = content.split(<span class="string">&quot;\n&quot;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> line_no, line <span class="keyword">in</span> <span class="built_in">enumerate</span>(lines, <span class="number">1</span>):</span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;password&quot;</span> <span class="keyword">in</span> line.lower() <span class="keyword">and</span> <span class="string">&quot;=&quot;</span> <span class="keyword">in</span> line <span class="keyword">and</span> <span class="string">&quot;os.getenv&quot;</span> <span class="keyword">not</span> <span class="keyword">in</span> line:</span><br><span class="line">                issues.append(ReviewIssue(</span><br><span class="line">                    file_path=file_path,</span><br><span class="line">                    line_number=line_no,</span><br><span class="line">                    severity=Severity.HIGH,</span><br><span class="line">                    description=<span class="string">&quot;可能存在硬编码密码&quot;</span>,</span><br><span class="line">                    suggestion=<span class="string">&quot;使用 os.getenv(&#x27;PASSWORD&#x27;) 从环境变量读取&quot;</span>,</span><br><span class="line">                    code_snippet=line.strip(),</span><br><span class="line">                ))</span><br><span class="line">        <span class="keyword">return</span> issues</span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>职责分层清晰</strong>：Service 层并不直接去调 LLM，而是干那些&quot;不需要脑子&quot;的活儿——静态规则匹配、报告聚合。LLM 该干的循环审查交给 Agent，两边各司其职</li>
+<li><strong>可观测性</strong>：完整的执行时间统计加日志记录，审查慢了能一眼看出卡在哪</li>
+<li><strong>可配置</strong>：Skill 列表能从外面注入，换一套 Skill 跑测试、做扩展都方便</li>
+</ul>
+<hr>
+<h3 id="5-4-6-project-py-项目入口层">5.4.6 <a target="_blank" rel="noopener" href="http://project.py">project.py</a> - 项目入口层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;P03 代码审查 Agent - 项目入口层&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> langchain.agents <span class="keyword">import</span> create_agent</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> core <span class="keyword">import</span> BaseProject, build_chat_model, registry</span><br><span class="line"><span class="keyword">from</span> core.logging_conf <span class="keyword">import</span> get_logger</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> build_system_prompt</span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> get_available_tools</span><br><span class="line"></span><br><span class="line">logger = get_logger(<span class="string">&quot;p03.code_review.project&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CodeReviewProject</span>(<span class="title class_ inherited__">BaseProject</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;代码审查 Agent 项目。&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">id</span> = <span class="string">&quot;p03_code_review&quot;</span></span><br><span class="line">    name = <span class="string">&quot;代码审查 Agent&quot;</span></span><br><span class="line">    description = <span class="string">&quot;自动审查代码安全、性能、规范，输出结构化报告。&quot;</span></span><br><span class="line">    capabilities = [<span class="string">&quot;Harness&quot;</span>, <span class="string">&quot;Skill&quot;</span>, <span class="string">&quot;代码审查&quot;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">build_agent</span>(<span class="params">self</span>) -&gt; <span class="built_in">any</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;构建代码审查 Agent。&quot;&quot;&quot;</span></span><br><span class="line">        logger.info(<span class="string">&quot;正在构建代码审查 Agent...&quot;</span>)</span><br><span class="line">        model = build_chat_model()</span><br><span class="line">        tools = get_available_tools()</span><br><span class="line">        system_prompt = build_system_prompt()</span><br><span class="line">        <span class="keyword">return</span> create_agent(model=model, tools=tools, system_prompt=system_prompt)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">registry.register(CodeReviewProject())</span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>统一接口</strong>：继承 <code>BaseProject</code>，与全书所有项目保持一致的对外 API——换个项目也不用重新学一套用法</li>
+<li><strong>装配线模式</strong>：<code>build_agent()</code> 就是一条装配线，依次备好模型、工具、提示词，最后用 <code>create_agent</code> 拧成一台完整的审查机器</li>
+<li><strong>自动注册</strong>：导入即注册到全局注册表，调度时一喊就到</li>
+</ul>
+<hr>
+<h3 id="5-4-7-init-py-导出层">5.4.7 <strong>init</strong>.py - 导出层</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;项目三：代码审查 Agent（生产级 Harness + Skill）&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> __future__ <span class="keyword">import</span> annotations</span><br><span class="line"></span><br><span class="line"><span class="comment"># 领域模型</span></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> (</span><br><span class="line">    REVIEW_SKILLS,</span><br><span class="line">    PerformanceReviewSkill,</span><br><span class="line">    ReviewIssue,</span><br><span class="line">    ReviewReport,</span><br><span class="line">    ReviewSkill,</span><br><span class="line">    SecurityReviewSkill,</span><br><span class="line">    Severity,</span><br><span class="line">    StyleReviewSkill,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 提示词</span></span><br><span class="line"><span class="keyword">from</span> .prompts <span class="keyword">import</span> build_system_prompt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 工具</span></span><br><span class="line"><span class="keyword">from</span> .tools <span class="keyword">import</span> grep_code, read_file, run_tests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 服务</span></span><br><span class="line"><span class="keyword">from</span> .service <span class="keyword">import</span> CodeReviewService</span><br><span class="line"></span><br><span class="line"><span class="comment"># 项目入口</span></span><br><span class="line"><span class="keyword">from</span> .project <span class="keyword">import</span> CodeReviewProject</span><br><span class="line"></span><br><span class="line"><span class="comment"># 向后兼容</span></span><br><span class="line">SYSTEM_PROMPT = build_system_prompt()</span><br><span class="line"></span><br><span class="line">__all__ = [</span><br><span class="line">    <span class="string">&quot;Severity&quot;</span>, <span class="string">&quot;ReviewIssue&quot;</span>, <span class="string">&quot;ReviewReport&quot;</span>, <span class="string">&quot;ReviewSkill&quot;</span>,</span><br><span class="line">    <span class="string">&quot;SecurityReviewSkill&quot;</span>, <span class="string">&quot;PerformanceReviewSkill&quot;</span>, <span class="string">&quot;StyleReviewSkill&quot;</span>,</span><br><span class="line">    <span class="string">&quot;REVIEW_SKILLS&quot;</span>, <span class="string">&quot;build_system_prompt&quot;</span>, <span class="string">&quot;SYSTEM_PROMPT&quot;</span>,</span><br><span class="line">    <span class="string">&quot;read_file&quot;</span>, <span class="string">&quot;grep_code&quot;</span>, <span class="string">&quot;run_tests&quot;</span>,</span><br><span class="line">    <span class="string">&quot;CodeReviewService&quot;</span>, <span class="string">&quot;CodeReviewProject&quot;</span>,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<p><strong>核心代码讲解</strong>：</p>
+<ul>
+<li><strong>明确的导出边界</strong>：<code>__all__</code> 把对外导出的符号列得明明白白，哪些能用、哪些是内部细节，一目了然</li>
+<li><strong>向后兼容</strong>：<code>SYSTEM_PROMPT</code> 这个别名留着一截旧代码的命，旧代码不用改也能继续跑</li>
+<li><strong>模块化导入</strong>：用户能按需取用——只想要工具写个脚本也行，想要整个 Project 跑全套也行</li>
+</ul>
+<hr>
+<h2 id="5-5-跑一跑：它真的行吗">5.5 跑一跑：它真的行吗</h2>
+<p>光说不练假把式。下面这几条测试，把工具和 Skill 的关键行为都盯死了：</p>
+<table>
+<thead>
+<tr>
+<th>测试</th>
+<th>验证内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>test_read_file</code></td>
+<td>文件读取工具正常工作</td>
+</tr>
+<tr>
+<td><code>test_read_file_not_found</code></td>
+<td>文件不存在时返回友好提示</td>
+</tr>
+<tr>
+<td><code>test_grep_code</code></td>
+<td>代码搜索工具正常工作</td>
+</tr>
+<tr>
+<td><code>test_skills_loaded</code></td>
+<td>三个 Skill 全部加载，名称正确</td>
+</tr>
+<tr>
+<td><code>test_review_simple_file</code>（集成）</td>
+<td>Agent 能识别硬编码密码和 SQL 注入</td>
+</tr>
+</tbody>
+</table>
+<p>最后那条集成测试是重头戏：真把一段藏着硬编码密码和 SQL 注入的代码喂给 Agent，看它能不能像老王一样把这两条揪出来。</p>
+<hr>
+<h2 id="5-6-送上线：让它上班">5.6 送上线：让它上班</h2>
+<p>同第 2 章——继承 <code>BaseProject</code>，自动接入统一 API。不用额外操心发布的事。</p>
+<hr>
+<h2 id="5-7-回头看：学到了什么">5.7 回头看：学到了什么</h2>
+<p>回头看，这一章 Agent 学会的两样本事，都藏在老王身上：</p>
+<table>
+<thead>
+<tr>
+<th>能力</th>
+<th>在本项目中的体现</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Harness 循环</td>
+<td><code>create_agent</code> 内置 agent loop，读→搜→审→报告，多轮不间断</td>
+</tr>
+<tr>
+<td>Skill 封装</td>
+<td><code>ReviewSkill</code> 基类 + 三个子类，新增审查维度只需加一个新子类</td>
+</tr>
+<tr>
+<td>工具集成</td>
+<td>read_file / grep_code / run_tests — 对应真实审查工作流</td>
+</tr>
+</tbody>
+</table>
+<h3 id="常见坑">常见坑</h3>
+<ol>
+<li><strong>审查 Prompt 太泛</strong>——一句&quot;请审查这个代码&quot;换来的报告，往往又水又没重点。按 Skill 维度把 Prompt 拆开，质量立刻提上来。老王审 PR 也不是一句&quot;看看&quot;完事，他是分门别类地挑。</li>
+<li><strong>文件太大</strong>——<code>read_file</code> 做了 8000 字截断，过大的文件得拆开来分块审，硬塞只会让 Agent&quot;看花眼&quot;。</li>
+<li><strong>只跑了一个 Skill</strong>——要是只审了安全、漏了性能和规范，报告就不完整。三个维度都得过一遍，才算真审完。</li>
+</ol>
+<hr>
+<blockquote>
+<p>📌 <strong>项目三完成。</strong> Agent 学会了&quot;多轮反复审查&quot;和&quot;把经验打包成 Skill&quot;。下一章我们将攻克 <strong>MCP</strong>——标准化的工具接入协议——让 Agent 能连上数据库、API、任意外部系统。</p>
+</blockquote>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/cn/2026-06-29-AI项目实战（7）数据分析 Agent/" data-toggle="tooltip" data-placement="top" title="AI项目实战（7）数据分析 Agent">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/2026-06-27-AI项目实战（5）企业知识库问答 Agent/" data-toggle="tooltip" data-placement="top" title="AI项目实战（5）企业知识库问答 Agent">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=AI项目实战（6）代码审查 Agent&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/2026-06-28-AI项目实战（6）代码审查 Agent/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'a37850f88f2a4d827300',
+      clientSecret: '7a50383ec7757c78714f95d455cc52b4211e8cf2',
+      repo: 'tigergo001.github.io',
+      owner: 'tigergo001',
+      admin: 'tigergo001',
+      id: 'Sun Jun 28 2026 09:00:00 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-1-%E8%80%81%E7%8E%8B%E7%9A%84%E5%BF%83%E6%84%BF"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">5.1 老王的心愿</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-1-1-%E4%B8%9A%E5%8A%A1%E8%83%8C%E6%99%AF%E4%B8%8E%E7%97%9B%E7%82%B9"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">5.1.1 业务背景与痛点</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-1-2-%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">5.1.2 用户故事</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-1-3-%E5%8A%9F%E8%83%BD%E6%80%A7%E9%9C%80%E6%B1%82"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">5.1.3 功能性需求</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-2-%E7%94%BB%E4%B8%AA%E6%A0%B7%E5%AD%90%EF%BC%9A%E5%AE%83%E8%AF%A5%E9%95%BF%E5%95%A5%E6%A0%B7"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">5.2 画个样子：它该长啥样</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-3-%E6%8B%86%E5%BC%80%E7%9C%8B%EF%BC%9A%E6%80%8E%E4%B9%88%E9%80%A0%E5%87%BA%E6%9D%A5"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">5.3 拆开看：怎么造出来</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-3-1-%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">5.3.1 技术选型</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-3-2-%E5%85%B3%E9%94%AE%E8%AE%BE%E8%AE%A1%EF%BC%9ASkill-%E6%A8%A1%E5%9D%97%E5%8C%96%E2%80%94%E2%80%94%E6%8A%8A%E8%80%81%E7%8E%8B%E7%9A%84%E7%BB%8F%E9%AA%8C%E5%86%99%E6%88%90-SOP-%E6%89%8B%E5%86%8C"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">5.3.2 关键设计：Skill 模块化——把老王的经验写成 SOP 手册</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-3-3-%E5%85%B3%E9%94%AE%E8%AE%BE%E8%AE%A1%EF%BC%9AHarness-%E5%BE%AA%E7%8E%AF%E2%80%94%E2%80%94%E5%83%8F%E8%80%81%E7%8E%8B%E9%82%A3%E6%A0%B7-%E7%9C%8B%E4%B8%80%E7%9C%BC%E3%80%81%E6%9F%A5%E4%B8%80%E4%B8%8B%E3%80%81%E5%86%8D%E5%9B%9E%E5%A4%B4%E7%9C%8B"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">5.3.3 关键设计：Harness 循环——像老王那样&quot;看一眼、查一下、再回头看&quot;</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-4-%E5%8A%A8%E6%89%8B%E5%86%99%EF%BC%9A%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">5.4 动手写：三层架构完整代码</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-4-1-%E6%9E%B6%E6%9E%84%E5%88%86%E5%B1%82%E6%80%BB%E8%A7%88"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">5.4.1 架构分层总览</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-4-2-models-py-%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B%E5%B1%82"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">5.4.2 models.py - 领域模型层</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-4-3-prompts-py-%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B1%82"><span class="toc-nav-number">4.3.</span> <span class="toc-nav-text">5.4.3 prompts.py - 提示词层</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%AE%A1%E6%9F%A5%E7%BB%B4%E5%BA%A6"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">审查维度</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-4-5-service-py-%E6%9C%8D%E5%8A%A1%E5%B1%82"><span class="toc-nav-number">5.1.</span> <span class="toc-nav-text">5.4.5 service.py - 服务层</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-4-6-project-py-%E9%A1%B9%E7%9B%AE%E5%85%A5%E5%8F%A3%E5%B1%82"><span class="toc-nav-number">5.2.</span> <span class="toc-nav-text">5.4.6 project.py - 项目入口层</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#5-4-7-init-py-%E5%AF%BC%E5%87%BA%E5%B1%82"><span class="toc-nav-number">5.3.</span> <span class="toc-nav-text">5.4.7 init.py - 导出层</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-5-%E8%B7%91%E4%B8%80%E8%B7%91%EF%BC%9A%E5%AE%83%E7%9C%9F%E7%9A%84%E8%A1%8C%E5%90%97"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">5.5 跑一跑：它真的行吗</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-6-%E9%80%81%E4%B8%8A%E7%BA%BF%EF%BC%9A%E8%AE%A9%E5%AE%83%E4%B8%8A%E7%8F%AD"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">5.6 送上线：让它上班</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#5-7-%E5%9B%9E%E5%A4%B4%E7%9C%8B%EF%BC%9A%E5%AD%A6%E5%88%B0%E4%BA%86%E4%BB%80%E4%B9%88"><span class="toc-nav-number">8.</span> <span class="toc-nav-text">5.7 回头看：学到了什么</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%B8%B8%E8%A7%81%E5%9D%91"><span class="toc-nav-number">8.1.</span> <span class="toc-nav-text">常见坑</span></a></li></ol></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#AI" title="AI">AI</a>
+            
+            <a class="tag" href="/tags/#Agent" title="Agent">Agent</a>
+            
+            <a class="tag" href="/tags/#LangChain" title="LangChain">LangChain</a>
+            
+            <a class="tag" href="/tags/#LangGraph" title="LangGraph">LangGraph</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+<!-- mermaid start -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'base' });
+</script>
+<!-- mermaid end -->
+
+
+															<!-- Footer (contains ThemeColor、viewer) -->
+															<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/tigergo001">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Ryan
+          2026
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/mouseclick.js"  content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033' ></script>
+    <!-- Mouseclick -->
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "tigergo001";
+    let ghPages = gh + ".github.io";
+    let pagePath = "cn/2026-06-28-AI项目实战（6）代码审查 Agent/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://xiaodoudou.ink/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+																<!-- Search -->
+																
+																	<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+																		
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>

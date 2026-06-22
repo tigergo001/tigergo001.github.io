@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="v-ryan,v-blog,IT  blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/avatar.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://xiaodoudou.ink/cn/2026-06-24-AI项目实战（2）起点：在动手之前，先看清全图/">
+  <title>
+    
+      AI项目实战（2）起点：在动手之前，先看清全图 - 男人至死是少年  | yong man
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+	<!-- hack iOS CSS :active style -->
+	
+
+		<body ontouchstart="" class="body--light body--light">
+			
+
+						<!-- ThemeColor -->
+						
+							<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'light';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+								
+
+									<!-- Gitter -->
+									
+										<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+											
+
+												<!-- Navigation (contains search)-->
+												<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">男人至死是少年</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+													<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+													<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/home_bg.png');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png');
+    }
+
+    header.intro-header {
+      
+        /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/img/header_img/archive_bg.png'); */
+        
+    }
+
+    #signature {
+        /*signature*/
+        background-image: url('/img/signature/ryan-sign.png');
+      }
+
+      
+  </style>
+  <!-- CDN: jsdelivr end -->
+  
+
+
+
+      
+        <header class="intro-header">
+          <!-- Signature -->
+          <div id="signature">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+                    <div class="post-heading">
+                      <div class="tags">
+                        
+                          <a class="tag" href="/tags/#AI" title="AI">
+                            AI
+                          </a>
+                          
+                          <a class="tag" href="/tags/#Agent" title="Agent">
+                            Agent
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangChain" title="LangChain">
+                            LangChain
+                          </a>
+                          
+                          <a class="tag" href="/tags/#LangGraph" title="LangGraph">
+                            LangGraph
+                          </a>
+                          
+                      </div>
+                      <h1>
+                        AI项目实战（2）起点：在动手之前，先看清全图
+                      </h1>
+                      <h2 class="subheading">
+                        《AI Agent 实战》系列 · 起点：在动手之前，先看清全图
+                      </h2>
+                      <span class="meta">
+                        Posted by Ryan on
+                          2026-06-24
+                      </span>
+
+
+                      
+                        <!-- WordCount start -->
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Estimated Reading Time <span class="post-count">
+                            15
+                          </span> Minutes
+                        </span>
+                        <div class="blank_box"></div>
+                        <span class="meta">
+                          Words <span class="post-count">
+                            4.2k
+                          </span> In Total
+                        </span>
+                        <div class="blank_box"></div>
+                        <!-- WordCount end -->
+                        
+                          
+                            <!-- 不蒜子统计 start -->
+                            <span class="meta" id="busuanzi_container_page_pv">
+                              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+                              Times
+                            </span>
+                            <!-- 不蒜子统计 end -->
+                            
+
+
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+            <!-- waveoverlay start -->
+            <div class="preview-overlay">
+              <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                  </path>
+                </defs>
+                <g class="preview-parallax">
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+                </g>
+              </svg>
+            </div>
+            <!-- waveoverlay end -->
+            
+
+        </header>
+        
+
+														<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+														<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <blockquote>
+<p>本章是全书的「技术地图」。它不写代码，但会帮你建立一个清晰的认知框架——<br>
+我们到底要解决什么问题、用哪些技术手段、沿什么路线进化。<br>
+读完之后，你会知道后面每一个项目在「全局版图」中处于什么位置，为什么它出现在那里。</p>
+<p>如果你已经读过上一本理论篇，本章可以快速浏览。如果你是从这一本开始，本章是必读的。</p>
+</blockquote>
+<hr>
+<h2 id="开篇：一个真实的下午">开篇：一个真实的下午</h2>
+<p>先讲个真事。</p>
+<p>某公司运营小李，下午三点收到老板一条消息：「分析一下上个月广告投放数据，明天开会要用。」换作以前，小李要登录广告后台、导数据、开 Excel、做透视表、查行业经验、再写成报告，断断续续忙到晚上九点。</p>
+<p>这次他试着把任务丢给了一个刚搭好的 AI Agent。他只打了一句话：</p>
+<blockquote>
+<p>帮我分析上个月广告投放数据，找出问题，生成优化建议报告。</p>
+</blockquote>
+<p>然后他去倒了杯咖啡。回来时，屏幕上已经躺着一份分章节、带数据、有建议的报告——还顺手提醒他：「计划 B 的 ROI 是负的，建议先暂停。」</p>
+<p>小李愣了一下：<strong>它什么时候学会干这个的？</strong></p>
+<p>这个问题，正是这本书要回答的。一个大语言模型，本来只会「文字接龙」——你给一句话，它接一句话。它不会上网、不会读文件、不会算数、记不住昨天的事。可就在你倒杯咖啡的工夫，它却能像个老练的运营一样，把一整套活儿干完。</p>
+<p>秘密不在于模型变聪明了，而在于我们一层一层地<strong>给它装上了手脚、记忆、工具和队友</strong>。这本书的十个项目，就是这条「进化之路」上的十个里程碑。</p>
+<p>而在踏上这条路之前，我们得先看清整张地图。</p>
+<hr>
+<h2 id="1-1-全书主线：从单兵到团队">1.1 全书主线：从单兵到团队</h2>
+<p>回到小李的那个下午。如果让一个「裸」的大模型直接干这活，它会立刻露馅：它不知道「上个月」是哪个月、读不到你的广告后台、算不对 ROI、更不知道什么算「问题」。它顶多凭记忆编一份听起来头头是道、实则全是 hallucination（幻觉）的报告。</p>
+<p>所以真正能干活的，从来不是一个孤零零的模型，而是一个<strong>被层层武装起来的系统</strong>。我们不妨把这个武装过程，想象成「培养一个新员工」：</p>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph LR
+    S1["🛠️ 单工具 Agent<br/>会用一种工具"] --> S2["🔧 多工具 Agent<br/>会选工具、组合使用"]
+    S2 --> S3["🔄 循环 Agent<br/>会想-做-看-再想"]
+    S3 --> S4["📚 知识 Agent<br/>会查资料、引经据典"]
+    S4 --> S5["🧠 自主 Agent<br/>会规划、有记忆"]
+    S5 --> S6["🤝 Multi-Agent<br/>会分工协作"]
+
+    classDef s fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    class S1,S2,S3,S4,S5,S6 s</pre>
+<ul>
+<li>刚入职，他啥也不会，你先教他<strong>用一种工具</strong>（比如查订单系统）——这是「单工具 Agent」。</li>
+<li>熟练了，你给他一抽屉工具，他得学会<strong>挑哪个、怎么组合</strong>——「多工具 Agent」。</li>
+<li>任务变复杂，他得<strong>边做边想</strong>：查一步、看结果、再决定下一步——「循环 Agent」。</li>
+<li>光会动手不够，遇到公司内部规矩，他得会<strong>翻资料、引经据典</strong>——「知识 Agent」。</li>
+<li>再进一步，你扔给他一个模糊目标，他能<strong>自己拆任务、记得你的偏好</strong>——「自主 Agent」。</li>
+<li>最后，活儿一个人干不过来，他学会<strong>拉团队分工</strong>——「Multi-Agent」。</li>
+</ul>
+<p><strong>这条进化线就是全书的主线</strong>。十个项目沿着它依次展开：</p>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>章节</th>
+<th>项目</th>
+<th>我们要让 Agent 学会什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单兵</td>
+<td>第 3 章</td>
+<td>智能客服</td>
+<td>会用工具（Tool）+ 会&quot;好好说话&quot;（Prompt）</td>
+</tr>
+<tr>
+<td>单兵</td>
+<td>第 4 章</td>
+<td>知识库问答</td>
+<td>会查资料（RAG），引经据典、对抗幻觉</td>
+</tr>
+<tr>
+<td>单兵</td>
+<td>第 5 章</td>
+<td>代码审查</td>
+<td>会多轮循环（Harness）+ 把经验打包（Skill）</td>
+</tr>
+<tr>
+<td>单兵</td>
+<td>第 6 章</td>
+<td>数据分析</td>
+<td>会标准接入外部系统（MCP）</td>
+</tr>
+<tr>
+<td>单兵</td>
+<td>第 7 章</td>
+<td>视频生成</td>
+<td>会编排多模态工具</td>
+</tr>
+<tr>
+<td>单兵</td>
+<td>第 8 章</td>
+<td>一站式代码开发</td>
+<td>会写-测-修的完整闭环</td>
+</tr>
+<tr>
+<td>团队</td>
+<td>第 9 章</td>
+<td>内容创作平台</td>
+<td>会分工协作（Multi-Agent）</td>
+</tr>
+<tr>
+<td>团队</td>
+<td>第 10 章</td>
+<td>研究分析平台</td>
+<td>会并行研究 + 辩论 + 综合</td>
+</tr>
+<tr>
+<td>团队</td>
+<td>第 11 章</td>
+<td>个人助理</td>
+<td>会记忆、会多项技能</td>
+</tr>
+<tr>
+<td>集大成</td>
+<td>第 12 章</td>
+<td>自主任务规划</td>
+<td>全能力融合</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>💡 <strong>一个提醒</strong>：这张表里每个项目都不是孤立的「Demo」。它们是同一条路上的不同站点——前一个项目教的能力，后一个项目会默认你已经会了。所以<strong>强烈建议按顺序读</strong>，哪怕快速过一遍。跳着读的人，往往会在第六章困惑「它怎么突然就会多步循环了」，其实那只是第五章练过的本事。</p>
+</blockquote>
+<p><strong>接下来的十四个章节，每一章都是在这条主线上的一步</strong>。</p>
+<hr>
+<h2 id="1-2-核心概念速览：八张拼图，一张全景图">1.2 核心概念速览：八张拼图，一张全景图</h2>
+<p>在动手写代码之前，我们需要先认识这八张 “拼图”——它们就是全书要教你的全部核心技术。每个概念我们先用一句话抓住本质，然后在后面的项目里反复实践、逐步加深理解。</p>
+<h3 id="拼图-1：大模型（LLM）——-Agent-的大脑">拼图 1：大模型（LLM）—— Agent 的大脑</h3>
+<p>大语言模型是 Agent 的 “大脑”：理解用户意图、推理下一步该做什么、生成回复。但纯大模型天生有三件事做不了：</p>
+<ul>
+<li>不能行动（只能输出文字，不能上网、不能读文件）</li>
+<li>没有记忆（关掉对话全忘）</li>
+<li>知识会过时（训练完了就不再更新）</li>
+</ul>
+<p>我们后面所有的技术，本质上都是在给这个大脑 <strong>装补丁</strong>——让它能做事、记得住、查得着。但补丁不能乱打。下面这八张「拼图」，是业界摸索出来的、公认好用的八块补丁。我们先一眼看懂每块补丁要补什么缺口，等到后面的项目里亲手缝上去，你就彻底明白了。</p>
+<h3 id="拼图-1：大模型（LLM）——-Agent-的大脑-2">拼图 1：大模型（LLM）—— Agent 的大脑</h3>
+<p>大语言模型是 Agent 的 “大脑”：理解用户意图、推理下一步该做什么、生成回复。但纯大模型天生有三件事做不了：</p>
+<ul>
+<li>不能行动（只能输出文字，不能上网、不能读文件）</li>
+<li>没有记忆（关掉对话全忘）</li>
+<li>知识会过时（训练完了就不再更新）</li>
+</ul>
+<p>我们后面所有的技术，本质上都是在给这个大脑 <strong>装补丁</strong>——让它能做事、记得住、查得着。</p>
+<h3 id="拼图-2：Prompt-工程——-学会-“好好说话”">拼图 2：Prompt 工程—— 学会 “好好说话”</h3>
+<p>同样一个博学的大脑，你问「什么是期权」和问「你是 15 年经验的交易员，请用买股票打比方，给完全不懂金融的新手讲讲期权」——答案质量天差地别。Prompt 工程研究的就是怎么把话说到位：角色设定、任务描述、举几个例子（Few-shot）、让它一步步想（思维链）。</p>
+<blockquote>
+<p><strong>本质</strong>：不改动模型本身，只优化输入，把模型能力压榨到极致。这是成本最低、见效最快的一块补丁。</p>
+</blockquote>
+<h3 id="拼图-3：Tool-Function-Calling——-给大脑装手脚">拼图 3：Tool / Function Calling—— 给大脑装手脚</h3>
+<p>模型不能上网、不能查数据库、不能发邮件。但你不能要求它「学会」这些——它就是个文字机器。怎么办？换个思路：<strong>告诉它「你有一个叫 <code>search_web</code> 的工具，需要查东西就喊我，我替你执行」</strong>。模型于是输出一段结构化的「调用请求」，外部程序真正执行后，把结果喂回去。</p>
+<blockquote>
+<p><strong>本质</strong>：模型不自己执行，而是 <strong>表达调用意图</strong>，由外部程序真正动手。它不会变成程序员，但它学会了「求助」。</p>
+</blockquote>
+<h3 id="拼图-4：RAG（检索增强生成）——-给大脑接上外部图书馆">拼图 4：RAG（检索增强生成）—— 给大脑接上外部图书馆</h3>
+<p>模型知识停在训练那天，也不知道你公司的内部规章。更要命的是，它不知道时不会说「不知道」，而是会一本正经地编——这就是令所有 AI 应用头疼的「幻觉」。</p>
+<p>RAG 的思路朴素得惊人：<strong>提问之前，先把相关资料从知识库里搜出来，和问题一起递给模型，让它看着资料回答</strong>。好比把闭卷考试改成开卷考试——学生不用背，翻到那一页照着抄就行，既准又有出处。</p>
+<blockquote>
+<p><strong>本质</strong>：检索 + 生成，用外部知识库弥补模型的知识盲区，同时压制幻觉。</p>
+</blockquote>
+<h3 id="拼图-5：Harness（运行外壳）——-让大脑-“循环”-起来">拼图 5：Harness（运行外壳）—— 让大脑 “循环” 起来</h3>
+<p>查个天气，模型调一次工具就够了。但要它「整理一个项目里所有旧 API 并改掉」，就得：先搜文件、再读内容、再改、再跑测试、失败再改……这是个「想一步、做一步、看结果、再想下一步」的循环。单次问答的模型扛不住这种活。</p>
+<p>Harness 就是那个驱动模型反复跑「思考 → 行动 → 观察 → 再思考」循环的外壳程序。它像 Agent 的神经系统，把零散的「一问一答」缝合成「坚持把一件事干完」的能力。</p>
+<blockquote>
+<p><strong>本质</strong>：Agent Loop（智能体循环），是 Agent 的 “神经系统”。</p>
+</blockquote>
+<h3 id="拼图-6：MCP（模型上下文协议）——-工具世界的-“USB-接口”">拼图 6：MCP（模型上下文协议）—— 工具世界的 “USB 接口”</h3>
+<p>Tool 解决了「会用工具」，但很快冒出新麻烦：AI 应用有很多个，外部工具也有几百个，难道每个应用接每个工具都得单独写一套代码？那是 N×M 套对接的噩梦。</p>
+<p>MCP 干的事，和当年 USB 一模一样——定一个标准接口，工具方只要做成「MCP Server」，任何支持 MCP 的应用都能即插即用，不用再为它单独写对接。</p>
+<blockquote>
+<p><strong>本质</strong>：AI 世界的统一工具接口标准，把 N×M 的乱局变成 N+M 的清爽。</p>
+</blockquote>
+<h3 id="拼图-7：记忆系统——-让-Agent-不再-“失忆”">拼图 7：记忆系统—— 让 Agent 不再 “失忆”</h3>
+<p>你昨天告诉助理「我对花生过敏」，今天再问它推荐菜，它却给你推了宫保鸡丁——这种「失忆」是纯大模型的硬伤。记忆系统分两层补这个缺口：<strong>短期记忆</strong>（这次任务的对话，放在上下文窗口里）和<strong>长期记忆</strong>（你的偏好、过往经验，存到外部，用时检索回来）。</p>
+<p>有意思的是：长期记忆的底层实现，本质上就是拼图 4 的 RAG——把经验存进知识库，需要时检索。八块拼图在这里第一次「咬合」上了。</p>
+<blockquote>
+<p><strong>本质</strong>：让 Agent 的交互有连续性，能 “记住” 用户和过往经验。</p>
+</blockquote>
+<h3 id="拼图-8：Skill（技能）——-把-“经验”-打包复用">拼图 8：Skill（技能）—— 把 “经验” 打包复用</h3>
+<p>最后一块。你花大力气教会 Agent「怎么做微信支付接入」，换一次对话它又忘了，又得从头教——这谁受得了。Skill 的办法是：把完成某类任务所需的<strong>方法论 + 工具 + 示例 + 资源</strong>打包成一个可复用单元，平时只放个「目录索引」，用到时才加载完整内容。Agent 一加载，瞬间「变身」专家。</p>
+<blockquote>
+<p><strong>本质</strong>：把 “做事方法论” 沉淀为可复用、可分享的模块，让经验不再随会话蒸发。</p>
+</blockquote>
+<h3 id="全景图：八张拼图如何协同">全景图：八张拼图如何协同</h3>
+<p>读完八张拼图，你可能还是觉得它们「各管各的」。别急，看这张全景图——它们是怎么咬合成一个完整 Agent 的：</p>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph TD
+    User["👤 用户：给出目标"] --> Prompt["✍️ Prompt 工程<br/>把意图表达清楚"]
+    Prompt --> Agent["🎯 Agent（运行在 Harness 之上）"]
+    
+    Agent --> Brain["🧠 大模型（大脑）"]
+    Brain --> Loop["🔄 Harness 循环"]
+    Loop --> Tools["🔧 Tool 工具调用"]
+    Tools --> MCP["🔌 MCP 标准接入"]
+    Tools --> RAG["📚 RAG 检索知识"]
+    Brain --> Mem["💾 记忆系统"]
+    Mem --> RAG
+    Brain --> Skill["📖 Skill 技能"]
+    
+    Agent --> Result["✅ 交付结果"]
+
+    classDef uN fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    classDef pN fill:#fce4ec,stroke:#d81b60,stroke-width:2px,color:#880e4f
+    classDef aN fill:#ede7f6,stroke:#5e35b1,stroke-width:3px,color:#311b92
+    classDef cN fill:#e0f2f1,stroke:#00897b,stroke-width:2px,color:#004d40
+    classDef tN fill:#e0f7fa,stroke:#00acc1,stroke-width:2px,color:#006064
+    classDef rN fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#1b5e20
+    class User uN
+    class Prompt pN
+    class Agent,Brain aN
+    class Loop,Mem cN
+    class Tools,MCP,RAG,Skill tN
+    class Result rN</pre>
+<hr>
+<h2 id="1-3-技术基准：本书选型与官方建议">1.3 技术基准：本书选型与官方建议</h2>
+<blockquote>
+<p>⚠️ <strong>重要声明</strong>：以下内容在写作时（2026 年 6 月）已与官方文档核实。AI 框架迭代迅速，如遇 API 变化，请以各项目官方最新文档为准。</p>
+</blockquote>
+<h3 id="1-3-1-为什么选-LangChain-v1-0-的-create-agent">1.3.1 为什么选 LangChain v1.0 的 <code>create_agent</code></h3>
+<p>市面上很多教程还在用 <code>langgraph.prebuilt.create_react_agent</code>，但根据 <strong>LangChain 官方 v1.0 文档</strong>（<a target="_blank" rel="noopener" href="https://docs.langchain.com/oss/python/releases/langchain-v1%EF%BC%89%EF%BC%8C%E8%BF%99%E4%B8%AA">https://docs.langchain.com/oss/python/releases/langchain-v1），这个</a> API <strong>已被标记为 deprecated（废弃）</strong>。</p>
+<p>官方现在推荐统一使用 <code>langchain.agents.create_agent</code>：</p>
+<blockquote>
+<p><em>“<code>create_agent</code> is the standard way to build agents in LangChain 1.0. It provides a simpler interface than <code>langgraph.prebuilt.create_react_agent</code> while offering greater customization potential by using middleware.”</em><br>
+—— 来源：LangChain v1 官方发布说明</p>
+</blockquote>
+<p><strong>本书全书统一使用 <code>create_agent</code></strong>，不使用已废弃的 API。</p>
+<h3 id="1-3-2-全书技术栈一览">1.3.2 全书技术栈一览</h3>
+<table>
+<thead>
+<tr>
+<th>技术层</th>
+<th>选型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent 编排</td>
+<td><strong>LangChain v1.0 <code>create_agent</code></strong></td>
+<td>官方推荐，内置 agent loop</td>
+</tr>
+<tr>
+<td>复杂流程</td>
+<td><strong>LangGraph <code>StateGraph</code></strong></td>
+<td>多 Agent、条件分支、循环</td>
+</tr>
+<tr>
+<td>大模型</td>
+<td><strong>Claude</strong>（via <code>langchain-anthropic</code>）</td>
+<td>长上下文、强推理、中文流畅</td>
+</tr>
+<tr>
+<td>工具定义</td>
+<td><strong><code>@tool</code> 装饰器</strong></td>
+<td>官方方式，docstring 即说明书</td>
+</tr>
+<tr>
+<td>RAG 检索/索引</td>
+<td><strong>LangGraph + LlamaIndex</strong></td>
+<td>LangGraph 编排检索流程，LlamaIndex 负责索引与检索</td>
+</tr>
+<tr>
+<td>向量库</td>
+<td><strong>ChromaDB</strong></td>
+<td>轻量、开箱即用、本地可跑</td>
+</tr>
+<tr>
+<td>工具协议</td>
+<td><strong>MCP</strong>（via <code>langchain-mcp-adapters</code>）</td>
+<td><code>MultiServerMCPClient</code> 接入</td>
+</tr>
+<tr>
+<td>记忆</td>
+<td><strong>LangGraph Checkpointer</strong>（短期） + <strong>向量库</strong>（长期）</td>
+<td>官方内置 + RAG</td>
+</tr>
+<tr>
+<td>后端</td>
+<td><strong>FastAPI</strong></td>
+<td>统一 API 入口，支持 SSE 流式</td>
+</tr>
+<tr>
+<td>前端</td>
+<td><strong>React + Vite</strong></td>
+<td>统一可视化管理台</td>
+</tr>
+<tr>
+<td>部署</td>
+<td><strong>Docker Compose</strong></td>
+<td>一键启动前后端</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-3-3-关键-API-表单（已核对官方文档）">1.3.3 关键 API 表单（已核对官方文档）</h3>
+<table>
+<thead>
+<tr>
+<th>用途</th>
+<th>导入路径</th>
+<th>关键函数/类</th>
+<th>出处</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>创建 Agent</td>
+<td><code>from langchain.agents import create_agent</code></td>
+<td><code>create_agent(model, tools, system_prompt)</code></td>
+<td>LangChain v1 官方文档</td>
+</tr>
+<tr>
+<td>定义工具</td>
+<td><code>from langchain.tools import tool</code></td>
+<td><code>@tool</code> 装饰器</td>
+<td>LangChain 官方文档</td>
+</tr>
+<tr>
+<td>初始化模型</td>
+<td><code>from langchain.chat_models import init_chat_model</code></td>
+<td><code>init_chat_model(&quot;anthropic:模型名&quot;)</code></td>
+<td>LangChain v1 官方文档</td>
+</tr>
+<tr>
+<td>LangGraph 流图</td>
+<td><code>from langgraph.graph import StateGraph</code></td>
+<td><code>StateGraph</code></td>
+<td>LangGraph 官方文档</td>
+</tr>
+<tr>
+<td>MCP 接入</td>
+<td><code>from langchain_mcp_adapters.client import MultiServerMCPClient</code></td>
+<td><code>MultiServerMCPClient</code></td>
+<td>langchain-mcp-adapters 官方 README</td>
+</tr>
+<tr>
+<td>LlamaIndex 向量索引</td>
+<td><code>from llama_index.core import VectorStoreIndex</code></td>
+<td><code>VectorStoreIndex.from_documents()</code></td>
+<td>LlamaIndex 官方文档</td>
+</tr>
+<tr>
+<td>记忆（checkpointer）</td>
+<td><code>from langgraph.checkpoint.sqlite import SqliteSaver</code></td>
+<td><code>SqliteSaver</code></td>
+<td>LangGraph 官方文档</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-3-4-版本锁定">1.3.4 版本锁定</h3>
+<p>本书代码基于以下大版本编写（详见仓库 <code>requirements.txt</code>）：</p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">langchain</span> &gt;= <span class="number">1</span>.<span class="number">0</span>.<span class="number">0</span></span><br><span class="line"><span class="attribute">langgraph</span> &gt;= <span class="number">1</span>.<span class="number">0</span>.<span class="number">0</span></span><br><span class="line"><span class="attribute">langchain</span>-anthropic &gt;= <span class="number">1</span>.<span class="number">0</span>.<span class="number">0</span></span><br><span class="line"><span class="attribute">langgraph</span>-checkpoint-sqlite &gt;= <span class="number">2</span>.<span class="number">0</span>.<span class="number">0</span></span><br><span class="line"><span class="attribute">llama</span>-index &gt;= <span class="number">0</span>.<span class="number">12</span>.<span class="number">0</span></span><br><span class="line"><span class="attribute">langchain</span>-mcp-adapters &gt;= <span class="number">0</span>.<span class="number">1</span>.<span class="number">0</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="1-4-统一工程模板：如何阅读后面的项目章节">1.4 统一工程模板：如何阅读后面的项目章节</h2>
+<p>从第 2 章开始，每个项目章节都采用固定的 <strong>七段式结构</strong>，不再单独说明：</p>
+<pre class="mermaid">%%{init: {'theme':'base','flowchart':{'useMaxWidth':true,'htmlLabels':true}}}%%
+graph LR
+    A["1. 诉求<br/>主角想要什么"] --> B["2. 画个样子"]
+    B --> C["3. 拆开看"]
+    C --> D["4. 动手写"]
+    D --> E["5. 跑一跑"]
+    E --> F["6. 送上线"]
+    F --> G["7. 回头看"]
+
+    classDef s fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    class A,B,C,D,E,F,G s</pre>
+<p>这不是为了套模板，而是因为——<strong>这就是真实工业界做一个 AI 项目的标准流程</strong>。读完十四章，你不仅会做技术，也会做产品、做项目。</p>
+<hr>
+<h2 id="1-5-阅读路径建议">1.5 阅读路径建议</h2>
+<p>根据你的背景和目标，可以选择不同的阅读路径：</p>
+<table>
+<thead>
+<tr>
+<th>路径</th>
+<th>适合谁</th>
+<th>建议</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>系统学习</strong></td>
+<td>想全面掌握 Agent 技术栈</td>
+<td>从头到尾顺序读，每章都跑代码</td>
+</tr>
+<tr>
+<td><strong>快速上手</strong></td>
+<td>已有基础，想快速出成果</td>
+<td>读第 1-2 章（基础+脚手架），选 3-4 个你感兴趣的项目</td>
+</tr>
+<tr>
+<td><strong>架构参考</strong></td>
+<td>技术负责人 / 架构师</td>
+<td>重点看每章的「拆开看：怎么造出来」+ 第 14 章最佳实践</td>
+</tr>
+<tr>
+<td><strong>产品视角</strong></td>
+<td>产品经理 / 创业者</td>
+<td>重点看每章的「PRD」+「功能设计书」，了解每个项目能做什么、边界在哪</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="1-6-回头看：学到了什么">1.6 回头看：学到了什么</h2>
+<p>这一章我们做了三件事：</p>
+<ol>
+<li><strong>确立了全书主线</strong>：从单兵到团队——让 AI Agent 从&quot;会用工具&quot;逐步进化到&quot;能协作的智能体团队&quot;。</li>
+<li><strong>快速过了一遍八张核心拼图</strong>：大模型、Prompt、Tool、RAG、Harness、MCP、记忆、Skill——以及它们如何协同工作。</li>
+<li><strong>建立了全书技术基准</strong>：基于 LangChain v1.0 官方推荐的 <code>create_agent</code>，统一技术栈，所有关键 API 已经过官方文档校对。</li>
+</ol>
+<p>现在，你已经有了全书的「认知地图」。下一章，我们将把这个认知框架落地为实际可运行的工程代码——<strong>搭建一个能承载十个项目的通用脚手架</strong>。</p>
+<hr>
+<blockquote>
+<p>📌 <strong>第 1 章（基础铺垫）到此结束。</strong></p>
+<p>接下来进入第 2 章：<strong>通用脚手架</strong>——我们将搭建贯穿全书的 AgentCore 基类、配置管理、统一 API 和前端管理台。</p>
+</blockquote>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/cn/2026-06-25-AI项目实战（3）通用脚手架：搭建一个能跑十个项目的工程底座/" data-toggle="tooltip" data-placement="top" title="AI项目实战（3）通用脚手架：搭建一个能跑十个项目的工程底座">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/2026-06-23-AI项目实战（1）前言/" data-toggle="tooltip" data-placement="top" title="AI项目实战（1）前言">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=AI项目实战（2）起点：在动手之前，先看清全图&body=Hi,I found this website and thought you might like it http://xiaodoudou.ink/cn/2026-06-24-AI项目实战（2）起点：在动手之前，先看清全图/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'a37850f88f2a4d827300',
+      clientSecret: '7a50383ec7757c78714f95d455cc52b4211e8cf2',
+      repo: 'tigergo001.github.io',
+      owner: 'tigergo001',
+      admin: 'tigergo001',
+      id: 'Wed Jun 24 2026 09:00:00 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%BC%80%E7%AF%87%EF%BC%9A%E4%B8%80%E4%B8%AA%E7%9C%9F%E5%AE%9E%E7%9A%84%E4%B8%8B%E5%8D%88"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">开篇：一个真实的下午</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-1-%E5%85%A8%E4%B9%A6%E4%B8%BB%E7%BA%BF%EF%BC%9A%E4%BB%8E%E5%8D%95%E5%85%B5%E5%88%B0%E5%9B%A2%E9%98%9F"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">1.1 全书主线：从单兵到团队</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-2-%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E9%80%9F%E8%A7%88%EF%BC%9A%E5%85%AB%E5%BC%A0%E6%8B%BC%E5%9B%BE%EF%BC%8C%E4%B8%80%E5%BC%A0%E5%85%A8%E6%99%AF%E5%9B%BE"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">1.2 核心概念速览：八张拼图，一张全景图</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%BE-1%EF%BC%9A%E5%A4%A7%E6%A8%A1%E5%9E%8B%EF%BC%88LLM%EF%BC%89%E2%80%94%E2%80%94-Agent-%E7%9A%84%E5%A4%A7%E8%84%91"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">拼图 1：大模型（LLM）—— Agent 的大脑</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%BE-1%EF%BC%9A%E5%A4%A7%E6%A8%A1%E5%9E%8B%EF%BC%88LLM%EF%BC%89%E2%80%94%E2%80%94-Agent-%E7%9A%84%E5%A4%A7%E8%84%91-2"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">拼图 1：大模型（LLM）—— Agent 的大脑</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%BE-2%EF%BC%9APrompt-%E5%B7%A5%E7%A8%8B%E2%80%94%E2%80%94-%E5%AD%A6%E4%BC%9A-%E2%80%9C%E5%A5%BD%E5%A5%BD%E8%AF%B4%E8%AF%9D%E2%80%9D"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">拼图 2：Prompt 工程—— 学会 “好好说话”</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%BE-3%EF%BC%9ATool-Function-Calling%E2%80%94%E2%80%94-%E7%BB%99%E5%A4%A7%E8%84%91%E8%A3%85%E6%89%8B%E8%84%9A"><span class="toc-nav-number">3.4.</span> <span class="toc-nav-text">拼图 3：Tool &#x2F; Function Calling—— 给大脑装手脚</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%BE-4%EF%BC%9ARAG%EF%BC%88%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90%EF%BC%89%E2%80%94%E2%80%94-%E7%BB%99%E5%A4%A7%E8%84%91%E6%8E%A5%E4%B8%8A%E5%A4%96%E9%83%A8%E5%9B%BE%E4%B9%A6%E9%A6%86"><span class="toc-nav-number">3.5.</span> <span class="toc-nav-text">拼图 4：RAG（检索增强生成）—— 给大脑接上外部图书馆</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%BE-5%EF%BC%9AHarness%EF%BC%88%E8%BF%90%E8%A1%8C%E5%A4%96%E5%A3%B3%EF%BC%89%E2%80%94%E2%80%94-%E8%AE%A9%E5%A4%A7%E8%84%91-%E2%80%9C%E5%BE%AA%E7%8E%AF%E2%80%9D-%E8%B5%B7%E6%9D%A5"><span class="toc-nav-number">3.6.</span> <span class="toc-nav-text">拼图 5：Harness（运行外壳）—— 让大脑 “循环” 起来</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%BE-6%EF%BC%9AMCP%EF%BC%88%E6%A8%A1%E5%9E%8B%E4%B8%8A%E4%B8%8B%E6%96%87%E5%8D%8F%E8%AE%AE%EF%BC%89%E2%80%94%E2%80%94-%E5%B7%A5%E5%85%B7%E4%B8%96%E7%95%8C%E7%9A%84-%E2%80%9CUSB-%E6%8E%A5%E5%8F%A3%E2%80%9D"><span class="toc-nav-number">3.7.</span> <span class="toc-nav-text">拼图 6：MCP（模型上下文协议）—— 工具世界的 “USB 接口”</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%BE-7%EF%BC%9A%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F%E2%80%94%E2%80%94-%E8%AE%A9-Agent-%E4%B8%8D%E5%86%8D-%E2%80%9C%E5%A4%B1%E5%BF%86%E2%80%9D"><span class="toc-nav-number">3.8.</span> <span class="toc-nav-text">拼图 7：记忆系统—— 让 Agent 不再 “失忆”</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%BE-8%EF%BC%9ASkill%EF%BC%88%E6%8A%80%E8%83%BD%EF%BC%89%E2%80%94%E2%80%94-%E6%8A%8A-%E2%80%9C%E7%BB%8F%E9%AA%8C%E2%80%9D-%E6%89%93%E5%8C%85%E5%A4%8D%E7%94%A8"><span class="toc-nav-number">3.9.</span> <span class="toc-nav-text">拼图 8：Skill（技能）—— 把 “经验” 打包复用</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%85%A8%E6%99%AF%E5%9B%BE%EF%BC%9A%E5%85%AB%E5%BC%A0%E6%8B%BC%E5%9B%BE%E5%A6%82%E4%BD%95%E5%8D%8F%E5%90%8C"><span class="toc-nav-number">3.10.</span> <span class="toc-nav-text">全景图：八张拼图如何协同</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-3-%E6%8A%80%E6%9C%AF%E5%9F%BA%E5%87%86%EF%BC%9A%E6%9C%AC%E4%B9%A6%E9%80%89%E5%9E%8B%E4%B8%8E%E5%AE%98%E6%96%B9%E5%BB%BA%E8%AE%AE"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">1.3 技术基准：本书选型与官方建议</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-3-1-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89-LangChain-v1-0-%E7%9A%84-create-agent"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">1.3.1 为什么选 LangChain v1.0 的 create_agent</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-3-2-%E5%85%A8%E4%B9%A6%E6%8A%80%E6%9C%AF%E6%A0%88%E4%B8%80%E8%A7%88"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">1.3.2 全书技术栈一览</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-3-3-%E5%85%B3%E9%94%AE-API-%E8%A1%A8%E5%8D%95%EF%BC%88%E5%B7%B2%E6%A0%B8%E5%AF%B9%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%EF%BC%89"><span class="toc-nav-number">4.3.</span> <span class="toc-nav-text">1.3.3 关键 API 表单（已核对官方文档）</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#1-3-4-%E7%89%88%E6%9C%AC%E9%94%81%E5%AE%9A"><span class="toc-nav-number">4.4.</span> <span class="toc-nav-text">1.3.4 版本锁定</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-4-%E7%BB%9F%E4%B8%80%E5%B7%A5%E7%A8%8B%E6%A8%A1%E6%9D%BF%EF%BC%9A%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E5%90%8E%E9%9D%A2%E7%9A%84%E9%A1%B9%E7%9B%AE%E7%AB%A0%E8%8A%82"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">1.4 统一工程模板：如何阅读后面的项目章节</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-5-%E9%98%85%E8%AF%BB%E8%B7%AF%E5%BE%84%E5%BB%BA%E8%AE%AE"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">1.5 阅读路径建议</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#1-6-%E5%9B%9E%E5%A4%B4%E7%9C%8B%EF%BC%9A%E5%AD%A6%E5%88%B0%E4%BA%86%E4%BB%80%E4%B9%88"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">1.6 回头看：学到了什么</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#AI" title="AI">AI</a>
+            
+            <a class="tag" href="/tags/#Agent" title="Agent">Agent</a>
+            
+            <a class="tag" href="/tags/#LangChain" title="LangChain">LangChain</a>
+            
+            <a class="tag" href="/tags/#LangGraph" title="LangGraph">LangGraph</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="http://xiaodoudou.ink/" target="_blank">V_Ryan</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+<!-- mermaid start -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'base' });
+</script>
+<!-- mermaid end -->
+
+
+															<!-- Footer (contains ThemeColor、viewer) -->
+															<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/tigergo001">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Ryan
+          2026
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/mouseclick.js"  content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033' ></script>
+    <!-- Mouseclick -->
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "tigergo001";
+    let ghPages = gh + ".github.io";
+    let pagePath = "cn/2026-06-24-AI项目实战（2）起点：在动手之前，先看清全图/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://xiaodoudou.ink/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+																<!-- Search -->
+																
+																	<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/tigergo001/tigergo001.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+																		
+				<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>
